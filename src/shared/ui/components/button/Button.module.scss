@@ -1,0 +1,67 @@
+.button {
+  display: flex;
+  height: 48px;
+  padding: 0 4px 0 40px;
+  align-items: center;
+  gap: 20px;
+  border-radius: 30px;
+
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  &.black {
+    background: #01010d;
+    color: #f4f4f4;
+    .arrow {
+      background: #fff;
+    }
+    &:hover {
+      background: #4bed7b;
+      color: #000;
+      .arrow {
+        background: #000;
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+  }
+  &.green {
+    background: #4bed7b;
+    color: #000;
+    .arrow {
+      background: #000;
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+    }
+    &:hover {
+      background: #000;
+      color: #fff;
+      .arrow {
+        background: #fff;
+        svg {
+          path {
+            fill: #000;
+          }
+        }
+      }
+    }
+  }
+  .arrow {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 12.5px;
+    border-radius: 37.5px;
+  }
+}

@@ -1,0 +1,95 @@
+.header {
+  .headerTop {
+    border-bottom: 1px solid #262626;
+    background: #1a1a1a;
+    .headerTopInner {
+      display: flex;
+      padding: 16px 0;
+      justify-content: space-between;
+      align-items: center;
+      align-self: stretch;
+      .headerTopLeft {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        a {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          color: #fff;
+          text-align: center;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      .headerTopRight {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        justify-content: flex-end;
+        a {
+          display: flex;
+        }
+      }
+    }
+  }
+  .headerBottom {
+    background: #1a1a1a;
+    backdrop-filter: blur(2px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    .headerBottomInner {
+      display: flex;
+      padding: 20px 0;
+      justify-content: space-between;
+      align-items: center;
+      align-self: stretch;
+      > a {
+        display: flex;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        a {
+          display: flex;
+          padding: 8px 24px;
+          align-items: center;
+          gap: 8px;
+          border-radius: 30px;
+          color: #fff;
+          text-align: center;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          &:hover {
+            background: #c3c3c3;
+            color: #01010d;
+          }
+        }
+      }
+      .getInTouch {
+        display: flex;
+        padding: 12px 24px;
+        align-items: center;
+        gap: 12px;
+        border-radius: 30px;
+        background: #fff;
+        color: #01010d;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        &:hover {
+          background: #4BED7B;
+          color: #01010d;
+        }
+      }
+    }
+  }
+}
