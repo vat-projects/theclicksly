@@ -7,7 +7,7 @@ export const Facebook = () => {
       viewBox="0 0 24 24"
       fill="none"
     >
-      <g clip-path="url(#clip0_2014_132961)">
+      <g clipPath="url(#clip0_2014_132961)">
         <mask
           id="mask0_2014_132961"
           style={{ maskType: "luminance" }}
