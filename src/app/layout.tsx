@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 
+import { Footer } from "@/shared/ui/components/footer/Footer";
 import { Header } from "@/shared/ui/components/header/Header";
 
 import "@/shared/lib/styles/null.scss";
@@ -42,6 +43,7 @@ export default function RootLayout({
       <body className={helveticaNowDisplay.variable}>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
