@@ -10,12 +10,33 @@
     margin: 0 auto;
     @media (max-width: 992px) {
       max-width: 100%;
+      gap: 20px;
+    }
+    > div {
+      @media (max-width: 992px) {
+        width: 100%;
+      }
+    }
+    a {
+      @media (max-width: 992px) {
+        padding: 12px;
+        //width: 100%;
+        text-align: center;
+        justify-content: center;
+        height: auto;
+        > div {
+          display: none;
+        }
+      }
     }
   }
   .solutionsBlock {
     margin-top: 64px;
     display: flex;
     gap: 20px;
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
     .solutionsBlockItem {
       display: flex;
       padding: 16px;
@@ -29,8 +50,8 @@
       @media (max-width: 992px) {
         width: 100%;
       }
-      &:last-child{
-        background: #4BED7B;
+      &:last-child {
+        background: #4bed7b;
       }
       .solutionsBlockItemTop {
         display: flex;

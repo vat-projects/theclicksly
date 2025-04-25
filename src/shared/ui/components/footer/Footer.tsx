@@ -40,6 +40,13 @@ export const Footer = () => {
               </nav>
             </div>
           </div>
+          <Image
+            src={"/foot_logo_big_mob.svg"}
+            alt="The Clicksly"
+            width={1440}
+            height={248}
+            className={styles.footerBottomImageMob}
+          />
           <div className={styles.footerTopRight}>
             <div className={styles.office}>
               <h3>Office Addresses</h3>
@@ -87,6 +94,12 @@ export const Footer = () => {
             <p>© {new Date().getFullYear()} SL Freight Management S.R.O</p>
             <p>All Rights Reserved.</p>
           </div>
+          <nav className={styles.legalMobile}>
+            <Link href="#">Terms and Conditions</Link>
+            <Link href="#">Privacy Policy</Link>
+            <Link href="#">Cookie Policy</Link>
+            <Link href="#">Refund Policy</Link>
+          </nav>
         </div>
       </div>
     </footer>

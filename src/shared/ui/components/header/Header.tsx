@@ -6,6 +6,7 @@ import { Phone } from "../../icons/phone/phone";
 import { Facebook } from "../../icons/socials/facebook/facebook";
 import { Instagram } from "../../icons/socials/instagram/instagram";
 import { X } from "../../icons/socials/x/x";
+import { MobileMenu } from "../mobile-menu/MobileMenu";
 import styles from "./Header.module.scss";
 
 export const Header = () => {
@@ -42,7 +43,7 @@ export const Header = () => {
         <div className={"_container"}>
           <div className={styles.headerBottomInner}>
             <Link href="/">
-              <Image src="/logo.svg" alt="logo" width={136} height={48} />
+              <Image src="/logo.svg" alt="logo" width={46} height={29} />
             </Link>
             <nav className={styles.headerBottomNav}>
               <Link href="/">Home</Link>
@@ -55,6 +56,7 @@ export const Header = () => {
             <Link href="#" className={styles.getInTouch}>
               Get in touch
             </Link>
+            <MobileMenu />
           </div>
         </div>
       </div>

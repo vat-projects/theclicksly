@@ -5,26 +5,53 @@
   background-size: contain;
   background-position: right bottom;
   background-repeat: no-repeat;
+  @media (max-width: 992px) {
+    background-image: url("/images/footer_back_mob.svg");
+    background-position: left bottom;
+  }
   .footerTop {
     padding: 40px 0 0 0;
     display: flex;
     justify-content: space-between;
     gap: 120px;
+    @media (max-width: 992px) {
+      flex-direction: column;
+      gap: 32px;
+      margin-bottom: 32px;
+    }
     .footerTopLeft {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       gap: 46px;
       width: calc(50% - 120px);
+      @media (max-width: 992px) {
+        width: 100%;
+      }
       .footerNavigations {
         display: flex;
         gap: 40px;
         padding-left: 20px;
+        @media (max-width: 992px) {
+          padding-left: 0;
+          flex-wrap: wrap;
+          gap: 16px;
+          row-gap: 24px;
+          width: 100%;
+        }
         nav {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           gap: 8px;
+          @media (max-width: 992px) {
+            width: calc(50% - 8px);
+          }
+          &:last-child {
+            @media (max-width: 992px) {
+              display: none;
+            }
+          }
           h3 {
             color: var(--white, #fff);
             font-size: 18px;
@@ -38,14 +65,32 @@
             font-style: normal;
             font-weight: 400;
             line-height: 140%; /* 25.2px */
+            @media (max-width: 992px) {
+              font-size: 16px;
+            }
           }
         }
+      }
+    }
+    .footerBottomImageMob {
+      display: none;
+      @media (max-width: 992px) {
+        display: block;
+        width: 100%;
+        height: auto;
       }
     }
     .footerTopRight {
       width: 50%;
       position: relative;
       height: 400px;
+      @media (max-width: 992px) {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+      }
       > div {
         display: flex;
         padding: 16px;
@@ -56,6 +101,18 @@
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(14px);
         position: absolute;
+        @media (max-width: 992px) {
+          position: relative;
+          left: unset !important;
+          top: unset !important;
+          transform: unset !important;
+          right: unset !important;
+          bottom: unset !important;
+          width: calc(50% - 8px) !important;
+          &:last-child {
+            width: 100% !important;
+          }
+        }
         &.office {
           left: 45%;
           transform: translateX(-50%);
@@ -95,16 +152,28 @@
   .footerBottomImage {
     width: 100%;
     height: auto;
+    @media (max-width: 992px) {
+      display: none;
+    }
   }
   .footerBottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    @media (max-width: 992px) {
+      flex-direction: column;
+      gap: 24px;
+      align-items: flex-start;
+    }
     .footerBottomLeft {
       display: flex;
       align-items: center;
       gap: 24px;
+      @media (max-width: 992px) {
+        width: 100%;
+        margin-bottom: 24px;
+      }
       a {
         display: flex;
         svg {
@@ -128,12 +197,34 @@
       display: flex;
       flex-direction: column;
       align-items: flex-end;
+      @media (max-width: 992px) {
+        align-items: flex-start;
+        padding-top: 20px;
+        border-top: 1px solid #262626;
+      }
       p {
         color: var(--white, #fff);
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: 140%; /* 19.6px */
+      }
+    }
+    .legalMobile {
+      display: none;
+      @media (max-width: 992px) {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 8px;
+        row-gap: 16px;
+        max-width: 80%;
+        a {
+          color: var(--white, #fff);
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%; /* 19.6px */
+        }
       }
     }
   }

@@ -2,6 +2,9 @@
   .headerTop {
     border-bottom: 1px solid #262626;
     background: #1a1a1a;
+    @media (max-width: 992px) {
+      display: none;
+    }
     .headerTopInner {
       display: flex;
       padding: 16px 0;
@@ -54,6 +57,9 @@
         display: flex;
         align-items: center;
         gap: 8px;
+        @media (max-width: 992px) {
+          display: none;
+        }
         a {
           display: flex;
           padding: 8px 24px;
@@ -86,8 +92,11 @@
         font-weight: 700;
         line-height: normal;
         &:hover {
-          background: #4BED7B;
+          background: #4bed7b;
           color: #01010d;
+        }
+        @media (max-width: 992px) {
+          display: none;
         }
       }
     }
