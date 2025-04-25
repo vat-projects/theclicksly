@@ -3,7 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/components/button/Button";
+import Button from "@/shared/ui/kit/button/Button";
 
 import styles from "./HomeHero.module.scss";
 

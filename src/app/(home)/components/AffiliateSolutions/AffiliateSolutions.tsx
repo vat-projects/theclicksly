@@ -3,9 +3,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/components/button/Button";
-import { SectionSubtitle } from "@/shared/ui/components/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/components/section-title/SectionTitle";
+import Button from "@/shared/ui/kit/button/Button";
+import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
+import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 
 import styles from "./AffiliateSolutions.module.scss";
 

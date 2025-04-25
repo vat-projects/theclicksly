@@ -54,6 +54,30 @@
       }
     }
   }
+  &.green-white {
+    background: #4bed7b;
+    color: #000;
+    .arrow {
+      background: #fff;
+      svg {
+        path {
+          fill: #000;
+        }
+      }
+    }
+    &:hover {
+      background: #000;
+      color: #fff;
+      .arrow {
+        background: #fff;
+        svg {
+          path {
+            fill: #000;
+          }
+        }
+      }
+    }
+  }
   .arrow {
     display: flex;
     width: 40px;

@@ -8,7 +8,7 @@ import { Phone } from "../../icons/phone/phone";
 import { Facebook } from "../../icons/socials/facebook/facebook";
 import { Instagram } from "../../icons/socials/instagram/instagram";
 import { X } from "../../icons/socials/x/x";
-import Button from "../button/Button";
+import Button from "../../kit/button/Button";
 import styles from "./MobileMenu.module.scss";
 
 export const MobileMenu = () => {

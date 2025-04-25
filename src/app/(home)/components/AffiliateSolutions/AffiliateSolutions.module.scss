@@ -1,5 +1,8 @@
 .affiliateSolutions {
   padding: 70px 0;
+  @media (max-width: 992px) {
+    padding: 48px 0;
+  }
   .titleBlock {
     display: flex;
     flex-direction: column;

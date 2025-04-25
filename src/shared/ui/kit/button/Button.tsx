@@ -12,7 +12,7 @@ export default function Button({
   url: string;
   type: string;
   children: React.ReactNode;
-  color?: "black" | "green";
+  color?: "black" | "green" | "green-white";
 }) {
   if (type === "link") {
     return (
