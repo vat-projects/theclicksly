@@ -164,10 +164,20 @@ a {
   }
 }
 
-
 .swiper {
   width: 100%;
   .swiper-slide {
     height: auto;
+  }
+}
+
+.react-tel-input {
+  .selected-flag {
+    background: transparent !important;
+    border: none !important;
+  }
+  .flag-dropdown {
+    background: transparent !important;
+    border: none !important;
   }
 }
