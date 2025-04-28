@@ -33,13 +33,13 @@ export const MobileMenu = () => {
         <div className={styles.mobileMenuInner}>
           <div className={styles.mobileMenuNav}>
             <Link href="/">Home</Link>
-            <Link href="#">Who we are</Link>
+            <Link href="/who-we-are">Who we are</Link>
             <Link href="#">Targeted sectors</Link>
             <Link href="#">Advertise with us</Link>
             <Link href="#">Partner with us</Link>
             <Link href="#">Help & support</Link>
           </div>
-          <Button url="/" type="button" color="green">
+          <Button url="/registration-form" type="button" color="green">
             Get in touch
           </Button>
         </div>

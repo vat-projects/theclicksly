@@ -33,7 +33,7 @@ export const HomeHero = () => {
             <h2>
               Start Your Path to Success Today – Get Your Free Consultation
             </h2>
-            <Button url="/" type="link" color="green">
+            <Button url="/registration-form" type="link" color="green">
               Join Now
             </Button>
           </motion.div>

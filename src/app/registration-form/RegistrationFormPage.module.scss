@@ -1,0 +1,23 @@
+.registrationFormPage {
+  padding: 70px 0 100px 0;
+  background-color: #1a1a1a;
+  background-image: url("/images/registration-form/back.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  @media (max-width: 992px) {
+    padding: 40px 0 60px 0;
+  }
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 46px;
+    @media (max-width: 992px) {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+  }
+}

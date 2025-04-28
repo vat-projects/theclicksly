@@ -8,15 +8,17 @@ export default function Button({
   type,
   children,
   color = "black",
+  buttonType = "button",
 }: {
-  url: string;
-  type: string;
+  url?: string;
+  type?: string;
   children: React.ReactNode;
   color?: "black" | "green" | "green-white";
+  buttonType?: "button" | "submit" | "reset";
 }) {
   if (type === "link") {
     return (
-      <Link href={url} className={styles.button + " " + styles[color]}>
+      <Link href={url || ""} className={styles.button + " " + styles[color]}>
         <span>{children}</span>
         <div className={styles.arrow}>
           <Arrow />
@@ -25,7 +27,7 @@ export default function Button({
     );
   }
   return (
-    <button className={styles.button + " " + styles[color]}>
+    <button className={styles.button + " " + styles[color]} type={buttonType}>
       <span>{children}</span>
       <div className={styles.arrow}>
         <Arrow />

@@ -1,0 +1,40 @@
+.joinUs {
+  padding: 70px 0;
+  @media (max-width: 992px) {
+    padding: 40px 0;
+  }
+  .titleBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 20px;
+    border-radius: 20px;
+    background-color: #4bed7b;
+    background-image: url("/images/who-we-are/join/back.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @media (max-width: 992px) {
+      gap: 24px;
+      padding: 32px 20px;
+      background-image: url("/images/who-we-are/join/backMob.svg");
+    }
+    h2 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      max-width: 640px;
+      line-height: 140%;
+      &:nth-child(3) {
+        font-weight: 500;
+      }
+    }
+    a {
+      &:hover {
+        background: #fff;
+      }
+    }
+  }
+}

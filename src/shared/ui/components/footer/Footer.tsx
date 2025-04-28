@@ -21,7 +21,7 @@ export const Footer = () => {
             <div className={styles.footerNavigations}>
               <nav>
                 <h3>Company</h3>
-                <Link href="#">Who We Are</Link>
+                <Link href="/who-we-are">Who We Are</Link>
                 <Link href="#">Targeted Sectors</Link>
                 <Link href="#">Get in Touch</Link>
               </nav>

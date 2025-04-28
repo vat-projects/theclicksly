@@ -1,0 +1,184 @@
+.ourTeam {
+  padding: 70px 0;
+  @media (max-width: 992px) {
+    padding: 48px 0;
+  }
+  .titleBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    max-width: 639px;
+    margin: 0 auto;
+    @media (max-width: 992px) {
+      max-width: 100%;
+      gap: 20px;
+    }
+    > div {
+      @media (max-width: 992px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .team {
+    margin-top: 64px;
+    @media (max-width: 992px) {
+      margin-top: 40px;
+    }
+    .swiper {
+      > div {
+        @media (min-width: 992px) {
+          display: flex;
+          flex-wrap: wrap;
+          row-gap: 50px;
+          > div {
+            width: 33.333333333333336% !important;
+            &:nth-child(1) {
+              width: 50% !important;
+              .teamItem {
+                .teamItemContent {
+                  flex-direction: row;
+                  .teamItemTitle {
+                    width: 50%;
+                    justify-content: space-between;
+                  }
+                  .teamItemText {
+                    width: 50%;
+                  }
+                }
+              }
+            }
+            &:nth-child(2) {
+              width: 50% !important;
+              .teamItem {
+                .teamItemContent {
+                  flex-direction: row;
+                  .teamItemTitle {
+                    width: 50%;
+                    justify-content: space-between;
+                  }
+                  .teamItemText {
+                    width: 50%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        > div {
+          &:nth-child(2) {
+            .teamItem {
+              .teamItemContent {
+                background-color: #d7fce3;
+              }
+            }
+          }
+          .teamItem {
+            padding: 0 10px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            height: 100%;
+            @media (max-width: 992px) {
+              padding: 0;
+            }
+            &:before {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 1px;
+              background-color: #acacac;
+              position: absolute;
+              top: 24px;
+              left: 0;
+              z-index: 0;
+              @media (max-width: 992px) {
+                display: none;
+              }
+            }
+            .icon {
+              display: flex;
+              position: relative;
+              z-index: 1;
+              @media (max-width: 992px) {
+                display: none;
+              }
+            }
+            .teamItemContent {
+              padding: 20px;
+              border-radius: 22px;
+              background: #f2f2f2;
+              flex-grow: 1;
+              display: flex;
+              flex-direction: column;
+              gap: 32px;
+
+              .teamItemTitle {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h3 {
+                  color: #01010d;
+                  font-size: 32px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 120%; /* 38.4px */
+                }
+                p {
+                  color: #03031d;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 130%; /* 20.8px */
+                }
+              }
+            }
+            .teamItemText {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+              list-style-type: disc;
+              padding-left: 20px;
+              li {
+                list-style-type: disc;
+                color: #03031d;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 130%; /* 20.8px */
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .arrows {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
+    margin-top: 20px;
+    display: none;
+    @media (max-width: 992px) {
+      display: flex;
+    }
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+
+      &.arrowDisabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+  }
+}

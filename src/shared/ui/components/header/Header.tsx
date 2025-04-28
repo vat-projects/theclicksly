@@ -47,13 +47,13 @@ export const Header = () => {
             </Link>
             <nav className={styles.headerBottomNav}>
               <Link href="/">Home</Link>
-              <Link href="#">Who we are</Link>
+              <Link href="/who-we-are">Who we are</Link>
               <Link href="#">Targeted sectors</Link>
               <Link href="#">Advertise with us</Link>
               <Link href="#">Partner with us</Link>
               <Link href="#">Help & support</Link>
             </nav>
-            <Link href="#" className={styles.getInTouch}>
+            <Link href="/registration-form" className={styles.getInTouch}>
               Get in touch
             </Link>
             <MobileMenu />
