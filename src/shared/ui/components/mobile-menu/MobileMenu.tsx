@@ -36,7 +36,7 @@ export const MobileMenu = () => {
             <Link href="/who-we-are">Who we are</Link>
             <Link href="#">Targeted sectors</Link>
             <Link href="/advertise-with-us">Advertise with us</Link>
-            <Link href="#">Partner with us</Link>
+            <Link href="/partner-with-us">Partner with us</Link>
             <Link href="#">Help & support</Link>
           </div>
           <Button url="/registration-form" type="button" color="green">

@@ -4,21 +4,21 @@ import { motion } from "framer-motion";
 import { fadeInUp } from "@/shared/lib/helpers/animations";
 import Button from "@/shared/ui/kit/button/Button";
 
-import styles from "./AdvertiseHero.module.scss";
+import styles from "./PartnerHero.module.scss";
 
-export const AdvertiseHero = () => {
+export const PartnerHero = () => {
   return (
-    <section className={styles.advertiseHero}>
+    <section className={styles.partnerHero}>
       <div className="_container">
-        <div className={styles.advertiseHeroTop}>
-          <div className={styles.advertiseHeroTopLeft}>
+        <div className={styles.partnerHeroTop}>
+          <div className={styles.partnerHeroTopLeft}>
             <motion.h1
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              Advertise With Us
+              Partner With Us
             </motion.h1>
             <div>
               <motion.p
@@ -27,10 +27,11 @@ export const AdvertiseHero = () => {
                 viewport={{ once: true }}
                 variants={fadeInUp}
               >
-                We specialize in helping brands amplify their reach through
-                tailored affiliate marketing campaigns. Our platform connects
-                you with a vast network of trusted publishers, driving
-                high-quality traffic and measurable results.
+                By partnering with The Clicksly, you can access a robust network
+                of high-converting campaigns and premium affiliate
+                opportunities. We offer flexible partnership models that cater
+                to your unique needs, whether you want to generate passive
+                income or scale your business.
               </motion.p>
               <motion.p
                 initial="hidden"
@@ -38,11 +39,10 @@ export const AdvertiseHero = () => {
                 viewport={{ once: true }}
                 variants={fadeInUp}
               >
-                Whether you want to increase brand awareness, boost conversions,
-                or optimize your marketing budget, we offer flexible solutions
-                to deliver maximum ROI. Let us help you craft a campaign that
-                resonates with your target audience and drives sustainable
-                growth.
+                Our dedicated support team and cutting-edge tracking tools
+                ensure you can easily optimize your campaigns and maximize
+                revenue. Join us today and start earning with proven,
+                performance-driven solutions to help you succeed.
               </motion.p>
             </div>
           </div>
@@ -51,10 +51,10 @@ export const AdvertiseHero = () => {
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className={styles.advertiseHeroTopRight}
+            className={styles.partnerHeroTopRight}
           >
             <h2>
-              Transform Your Brand with The Clicksly’s High-Impact Campaigns
+              Unlock New Revenue Streams with The Clicksly’s Affiliate Network
             </h2>
             <Button url="/registration-form" type="link" color="green">
               Join Now

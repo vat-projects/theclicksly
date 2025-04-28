@@ -1,0 +1,45 @@
+.getStarted {
+  padding: 70px 0;
+  @media (max-width: 992px) {
+    padding: 40px 0;
+  }
+  .titleBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 20px;
+    border-radius: 20px;
+    background-color: #4bed7b;
+    background-image: url("/images/partners/getStartedBack.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @media (max-width: 992px) {
+      gap: 24px;
+      padding: 32px 20px;
+      background-image: none;
+    }
+    h2 {
+      text-align: center;
+      width: 640px;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+    p {
+      text-align: center;
+      max-width: 640px;
+      line-height: 140%;
+      font-size: 18px;
+      &:nth-child(3) {
+        font-weight: 500;
+      }
+    }
+    a {
+      &:hover {
+        background: #fff;
+      }
+    }
+  }
+}
