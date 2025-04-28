@@ -12,12 +12,14 @@ export const Footer = () => {
       <div className={"_container"}>
         <div className={styles.footerTop}>
           <div className={styles.footerTopLeft}>
-            <Image
-              src={"/foot_logo.svg"}
-              alt="The Clicksly"
-              width={113}
-              height={70}
-            />
+            <Link href="/">
+              <Image
+                src={"/foot_logo.svg"}
+                alt="The Clicksly"
+                width={113}
+                height={70}
+              />
+            </Link>
             <div className={styles.footerNavigations}>
               <nav>
                 <h3>Company</h3>
@@ -27,7 +29,7 @@ export const Footer = () => {
               </nav>
               <nav>
                 <h3>Partnership</h3>
-                <Link href="#">Advertise With Us</Link>
+                <Link href="/advertise-with-us">Advertise With Us</Link>
                 <Link href="#">Partner With Us</Link>
                 <Link href="#">Help & Support</Link>
               </nav>

@@ -107,7 +107,7 @@ export const MarketingServices = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Button url="/" type="link" color="black">
+            <Button url="/who-we-are" type="link" color="black">
               Learn More About Us
             </Button>
           </motion.div>

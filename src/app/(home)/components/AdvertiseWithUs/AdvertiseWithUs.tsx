@@ -63,7 +63,7 @@ export const AdvertiseWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Button url="/" type="link" color="green-white">
+            <Button url="/advertise-with-us" type="link" color="green-white">
               Start Advertising Today
             </Button>
           </motion.div>

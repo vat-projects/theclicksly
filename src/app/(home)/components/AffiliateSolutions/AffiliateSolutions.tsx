@@ -67,7 +67,7 @@ export const AffiliateSolutions = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Button url="/" type="link" color="black">
+            <Button url="/registration-form" type="link" color="black">
               Let’s Take Your Business to New Heights
             </Button>
           </motion.div>
