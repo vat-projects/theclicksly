@@ -7,6 +7,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import Button from "@/shared/ui/kit/button/Button";
 
 import "react-phone-input-2/lib/style.css";
+import { submitContactForm } from "../api/submitContactForm";
 import { ContactFormSchema } from "../model/ContactForm.schema";
 import styles from "./ContactForm.module.scss";
 import { ContactFormSuccess } from "./ContactFormSuccess";
@@ -18,6 +19,7 @@ const roleOptions = [
 
 export const ContactForm = () => {
   const [isSuccess, setIsSuccess] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const {
     register,
@@ -39,9 +41,13 @@ export const ContactForm = () => {
   });
 
   const onSubmit = (data: ContactFormSchema) => {
-    console.log(data);
-    setIsSuccess(true);
-    reset();
+    setIsLoading(true);
+    submitContactForm(data);
+    setTimeout(() => {
+      setIsSuccess(true);
+      reset();
+      setIsLoading(false);
+    }, 1000);
   };
 
   return (
@@ -133,7 +139,7 @@ export const ContactForm = () => {
                 )}
               </div>
               <Button url="" type="submit" buttonType="submit" color="black">
-                Apply Now
+                {isLoading ? "Submitting..." : "Apply Now"}
               </Button>
             </div>
           </form>

@@ -7,7 +7,7 @@ export const CloseIcon = () => {
       viewBox="0 0 24 24"
       fill="none"
     >
-      <g clip-path="url(#clip0_2014_71151)">
+      <g clipPath="url(#clip0_2014_71151)">
         <path
           d="M18.75 5.25L5.25 18.75"
           stroke="#1B0523"
