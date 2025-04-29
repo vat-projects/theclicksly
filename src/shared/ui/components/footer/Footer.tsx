@@ -35,10 +35,12 @@ export const Footer = () => {
               </nav>
               <nav>
                 <h3>Legal</h3>
-                <Link href="#">Terms and Conditions</Link>
-                <Link href="#">Privacy Policy</Link>
-                <Link href="#">Cookie Policy</Link>
-                <Link href="#">Refund Policy</Link>
+                <Link href="/legal/terms-and-conditions">
+                  Terms and Conditions
+                </Link>
+                <Link href="/legal/privacy-policy">Privacy Policy</Link>
+                <Link href="/legal/cookie-policy">Cookie Policy</Link>
+                <Link href="/legal/refund-policy">Refund Policy</Link>
               </nav>
             </div>
           </div>
