@@ -55,6 +55,7 @@ export const ContactForm = () => {
                 type="text"
                 {...register("name")}
                 placeholder="Enter your full name"
+                className={errors.name ? styles.errorInput : ""}
               />
               {errors.name && (
                 <p className={styles.error}>{errors.name.message}</p>
@@ -66,6 +67,7 @@ export const ContactForm = () => {
                 type="email"
                 {...register("email")}
                 placeholder="Enter your email address"
+                className={errors.email ? styles.errorInput : ""}
               />
               {errors.email && (
                 <p className={styles.error}>{errors.email.message}</p>
@@ -75,7 +77,7 @@ export const ContactForm = () => {
               <label htmlFor="phone">Phone Number:</label>
               <PhoneInput
                 country="ua"
-                inputClass={styles.phoneInput}
+                inputClass={errors.phone ? styles.errorInput : ""}
                 containerClass={styles.phoneInputContainer}
                 buttonClass={styles.phoneInputButton}
                 dropdownClass={styles.phoneInputDropdown}

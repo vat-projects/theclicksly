@@ -51,7 +51,7 @@ export const Header = () => {
               <Link href="#">Targeted sectors</Link>
               <Link href="/advertise-with-us">Advertise with us</Link>
               <Link href="/partner-with-us">Partner with us</Link>
-              <Link href="#">Help & support</Link>
+              <Link href="/help-and-support">Help & support</Link>
             </nav>
             <Link href="/get-in-touch" className={styles.getInTouch}>
               Get in touch

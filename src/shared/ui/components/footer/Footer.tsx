@@ -31,7 +31,7 @@ export const Footer = () => {
                 <h3>Partnership</h3>
                 <Link href="/advertise-with-us">Advertise With Us</Link>
                 <Link href="/partner-with-us">Partner With Us</Link>
-                <Link href="#">Help & Support</Link>
+                <Link href="/help-and-support">Help & Support</Link>
               </nav>
               <nav>
                 <h3>Legal</h3>

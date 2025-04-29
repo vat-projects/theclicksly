@@ -53,7 +53,12 @@ export const RegistrationForm = () => {
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className={styles.formGroup}>
               <label htmlFor="name">Your Name:</label>
-              <input type="text" {...register("name")} placeholder="Enter your full name" />
+              <input
+                type="text"
+                {...register("name")}
+                placeholder="Enter your full name"
+                className={errors.name ? styles.errorInput : ""}
+              />
               {errors.name && (
                 <p className={styles.error}>{errors.name.message}</p>
               )}
@@ -74,7 +79,12 @@ export const RegistrationForm = () => {
             </div>
             <div className={styles.formGroup}>
               <label htmlFor="email">Your Email:</label>
-              <input type="email" {...register("email")} placeholder="Enter your email address" />
+              <input
+                type="email"
+                {...register("email")}
+                placeholder="Enter your email address"
+                className={errors.email ? styles.errorInput : ""}
+              />
               {errors.email && (
                 <p className={styles.error}>{errors.email.message}</p>
               )}
@@ -83,7 +93,7 @@ export const RegistrationForm = () => {
               <label htmlFor="phone">Your Phone:</label>
               <PhoneInput
                 country="ua"
-                inputClass={styles.phoneInput}
+                inputClass={errors.phone ? styles.errorInput : ""}
                 containerClass={styles.phoneInputContainer}
                 buttonClass={styles.phoneInputButton}
                 dropdownClass={styles.phoneInputDropdown}
@@ -97,7 +107,10 @@ export const RegistrationForm = () => {
             </div>
             <div className={styles.formGroup + " " + styles.message}>
               <label htmlFor="message">Your Message:</label>
-              <textarea {...register("message")} placeholder="Enter your message" />
+              <textarea
+                {...register("message")}
+                placeholder="Enter your message"
+              />
               {errors.message && (
                 <p className={styles.error}>{errors.message.message}</p>
               )}

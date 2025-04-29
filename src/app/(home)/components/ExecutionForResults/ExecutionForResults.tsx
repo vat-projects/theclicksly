@@ -42,7 +42,7 @@ export const ExecutionForResults = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Button url="/" type="link" color="black">
+            <Button url="/help-and-support" type="link" color="black">
               Get Help & Support
             </Button>
           </motion.div>
