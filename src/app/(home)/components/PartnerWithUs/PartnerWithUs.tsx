@@ -44,8 +44,7 @@ export const PartnerWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>Partner With Us – Unlock 
-            Your Potential</SectionTitle>
+            <SectionTitle>Partner With Us – Unlock Your Potential</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -54,8 +53,8 @@ export const PartnerWithUs = () => {
             variants={fadeInUp}
           >
             <SectionSubtitle>
-            Monetize your site traffic with exclusive, high-demand campaigns from our 
-            trusted advertiser partners.
+              Monetize your site traffic with exclusive, high-demand campaigns
+              from our trusted advertiser partners.
             </SectionSubtitle>
           </motion.div>
           <motion.div
@@ -64,8 +63,8 @@ export const PartnerWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Button url="/" type="link" color="black">
-            Become Our Partner
+            <Button url="/partner-with-us" type="link" color="black">
+              Become Our Partner
             </Button>
           </motion.div>
         </div>

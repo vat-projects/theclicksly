@@ -53,7 +53,7 @@ export const Header = () => {
               <Link href="/partner-with-us">Partner with us</Link>
               <Link href="#">Help & support</Link>
             </nav>
-            <Link href="/registration-form" className={styles.getInTouch}>
+            <Link href="/get-in-touch" className={styles.getInTouch}>
               Get in touch
             </Link>
             <MobileMenu />

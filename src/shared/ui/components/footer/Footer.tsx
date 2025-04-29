@@ -25,7 +25,7 @@ export const Footer = () => {
                 <h3>Company</h3>
                 <Link href="/who-we-are">Who We Are</Link>
                 <Link href="#">Targeted Sectors</Link>
-                <Link href="#">Get in Touch</Link>
+                <Link href="/get-in-touch">Get in Touch</Link>
               </nav>
               <nav>
                 <h3>Partnership</h3>

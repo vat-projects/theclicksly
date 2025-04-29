@@ -11,16 +11,16 @@ export const CloseIcon = () => {
         <path
           d="M18.75 5.25L5.25 18.75"
           stroke="#1B0523"
-          stroke-width="1.2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M18.75 18.75L5.25 5.25"
           stroke="#1B0523"
-          stroke-width="1.2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>

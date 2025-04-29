@@ -87,7 +87,7 @@ export const PersonalizedSolutions = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Button url="/" type="link" color="green-white">
+            <Button url="/get-in-touch" type="link" color="green-white">
               Reach Out to Us Today
             </Button>
           </motion.div>

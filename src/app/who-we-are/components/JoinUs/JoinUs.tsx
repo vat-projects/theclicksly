@@ -31,7 +31,7 @@ export const JoinUs = () => {
             <br />
             Contact us today to get started!
           </SectionSubtitle>
-          <Button type="link" color="black" url="#">
+          <Button type="link" color="black" url="/registration-form">
             Contact Us Now
           </Button>
         </motion.div>
