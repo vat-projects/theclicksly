@@ -33,7 +33,7 @@ export const SectorsHero = () => {
               className={styles.sectorsHeroBottomLeftItem}
             >
               <Image
-                src="/images/home/hero/icon1.svg"
+                src="/images/targeted-sectors/heroIcon1.svg"
                 alt="Smart Campaigns"
                 width={48}
                 height={48}
@@ -48,7 +48,7 @@ export const SectorsHero = () => {
               className={styles.sectorsHeroBottomLeftItem}
             >
               <Image
-                src="/images/home/hero/icon2.svg"
+                src="/images/targeted-sectors/heroIcon2.svg"
                 alt="Efficient Ad Placements"
                 width={48}
                 height={48}
@@ -63,7 +63,7 @@ export const SectorsHero = () => {
               className={styles.sectorsHeroBottomLeftItem}
             >
               <Image
-                src="/images/home/hero/icon3.svg"
+                src="/images/targeted-sectors/heroIcon3.svg"
                 alt="Sustainable Growth"
                 width={48}
                 height={48}
