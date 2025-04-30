@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 
 import { ClientTestimonials } from "./components/ClientTestimonials/ClientTestimonials";
+import { ImpactedIndustries } from "./components/ImpactedIndustries/ImpactedIndustries";
 import { Industries } from "./components/Industries/Industries";
 import { NeedAssistance } from "./components/NeedAssistance/NeedAssistance";
 import { SectorsHero } from "./components/SectorsHero/SectorsHero";
 import { WhyChooseUs } from "./components/WhyChooseUs/WhyChooseUs";
+
 
 export const metadata: Metadata = {
   title: "Industries We Serve – Affiliate Marketing for Every Sector",
@@ -24,6 +26,7 @@ export default function TargetedSectors() {
       <SectorsHero />
       <Industries />
       <WhyChooseUs />
+      <ImpactedIndustries />
       <ClientTestimonials />
       <NeedAssistance />
     </>

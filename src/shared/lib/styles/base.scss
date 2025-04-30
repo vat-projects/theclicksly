@@ -186,7 +186,31 @@ a {
   display: flex;
   align-items: center;
   gap: 12px;
-  &:nth-of-type(2), &:nth-of-type(3) {
+  &:nth-of-type(2),
+  &:nth-of-type(3) {
     margin-top: -20px;
+  }
+}
+
+.swiper-pagination {
+  @media (max-width: 992px) {
+    display: none;
+  }
+  span {
+    background: #f2f2f2;
+    width: 8px;
+    height: 8px;
+    transition: all 0.3s ease;
+    opacity: 1;
+    &.swiper-pagination-bullet-active {
+      background: #000;
+      width: 46px;
+      border-radius: 20px;
+      & + span {
+        background: #c3c3c3;
+        width: 26px;
+        border-radius: 20px;
+      }
+    }
   }
 }
