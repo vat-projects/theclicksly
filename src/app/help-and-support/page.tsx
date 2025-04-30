@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Help & Support – The Clicksly’s Customer Assistance",
     description:
       "Get the help you need with our comprehensive support. Find answers to frequently asked questions, contact us for assistance, or explore resources to optimize your affiliate campaigns.",
-    //images: "",
+    images: "https://theclicksly.com/images/meta.png",
   },
 };
 

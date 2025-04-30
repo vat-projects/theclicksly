@@ -48,7 +48,7 @@ export const Header = () => {
             <nav className={styles.headerBottomNav}>
               <Link href="/">Home</Link>
               <Link href="/who-we-are">Who we are</Link>
-              <Link href="#">Targeted sectors</Link>
+              <Link href="/targeted-sectors">Targeted sectors</Link>
               <Link href="/advertise-with-us">Advertise with us</Link>
               <Link href="/partner-with-us">Partner with us</Link>
               <Link href="/help-and-support">Help & support</Link>

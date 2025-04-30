@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "Partner With The Clicksly – Unlock New Revenue Streams",
     description:
       "Join The Clicksly’s affiliate network and start earning with flexible partnership models. Access high-converting campaigns and optimize your marketing efforts for sustainable growth and success.",
-    //images: "",
+    images: "https://theclicksly.com/images/meta.png",
   },
 };
 

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "About Us – Discover The Clicksly’s Mission and ValuesAbout Us – Discover The Clicksly’s Mission and Values",
     description:
       "Learn more about The Clicksly, our mission, vision, values, and the expert team driving success in affiliate marketing. We help brands and publishers thrive through personalized, results-driven strategies.",
-    //images: "",
+    images: "https://theclicksly.com/images/meta.png",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Get in Touch – Contact The Clicksly for More Information",
     description:
       "Have questions or need assistance? Contact The Clicksly team through our contact form, email, or social media. We’re here to provide the support you need to succeed with affiliate marketing.",
-    //images: "",
+    images: "https://theclicksly.com/images/meta.png",
   },
 };
 

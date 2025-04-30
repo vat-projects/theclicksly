@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "The Clicksly – Your Trusted Affiliate Marketing Partner for Growth",
     description:
       "At The Clicksly, we deliver high-converting affiliate marketing solutions designed to drive traffic, maximize ROI, and grow your business. Join our network and see measurable results today.",
-    //images: "",
+    images: "https://theclicksly.com/images/meta.png",
   },
 };
 
