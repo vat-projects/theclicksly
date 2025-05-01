@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
+import { WEBSITE_EMAIL } from "@/shared/lib/constants/constants";
 import { fadeInUp } from "@/shared/lib/helpers/animations";
 
 import styles from "./ContactInformation.module.scss";
@@ -100,7 +101,7 @@ export const ContactInformation = () => {
                 />
               </div>
               <div className={styles.contactBottom}>
-                <Link href="mailto:example@gmail.com">example@gmail.com</Link>
+                <Link href={`mailto:${WEBSITE_EMAIL}`}>{WEBSITE_EMAIL}</Link>
               </div>
             </div>
             <div className={styles.item}>

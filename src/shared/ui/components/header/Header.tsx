@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { WEBSITE_EMAIL } from "@/shared/lib/constants/constants";
+
 import { Email } from "../../icons/email/email";
 import { Phone } from "../../icons/phone/phone";
 import { Facebook } from "../../icons/socials/facebook/facebook";
@@ -16,9 +18,9 @@ export const Header = () => {
         <div className={"_container"}>
           <div className={styles.headerTopInner}>
             <div className={styles.headerTopLeft}>
-              <Link href="mailto:example@gmail.com">
+              <Link href={`mailto:${WEBSITE_EMAIL}`}>
                 <Email />
-                example@gmail.com
+                {WEBSITE_EMAIL}
               </Link>
               <Link href="tel:+0000000000">
                 <Phone />

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { WEBSITE_EMAIL } from "@/shared/lib/constants/constants";
+
 import { Facebook } from "../../icons/socials/facebook/facebook";
 import { Instagram } from "../../icons/socials/instagram/instagram";
 import { X } from "../../icons/socials/x/x";
@@ -67,7 +69,7 @@ export const Footer = () => {
             <div className={styles.contact}>
               <h3>Contact Information</h3>
               <h4>Email:</h4>
-              <Link href="mailto:example@gmail.com">example@gmail.com</Link>
+              <Link href={`mailto:${WEBSITE_EMAIL}`}>{WEBSITE_EMAIL}</Link>
               <h4>Phone:</h4>
               <Link href="tel:+0000000000">+000 000 00 00</Link>
             </div>
