@@ -45,7 +45,7 @@ export const Header = () => {
         <div className={"_container"}>
           <div className={styles.headerBottomInner}>
             <Link href="/">
-              <Image src="/logo.svg" alt="logo" width={46} height={29} />
+              <Image src="/logo.svg" alt="logo" width={172} height={28} />
             </Link>
             <nav className={styles.headerBottomNav}>
               <Link href="/">Home</Link>

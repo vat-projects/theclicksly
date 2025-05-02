@@ -15,12 +15,7 @@ export const Footer = () => {
         <div className={styles.footerTop}>
           <div className={styles.footerTopLeft}>
             <Link href="/">
-              <Image
-                src={"/foot_logo.svg"}
-                alt="The Clicksly"
-                width={113}
-                height={70}
-              />
+              <Image src="/logo.svg" alt="logo" width={172} height={28} />
             </Link>
             <div className={styles.footerNavigations}>
               <nav>
