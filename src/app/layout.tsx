@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import { Footer } from "@/shared/ui/components/footer/Footer";
 import { Header } from "@/shared/ui/components/header/Header";
 
 import "@/shared/lib/styles/null.scss";
 import "@/shared/lib/styles/base.scss";
+
 
 const helveticaNowDisplay = localFont({
   src: [
@@ -47,6 +49,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics gaId="G-WEQDP0H4G9" />
       <body className={helveticaNowDisplay.variable}>
         <Header />
         <main>{children}</main>
