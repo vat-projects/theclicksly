@@ -4,9 +4,11 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 
 import { Footer } from "@/shared/ui/components/footer/Footer";
 import { Header } from "@/shared/ui/components/header/Header";
+import Preloader from "@/shared/ui/components/preloader/Preloader";
 
 import "@/shared/lib/styles/null.scss";
 import "@/shared/lib/styles/base.scss";
+
 
 
 const helveticaNowDisplay = localFont({
@@ -51,6 +53,7 @@ export default function RootLayout({
     <html lang="en">
       <GoogleAnalytics gaId="G-WEQDP0H4G9" />
       <body className={helveticaNowDisplay.variable}>
+        <Preloader />
         <Header />
         <main>{children}</main>
         <Footer />

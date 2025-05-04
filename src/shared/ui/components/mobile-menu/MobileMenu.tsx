@@ -1,7 +1,10 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+import { WEBSITE_EMAIL } from "@/shared/lib/constants/constants";
 
 import { Email } from "../../icons/email/email";
 import { Phone } from "../../icons/phone/phone";
@@ -11,8 +14,15 @@ import { X } from "../../icons/socials/x/x";
 import Button from "../../kit/button/Button";
 import styles from "./MobileMenu.module.scss";
 
+
+
 export const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname])
 
   return (
     <>
@@ -39,14 +49,14 @@ export const MobileMenu = () => {
             <Link href="/partner-with-us">Partner with us</Link>
             <Link href="/help-and-support">Help & support</Link>
           </div>
-          <Button url="/get-in-touch" type="button" color="green">
+          <Button url="/get-in-touch" type="link" color="green">
             Get in touch
           </Button>
         </div>
         <div className={styles.mobileMenuBottom}>
-          <Link href="mailto:example@gmail.com">
+          <Link href={`mailto:${WEBSITE_EMAIL}`}>
             <Email />
-            example@gmail.com
+            {WEBSITE_EMAIL}
           </Link>
           <Link href="tel:+0000000000">
             <Phone />
