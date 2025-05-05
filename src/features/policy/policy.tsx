@@ -1,10 +1,13 @@
-import { readdir } from "fs/promises";
-import { readFile } from "fs/promises";
+import { readdir, readFile } from "fs/promises";
 import matter from "gray-matter";
 import { marked } from "marked";
+import { join } from "path";
 
 export async function getPage(slug: string) {
-  const text = await readFile(`./src/md/policies/${slug}.md`, "utf8");
+  const text = await readFile(
+    join(process.cwd(), "src/md/policies", `${slug}.md`),
+    "utf8"
+  );
   const {
     content,
     data: { title, date, shortDescription },
@@ -14,7 +17,7 @@ export async function getPage(slug: string) {
 }
 
 export async function getPageSlugs() {
-  const files = await readdir("./src/md/policies/");
+  const files = await readdir(join(process.cwd(), "src/md/policies"));
   return files
     .filter((file) => file.endsWith(".md"))
     .map((file) => file.slice(0, -".md".length));
