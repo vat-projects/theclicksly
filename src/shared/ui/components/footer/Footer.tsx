@@ -17,6 +17,8 @@ import styles from "./Footer.module.scss";
 
 export const Footer = () => {
   const { t } = useTranslate();
+  const year = new Date().getFullYear();
+
   return (
     <footer className={styles.footer}>
       <div className={"_container"}>
@@ -112,7 +114,7 @@ export const Footer = () => {
             </Link>
           </div>
           <div className={styles.footerBottomRight}>
-            <p>{t("footer.copyright", { year: new Date().getFullYear() })}</p>
+            <p>© {year} Youmedia Inc</p>
             <p>{t("footer.rightsReserved")}</p>
           </div>
           <nav className={styles.legalMobile}>

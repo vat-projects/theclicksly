@@ -22,7 +22,7 @@ export async function generateMetadata({
   const awaitedParams = await params;
   const { slug } = awaitedParams;
   const page = await getPage(slug);
-  const pageTitle = `${page.title} | ProWorkforceX`;
+  const pageTitle = `${page.title} | The Clicksly`;
   return {
     title: pageTitle,
     openGraph: {
