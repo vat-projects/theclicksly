@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -7,6 +8,7 @@ import { fadeInUp } from "@/shared/lib/helpers/animations";
 import styles from "./WhoWeAreHero.module.scss";
 
 export const WhoWeAreHero = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.whoWeAreHero}>
       <div className={"_container"}>
@@ -18,7 +20,7 @@ export const WhoWeAreHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              Get to Know Us – The Clicksly Team & Our Vision
+              {t("whoWeAre.hero.title")}
             </motion.h1>
           </div>
           <div className={styles.whoWeAreHeroTopRight}>
@@ -28,11 +30,7 @@ export const WhoWeAreHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              We are more than just an affiliate marketing platform — a
-              dedicated team of professionals committed to helping businesses
-              grow and succeed. Learn about our mission, vision, and core values
-              that guide us in delivering innovative, data-driven marketing
-              solutions.
+              {t("whoWeAre.hero.text1")}
             </motion.p>
             <motion.p
               initial="hidden"
@@ -40,8 +38,7 @@ export const WhoWeAreHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              Explore how we collaborate with advertisers and publishers to
-              create lasting partnerships and drive measurable results.
+              {t("whoWeAre.hero.text2")}
             </motion.p>
           </div>
         </div>
@@ -60,17 +57,13 @@ export const WhoWeAreHero = () => {
                 width={48}
                 height={48}
               />
-              <h3>Our Mission</h3>
+              <h3>{t("whoWeAre.hero.missionTitle")}</h3>
             </div>
             <p>
-              Our mission is simple yet powerful: to help businesses grow by
-              connecting them with the right affiliate partners and delivering
-              measurable results.
+              {t("whoWeAre.hero.missionText1")}
             </p>
             <p>
-              We are passionate about elevating brands and driving lasting
-              success. We aim to redefine the affiliate marketing landscape
-              through innovation and data-driven strategies.
+              {t("whoWeAre.hero.missionText2")}
             </p>
           </motion.div>
           <motion.div
@@ -87,17 +80,13 @@ export const WhoWeAreHero = () => {
                 width={48}
                 height={48}
               />
-              <h3>Our Vision</h3>
+              <h3>{t("whoWeAre.hero.visionTitle")}</h3>
             </div>
             <p>
-              Our vision is to become the premier affiliate marketing platform
-              globally, serving as the bridge that connects advertisers and
-              publishers in meaningful, impactful ways.
+              {t("whoWeAre.hero.visionText1")}
             </p>
             <p>
-              We aspire to empower businesses of all sizes to scale and thrive
-              by offering innovative solutions that drive sustainable growth
-              across diverse industries.
+              {t("whoWeAre.hero.visionText2")}
             </p>
           </motion.div>
         </div>

@@ -5,7 +5,7 @@ date: "DATE"
 
 <div>
 
-1.  COMPANY NAME, registered at REGISTERED ADDRESS, with registration number REGISTRATION NUMBER, and operating under The Clicksly (“Company”), respects your privacy concerns.
+1.  Youmedia Inc, registered at Intershore Chambers, Road Town, Tortola, British Virgin Islands, with registration number 2174481, and operating under The Clicksly (“Company”), respects your privacy concerns.
 2.  This Privacy Policy explains the types of information we collect on [www.theclicksly.com](http://www.theclicksly.com) (the “Website”), how we use this information, with whom we share it, and your choices regarding its use.
 3.  This Privacy Policy also outlines the measures we take to safeguard your information, how long we retain it, and how you can contact us about our privacy practices and exercise your rights.
 
@@ -70,7 +70,7 @@ We respect your privacy rights and are committed to maintaining the accuracy of 
 1.  You may request that we stop using your business information, including halting its sharing with third parties or removing it entirely (subject to any legal obligations that may require us to retain it).
 2.  Unless you direct us otherwise, we retain your information for as long as necessary to provide services, meet legal requirements, resolve disputes, and enforce agreements.
 3.  We also reserve the right to update or remove incomplete or inaccurate information at our discretion.
-4.  If you wish to raise a concern regarding how we handle your information, please contact us at EMAIL.
+4.  If you wish to raise a concern regarding how we handle your information, please contact us at info@theclicksly.com.
 5.  If you are dissatisfied with our response or believe we are processing your information in violation of applicable laws, you can file a complaint with the relevant data protection authority.
 
 </div>
@@ -79,9 +79,9 @@ We respect your privacy rights and are committed to maintaining the accuracy of 
 
 ## **Governing Law**
 
-1.  This Privacy Policy is governed by the laws of COUNTRY, without regard to its conflict of law provisions.
-2.  By using this website or contacting us directly, you consent to the exclusive jurisdiction of the courts in COUNTRY for any disputes or actions arising under or in connection with this Privacy Policy.
-3.  The laws of COUNTRY, excluding conflict of law rules, shall govern this Privacy Policy and your website use.
+1.  This Privacy Policy is governed by the laws of the British Virgin Islands, without regard to its conflict of law provisions.
+2.  By using this website or contacting us directly, you consent to the exclusive jurisdiction of the courts in the British Virgin Islands for any disputes or actions arising under or in connection with this Privacy Policy.
+3.  The laws of the British Virgin Islands, excluding conflict of law rules, shall govern this Privacy Policy and your website use.
 4.  Depending on your location, your website use may also be subject to local, state, national, or international laws.
 5.  By using The Clicksly or contacting us directly, you confirm your acceptance of this Privacy Policy. If you do not agree with this Privacy Policy, please do not use our website or services.
 6.  Continued use of the website, direct engagement with us, or any use following updates to this Privacy Policy that do not significantly alter the use or disclosure of your information signifies your acceptance of those changes.
@@ -138,7 +138,7 @@ If you have any questions about this privacy policy, please contact us at:
     <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
     </div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a>EMAIL</a></span>
+    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
  </div>
 <div class="contact-info">
     <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a>PHONE NUMBER</a></span>

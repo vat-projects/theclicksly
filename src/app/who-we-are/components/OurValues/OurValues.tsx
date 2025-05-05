@@ -1,6 +1,7 @@
 "use client";
 import { useRef } from "react";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 import { Navigation } from "swiper/modules";
 import { Swiper, type SwiperRef, SwiperSlide } from "swiper/react";
@@ -15,39 +16,32 @@ import styles from "./OurValues.module.scss";
 
 export const OurValues = () => {
   const swiperRef = useRef<SwiperRef>(null);
+  const { t } = useTranslate();
 
   const values = [
     {
       icon: "/images/who-we-are/our-values/icon1.svg",
-      title: "Integrity & Transparency",
-      text1:
-        "We operate with honesty, ethics, and accountability in everything we do. Integrity is about adhering to legal standards and fostering trust through transparency and openness.",
-      text2:
-        "Our clients can rely on us to deliver truthful insights, clear communication, and ethical strategies, knowing we put their interests first. We believe that integrity is the foundation of lasting partnerships.",
+      title: t("whoWeAre.ourValues.items.item1.title"),
+      text1: t("whoWeAre.ourValues.items.item1.text1"),
+      text2: t("whoWeAre.ourValues.items.item1.text2"),
     },
     {
       icon: "/images/who-we-are/our-values/icon2.svg",
-      title: "Innovation & Excellence",
-      text1:
-        "Staying ahead of the curve is not just a goal but a continuous pursuit. We embrace change and challenge ourselves to think differently, creating innovative solutions that set new benchmarks in affiliate marketing.",
-      text2:
-        "By leveraging cutting-edge technology, we ensure our solutions remain relevant, adaptable, and practical. Innovation drives our business and allows us to provide high-impact strategies.",
+      title: t("whoWeAre.ourValues.items.item2.title"),
+      text1: t("whoWeAre.ourValues.items.item2.text1"),
+      text2: t("whoWeAre.ourValues.items.item2.text2"),
     },
     {
       icon: "/images/who-we-are/our-values/icon3.svg",
-      title: "Collaboration & Partnership",
-      text1:
-        "Success is never achieved in isolation. We view our clients, partners, and affiliates as collaborators, not just customers. Together, we foster a spirit of teamwork, communication, and shared objectives.",
-      text2:
-        " We work with our clients and partners to unlock opportunities and solve challenges. At The Clicksly, every project is a partnership aimed at mutual growth.",
+      title: t("whoWeAre.ourValues.items.item3.title"),
+      text1: t("whoWeAre.ourValues.items.item3.text1"),
+      text2: t("whoWeAre.ourValues.items.item3.text2"),
     },
     {
       icon: "/images/who-we-are/our-values/icon4.svg",
-      title: "Data-Driven Results",
-      text1:
-        "Every strategy we develop is rooted in data. We believe that real insights, not guesswork, should inform decisions. From performance metrics to consumer behavior, we use data to optimize every aspect of your affiliate marketing efforts. ",
-      text2:
-        "Our strategies are continuously monitored, tested, and refined to ensure the best possible outcomes for our clients. At The Clicksly, results are not just a goal but a guarantee.",
+      title: t("whoWeAre.ourValues.items.item4.title"),
+      text1: t("whoWeAre.ourValues.items.item4.text1"),
+      text2: t("whoWeAre.ourValues.items.item4.text2"),
     },
   ];
 
@@ -73,7 +67,7 @@ export const OurValues = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Tag color="white">Our Principles</Tag>
+            <Tag color="white">{t("whoWeAre.ourValues.tag")}</Tag>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -81,7 +75,7 @@ export const OurValues = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>Our Values</SectionTitle>
+            <SectionTitle>{t("whoWeAre.ourValues.title")}</SectionTitle>
           </motion.div>
         </div>
         <div className={styles.values}>
@@ -149,24 +143,14 @@ export const OurValues = () => {
           className={styles.approach}
         >
           <div>
-            <Tag color="white">Our Principles</Tag>
-            <SectionTitle>Our Values</SectionTitle>
+            <Tag color="white">{t("whoWeAre.ourValues.tag")}</Tag>
+            <SectionTitle>{t("whoWeAre.ourValues.title")}</SectionTitle>
           </div>
           <div>
-            <p>
-              We take a personalized approach to every campaign. We understand
-              that each brand is unique, and so are its affiliate marketing
-              needs. By collaborating closely with our clients, we craft
-              customized strategies that align with their goals and objectives.
-            </p>
+            <p>{t("whoWeAre.ourValues.text1")}</p>
           </div>
           <div>
-            <p>
-              Our team employs data-backed insights, industry trends, and
-              innovative techniques to ensure each campaign performs at its
-              best. From campaign setup to ongoing optimization, we are
-              dedicated to maximizing your return on investment.
-            </p>
+            <p>{t("whoWeAre.ourValues.text2")}</p>
           </div>
         </motion.div>
       </div>

@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -10,6 +11,7 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 import styles from "./ExecutionForResults.module.scss";
 
 export const ExecutionForResults = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.executionForResults}>
       <div className="_container">
@@ -20,9 +22,7 @@ export const ExecutionForResults = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>
-              The Clicksly Approach – Data-Backed Execution for Results
-            </SectionTitle>
+            <SectionTitle>{t("home.executionForResults.title")}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -31,9 +31,7 @@ export const ExecutionForResults = () => {
             variants={fadeInUp}
           >
             <SectionSubtitle>
-              Our marketing approach ensures that every strategy we implement is
-              measurable and scalable. Here’s how we help businesses drive more
-              leads, enhance customer loyalty, and increase ROI:
+              {t("home.executionForResults.subtitle")}
             </SectionSubtitle>
           </motion.div>
           <motion.div
@@ -43,7 +41,7 @@ export const ExecutionForResults = () => {
             variants={fadeInUp}
           >
             <Button url="/help-and-support" type="link" color="black">
-              Get Help & Support
+              {t("home.executionForResults.button")}
             </Button>
           </motion.div>
         </div>
@@ -62,7 +60,7 @@ export const ExecutionForResults = () => {
                 width={48}
                 height={48}
               />
-              <p>40% Increase in Customer Retention for Clients</p>
+              <p>{t("home.executionForResults.items.item1")}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -77,7 +75,7 @@ export const ExecutionForResults = () => {
                 width={48}
                 height={48}
               />
-              <p>2X Higher Engagement on Digital Campaigns</p>
+              <p>{t("home.executionForResults.items.item2")}</p>
             </motion.div>
           </div>
           <motion.div
@@ -93,7 +91,7 @@ export const ExecutionForResults = () => {
               width={600}
               height={200}
             />
-            <p>85% Faster ROI Through Optimized Marketing Plans</p>
+            <p>{t("home.executionForResults.items.item3")}</p>
           </motion.div>
         </div>
       </div>

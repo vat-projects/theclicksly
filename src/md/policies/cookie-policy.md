@@ -5,7 +5,7 @@ date: "DATE"
 
 <div>
 
-1.  This Cookie Policy explains cookies and how COMPANY NAME, operating under the brand The Clicksly, registered at REGISTERED ADDRESS, with registration number REGISTRATION NUMBER, and third parties use them.
+1.  This Cookie Policy explains cookies and how Youmedia Inc, operating under the brand The Clicksly, registered at Intershore Chambers, Road Town, Tortola, British Virgin Islands, with registration number 2174481, and third parties use them.
 2.  For more information on how we use, store, and process personal data, please refer to our Privacy Policy.
 3.  This Cookie Policy is an integral part of our Privacy Policy.
 4.  Any terms used herein and not defined shall have the meanings ascribed to them in the Privacy Policy.
@@ -94,7 +94,7 @@ If you have any questions about this Cookie Policy, you can contact us:
     <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
     </div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a>EMAIL</a></span>
+    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
  </div>
 <div class="contact-info">
     <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a>PHONE NUMBER</a></span>

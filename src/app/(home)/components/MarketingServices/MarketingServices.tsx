@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -9,67 +10,69 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 
 import styles from "./MarketingServices.module.scss";
 
+
 export const MarketingServices = () => {
+  const { t } = useTranslate();
   const steps = [
     {
       id: 1,
-      title: "Affiliate Campaign Strategy <br/>& Execution",
+      title: t("home.marketingServices.steps.affiliateCampaignStrategy.title"),
       details: [
-        "In-depth Competitor Analysis & Market Research",
-        "Custom Brand Positioning & Messaging",
-        "Targeted Affiliate Advertising Campaigns",
-        "Efficient Campaign Management & Optimization",
+        t("home.marketingServices.steps.affiliateCampaignStrategy.details.inDepthCompetitorAnalysis"),
+        t("home.marketingServices.steps.affiliateCampaignStrategy.details.customBrandPositioning"),
+        t("home.marketingServices.steps.affiliateCampaignStrategy.details.targetedAffiliateAdvertisingCampaigns"),
+        t("home.marketingServices.steps.affiliateCampaignStrategy.details.efficientCampaignManagement"),
       ],
     },
     {
       id: 2,
-      title: "Conversion Rate Optimization & <br/>Performance Marketing",
+      title: t("home.marketingServices.steps.conversionRateOptimization.title"),
       details: [
-        "Improving Search Engine Visibility & Organic Reach",
-        "Pay-Per-Click (PPC) Campaign Setup & Management",
-        "Landing Page & Funnel Optimization for Conversions",
-        "Data-Driven Insights to Enhance Marketing Performance",
+        t("home.marketingServices.steps.conversionRateOptimization.details.improvingSearchEngineVisibility"),
+        t("home.marketingServices.steps.conversionRateOptimization.details.payPerClickCampaignSetup"),
+        t("home.marketingServices.steps.conversionRateOptimization.details.landingPageFunnelOptimization"),
+        t("home.marketingServices.steps.conversionRateOptimization.details.dataDrivenInsights"),
       ],
     },
     {
       id: 3,
-      title: "Business Expansion & Strategic <br/>Consulting",
+      title: t("home.marketingServices.steps.businessExpansion.title"),
       details: [
-        "Market Penetration & Entry Strategies",
-        "Customer Acquisition & Long-Term Retention",
-        "Business Model Optimization for Increased Revenue",
-        "Streamlining Operations with Automation Tools",
+        t("home.marketingServices.steps.businessExpansion.details.marketPenetrationEntryStrategies"),
+        t("home.marketingServices.steps.businessExpansion.details.customerAcquisitionLongTermRetention"),
+        t("home.marketingServices.steps.businessExpansion.details.businessModelOptimization"),
+        t("home.marketingServices.steps.businessExpansion.details.streamliningOperations"),
       ],
     },
     {
       id: 4,
-      title: "Audience Engagement & Content <br/>Marketing",
+      title: t("home.marketingServices.steps.audienceEngagement.title"),
       details: [
-        "Social Media Growth & Community Building",
-        "Leveraging Influencers & Affiliate Networks",
-        "Email Marketing & CRM Campaigns",
-        "Storytelling Through High-Quality Content Creation",
+        t("home.marketingServices.steps.audienceEngagement.details.socialMediaGrowth"),
+        t("home.marketingServices.steps.audienceEngagement.details.leveragingInfluencers"),
+        t("home.marketingServices.steps.audienceEngagement.details.emailMarketingCRMCampaigns"),
+        t("home.marketingServices.steps.audienceEngagement.details.storytellingHighQualityContent"),
       ],
     },
     {
       id: 5,
-      title: "Affiliate Marketing Technology & <br/>Automation",
+      title: t("home.marketingServices.steps.affiliateMarketingTechnologyAutomation.title"),
       details: [
-        "Integrating AI-Based Marketing Automation",
-        "Optimizing the Customer Journey with CRM Tools",
-        "Lead Generation with Chatbots & Automation",
-        "Real-Time Analytics and Marketing Performance Reports",
+        t("home.marketingServices.steps.affiliateMarketingTechnologyAutomation.details.integratingAIBasedMarketingAutomation"),
+        t("home.marketingServices.steps.affiliateMarketingTechnologyAutomation.details.optimizingCustomerJourney"),
+        t("home.marketingServices.steps.affiliateMarketingTechnologyAutomation.details.automatingLeadGeneration"),
+        t("home.marketingServices.steps.affiliateMarketingTechnologyAutomation.details.dataDrivenInsights"),
       ],
     },
     {
       id: 6,
-      title: "Strategic Scaling & Competitive <br/>Advantage",
+      title: t("home.marketingServices.steps.strategicScalingCompetitiveAdvantage.title"),
       details: [
-        "Building Personal Brands & Expanding Multi-Channel Reach",
-        "Long-Term Lead Generation & Retention Strategies",
-        "Entrepreneurial Sales Tactics for Small Businesses",
-        "Customized Monetization Plans for Affiliates & Advertisers",
-        "Our Solutions Are Always Tailored to Your Business Needs",
+        t("home.marketingServices.steps.strategicScalingCompetitiveAdvantage.details.buildingPersonalBrands"),
+        t("home.marketingServices.steps.strategicScalingCompetitiveAdvantage.details.longTermLeadGenerationRetention"),
+        t("home.marketingServices.steps.strategicScalingCompetitiveAdvantage.details.entrepreneurialSalesTactics"),
+        t("home.marketingServices.steps.strategicScalingCompetitiveAdvantage.details.customizedMonetizationPlans"),
+        t("home.marketingServices.steps.strategicScalingCompetitiveAdvantage.details.ourSolutionsAlwaysTailored"),
       ],
     },
   ];
@@ -85,7 +88,7 @@ export const MarketingServices = () => {
             variants={fadeInUp}
           >
             <SectionTitle>
-              Our Comprehensive Affiliate Marketing Services
+              {t("home.marketingServices.title")}
             </SectionTitle>
           </motion.div>
           <motion.div
@@ -95,10 +98,7 @@ export const MarketingServices = () => {
             variants={fadeInUp}
           >
             <SectionSubtitle>
-              At The Clicksly, we combine deep industry knowledge with
-              cutting-edge tools to provide a full range of services to optimize
-              your affiliate marketing efforts. Here’s how we can help you
-              achieve your goals:
+              {t("home.marketingServices.subtitle")}
             </SectionSubtitle>
           </motion.div>
           <motion.div
@@ -108,7 +108,7 @@ export const MarketingServices = () => {
             variants={fadeInUp}
           >
             <Button url="/who-we-are" type="link" color="black">
-              Learn More About Us
+              {t("home.marketingServices.button")}
             </Button>
           </motion.div>
         </div>

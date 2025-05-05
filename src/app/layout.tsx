@@ -8,8 +8,9 @@ import Preloader from "@/shared/ui/components/preloader/Preloader";
 
 import "@/shared/lib/styles/null.scss";
 import "@/shared/lib/styles/base.scss";
-
-
+import { TolgeeNextProvider } from "@/tolgee/client";
+import { getLanguage } from "@/tolgee/language";
+import { getTolgee } from "@/tolgee/server";
 
 const helveticaNowDisplay = localFont({
   src: [
@@ -44,19 +45,29 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLanguage();
+  const tolgee = await getTolgee();
+  // serializable data that are passed to client components
+  const staticData = await tolgee.loadRequired().catch((error) => {
+    console.error('Failed to load translations:', error);
+    return {};
+  });
+  
   return (
-    <html lang="en">
+    <html lang={locale}>
       <GoogleAnalytics gaId="G-WEQDP0H4G9" />
       <body className={helveticaNowDisplay.variable}>
         <Preloader />
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <TolgeeNextProvider language={locale} staticData={staticData}>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </TolgeeNextProvider>
       </body>
     </html>
   );

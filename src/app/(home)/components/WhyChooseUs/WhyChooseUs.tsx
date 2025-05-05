@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -9,24 +10,25 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 import styles from "./WhyChooseUs.module.scss";
 
 export const WhyChooseUs = () => {
+  const { t } = useTranslate();
   const items = [
     {
-      text: "Reduction in Marketing Spend Waste",
+      text: t("home.whyChooseUs.items.item1"),
       value: "200",
       prefix: "%+",
     },
     {
-      text: "Reduction in Unnecessary <br/> Marketing Spend",
+      text: t("home.whyChooseUs.items.item2"),
       value: "30",
       prefix: "%+",
     },
     {
-      text: "Client Satisfaction <br/>Rate",
+      text: t("home.whyChooseUs.items.item3"),
       value: "95",
       prefix: "%",
     },
     {
-      text: "Increase in Qualified Leads for Startups",
+      text: t("home.whyChooseUs.items.item4"),
       value: "50",
       prefix: "%+",
     },
@@ -42,9 +44,7 @@ export const WhyChooseUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>
-              Why Choose The Clicksly for Your Affiliate Needs?
-            </SectionTitle>
+            <SectionTitle>{t("home.whyChooseUs.title")}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -53,10 +53,7 @@ export const WhyChooseUs = () => {
             variants={fadeInUp}
           >
             <SectionSubtitle>
-              Partner with The Clicksly and benefit from our expert guidance and
-              robust strategies. We’re a forward-thinking agency committed to
-              delivering results-driven campaigns and maximizing your affiliate
-              potential. Here’s why our clients trust us:
+              {t("home.whyChooseUs.subtitle")}
             </SectionSubtitle>
           </motion.div>
         </div>
@@ -89,8 +86,7 @@ export const WhyChooseUs = () => {
             variants={fadeInUp}
           >
             <SectionSubtitle>
-              Your Business Growth is Our Top Priority. Let’s Build Success
-              Together!
+              {t("home.whyChooseUs.text")}
             </SectionSubtitle>
           </motion.div>
           <motion.div
@@ -100,7 +96,7 @@ export const WhyChooseUs = () => {
             variants={fadeInUp}
           >
             <Button url="/" type="link" color="black">
-              Explore Our Sectors
+              {t("home.whyChooseUs.button")}
             </Button>
           </motion.div>
         </div>

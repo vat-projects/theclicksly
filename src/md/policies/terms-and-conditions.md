@@ -6,7 +6,7 @@ shortDescription: "Please read the following carefully before accepting these Te
 
 <div>
 
-1.  These website Terms and Conditions (“Terms”) form a legally binding agreement between COMPANY NAME, operating under the brand The Clicksly, registered at REGISTERED ADDRESS, with registration number REGISTRATION NUMBER (“Company,” “we,” “us,” or “our”), and you, a visitor or user of our website (“you” and “website,”respectively).
+1.  These website Terms and Conditions (“Terms”) form a legally binding agreement between Youmedia Inc, operating under the brand The Clicksly, registered at Intershore Chambers, Road Town, Tortola, British Virgin Islands, with registration number 2174481 (“Company,” “we,” “us,” or “our”), and you, a visitor or user of our website (“you” and “website,” respectively).
 2.  By accessing the website, you confirm that you have read and understood these Terms.
 3.  As further detailed below, you agree to be bound by them and fully comply with applicable laws and regulations related to your use of the website or its services.
 4.  You also represent and warrant that you are eligible to enter these Terms or, where applicable, have the proper authorization to do so.
@@ -168,7 +168,7 @@ In addition, you agree not to:
 
 ## **Governing Law**
 
-1.  These Terms shall be governed by and construed by the laws of COUNTRY. Any disputes shall be resolved exclusively by the competent courts in COUNTRY.
+1.  These Terms shall be governed by and construed by the laws of the British Virgin Islands. Any disputes shall be resolved exclusively by the competent courts in the British Virgin Islands.
 2.  Any cause of action related to the website, content, or services must be initiated within one (1) year from the date the issue arose; otherwise, such claims will be permanently barred.
 
 </div>
@@ -210,7 +210,7 @@ If you have any questions about these Terms, please feel free to contact us:
     <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
     </div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a>EMAIL</a></span>
+    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
  </div>
 <div class="contact-info">
     <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a>PHONE NUMBER</a></span>

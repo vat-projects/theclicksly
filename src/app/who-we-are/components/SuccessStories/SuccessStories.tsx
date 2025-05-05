@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -8,6 +9,8 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 import styles from "./SuccessStories.module.scss";
 
 export const SuccessStories = () => {
+  const { t } = useTranslate();
+
   return (
     <section className={styles.successStories}>
       <div className="_container">
@@ -18,7 +21,7 @@ export const SuccessStories = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>Our Success Stories</SectionTitle>
+            <SectionTitle>{t("whoWeAre.successStories.title")}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -27,9 +30,7 @@ export const SuccessStories = () => {
             variants={fadeInUp}
           >
             <SectionSubtitle>
-              The results speak for themselves. With a focus on driving
-              engagement, conversions, and long-term growth, The Clicksly has
-              helped numerous businesses achieve remarkable success:
+              {t("whoWeAre.successStories.text")}
             </SectionSubtitle>
           </motion.div>
         </div>
@@ -42,10 +43,8 @@ export const SuccessStories = () => {
             className={styles.col1}
           >
             <h2>
-              “The Clicksly team helped us scale our affiliate marketing efforts
-              exponentially. Their expertise in driving high-quality traffic and
-              converting leads has been invaluable.”{" "}
-              <span>— Client Testimonial</span>
+              {t("whoWeAre.successStories.testimonial")}
+              <span>— {t("whoWeAre.successStories.testimonialAuthor")}</span>
             </h2>
           </motion.div>
           <div className={styles.col2}>
@@ -58,12 +57,11 @@ export const SuccessStories = () => {
             >
               <div>
                 <h3>200%+</h3>
-                <p>Increase in Client Engagement</p>
+                <p>{t("whoWeAre.successStories.items.item1.title")}</p>
               </div>
               <div>
                 <p>
-                  Through our affiliate campaigns, we’ve consistently seen
-                  significant boosts in online engagement.
+                  {t("whoWeAre.successStories.items.item1.text")}
                 </p>
               </div>
             </motion.div>
@@ -76,13 +74,10 @@ export const SuccessStories = () => {
             >
               <div>
                 <h3>+50%</h3>
-                <p>Growth in Qualified Leads for Startups</p>
+                <p>{t("whoWeAre.successStories.items.item2.title")}</p>
               </div>
               <div>
-                <p>
-                  Startups that worked with us saw a rapid increase in
-                  high-quality leads, helping them scale faster.
-                </p>
+                <p>{t("whoWeAre.successStories.items.item2.text")}</p>
               </div>
             </motion.div>
             <motion.div
@@ -94,13 +89,10 @@ export const SuccessStories = () => {
             >
               <div>
                 <h3>+95%</h3>
-                <p>Client Satisfaction Rate</p>
+                <p>{t("whoWeAre.successStories.items.item3.title")}</p>
               </div>
               <div>
-                <p>
-                  Our clients trust us; our commitment to their success shows in
-                  our client feedback.
-                </p>
+                <p>{t("whoWeAre.successStories.items.item3.text")}</p>
               </div>
             </motion.div>
           </div>

@@ -5,7 +5,7 @@ date: "DATE"
 
 <div>
 
-1.  At COMPANY NAME, operating under the brand The Clicksly, registered at REGISTERED ADDRESS, with registration number REGISTRATION NUMBER, we are committed to providing high-quality affiliate marketing services.
+1.  At Youmedia Inc, operating under the brand The Clicksly, registered at Intershore Chambers, Road Town, Tortola, British Virgin Islands, with registration number 2174481, we are committed to providing high-quality affiliate marketing services.
 2.  However, due to the nature of marketing campaigns, we do not offer refunds for our services.
 3.  The effectiveness of advertising depends on various factors beyond our control, such as product quality, audience relevance, and the effectiveness of the marketing message.
 4.  This Policy outlines the circumstances under which refunds are not granted and provides guidance for addressing concerns.
@@ -49,7 +49,7 @@ Refunds will not be provided in the following situations:
 
 ## **Service Satisfaction Guarantee**
 
-1.  If you are dissatisfied with our services and believe your case warrants further review, please contact us at EMAIL.
+1.  If you are dissatisfied with our services and believe your case warrants further review, please contact us at info@theclicksly.com.
 2.  Our team is dedicated to addressing your concerns and finding a solution where possible.
 
 </div>
@@ -64,7 +64,7 @@ If you have any questions about this Refund Policy or would like to discuss your
     <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
     </div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a>EMAIL</a></span>
+    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
  </div>
 <div class="contact-info">
     <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a>PHONE NUMBER</a></span>

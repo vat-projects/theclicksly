@@ -1,5 +1,6 @@
 "use client";
 import { useRef } from "react";
+import { useTranslate } from "@tolgee/react";
 import { motion, useScroll } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -11,25 +12,26 @@ import { PersonalizedCard } from "./PersonalizedCard";
 import styles from "./PersonalizedSolutions.module.scss";
 
 export const PersonalizedSolutions = () => {
+  const { t } = useTranslate();
   const items = [
     {
-      title: "How can The Clicksly help me grow my business?",
-      text: "Our customized affiliate marketing solutions are designed to help you grow your business, increase conversions, and expand your reach.",
+      title: t("home.personalizedSolutions.items.item1.title"),
+      text: t("home.personalizedSolutions.items.item1.text"),
       backImage: "/images/home/personalized-card/image1.svg",
     },
     {
-      title: "Who can benefit from The Clicksly’s services?",
-      text: "We work with businesses, entrepreneurs, and publishers looking for results-driven affiliate marketing solutions to help them scale their operations.",
+      title: t("home.personalizedSolutions.items.item2.title"),
+      text: t("home.personalizedSolutions.items.item2.text"),
       backImage: "/images/home/personalized-card/image2.svg",
     },
     {
-      title: "Do you provide ongoing support and optimization?",
-      text: "Yes! We continuously monitor, analyze, and optimize your campaigns to ensure long-term success. We stay ahead of trends and keep your strategies up-to-date.",
+      title: t("home.personalizedSolutions.items.item3.title"),
+      text: t("home.personalizedSolutions.items.item3.text"),
       backImage: "/images/home/personalized-card/image3.svg",
     },
     {
-      title: "Can I get a personalized affiliate marketing strategy?",
-      text: "Absolutely! Our strategies are custom-built based on your goals, target audience, and market conditions. We provide clear, actionable steps for your success.",
+      title: t("home.personalizedSolutions.items.item4.title"),
+      text: t("home.personalizedSolutions.items.item4.text"),
       backImage: "/images/home/personalized-card/image4.svg",
     },
   ];
@@ -52,7 +54,7 @@ export const PersonalizedSolutions = () => {
             variants={fadeInUp}
           >
             <SectionTitle>
-              Unleash the Power of Personalized Marketing Solutions
+              {t("home.personalizedSolutions.title")}
             </SectionTitle>
           </motion.div>
         </div>
@@ -79,7 +81,9 @@ export const PersonalizedSolutions = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>Have Questions? Let’s Connect!</SectionSubtitle>
+            <SectionSubtitle>
+              {t("home.personalizedSolutions.text")}
+            </SectionSubtitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -88,7 +92,7 @@ export const PersonalizedSolutions = () => {
             variants={fadeInUp}
           >
             <Button url="/get-in-touch" type="link" color="green-white">
-              Reach Out to Us Today
+              {t("home.personalizedSolutions.button")}
             </Button>
           </motion.div>
         </div>

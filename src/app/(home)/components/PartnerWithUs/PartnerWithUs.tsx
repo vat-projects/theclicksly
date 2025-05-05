@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -11,17 +12,18 @@ import { Tag } from "@/shared/ui/kit/tag/Tag";
 import styles from "./PartnerWithUs.module.scss";
 
 export const PartnerWithUs = () => {
+  const { t } = useTranslate();
   const items = [
     {
-      text: "Continuous demand for ad space to maximize your earnings.",
+      text: t("home.partnerWithUs.items.continuousDemand"),
       image: "/images/home/partner-with-us/image1.svg",
     },
     {
-      text: "Flexible cooperation models tailored to your preferences.",
+      text: t("home.partnerWithUs.items.flexibleCooperation"),
       image: "/images/home/partner-with-us/image2.svg",
     },
     {
-      text: "Strong, long-term partnerships for consistent success.",
+      text: t("home.partnerWithUs.items.strongLongTermPartnerships"),
       image: "/images/home/partner-with-us/image3.svg",
     },
   ];
@@ -36,7 +38,7 @@ export const PartnerWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Tag color="grey">What We Offer</Tag>
+            <Tag color="grey">{t("home.partnerWithUs.tag")}</Tag>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -44,7 +46,7 @@ export const PartnerWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>Partner With Us – Unlock Your Potential</SectionTitle>
+            <SectionTitle>{t("home.partnerWithUs.title")}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -53,8 +55,7 @@ export const PartnerWithUs = () => {
             variants={fadeInUp}
           >
             <SectionSubtitle>
-              Monetize your site traffic with exclusive, high-demand campaigns
-              from our trusted advertiser partners.
+              {t("home.partnerWithUs.subtitle")}
             </SectionSubtitle>
           </motion.div>
           <motion.div
@@ -64,7 +65,7 @@ export const PartnerWithUs = () => {
             variants={fadeInUp}
           >
             <Button url="/partner-with-us" type="link" color="black">
-              Become Our Partner
+              {t("home.partnerWithUs.button")}
             </Button>
           </motion.div>
         </div>

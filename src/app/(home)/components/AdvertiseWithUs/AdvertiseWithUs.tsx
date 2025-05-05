@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -10,18 +11,20 @@ import { Tag } from "@/shared/ui/kit/tag/Tag";
 
 import styles from "./AdvertiseWithUs.module.scss";
 
+
 export const AdvertiseWithUs = () => {
+  const { t } = useTranslate();
   const items = [
     {
-      text: "A broad network of publishers across diverse sectors.",
+      text: t("home.advertiseWithUs.items.broadNetwork"),
       image: "/images/home/what-we-offer/image1.svg",
     },
     {
-      text: "Quick ad placements to get your campaigns launched swiftly.",
+      text: t("home.advertiseWithUs.items.quickAdPlacements"),
       image: "/images/home/what-we-offer/image2.svg",
     },
     {
-      text: "Customized strategies designed to fit your unique business needs.",
+      text: t("home.advertiseWithUs.items.customizedStrategies"),
       image: "/images/home/what-we-offer/image3.svg",
     },
   ];
@@ -36,7 +39,7 @@ export const AdvertiseWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Tag color="white">What We Offer</Tag>
+            <Tag color="white">{t("home.advertiseWithUs.tag")}</Tag>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -44,7 +47,7 @@ export const AdvertiseWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>Advertise With Us – Amplify Your Reach</SectionTitle>
+            <SectionTitle>{t("home.advertiseWithUs.title")}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -53,8 +56,7 @@ export const AdvertiseWithUs = () => {
             variants={fadeInUp}
           >
             <SectionSubtitle>
-              Connect with your ideal audience effortlessly through our trusted
-              network of experienced publishers.
+              {t("home.advertiseWithUs.subtitle")}
             </SectionSubtitle>
           </motion.div>
           <motion.div
@@ -64,7 +66,7 @@ export const AdvertiseWithUs = () => {
             variants={fadeInUp}
           >
             <Button url="/advertise-with-us" type="link" color="green-white">
-              Start Advertising Today
+              {t("home.advertiseWithUs.button")}
             </Button>
           </motion.div>
         </div>

@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from '@tolgee/react';
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -10,25 +11,26 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 import styles from "./AffiliateSolutions.module.scss";
 
 export const AffiliateSolutions = () => {
+  const { t } = useTranslate();
   const solutions = [
     {
-      title: "Enhance Visibility",
-      description: "Be seen by the right audience at the right time.",
+      title: t("home.affiliateSolutions.solutions.enhanceVisibility.title"),
+      description: t("home.affiliateSolutions.solutions.enhanceVisibility.description"),
       icon: "/images/home/affiliate-solutions/icon1.svg",
     },
     {
-      title: "Maximize ROI",
-      description: "Achieve higher returns with optimized ad spend.",
+      title: t("home.affiliateSolutions.solutions.maximizeROI.title"),
+      description: t("home.affiliateSolutions.solutions.maximizeROI.description"),
       icon: "/images/home/affiliate-solutions/icon2.svg",
     },
     {
-      title: "Drive Quality Conversions",
-      description: "Convert traffic into loyal customers with ease.",
+      title: t("home.affiliateSolutions.solutions.driveQualityConversions.title"),
+      description: t("home.affiliateSolutions.solutions.driveQualityConversions.description"),
       icon: "/images/home/affiliate-solutions/icon3.svg",
     },
     {
-      title: "Sustainable Long-Term Growth",
-      description: "Build scalable strategies that evolve with your business.",
+      title: t("home.affiliateSolutions.solutions.sustainableGrowth.title"),
+      description: t("home.affiliateSolutions.solutions.sustainableGrowth.description"),
       icon: "/images/home/affiliate-solutions/icon4.svg",
     },
   ];
@@ -44,7 +46,7 @@ export const AffiliateSolutions = () => {
             variants={fadeInUp}
           >
             <SectionTitle>
-              Supercharge Your Business with Tailored Affiliate Solutions
+              {t("home.affiliateSolutions.title")}
             </SectionTitle>
           </motion.div>
           <motion.div
@@ -54,11 +56,7 @@ export const AffiliateSolutions = () => {
             variants={fadeInUp}
           >
             <SectionSubtitle>
-              Is your affiliate marketing strategy not delivering the expected
-              results? The Clicksly offers customized solutions to boost your
-              online presence, optimize your marketing investments, and drive
-              more conversions. Our team creates measurable strategies that
-              deliver sustained results focused on your business goals.
+              {t("home.affiliateSolutions.subtitle")}
             </SectionSubtitle>
           </motion.div>
           <motion.div
@@ -68,7 +66,7 @@ export const AffiliateSolutions = () => {
             variants={fadeInUp}
           >
             <Button url="/registration-form" type="link" color="black">
-              Let’s Take Your Business to New Heights
+              {t("home.affiliateSolutions.button")}
             </Button>
           </motion.div>
         </div>

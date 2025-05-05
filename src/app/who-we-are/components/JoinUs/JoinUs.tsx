@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -8,7 +9,10 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 
 import styles from "./JoinUs.module.scss";
 
+
 export const JoinUs = () => {
+  const { t } = useTranslate();
+
   return (
     <section className={styles.joinUs}>
       <div className="_container">
@@ -19,20 +23,17 @@ export const JoinUs = () => {
           variants={fadeInUp}
           className={styles.titleBlock}
         >
-          <SectionTitle>Join Us</SectionTitle>
+          <SectionTitle>{t("whoWeAre.joinUs.title")}</SectionTitle>
           <SectionSubtitle>
-            Are you ready to take your affiliate marketing strategy to the next
-            level? Whether you’re an advertiser looking to expand your reach or
-            a publisher ready to monetize your traffic, The Clicksly is here to
-            help you grow.
+            {t("whoWeAre.joinUs.text1")}
           </SectionSubtitle>
           <SectionSubtitle>
-            Let’s collaborate and achieve your business goals together.
+            {t("whoWeAre.joinUs.text2")}
             <br />
-            Contact us today to get started!
+            {t("whoWeAre.joinUs.text3")}
           </SectionSubtitle>
           <Button type="link" color="black" url="/registration-form">
-            Contact Us Now
+            {t("whoWeAre.joinUs.button")}
           </Button>
         </motion.div>
       </div>

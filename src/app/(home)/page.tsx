@@ -7,7 +7,9 @@ import { PartnerWithUs } from "./components/PartnerWithUs/PartnerWithUs";
 import { PersonalizedSolutions } from "./components/PersonalizedSolutions/PersonalizedSolutions";
 import { WhyChooseUs } from "./components/WhyChooseUs/WhyChooseUs";
 
+
 export default function Home() {
+
   return (
     <>
       <HomeHero />

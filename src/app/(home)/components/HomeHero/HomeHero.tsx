@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -7,8 +8,8 @@ import Button from "@/shared/ui/kit/button/Button";
 
 import styles from "./HomeHero.module.scss";
 
-
 export const HomeHero = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.homeHero}>
       <div className="_container">
@@ -20,7 +21,7 @@ export const HomeHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              The Clicksly – Unlocking the Potential of Your Affiliate Strategy
+              {t("home.homeHero.title")}
             </motion.h1>
           </div>
           <motion.div
@@ -30,11 +31,9 @@ export const HomeHero = () => {
             variants={fadeInUp}
             className={styles.homeHeroTopRight}
           >
-            <h2>
-              Start Your Path to Success Today – Get Your Free Consultation
-            </h2>
+            <h2>{t("home.homeHero.subtitle")}</h2>
             <Button url="/registration-form" type="link" color="green">
-              Join Now
+              {t("home.homeHero.joinNow")}
             </Button>
           </motion.div>
         </div>
@@ -53,7 +52,7 @@ export const HomeHero = () => {
                 width={48}
                 height={48}
               />
-              <p>Smart Campaigns</p>
+              <p>{t("home.homeHero.features.smartCampaigns")}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -68,7 +67,7 @@ export const HomeHero = () => {
                 width={48}
                 height={48}
               />
-              <p>Efficient Ad Placements</p>
+              <p>{t("home.homeHero.features.efficientAdPlacements")}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -83,7 +82,7 @@ export const HomeHero = () => {
                 width={48}
                 height={48}
               />
-              <p>Sustainable Growth</p>
+              <p>{t("home.homeHero.features.sustainableGrowth")}</p>
             </motion.div>
           </div>
           <motion.div
@@ -93,17 +92,8 @@ export const HomeHero = () => {
             variants={fadeInUp}
             className={styles.homeHeroBottomRight}
           >
-            <h3>
-              Maximizing Your Affiliate Reach and Impact with The Clicksly
-            </h3>
-            <p>
-              At The Clicksly, we specialize in creating bespoke affiliate
-              marketing solutions designed to enhance your brand visibility,
-              improve conversions, and build lasting relationships with your
-              target audience. Whether you are a new advertiser or an
-              experienced publisher, we provide the tools and expertise needed
-              to propel your business forward.
-            </p>
+            <h3>{t("home.homeHero.subTitle2")}</h3>
+            <p>{t("home.homeHero.description")}</p>
           </motion.div>
         </div>
       </div>

@@ -1,7 +1,14 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslate } from "@tolgee/react";
 
-import { WEBSITE_EMAIL } from "@/shared/lib/constants/constants";
+import {
+  WEBSITE_EMAIL,
+  WEBSITE_OFFICE_ADDRESS,
+  WEBSITE_PHONE,
+  WEBSITE_REGISTRATION_ADDRESS,
+} from "@/shared/lib/constants/constants";
 
 import { Facebook } from "../../icons/socials/facebook/facebook";
 import { Instagram } from "../../icons/socials/instagram/instagram";
@@ -9,6 +16,7 @@ import { X } from "../../icons/socials/x/x";
 import styles from "./Footer.module.scss";
 
 export const Footer = () => {
+  const { t } = useTranslate();
   return (
     <footer className={styles.footer}>
       <div className={"_container"}>
@@ -19,25 +27,41 @@ export const Footer = () => {
             </Link>
             <div className={styles.footerNavigations}>
               <nav>
-                <h3>Company</h3>
-                <Link href="/who-we-are">Who We Are</Link>
-                <Link href="/targeted-sectors">Targeted Sectors</Link>
-                <Link href="/get-in-touch">Get in Touch</Link>
-              </nav>
-              <nav>
-                <h3>Partnership</h3>
-                <Link href="/advertise-with-us">Advertise With Us</Link>
-                <Link href="/partner-with-us">Partner With Us</Link>
-                <Link href="/help-and-support">Help & Support</Link>
-              </nav>
-              <nav>
-                <h3>Legal</h3>
-                <Link href="/legal/terms-and-conditions">
-                  Terms and Conditions
+                <h3>{t("footer.company.title")}</h3>
+                <Link href="/who-we-are">{t("footer.company.whoWeAre")}</Link>
+                <Link href="/targeted-sectors">
+                  {t("footer.company.targetedSectors")}
                 </Link>
-                <Link href="/legal/privacy-policy">Privacy Policy</Link>
-                <Link href="/legal/cookie-policy">Cookie Policy</Link>
-                <Link href="/legal/refund-policy">Refund Policy</Link>
+                <Link href="/get-in-touch">
+                  {t("footer.company.getInTouch")}
+                </Link>
+              </nav>
+              <nav>
+                <h3>{t("footer.partnership.title")}</h3>
+                <Link href="/advertise-with-us">
+                  {t("footer.partnership.advertiseWithUs")}
+                </Link>
+                <Link href="/partner-with-us">
+                  {t("footer.partnership.partnerWithUs")}
+                </Link>
+                <Link href="/help-and-support">
+                  {t("footer.partnership.helpAndSupport")}
+                </Link>
+              </nav>
+              <nav>
+                <h3>{t("footer.legal.title")}</h3>
+                <Link href="/legal/terms-and-conditions">
+                  {t("footer.legal.termsAndConditions")}
+                </Link>
+                <Link href="/legal/privacy-policy">
+                  {t("footer.legal.privacyPolicy")}
+                </Link>
+                <Link href="/legal/cookie-policy">
+                  {t("footer.legal.cookiePolicy")}
+                </Link>
+                <Link href="/legal/refund-policy">
+                  {t("footer.legal.refundPolicy")}
+                </Link>
               </nav>
             </div>
           </div>
@@ -50,23 +74,19 @@ export const Footer = () => {
           />
           <div className={styles.footerTopRight}>
             <div className={styles.office}>
-              <h3>Office Addresses</h3>
-              <p>
-                [Street Address][City, State/Province, ZIP/Postal Code][Country]
-              </p>
+              <h3>{t("footer.addresses.office.title")}</h3>
+              <p>{WEBSITE_OFFICE_ADDRESS}</p>
             </div>
             <div className={styles.registered}>
-              <h3>Registered Address</h3>
-              <p>
-                [Street Address][City, State/Province, ZIP/Postal Code][Country]
-              </p>
+              <h3>{t("footer.addresses.registered.title")}</h3>
+              <p>{WEBSITE_REGISTRATION_ADDRESS}</p>
             </div>
             <div className={styles.contact}>
-              <h3>Contact Information</h3>
-              <h4>Email:</h4>
+              <h3>{t("footer.addresses.contact.title")}</h3>
+              <h4>{t("footer.addresses.contact.email")}</h4>
               <Link href={`mailto:${WEBSITE_EMAIL}`}>{WEBSITE_EMAIL}</Link>
-              <h4>Phone:</h4>
-              <Link href="tel:+0000000000">+000 000 00 00</Link>
+              <h4>{t("footer.addresses.contact.phone")}</h4>
+              <Link href={`tel:${WEBSITE_PHONE}`}>{WEBSITE_PHONE}</Link>
             </div>
           </div>
         </div>
@@ -92,14 +112,20 @@ export const Footer = () => {
             </Link>
           </div>
           <div className={styles.footerBottomRight}>
-            <p>© {new Date().getFullYear()} SL Freight Management S.R.O</p>
-            <p>All Rights Reserved.</p>
+            <p>{t("footer.copyright", { year: new Date().getFullYear() })}</p>
+            <p>{t("footer.rightsReserved")}</p>
           </div>
           <nav className={styles.legalMobile}>
-            <Link href="#">Terms and Conditions</Link>
-            <Link href="#">Privacy Policy</Link>
-            <Link href="#">Cookie Policy</Link>
-            <Link href="#">Refund Policy</Link>
+            <Link href="/legal/terms-and-conditions">
+              {t("footer.legal.termsAndConditions")}
+            </Link>
+            <Link href="/legal/privacy-policy">
+              {t("footer.legal.privacyPolicy")}
+            </Link>
+            <Link href="/legal/cookie-policy">
+              {t("footer.legal.cookiePolicy")}
+            </Link>
+            <Link href="/legal/refund-policy">Refund Policy</Link>
           </nav>
         </div>
       </div>
