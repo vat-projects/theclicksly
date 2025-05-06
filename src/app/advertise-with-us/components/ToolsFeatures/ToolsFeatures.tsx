@@ -1,42 +1,45 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
 
 import styles from "./ToolsFeatures.module.scss";
 
+
 export const ToolsFeatures = () => {
+  const { t } = useTranslate();
   const experience = [
     {
       icon: "/images/advertise/tools-features/icon1.svg",
-      title: "Real-Time Campaign Monitoring",
+      title: t("advertiseWithUs.toolsFeatures.items.item1.title"),
       description:
-        "Keep track of your campaign performance in real time, allowing you to make quick adjustments and maximize effectiveness.",
+        t("advertiseWithUs.toolsFeatures.items.item1.description"),
     },
     {
       icon: "/images/advertise/tools-features/icon2.svg",
-      title: "Performance Source Analysis",
+      title: t("advertiseWithUs.toolsFeatures.items.item2.title"),
       description:
-        "Understand which traffic sources drive the best results and optimize your campaigns for maximum reach.",
+        t("advertiseWithUs.toolsFeatures.items.item2.description"),
     },
     {
       icon: "/images/advertise/tools-features/icon3.svg",
-      title: "Detailed Conversion Insights",
+      title: t("advertiseWithUs.toolsFeatures.items.item3.title"),
       description:
-        "Gain in-depth analysis of your conversions to improve your campaigns’ performance continually.",
+        t("advertiseWithUs.toolsFeatures.items.item3.description"),
     },
     {
       icon: "/images/advertise/tools-features/icon4.svg",
-      title: "Fraud Prevention & Alerts",
+      title: t("advertiseWithUs.toolsFeatures.items.item4.title"),
       description:
-        "Protect your investment with advanced fraud detection tools that notify you of suspicious activity.",
+        t("advertiseWithUs.toolsFeatures.items.item4.description"),
     },
     {
       icon: "/images/advertise/tools-features/icon5.svg",
-      title: "Geo-Targeting & Device Optimization",
+      title: t("advertiseWithUs.toolsFeatures.items.item5.title"),
       description:
-        "Reach your ideal audience at the right time and place by targeting specific geographic regions and devices to optimize ROI.",
+        t("advertiseWithUs.toolsFeatures.items.item5.description"),
     },
   ];
 
@@ -49,7 +52,7 @@ export const ToolsFeatures = () => {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          Our Tools & Features
+          {t("advertiseWithUs.toolsFeatures.title")}
         </motion.h2>
         <div className={styles.toolsFeaturesList}>
           {experience.map((item, index) => (

@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -8,7 +9,9 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 
 import styles from "./LetsDiscuss.module.scss";
 
+
 export const LetsDiscuss = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.letsDiscuss}>
       <div className="_container">
@@ -19,12 +22,12 @@ export const LetsDiscuss = () => {
           variants={fadeInUp}
           className={styles.titleBlock}
         >
-          <SectionTitle>Let’s Discuss Your Project</SectionTitle>
+          <SectionTitle>{t("advertiseWithUs.needAssistance.title")}</SectionTitle>
           <SectionSubtitle>
-            Ready to supercharge your affiliate campaigns?
+            {t("advertiseWithUs.needAssistance.text")}
           </SectionSubtitle>
           <Button type="link" color="black" url="/registration-form">
-            Sign Up Now
+            {t("advertiseWithUs.needAssistance.button")}
           </Button>
         </motion.div>
       </div>

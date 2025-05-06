@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -6,36 +7,38 @@ import { fadeInUp } from "@/shared/lib/helpers/animations";
 import styles from "./Experience.module.scss";
 
 export const Experience = () => {
+  const { t } = useTranslate();
+
   const experience = [
     {
-      title: "Comprehensive <br/>Technical Support",
+      title: t("advertiseWithUs.experience.items.item1.title"),
       description:
-        "Access everything you need to ensure your campaigns run smoothly, with dedicated support and integration tools to enhance your affiliate marketing success.",
+        t("advertiseWithUs.experience.items.item1.description"),
     },
     {
-      title: "Robust <br/>Fraud Protection",
+      title: t("advertiseWithUs.experience.items.item2.title"),
       description:
-        "Our state-of-the-art fraud detection system protects your campaigns from invalid traffic, giving you peace of mind.",
+        t("advertiseWithUs.experience.items.item2.description"),
     },
     {
-      title: "Consistent Lead <br/>Generation",
+      title: t("advertiseWithUs.experience.items.item3.title"),
       description:
-        "Reach your target audience and meet your growth objectives with a consistent flow of qualified, high-quality leads tailored to your business.",
+        t("advertiseWithUs.experience.items.item3.description"),
     },
     {
-      title: "Tailored <br/>Creative Solutions",
+      title: t("advertiseWithUs.experience.items.item4.title"),
       description:
-        "We design custom promotional assets that reflect your brand’s identity and messaging, ensuring maximum impact and audience engagement.",
+        t("advertiseWithUs.experience.items.item4.description"),
     },
     {
-      title: "Ongoing <br/>Traffic Validation",
+      title: t("advertiseWithUs.experience.items.item5.title"),
       description:
-        "We rigorously monitor every click to ensure you receive only authentic, high-value traffic that converts.",
+        t("advertiseWithUs.experience.items.item5.description"),
     },
     {
-      title: "Flexible Campaign <br/>Frameworks",
+      title: t("advertiseWithUs.experience.items.item6.title"),
       description:
-        "Whether you’re looking to scale quickly or operate within a set budget, our adaptable campaign models are designed to suit your specific needs.",
+        t("advertiseWithUs.experience.items.item6.description"),
     },
   ];
   return (
@@ -47,7 +50,7 @@ export const Experience = () => {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          What You’ll Experience
+          {t("advertiseWithUs.experience.title")}
         </motion.h2>
         <div className={styles.experienceList}>
           {experience.map((item, index) => (

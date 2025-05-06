@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -8,6 +9,7 @@ import Button from "@/shared/ui/kit/button/Button";
 import styles from "./SectorsHero.module.scss";
 
 export const SectorsHero = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.sectorsHero}>
       <div className="_container">
@@ -19,7 +21,7 @@ export const SectorsHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              Targeted Sectors
+              {t("targetedSectors.hero.title")}
             </motion.h1>
           </div>
         </div>
@@ -38,7 +40,7 @@ export const SectorsHero = () => {
                 width={48}
                 height={48}
               />
-              <p>Finance</p>
+              <p>{t("targetedSectors.hero.item1")}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -53,7 +55,7 @@ export const SectorsHero = () => {
                 width={48}
                 height={48}
               />
-              <p>Travel</p>
+              <p>{t("targetedSectors.hero.item2")}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -68,7 +70,7 @@ export const SectorsHero = () => {
                 width={48}
                 height={48}
               />
-              <p>Education</p>
+              <p>{t("targetedSectors.hero.item3")}</p>
             </motion.div>
           </div>
           <motion.div
@@ -78,16 +80,11 @@ export const SectorsHero = () => {
             variants={fadeInUp}
             className={styles.sectorsHeroBottomRight}
           >
-            <h3>Driving Success Across Multiple Industries</h3>
+            <h3>{t("targetedSectors.hero.subtitle")}</h3>
             <Button url="/registration-form" type="link" color="green">
-              Reach Out to Us Today
+              {t("targetedSectors.hero.button")}
             </Button>
-            <p>
-              At The Clicksly, we specialize in creating custom affiliate
-              marketing campaigns for various industries. No matter your sector,
-              we have the expertise and tools to help you connect with your
-              audience and achieve measurable success.
-            </p>
+            <p>{t("targetedSectors.hero.text")}</p>
           </motion.div>
         </div>
       </div>

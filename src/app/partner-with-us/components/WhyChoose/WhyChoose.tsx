@@ -1,41 +1,44 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
 
 import styles from "./WhyChoose.module.scss";
 
+
 export const WhyChoose = () => {
+  const { t } = useTranslate();
   const experience = [
     {
-      title: "Tailored Campaigns for Every Traffic Source",
+      title: t("partnerWithUs.whyChoose.items.item1.title"),
       description:
-        "Select from a diverse range of campaigns designed to match the specific audience and traffic types you work with, ensuring that your efforts pay off.",
+        t("partnerWithUs.whyChoose.items.item1.description"),
     },
     {
-      title: "Ready-to-Use Marketing Assets",
+      title: t("partnerWithUs.whyChoose.items.item2.title"),
       description:
-        "Access a suite of promotional tools, including banners, landing pages, and creatives, to help you get your campaigns up and running fast.",
+        t("partnerWithUs.whyChoose.items.item2.description"),
     },
     {
-      title: "Flexible Partnership Models",
+      title: t("partnerWithUs.whyChoose.items.item3.title"),
       description:
-        "Choose from various compensation models — CPA, CPL, RevShare, or hybrid options — designed to align with your business objectives.",
+        t("partnerWithUs.whyChoose.items.item3.description"),
     },
     {
-      title: "Reliable Tracking & Data Insights",
+      title: t("partnerWithUs.whyChoose.items.item4.title"),
       description:
-        "Our intuitive system provides detailed, actionable insights to help you fine-tune your campaigns and maximize your revenue.",
+        t("partnerWithUs.whyChoose.items.item4.description"),
     },
     {
-      title: "Dedicated Partner Support",
+      title: t("partnerWithUs.whyChoose.items.item5.title"),
       description:
-        "Our team is always here to support you, offering expert advice and assistance to help you optimize your campaigns and increase earnings.",
+        t("partnerWithUs.whyChoose.items.item5.description"),
     },
     {
-      title: "Proven Performance & High Conversions",
+      title: t("partnerWithUs.whyChoose.items.item6.title"),
       description:
-        "Join a network that consistently delivers high-converting campaigns with a track record of measurable success that ensures a solid return on your efforts.",
+        t("partnerWithUs.whyChoose.items.item6.description"),
     },
   ];
   return (
@@ -47,7 +50,7 @@ export const WhyChoose = () => {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          What You’ll Experience
+          {t("partnerWithUs.whyChoose.title")}
         </motion.h2>
         <div className={styles.whyChooseList}>
           {experience.map((item, index) => (

@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -6,6 +7,7 @@ import { fadeInUp } from "@/shared/lib/helpers/animations";
 import styles from "./HelpHero.module.scss";
 
 export const HelpHero = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.helpHero}>
       <div className="_container">
@@ -16,7 +18,7 @@ export const HelpHero = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            Help & Support
+            {t("helpAndSupport.hero.title")}
           </motion.h1>
           <motion.h2
             initial="hidden"
@@ -24,7 +26,7 @@ export const HelpHero = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            We’re Here to Assist You – Providing the Guidance You Need
+            {t("helpAndSupport.hero.subtitle")}
           </motion.h2>
           <motion.p
             initial="hidden"
@@ -32,11 +34,7 @@ export const HelpHero = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            At The Clicksly, we prioritize your success. Whether you’re an
-            advertiser looking to optimize your campaigns or a publisher aiming
-            to maximize revenue, our dedicated support team is here to help you.
-            Explore answers to frequently asked questions below, or reach out
-            for personalized assistance.
+            {t("helpAndSupport.hero.text")}
           </motion.p>
         </div>
       </div>

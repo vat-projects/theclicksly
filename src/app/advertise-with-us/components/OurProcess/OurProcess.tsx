@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -8,20 +9,21 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 import styles from "./OurProcess.module.scss";
 
 export const OurProcess = () => {
+  const { t } = useTranslate();
   const items = [
     {
-      title: "In-Depth Research",
-      text: "We thoroughly analyze your market and audience, ensuring our strategy is based on accurate data.",
+      title: t("advertiseWithUs.ourProcess.items.item1.title"),
+      text: t("advertiseWithUs.ourProcess.items.item1.text"),
       image: "/images/advertise/process/image1.png",
     },
     {
-      title: "Tailored Development",
-      text: "From messaging to design, we build everything to maximize engagement and conversions, always focusing on your brand’s objectives.",
+      title: t("advertiseWithUs.ourProcess.items.item2.title"),
+      text: t("advertiseWithUs.ourProcess.items.item2.text"),
       image: "/images/advertise/process/image2.png",
     },
     {
-      title: "Extensive Testing & Launch",
-      text: "Before going live, we rigorously test each element to ensure flawless performance and that your campaign hits the ground running.",
+      title: t("advertiseWithUs.ourProcess.items.item3.title"),
+      text: t("advertiseWithUs.ourProcess.items.item3.text"),
       image: "/images/advertise/process/image3.png",
     },
   ];
@@ -36,7 +38,7 @@ export const OurProcess = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>Our Process</SectionTitle>
+            <SectionTitle>{t("advertiseWithUs.ourProcess.title")}</SectionTitle>
           </motion.div>
         </div>
         <div className={styles.cardsBlock}>

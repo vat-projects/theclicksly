@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -6,6 +7,7 @@ import { fadeInUp } from "@/shared/lib/helpers/animations";
 import styles from "./ClientTestimonials.module.scss";
 
 export const ClientTestimonials = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.clientTestimonials}>
       <div className="_container">
@@ -16,7 +18,7 @@ export const ClientTestimonials = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            Client Testimonials
+            {t("targetedSectors.clientTestimonials.title")}
           </motion.h2>
           <motion.div
             initial="hidden"
@@ -25,13 +27,12 @@ export const ClientTestimonials = () => {
             variants={fadeInUp}
             className={styles.testimonialsItem}
           >
-            <h3>Finance:</h3>
+            <h3>{t("targetedSectors.clientTestimonials.items.item1.title")}</h3>
             <p>
-              “The Clicksly helped us elevate our affiliate marketing campaigns,
-              bringing in high-quality leads that have become long-term
-              customers. Their expertise in the finance industry has made all
-              the difference!”
-              <b>— FinancePro Group</b>
+              {t("targetedSectors.clientTestimonials.items.item1.text")}
+              <b>
+                {t("targetedSectors.clientTestimonials.items.item1.author")}
+              </b>
             </p>
           </motion.div>
           <motion.div
@@ -41,13 +42,12 @@ export const ClientTestimonials = () => {
             variants={fadeInUp}
             className={styles.testimonialsItem}
           >
-            <h3>Health & Wellness:</h3>
+            <h3>{t("targetedSectors.clientTestimonials.items.item2.title")}</h3>
             <p>
-              “The team at The Clicksly has been instrumental in growing our
-              online presence. Their targeted campaigns brought us new
-              customers, and the results have been exceptional. We’ve seen a
-              major increase in both traffic and sales!”
-              <b>— PureHealth</b>
+              {t("targetedSectors.clientTestimonials.items.item2.text")}
+              <b>
+                {t("targetedSectors.clientTestimonials.items.item2.author")}
+              </b>
             </p>
           </motion.div>
           <motion.div
@@ -57,13 +57,12 @@ export const ClientTestimonials = () => {
             variants={fadeInUp}
             className={styles.testimonialsItem}
           >
-            <h3>Technology:</h3>
+            <h3>{t("targetedSectors.clientTestimonials.items.item3.title")}</h3>
             <p>
-              Thanks to The Clicksly’s team, our SaaS product is reaching a much
-              wider audience. Their performance marketing and data analysis
-              expertise has allowed us to drive highly qualified leads and
-              achieve measurable results.”
-              <b>— TechForward Solutions</b>
+              {t("targetedSectors.clientTestimonials.items.item3.text")}
+              <b>
+                {t("targetedSectors.clientTestimonials.items.item3.author")}
+              </b>
             </p>
           </motion.div>
         </div>

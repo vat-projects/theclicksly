@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -6,6 +7,7 @@ import { fadeInUp } from "@/shared/lib/helpers/animations";
 import styles from "./WhyChooseUs.module.scss";
 
 export const WhyChooseUs = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.whyChooseUs}>
       <div className="_container">
@@ -15,7 +17,7 @@ export const WhyChooseUs = () => {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          Why Choose Us for Your Business Sector?
+          {t("targetedSectors.whyChooseUs.title")}
         </motion.h2>
         <div className={styles.whyChooseUsRow}>
           <div className={styles.col}>
@@ -27,15 +29,13 @@ export const WhyChooseUs = () => {
               className={styles.item}
             >
               <div>
-                <h3>Tailored Strategies for Every Sector</h3>
+                <h3>{t("targetedSectors.whyChooseUs.items.item1.title")}</h3>
                 <span className={styles.number}>
                   <span>01</span>
                 </span>
               </div>
               <p>
-                Whether you’re in finance, health, tech, or any other industry,
-                we provide strategies designed specifically for your market and
-                audience needs.
+                {t("targetedSectors.whyChooseUs.items.item1.text")}
               </p>
             </motion.div>
             <motion.div
@@ -46,16 +46,13 @@ export const WhyChooseUs = () => {
               className={styles.item}
             >
               <div>
-                <h3>Proven Track Record of Success</h3>
+                <h3>{t("targetedSectors.whyChooseUs.items.item2.title")}</h3>
                 <span className={styles.number}>
                   <span>02</span>
                 </span>
               </div>
               <p>
-                With years of experience across various industries, we have a
-                proven history of delivering results. We know what works and
-                what doesn’t for each sector and apply that knowledge to every
-                campaign.
+                {t("targetedSectors.whyChooseUs.items.item2.text")}
               </p>
             </motion.div>
           </div>
@@ -73,15 +70,13 @@ export const WhyChooseUs = () => {
               className={styles.item}
             >
               <div>
-                <h3>Innovative, Data-Driven Campaigns</h3>
+                <h3>{t("targetedSectors.whyChooseUs.items.item3.title")}</h3>
                 <span className={styles.number}>
                   <span>03</span>
                 </span>
               </div>
               <p>
-                Data powers our campaigns. We continuously analyze performance
-                to optimize and refine strategies, ensuring you get the best
-                possible results.
+                {t("targetedSectors.whyChooseUs.items.item3.text")}
               </p>
             </motion.div>
             <motion.div
@@ -92,16 +87,13 @@ export const WhyChooseUs = () => {
               className={styles.item}
             >
               <div>
-                <h3>Compliance and Quality Assurance</h3>
+                <h3>{t("targetedSectors.whyChooseUs.items.item4.title")}</h3>
                 <span className={styles.number}>
                   <span>04</span>
                 </span>
               </div>
               <p>
-                We understand the importance of industry compliance, especially
-                in highly regulated sectors like finance and health. Our
-                campaigns are designed to ensure that your business operates
-                within industry standards while still achieving strong results.
+                {t("targetedSectors.whyChooseUs.items.item4.text")}
               </p>
             </motion.div>
           </div>

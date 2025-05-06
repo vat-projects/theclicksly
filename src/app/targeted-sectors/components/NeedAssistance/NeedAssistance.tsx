@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -9,6 +10,7 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 import styles from "./NeedAssistance.module.scss";
 
 export const NeedAssistance = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.needAssistance}>
       <div className="_container">
@@ -19,18 +21,12 @@ export const NeedAssistance = () => {
           variants={fadeInUp}
           className={styles.titleBlock}
         >
-          <SectionTitle>
-            Ready to Take Your Affiliate Marketing to the Next Level?
-          </SectionTitle>
+          <SectionTitle>{t("targetedSectors.needAssistance.title")}</SectionTitle>
           <SectionSubtitle>
-            Join our network of successful partners and start driving
-            high-quality traffic with campaigns designed to deliver results.
-            Whether you’re looking to boost conversions, enhance brand
-            visibility, or generate sustainable growth, The Clicksly is your
-            trusted partner for success.
+            {t("targetedSectors.needAssistance.text")}
           </SectionSubtitle>
           <Button type="link" color="black" url="/registration-form">
-            Join Now
+            {t("targetedSectors.needAssistance.button")}
           </Button>
         </motion.div>
       </div>

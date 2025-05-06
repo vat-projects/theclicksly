@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -7,37 +8,40 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 
 import styles from "./OurPublisher.module.scss";
 
+
 export const OurPublisher = () => {
+  const { t } = useTranslate();
+
   const requirements = [
     {
       id: 1,
-      title: "Tier 1 Traffic",
+      title: t("partnerWithUs.ourPublisher.items.item1.title"),
       description:
-        "At least 80% of your traffic must come from high-quality, Tier 1 sources to ensure premium engagement and performance.",
+        t("partnerWithUs.ourPublisher.items.item1.description"),
     },
     {
       id: 2,
-      title: "Bounce Rate",
+      title: t("partnerWithUs.ourPublisher.items.item2.title"),
       description:
-        "A bounce rate below 50% ensures visitors engage with your content, leading to better retention and conversions.",
+        t("partnerWithUs.ourPublisher.items.item2.description"),
     },
     {
       id: 3,
-      title: "Unique Monthly Visits",
+      title: t("partnerWithUs.ourPublisher.items.item3.title"),
       description:
-        "You must have at least 10,000 unique visits per month to ensure consistent, valuable traffic.",
+        t("partnerWithUs.ourPublisher.items.item3.description"),
     },
     {
       id: 4,
-      title: "Click-Through Rate <br/>(CTR)",
+      title: t("partnerWithUs.ourPublisher.items.item4.title"),
       description:
-        "A minimum CTR of 1.5% is required to demonstrate effective engagement and ad performance.",
+        t("partnerWithUs.ourPublisher.items.item4.description"),
     },
     {
       id: 5,
-      title: "Malware-Free <br/>Traffic",
+      title: t("partnerWithUs.ourPublisher.items.item5.title"),
       description:
-        "Only malware-free traffic is accepted to protect the integrity of campaigns and ensure a safe experience.",
+        t("partnerWithUs.ourPublisher.items.item5.description"),
     },
   ];
 
@@ -51,7 +55,7 @@ export const OurPublisher = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>Our Publisher Requirements</SectionTitle>
+            <SectionTitle>{t("partnerWithUs.ourPublisher.title")}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -60,8 +64,7 @@ export const OurPublisher = () => {
             variants={fadeInUp}
           >
             <SectionSubtitle>
-              We accept publishers with traffic from many different sources. To
-              ensure quality and performance, we ask for the following:
+              {t("partnerWithUs.ourPublisher.subtitle")}
             </SectionSubtitle>
           </motion.div>
         </div>

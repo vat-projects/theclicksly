@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -7,6 +8,7 @@ import Button from "@/shared/ui/kit/button/Button";
 import styles from "./AdvertiseHero.module.scss";
 
 export const AdvertiseHero = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.advertiseHero}>
       <div className="_container">
@@ -18,7 +20,7 @@ export const AdvertiseHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              Advertise With Us
+              {t("advertiseWithUs.hero.title")}
             </motion.h1>
             <div>
               <motion.p
@@ -27,10 +29,7 @@ export const AdvertiseHero = () => {
                 viewport={{ once: true }}
                 variants={fadeInUp}
               >
-                We specialize in helping brands amplify their reach through
-                tailored affiliate marketing campaigns. Our platform connects
-                you with a vast network of trusted publishers, driving
-                high-quality traffic and measurable results.
+                {t("advertiseWithUs.hero.text1")}
               </motion.p>
               <motion.p
                 initial="hidden"
@@ -38,11 +37,7 @@ export const AdvertiseHero = () => {
                 viewport={{ once: true }}
                 variants={fadeInUp}
               >
-                Whether you want to increase brand awareness, boost conversions,
-                or optimize your marketing budget, we offer flexible solutions
-                to deliver maximum ROI. Let us help you craft a campaign that
-                resonates with your target audience and drives sustainable
-                growth.
+                {t("advertiseWithUs.hero.text2")}
               </motion.p>
             </div>
           </div>
@@ -53,11 +48,9 @@ export const AdvertiseHero = () => {
             variants={fadeInUp}
             className={styles.advertiseHeroTopRight}
           >
-            <h2>
-              Transform Your Brand with The Clicksly’s High-Impact Campaigns
-            </h2>
+            <h2>{t("advertiseWithUs.hero.subtitle")}</h2>
             <Button url="/registration-form" type="link" color="green">
-              Join Now
+              {t("advertiseWithUs.hero.button")}
             </Button>
           </motion.div>
         </div>

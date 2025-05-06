@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -8,6 +9,7 @@ import { fadeInUp } from "@/shared/lib/helpers/animations";
 import styles from "./SocialMedia.module.scss";
 
 export const SocialMedia = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.socialMedia}>
       <div className="_container">
@@ -17,7 +19,7 @@ export const SocialMedia = () => {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          Follow Us on Social Media
+          {t("getInTouch.socialsMedia.title")}
         </motion.h2>
         <motion.p
           initial="hidden"
@@ -25,8 +27,7 @@ export const SocialMedia = () => {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          Stay connected with us on our social channels for the latest updates,
-          tips, and insights:
+          {t("getInTouch.socialsMedia.text")}
         </motion.p>
         <div className={styles.socialMediaInner}>
           <motion.div
@@ -38,15 +39,14 @@ export const SocialMedia = () => {
           >
             <div className={styles.socialMediaItemTop}>
               <h3>Facebook</h3>
-              <Image
-                src="/images/get-in-touch/facebook.svg"
-                alt="address"
-                width={48}
-                height={48}
-              />
-            </div>
-            <div className={styles.socialMediaItemBottom}>
-              <Link href="#">Facebook link</Link>
+              <Link href="#">
+                <Image
+                  src="/images/get-in-touch/facebook.svg"
+                  alt="address"
+                  width={48}
+                  height={48}
+                />
+              </Link>
             </div>
           </motion.div>
           <motion.div
@@ -58,15 +58,14 @@ export const SocialMedia = () => {
           >
             <div className={styles.socialMediaItemTop}>
               <h3>Instagram</h3>
-              <Image
-                src="/images/get-in-touch/instagram.svg"
-                alt="address"
-                width={48}
-                height={48}
-              />
-            </div>
-            <div className={styles.socialMediaItemBottom}>
-              <Link href="#">Instagram link</Link>
+              <Link href="#">
+                <Image
+                  src="/images/get-in-touch/instagram.svg"
+                  alt="address"
+                  width={48}
+                  height={48}
+                />
+              </Link>
             </div>
           </motion.div>
           <motion.div
@@ -78,15 +77,14 @@ export const SocialMedia = () => {
           >
             <div className={styles.socialMediaItemTop}>
               <h3>Twitter</h3>
-              <Image
-                src="/images/get-in-touch/x.svg"
-                alt="address"
-                width={48}
-                height={48}
-              />
-            </div>
-            <div className={styles.socialMediaItemBottom}>
-              <Link href="#">Twitter link</Link>
+              <Link href="#">
+                <Image
+                  src="/images/get-in-touch/x.svg"
+                  alt="address"
+                  width={48}
+                  height={48}
+                />
+              </Link>
             </div>
           </motion.div>
         </div>

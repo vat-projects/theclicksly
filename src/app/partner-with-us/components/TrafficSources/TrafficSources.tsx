@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -9,46 +10,47 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 import styles from "./TrafficSources.module.scss";
 
 export const TrafficSources = () => {
+  const { t } = useTranslate();
   const experience = [
     {
       icon: "/images/partners/traffic/icon1.svg",
-      title: "Social Media <br/>Platforms",
+      title: t("partnerWithUs.trafficSources.items.item1.title"),
     },
     {
       icon: "/images/partners/traffic/icon2.svg",
-      title: "Push <br/>Notifications",
+      title: t("partnerWithUs.trafficSources.items.item2.title"),
     },
     {
       icon: "/images/partners/traffic/icon3.svg",
-      title: "Native <br/>Ads",
+      title: t("partnerWithUs.trafficSources.items.item3.title"),
     },
     {
       icon: "/images/partners/traffic/icon4.svg",
-      title: "Video, Banners, <br/>Teasers",
+      title: t("partnerWithUs.trafficSources.items.item4.title"),
     },
     {
       icon: "/images/partners/traffic/icon5.svg",
-      title: "Organic Traffic <br/>(SEO)",
+      title: t("partnerWithUs.trafficSources.items.item5.title"),
     },
     {
       icon: "/images/partners/traffic/icon6.svg",
-      title: "Contextual <br/>and Display Ads",
+      title: t("partnerWithUs.trafficSources.items.item6.title"),
     },
     {
       icon: "/images/partners/traffic/icon7.svg",
-      title: "Email <br/>Marketing",
+      title: t("partnerWithUs.trafficSources.items.item7.title"),
     },
     {
       icon: "/images/partners/traffic/icon8.svg",
-      title: "Websites <br/>and Blogs",
+      title: t("partnerWithUs.trafficSources.items.item8.title"),
     },
     {
       icon: "/images/partners/traffic/icon9.svg",
-      title: "PPC <br/>Advertising",
+      title: t("partnerWithUs.trafficSources.items.item9.title"),
     },
     {
       icon: "/images/partners/traffic/icon10.svg",
-      title: "Click and <br/>Popunder Ads",
+      title: t("partnerWithUs.trafficSources.items.item10.title"),
     },
   ];
 
@@ -62,7 +64,9 @@ export const TrafficSources = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>Traffic Sources We Accept</SectionTitle>
+            <SectionTitle>
+              {t("partnerWithUs.trafficSources.title")}
+            </SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -71,8 +75,7 @@ export const TrafficSources = () => {
             variants={fadeInUp}
           >
             <SectionSubtitle>
-              We support a wide variety of traffic sources, making it easy for
-              you to monetize your audience. Here are some of the options:
+              {t("partnerWithUs.trafficSources.subtitle")}
             </SectionSubtitle>
           </motion.div>
         </div>

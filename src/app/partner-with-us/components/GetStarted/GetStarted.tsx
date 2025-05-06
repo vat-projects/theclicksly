@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -8,7 +9,9 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 
 import styles from "./GetStarted.module.scss";
 
+
 export const GetStarted = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.getStarted}>
       <div className="_container">
@@ -19,13 +22,12 @@ export const GetStarted = () => {
           variants={fadeInUp}
           className={styles.titleBlock}
         >
-          <SectionTitle>Get Started with The Clicksly Network</SectionTitle>
+          <SectionTitle>{t("partnerWithUs.getStarted.title")}</SectionTitle>
           <SectionSubtitle>
-            Join our network today and start earning revenue with
-            high-converting affiliate campaigns!
+            {t("partnerWithUs.getStarted.text")}
           </SectionSubtitle>
           <Button type="link" color="black" url="/registration-form">
-            Join Now
+            {t("partnerWithUs.getStarted.button")}
           </Button>
         </motion.div>
       </div>

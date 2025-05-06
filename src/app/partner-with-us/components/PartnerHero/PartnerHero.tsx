@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -7,6 +8,7 @@ import Button from "@/shared/ui/kit/button/Button";
 import styles from "./PartnerHero.module.scss";
 
 export const PartnerHero = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.partnerHero}>
       <div className="_container">
@@ -18,7 +20,7 @@ export const PartnerHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              Partner With Us
+              {t("partnerWithUs.hero.title")}
             </motion.h1>
             <div>
               <motion.p
@@ -27,11 +29,7 @@ export const PartnerHero = () => {
                 viewport={{ once: true }}
                 variants={fadeInUp}
               >
-                By partnering with The Clicksly, you can access a robust network
-                of high-converting campaigns and premium affiliate
-                opportunities. We offer flexible partnership models that cater
-                to your unique needs, whether you want to generate passive
-                income or scale your business.
+                {t("partnerWithUs.hero.text1")}
               </motion.p>
               <motion.p
                 initial="hidden"
@@ -39,10 +37,7 @@ export const PartnerHero = () => {
                 viewport={{ once: true }}
                 variants={fadeInUp}
               >
-                Our dedicated support team and cutting-edge tracking tools
-                ensure you can easily optimize your campaigns and maximize
-                revenue. Join us today and start earning with proven,
-                performance-driven solutions to help you succeed.
+                {t("partnerWithUs.hero.text2")}
               </motion.p>
             </div>
           </div>
@@ -53,11 +48,9 @@ export const PartnerHero = () => {
             variants={fadeInUp}
             className={styles.partnerHeroTopRight}
           >
-            <h2>
-              Unlock New Revenue Streams with The Clicksly’s Affiliate Network
-            </h2>
+            <h2>{t("partnerWithUs.hero.subtitle")}</h2>
             <Button url="/registration-form" type="link" color="green">
-              Join Now
+              {t("partnerWithUs.hero.button")}
             </Button>
           </motion.div>
         </div>

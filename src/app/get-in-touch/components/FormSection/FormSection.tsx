@@ -1,4 +1,5 @@
 "use client";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { ContactForm } from "@/features/contact-form/ui/ContactForm";
@@ -8,6 +9,7 @@ import { fadeInUp } from "@/shared/lib/helpers/animations";
 import styles from "./FormSection.module.scss";
 
 export const FormSection = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.formSection}>
       <div className="_container">
@@ -18,7 +20,7 @@ export const FormSection = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            We’d Love to Hear from You!
+            s{t("getInTouch.formSection.title")}
           </motion.h2>
           <motion.div
             initial="hidden"
@@ -26,19 +28,16 @@ export const FormSection = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <p>
-              Got a question, comment, or request? Please fill out the form
-              below, and one of our team members will get back to you as soon as
-              possible. Whether you need assistance with a campaign, have
-              inquiries about our services, or want to explore partnership
-              opportunities, we’re here to help.
-            </p>
-            <p>
-              We value your time and aim to respond quickly, providing you with
-              the answers and support you need to move forward. Fill in the
-              details, and we’ll ensure your message reaches the right team
-              member for a timely and personalized response.
-            </p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: t("getInTouch.formSection.text1"),
+              }}
+            />
+            <p
+              dangerouslySetInnerHTML={{
+                __html: t("getInTouch.formSection.text2"),
+              }}
+            />
           </motion.div>
         </div>
         <ContactForm />

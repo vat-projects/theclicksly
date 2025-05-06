@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import {
@@ -13,7 +14,9 @@ import { fadeInUp } from "@/shared/lib/helpers/animations";
 
 import styles from "./ContactInformation.module.scss";
 
+
 export const ContactInformation = () => {
+  const { t } = useTranslate();
   return (
     <section className={styles.contactInformation}>
       <div className="_container">
@@ -23,7 +26,7 @@ export const ContactInformation = () => {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          Our Contact Information
+          {t("getInTouch.contactInformation.title")}
         </motion.h2>
         <div className={styles.contactInformationInner}>
           <motion.div
@@ -34,10 +37,7 @@ export const ContactInformation = () => {
             className={styles.address}
           >
             <div className={styles.addressTop}>
-              <h3>
-                Office <br />
-                Addresses
-              </h3>
+              <h3 dangerouslySetInnerHTML={{ __html: t("getInTouch.contactInformation.office") }} />
               <Image
                 src="/images/get-in-touch/location.svg"
                 alt="address"
@@ -65,10 +65,7 @@ export const ContactInformation = () => {
             className={styles.address}
           >
             <div className={styles.addressTop}>
-              <h3>
-                Registered <br />
-                Addresses
-              </h3>
+              <h3 dangerouslySetInnerHTML={{ __html: t("getInTouch.contactInformation.registered") }} />
               <Image
                 src="/images/get-in-touch/location.svg"
                 alt="address"
@@ -97,7 +94,7 @@ export const ContactInformation = () => {
           >
             <div className={styles.item}>
               <div className={styles.contactTop}>
-                <h3>Email</h3>
+                <h3>{t("getInTouch.contactInformation.email")}</h3>
                 <Image
                   src="/images/get-in-touch/email.svg"
                   alt="address"
@@ -111,7 +108,7 @@ export const ContactInformation = () => {
             </div>
             <div className={styles.item}>
               <div className={styles.contactTop}>
-                <h3>Phone Number</h3>
+                <h3>{t("getInTouch.contactInformation.phone")}</h3>
                 <Image
                   src="/images/get-in-touch/phone.svg"
                   alt="address"

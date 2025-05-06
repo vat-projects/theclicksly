@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslate } from "@tolgee/react";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -7,30 +8,32 @@ import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
 
 import styles from "./WhyAdvertice.module.scss";
 
+
 export const WhyAdvertice = () => {
+  const { t } = useTranslate();
   const solutions = [
     {
-      title: "Insight-Driven <br/>Approach",
+      title: t("advertiseWithUs.whyAdvertice.items.item1.title"),
       description:
-        "Every project begins with deep research, ensuring your campaign will be as effective as possible.",
+        t("advertiseWithUs.whyAdvertice.items.item1.description"),
       icon: "/images/advertise/why-advertise/icon1.svg",
     },
     {
-      title: "Comprehensive <br/>Expertise",
+      title: t("advertiseWithUs.whyAdvertice.items.item2.title"),
       description:
-        "From creative design to launch, we handle every step of the process seamlessly.",
+        t("advertiseWithUs.whyAdvertice.items.item2.description"),
       icon: "/images/advertise/why-advertise/icon2.svg",
     },
     {
-      title: "Maximized <br/>Results",
+      title: t("advertiseWithUs.whyAdvertice.items.item3.title"),
       description:
-        "Our development always focuses on delivering the best ROI for your affiliate marketing campaigns.",
+        t("advertiseWithUs.whyAdvertice.items.item3.description"),
       icon: "/images/advertise/why-advertise/icon3.svg",
     },
     {
-      title: "Timely <br/>Delivery",
+      title: t("advertiseWithUs.whyAdvertice.items.item4.title"),
       description:
-        "We pride ourselves on efficient, on-time project completion without compromising quality.",
+        t("advertiseWithUs.whyAdvertice.items.item4.description"),
       icon: "/images/home/affiliate-solutions/icon4.svg",
     },
   ];
@@ -45,7 +48,7 @@ export const WhyAdvertice = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>Why Advertise With Us?</SectionTitle>
+            <SectionTitle>{t("advertiseWithUs.whyAdvertice.title")}</SectionTitle>
           </motion.div>
         </div>
         <div className={styles.solutionsBlock}>

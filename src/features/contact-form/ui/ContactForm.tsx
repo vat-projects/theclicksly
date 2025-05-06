@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import PhoneInput from "react-phone-input-2";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useTranslate } from "@tolgee/react";
 
 import Button from "@/shared/ui/kit/button/Button";
 
@@ -12,14 +13,14 @@ import { ContactFormSchema } from "../model/ContactForm.schema";
 import styles from "./ContactForm.module.scss";
 import { ContactFormSuccess } from "./ContactFormSuccess";
 
-const roleOptions = [
-  { value: "advertiser", label: "Advertiser" },
-  { value: "publisher", label: "Publisher" },
-];
+
+
 
 export const ContactForm = () => {
   const [isSuccess, setIsSuccess] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const { t } = useTranslate();
+
 
   const {
     register,
@@ -40,6 +41,11 @@ export const ContactForm = () => {
     },
   });
 
+  const roleOptions = [
+    { value: "advertiser", label: t("registrationForm.form.role.advertiser") },
+    { value: "publisher", label: t("registrationForm.form.role.publisher") },
+  ];
+
   const onSubmit = (data: ContactFormSchema) => {
     setIsLoading(true);
     submitContactForm(data);
@@ -56,11 +62,11 @@ export const ContactForm = () => {
         <div className={styles.contactForm}>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className={styles.formGroup}>
-              <label htmlFor="name">Full Name:</label>
+              <label htmlFor="name">{t("registrationForm.form.name.label")}:</label>
               <input
                 type="text"
                 {...register("name")}
-                placeholder="Enter your full name"
+                placeholder={t("registrationForm.form.name.placeholder")}
                 className={errors.name ? styles.errorInput : ""}
               />
               {errors.name && (
@@ -68,11 +74,11 @@ export const ContactForm = () => {
               )}
             </div>
             <div className={styles.formGroup}>
-              <label htmlFor="email">Your Email:</label>
+              <label htmlFor="email">{t("registrationForm.form.email.label")}:</label>
               <input
                 type="email"
                 {...register("email")}
-                placeholder="Enter your email address"
+                placeholder={t("registrationForm.form.email.placeholder")}
                 className={errors.email ? styles.errorInput : ""}
               />
               {errors.email && (
@@ -80,7 +86,7 @@ export const ContactForm = () => {
               )}
             </div>
             <div className={styles.formGroup}>
-              <label htmlFor="phone">Phone Number:</label>
+              <label htmlFor="phone">{t("registrationForm.form.phone.label")}:</label>
               <PhoneInput
                 country="ua"
                 inputClass={errors.phone ? styles.errorInput : ""}
@@ -89,14 +95,14 @@ export const ContactForm = () => {
                 dropdownClass={styles.phoneInputDropdown}
                 onChange={(value) => setValue("phone", value)}
                 value={watch("phone")}
-                placeholder="000-000-0000"
+                placeholder={t("registrationForm.form.phone.placeholder")}
               />
               {errors.phone && (
                 <p className={styles.error}>{errors.phone.message}</p>
               )}
             </div>
             <div className={styles.formGroup + " " + styles.role}>
-              <label htmlFor="role">Your Role:</label>
+              <label htmlFor="role">{t("registrationForm.form.role.label")}:</label>
               <div className={styles.radioGroup}>
                 {roleOptions.map((option) => (
                   <label key={option.value} className={styles.radioOption}>
@@ -115,11 +121,11 @@ export const ContactForm = () => {
               )}
             </div>
             <div className={styles.formGroup + " " + styles.message}>
-              <label htmlFor="message">Your Message:</label>
+              <label htmlFor="message">{t("registrationForm.form.message.label")}:</label>
               <input
                 type="text"
                 {...register("message")}
-                placeholder="Type here..."
+                placeholder={t("registrationForm.form.message.placeholder")}
               />
               {errors.message && (
                 <p className={styles.error}>{errors.message.message}</p>
@@ -130,16 +136,14 @@ export const ContactForm = () => {
               <div className={styles.terms}>
                 <input type="checkbox" {...register("terms")} />
                 <label htmlFor="terms">
-                  I agree to the Terms and Conditions and Privacy Policy and
-                  acknowledge that my information will be securely stored in
-                  compliance with these policies.
+                  {t("registrationForm.form.aggree")}
                 </label>
                 {errors.terms && (
                   <p className={styles.error}>{errors.terms.message}</p>
                 )}
               </div>
               <Button url="" type="submit" buttonType="submit" color="black">
-                {isLoading ? "Submitting..." : "Apply Now"}
+                {isLoading ? t("registrationForm.form.loading") : t("registrationForm.form.submit")}
               </Button>
             </div>
           </form>
