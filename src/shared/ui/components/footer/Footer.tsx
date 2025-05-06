@@ -75,20 +75,26 @@ export const Footer = () => {
             className={styles.footerBottomImageMob}
           />
           <div className={styles.footerTopRight}>
-            <div className={styles.office}>
-              <h3>{t("footer.addresses.office.title")}</h3>
-              <p>{WEBSITE_OFFICE_ADDRESS}</p>
-            </div>
-            <div className={styles.registered}>
-              <h3>{t("footer.addresses.registered.title")}</h3>
-              <p>{WEBSITE_REGISTRATION_ADDRESS}</p>
-            </div>
             <div className={styles.contact}>
               <h3>{t("footer.addresses.contact.title")}</h3>
-              <h4>{t("footer.addresses.contact.email")}</h4>
-              <Link href={`mailto:${WEBSITE_EMAIL}`}>{WEBSITE_EMAIL}</Link>
-              <h4>{t("footer.addresses.contact.phone")}</h4>
-              <Link href={`tel:${WEBSITE_PHONE}`}>{WEBSITE_PHONE}</Link>
+              <div>
+                <h4>{t("footer.addresses.contact.email")}</h4>
+                <Link href={`mailto:${WEBSITE_EMAIL}`}>{WEBSITE_EMAIL}</Link>
+              </div>
+              <div>
+                <h4>{t("footer.addresses.contact.phone")}</h4>
+                <Link href={`tel:${WEBSITE_PHONE}`}>{WEBSITE_PHONE}</Link>
+              </div>
+            </div>
+            <div className={styles.addresses}>
+              <div className={styles.office}>
+                <h4>{t("footer.addresses.office.title")}</h4>
+                <p>{WEBSITE_OFFICE_ADDRESS}</p>
+              </div>
+              <div className={styles.registered}>
+                <h4>{t("footer.addresses.registered.title")}</h4>
+                <p>{WEBSITE_REGISTRATION_ADDRESS}</p>
+              </div>
             </div>
           </div>
         </div>
