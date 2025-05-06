@@ -13,6 +13,7 @@ import styles from "./PersonalizedSolutions.module.scss";
 
 export const PersonalizedSolutions = () => {
   const { t } = useTranslate();
+  const isMac = typeof window !== 'undefined' && /Mac/.test(navigator.platform);
   const items = [
     {
       title: t("home.personalizedSolutions.items.item1.title"),
@@ -60,7 +61,7 @@ export const PersonalizedSolutions = () => {
         </div>
         <div className={styles.scrollBlock} ref={container}>
           {items.map((item, index) => {
-            const targetScale = 1 - (items.length - 1 - index) * 0.05;
+            const targetScale = isMac ? 1 : 1 - (items.length - 1 - index) * 0.05;
 
             return (
               <PersonalizedCard
@@ -70,6 +71,7 @@ export const PersonalizedSolutions = () => {
                 progress={scrollYProgress}
                 i={index}
                 targetScale={targetScale}
+                isMac={isMac}
               />
             );
           })}

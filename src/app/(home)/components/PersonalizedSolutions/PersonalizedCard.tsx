@@ -14,6 +14,7 @@ type PersonalizedCardProps = {
   progress: MotionValue<number>;
   i: number;
   targetScale: number;
+  isMac?: boolean;
 };
 
 export const PersonalizedCard = ({
@@ -24,16 +25,18 @@ export const PersonalizedCard = ({
   i,
   targetScale,
   backImage,
+  isMac = false,
 }: PersonalizedCardProps) => {
   const container = useRef(null);
   const scale = useTransform(progress, range, [1, targetScale]);
+
   return (
     <div
       ref={container}
       className={styles.card}
       style={{ top: `calc(5% + ${i * 40}px)` }}
     >
-      <motion.div style={{ scale }}>
+      <motion.div style={{ scale: isMac ? 1 : scale }}>
         <Image src={backImage} alt="back" width={100} height={100} />
         <div className={styles.number}>0{i + 1}</div>
         <h3>{title}</h3>
