@@ -2,8 +2,8 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import PhoneInput from "react-phone-input-2";
+import { useTranslations } from "next-intl";
 import { zodResolver } from "@hookform/resolvers/zod";
-import {useTranslations} from 'next-intl';
 
 import Button from "@/shared/ui/kit/button/Button";
 
@@ -13,14 +13,10 @@ import { ContactFormSchema } from "../model/ContactForm.schema";
 import styles from "./ContactForm.module.scss";
 import { ContactFormSuccess } from "./ContactFormSuccess";
 
-
-
-
 export const ContactForm = () => {
   const [isSuccess, setIsSuccess] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const t = useTranslations();
-
 
   const {
     register,
@@ -62,7 +58,9 @@ export const ContactForm = () => {
         <div className={styles.contactForm}>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className={styles.formGroup}>
-              <label htmlFor="name">{t("registrationForm.form.name.label")}:</label>
+              <label htmlFor="name">
+                {t("registrationForm.form.name.label")}:
+              </label>
               <input
                 type="text"
                 {...register("name")}
@@ -74,7 +72,9 @@ export const ContactForm = () => {
               )}
             </div>
             <div className={styles.formGroup}>
-              <label htmlFor="email">{t("registrationForm.form.email.label")}:</label>
+              <label htmlFor="email">
+                {t("registrationForm.form.email.label")}:
+              </label>
               <input
                 type="email"
                 {...register("email")}
@@ -86,7 +86,9 @@ export const ContactForm = () => {
               )}
             </div>
             <div className={styles.formGroup}>
-              <label htmlFor="phone">{t("registrationForm.form.phone.label")}:</label>
+              <label htmlFor="phone">
+                {t("registrationForm.form.phone.label")}:
+              </label>
               <PhoneInput
                 country="ua"
                 inputClass={errors.phone ? styles.errorInput : ""}
@@ -102,7 +104,9 @@ export const ContactForm = () => {
               )}
             </div>
             <div className={styles.formGroup + " " + styles.role}>
-              <label htmlFor="role">{t("registrationForm.form.role.label")}:</label>
+              <label htmlFor="role">
+                {t("registrationForm.form.role.label")}:
+              </label>
               <div className={styles.radioGroup}>
                 {roleOptions.map((option) => (
                   <label key={option.value} className={styles.radioOption}>
@@ -121,7 +125,9 @@ export const ContactForm = () => {
               )}
             </div>
             <div className={styles.formGroup + " " + styles.message}>
-              <label htmlFor="message">{t("registrationForm.form.message.label")}:</label>
+              <label htmlFor="message">
+                {t("registrationForm.form.message.label")}:
+              </label>
               <input
                 type="text"
                 {...register("message")}
@@ -143,7 +149,9 @@ export const ContactForm = () => {
                 )}
               </div>
               <Button url="" type="submit" buttonType="submit" color="black">
-                {isLoading ? t("registrationForm.form.loading") : t("registrationForm.form.submit")}
+                {isLoading
+                  ? t("registrationForm.form.loading")
+                  : t("registrationForm.form.submit")}
               </Button>
             </div>
           </form>
