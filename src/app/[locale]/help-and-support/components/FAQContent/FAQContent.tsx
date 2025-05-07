@@ -3,7 +3,7 @@
 import {useTranslations} from 'next-intl';
 
 import { FaqSection } from "../FaqSection/FaqSection";
-import { useFAQ } from "@/app/help-and-support/lib/faq";
+import { useFAQ } from "@/app/[locale]/help-and-support/lib/faq";
 
 export const FAQContent = () => {
   const { advertisersFAQ, publishersFAQ, generalFAQ } = useFAQ();
