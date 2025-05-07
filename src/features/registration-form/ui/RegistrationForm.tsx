@@ -4,8 +4,8 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import PhoneInput from "react-phone-input-2";
 import Select from "react-select";
-import { zodResolver } from "@hookform/resolvers/zod";
 import {useTranslations} from 'next-intl';
+import { zodResolver } from "@hookform/resolvers/zod";
 
 import Button from "@/shared/ui/kit/button/Button";
 
