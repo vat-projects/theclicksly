@@ -10,13 +10,13 @@ import { Phone } from "../../icons/phone/phone";
 import { Facebook } from "../../icons/socials/facebook/facebook";
 import { Instagram } from "../../icons/socials/instagram/instagram";
 import { X } from "../../icons/socials/x/x";
-import LangSelector from "../language-switcher/LangSelector";
+//import LangSelector from "../language-switcher/LangSelector";
 import { MobileMenu } from "../mobile-menu/MobileMenu";
 import styles from "./Header.module.scss";
 
 export const Header = () => {
   const t = useTranslations();
-  const locale = useLocale();
+  //const locale = useLocale();
   return (
     <header className={styles.header}>
       <div className={styles.headerTop}>
@@ -33,7 +33,7 @@ export const Header = () => {
               </Link>
             </div>
             <div className={styles.headerTopRight}>
-              <LangSelector locale={locale} />
+              {/* <LangSelector locale={locale} /> */}
               <Link href="#" target="_blank">
                 <Facebook />
               </Link>
