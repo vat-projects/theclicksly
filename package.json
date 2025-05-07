@@ -20,6 +20,7 @@
     "locize-cli": "^9.0.2",
     "marked": "^15.0.11",
     "next": "15.3.1",
+    "next-intl": "^4.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.56.1",

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import PhoneInput from "react-phone-input-2";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useTranslate } from "@tolgee/react";
+import {useTranslations} from 'next-intl';
 
 import Button from "@/shared/ui/kit/button/Button";
 
@@ -19,7 +19,7 @@ import { ContactFormSuccess } from "./ContactFormSuccess";
 export const ContactForm = () => {
   const [isSuccess, setIsSuccess] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const { t } = useTranslate();
+  const t = useTranslations();
 
 
   const {

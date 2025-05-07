@@ -1,5 +1,5 @@
 
-import { useTranslate } from "@tolgee/react";
+import {useTranslations} from 'next-intl';
 
 import { CloseIcon } from "@/shared/ui/icons/close/close";
 
@@ -10,7 +10,7 @@ export const RegistrationFormSuccess = ({
 }: {
   onClose: () => void;
 }) => {
-  const { t } = useTranslate();
+  const t = useTranslations();
 
   return (
     <div className={styles.registrationFormSuccess}>

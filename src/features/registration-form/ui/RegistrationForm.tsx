@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import PhoneInput from "react-phone-input-2";
 import Select from "react-select";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useTranslate } from "@tolgee/react";
+import {useTranslations} from 'next-intl';
 
 import Button from "@/shared/ui/kit/button/Button";
 
@@ -19,7 +19,7 @@ export const RegistrationForm = () => {
   const [isSuccess, setIsSuccess] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  const { t } = useTranslate();
+  const t = useTranslations();
 
   const roleOptions = [
     { value: "advertiser", label: t("registrationForm.role.advertiser") },

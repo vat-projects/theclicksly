@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslate } from "@tolgee/react";
+import {useTranslations} from 'next-intl';
 
 import {
   WEBSITE_EMAIL,
@@ -16,7 +16,7 @@ import { X } from "../../icons/socials/x/x";
 import styles from "./Footer.module.scss";
 
 export const Footer = () => {
-  const { t } = useTranslate();
+  const t = useTranslations();
   const year = new Date().getFullYear();
 
   return (

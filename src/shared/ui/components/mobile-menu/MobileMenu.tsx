@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useTranslate } from '@tolgee/react';
+import {useTranslations} from 'next-intl';
 
 import { WEBSITE_EMAIL, WEBSITE_PHONE } from "@/shared/lib/constants/constants";
 
@@ -18,7 +18,7 @@ import styles from "./MobileMenu.module.scss";
 export const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const { t } = useTranslate();
+  const t = useTranslations();
 
   useEffect(() => {
     setIsOpen(false);

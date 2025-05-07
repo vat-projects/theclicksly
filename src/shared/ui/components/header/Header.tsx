@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslate } from '@tolgee/react';
+import { useLocale, useTranslations } from "next-intl";
 
 import { WEBSITE_EMAIL, WEBSITE_PHONE } from "@/shared/lib/constants/constants";
 
@@ -10,13 +10,13 @@ import { Phone } from "../../icons/phone/phone";
 import { Facebook } from "../../icons/socials/facebook/facebook";
 import { Instagram } from "../../icons/socials/instagram/instagram";
 import { X } from "../../icons/socials/x/x";
-//import { LangSelector } from "../language-switcher/LangSelector";
+import LangSelector from "../language-switcher/LangSelector";
 import { MobileMenu } from "../mobile-menu/MobileMenu";
 import styles from "./Header.module.scss";
 
-
 export const Header = () => {
-  const { t } = useTranslate();
+  const t = useTranslations();
+  const locale = useLocale();
   return (
     <header className={styles.header}>
       <div className={styles.headerTop}>
@@ -33,7 +33,7 @@ export const Header = () => {
               </Link>
             </div>
             <div className={styles.headerTopRight}>
-              {/**<LangSelector /> */}
+              <LangSelector locale={locale} />
               <Link href="#" target="_blank">
                 <Facebook />
               </Link>
@@ -56,10 +56,18 @@ export const Header = () => {
             <nav className={styles.headerBottomNav}>
               <Link href="/">{t("header.navigation.home")}</Link>
               <Link href="/who-we-are">{t("header.navigation.whoWeAre")}</Link>
-              <Link href="/targeted-sectors">{t("header.navigation.targetedSectors")}</Link>
-              <Link href="/advertise-with-us">{t("header.navigation.advertiseWithUs")}</Link>
-              <Link href="/partner-with-us">{t("header.navigation.partnerWithUs")}</Link>
-              <Link href="/help-and-support">{t("header.navigation.helpAndSupport")}</Link>
+              <Link href="/targeted-sectors">
+                {t("header.navigation.targetedSectors")}
+              </Link>
+              <Link href="/advertise-with-us">
+                {t("header.navigation.advertiseWithUs")}
+              </Link>
+              <Link href="/partner-with-us">
+                {t("header.navigation.partnerWithUs")}
+              </Link>
+              <Link href="/help-and-support">
+                {t("header.navigation.helpAndSupport")}
+              </Link>
             </nav>
             <Link href="/get-in-touch" className={styles.getInTouch}>
               {t("header.navigation.getInTouch")}

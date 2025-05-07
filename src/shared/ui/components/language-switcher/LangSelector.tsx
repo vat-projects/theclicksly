@@ -1,22 +1,20 @@
-"use client";
-import React from "react";
-import { useTolgee } from "@tolgee/react";
+'use client';
 
-import { setLanguage } from "@/tolgee/language";
+import { usePathname, useRouter } from '@/i18n/navigation';
 
-export const LangSelector: React.FC = () => {
-  const tolgee = useTolgee(["language"]);
-  const language = tolgee.getLanguage();
+export default function LangSelector({ locale }: { locale: string }) {
+  const router = useRouter();
+  const pathname = usePathname();
 
-  function onSelectChange(e: React.ChangeEvent<HTMLSelectElement>) {
-    setLanguage(e.target.value);
-  }
+  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    router.push(pathname, { locale: e.target.value });
+  };
 
   return (
-    <select onChange={onSelectChange} value={language}>
+    <select value={locale} onChange={handleChange}>
       <option value="en">EN</option>
       <option value="de">DE</option>
       <option value="it">IT</option>
     </select>
   );
-};
+}

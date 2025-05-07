@@ -1,11 +1,11 @@
-import { useTranslate } from "@tolgee/react";
+import {useTranslations} from 'next-intl';
 
 import { CloseIcon } from "@/shared/ui/icons/close/close";
 
 import styles from "./ContactForm.module.scss";
 
 export const ContactFormSuccess = ({ onClose }: { onClose: () => void }) => {
-  const { t } = useTranslate();
+  const t = useTranslations();
   return (
     <div className={styles.contactFormSuccess}>
       <h2>{t("registrationForm.form.sucees")}</h2>
