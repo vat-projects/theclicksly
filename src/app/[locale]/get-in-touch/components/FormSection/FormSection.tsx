@@ -20,7 +20,7 @@ export const FormSection = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            s{t("getInTouch.formSection.title")}
+            {t("getInTouch.formSection.title")}
           </motion.h2>
           <motion.div
             initial="hidden"

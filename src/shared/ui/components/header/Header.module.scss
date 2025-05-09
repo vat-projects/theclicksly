@@ -108,6 +108,15 @@
           display: none;
         }
       }
+
+      .mobileLang {
+        display: none;
+        @media (max-width: 992px) {
+          display: flex;
+          margin-left: auto;
+          padding-right: 12px;
+        }
+      }
     }
   }
 }

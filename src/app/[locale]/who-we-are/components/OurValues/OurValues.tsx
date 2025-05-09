@@ -144,7 +144,7 @@ export const OurValues = () => {
         >
           <div>
             <Tag color="white">{t("whoWeAre.ourValues.tag")}</Tag>
-            <SectionTitle>{t("whoWeAre.ourValues.title")}</SectionTitle>
+            <SectionTitle>{t("whoWeAre.ourValues.approachTitle")}</SectionTitle>
           </div>
           <div>
             <p>{t("whoWeAre.ourValues.text1")}</p>

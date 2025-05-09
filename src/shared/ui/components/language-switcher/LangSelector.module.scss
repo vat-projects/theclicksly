@@ -1,0 +1,52 @@
+.langSelector {
+  position: relative;
+  > button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 20.8px */
+    text-transform: uppercase;
+  }
+  .langSelectorDropdown {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    //gap: 12px;
+    align-self: stretch;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #2a2a2a;
+    z-index: 99999;
+    width: 124px;
+    > button {
+      width: 100%;
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%; /* 20.8px */
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 8px;
+      background: transparent;
+      &:hover {
+        background: #c3c3c3;
+        color: #000;
+      }
+    }
+  }
+}

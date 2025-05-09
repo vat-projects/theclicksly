@@ -44,7 +44,7 @@ export const SuccessStories = () => {
           >
             <h2>
               {t("whoWeAre.successStories.testimonial")}
-              <span>— {t("whoWeAre.successStories.testimonialAuthor")}</span>
+              <span> {t("whoWeAre.successStories.testimonialAuthor")}</span>
             </h2>
           </motion.div>
           <div className={styles.col2}>

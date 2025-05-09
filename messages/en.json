@@ -171,7 +171,7 @@
       "button": "Explore Our Sectors",
       "text": "Your Business Growth is Our Top Priority. Let’s Build Success Together!",
       "items": {
-        "item1": "Reduction in Marketing Spend Waste",
+        "item1": "Increase in Online Engagement",
         "item2": "Reduction in Unnecessary Marketing Spend",
         "item3": "Client Satisfaction Rate",
         "item4": "Increase in Qualified Leads for Startups"
@@ -226,6 +226,7 @@
     "ourValues": {
       "tag": "Our Principles",
       "title": "Our Values",
+      "approachTitle": "Our Approach",
       "text1": "We take a personalized approach to every campaign. We understand that each brand is unique, and so are its affiliate marketing needs. By collaborating closely with our clients, we craft customized strategies that align with their goals and objectives.",
       "text2": "Our team employs data-backed insights, industry trends, and innovative techniques to ensure each campaign performs at its best. From campaign setup to ongoing optimization, we are dedicated to maximizing your return on investment.",
       "items": {
@@ -614,7 +615,7 @@
       "button": "Join Now"
     },
     "whyChoose": {
-      "title": "What You’ll Experience",
+      "title": "Why Choose Us?",
       "items": {
         "item1": {
           "title": "Tailored Campaigns for Every Traffic Source",
