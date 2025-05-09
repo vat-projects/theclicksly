@@ -23,36 +23,56 @@ export const OurTeam = () => {
       icon: "/images/who-we-are/our-team/icon1.svg",
       title: t("whoWeAre.ourTeam.items.item1.title"),
       subtitle: t("whoWeAre.ourTeam.items.item1.subtitle"),
-      text1: t("whoWeAre.ourTeam.items.item1.text1"),
-      text2: t("whoWeAre.ourTeam.items.item1.text2"),
+      text1: t.rich("whoWeAre.ourTeam.items.item1.text1", {
+        b: (chunks) => <b>{chunks}</b>
+      }),
+      text2: t.rich("whoWeAre.ourTeam.items.item1.text2", {
+        b: (chunks) => <b>{chunks}</b>
+      }),
     },
     {
       icon: "/images/who-we-are/our-team/icon2.svg",
       title: t("whoWeAre.ourTeam.items.item2.title"),
       subtitle: t("whoWeAre.ourTeam.items.item2.subtitle"),
-      text1: t("whoWeAre.ourTeam.items.item2.text1"),
-      text2: t("whoWeAre.ourTeam.items.item2.text2"),
+      text1: t.rich("whoWeAre.ourTeam.items.item2.text1", {
+        b: (chunks) => <b>{chunks}</b>
+      }),
+      text2: t.rich("whoWeAre.ourTeam.items.item2.text2", {
+        b: (chunks) => <b>{chunks}</b>
+      }),
     },
     {
       icon: "/images/who-we-are/our-team/icon3.svg",
       title: t("whoWeAre.ourTeam.items.item3.title"),
       subtitle: t("whoWeAre.ourTeam.items.item3.subtitle"),
-      text1: t("whoWeAre.ourTeam.items.item3.text1"),
-      text2: t("whoWeAre.ourTeam.items.item3.text2"),
+      text1: t.rich("whoWeAre.ourTeam.items.item3.text1", {
+        b: (chunks) => <b>{chunks}</b>
+      }),
+      text2: t.rich("whoWeAre.ourTeam.items.item3.text2", {
+        b: (chunks) => <b>{chunks}</b>
+      }),
     },
     {
       icon: "/images/who-we-are/our-team/icon4.svg",
       title: t("whoWeAre.ourTeam.items.item4.title"),
       subtitle: t("whoWeAre.ourTeam.items.item4.subtitle"),
-      text1: t("whoWeAre.ourTeam.items.item4.text1"),
-      text2: t("whoWeAre.ourTeam.items.item4.text2"),
+      text1: t.rich("whoWeAre.ourTeam.items.item4.text1", {
+        b: (chunks) => <b>{chunks}</b>
+      }),
+      text2: t.rich("whoWeAre.ourTeam.items.item4.text2", {
+        b: (chunks) => <b>{chunks}</b>
+      }),
     },
     {
       icon: "/images/who-we-are/our-team/icon1.svg",
       title: t("whoWeAre.ourTeam.items.item5.title"),
       subtitle: t("whoWeAre.ourTeam.items.item5.subtitle"),
-      text1: t("whoWeAre.ourTeam.items.item5.text1"),
-      text2: t("whoWeAre.ourTeam.items.item5.text2"),
+      text1: t.rich("whoWeAre.ourTeam.items.item5.text1", {
+        b: (chunks) => <b>{chunks}</b>
+      }),
+      text2: t.rich("whoWeAre.ourTeam.items.item5.text2", {
+        b: (chunks) => <b>{chunks}</b>
+      }),
     },
   ];
 
@@ -135,8 +155,8 @@ export const OurTeam = () => {
                       <p>{item.subtitle}</p>
                     </div>
                     <ul className={styles.teamItemText}>
-                      <li dangerouslySetInnerHTML={{ __html: item.text1 }} />
-                      <li dangerouslySetInnerHTML={{ __html: item.text2 }} />
+                      <li>{item.text1}</li>
+                      <li>{item.text2}</li>
                     </ul>
                   </div>
                 </div>
