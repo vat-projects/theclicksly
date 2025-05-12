@@ -600,6 +600,62 @@
         }
       }
     },
+    "campaignModels": {
+      "title": "Campaign Models That Work for You",
+      "subtitle": "We offer a variety of campaign models to suit your business needs:",
+      "items": {
+        "item1": {
+          "title": "Cost Per Click (CPC)",
+          "description": "A model that drives traffic to your site is ideal for increasing visibility."
+        },
+        "item2": {
+          "title": "Conversion Rate Optimization & Performance Marketing",
+          "description": "Pay only for sales or leads is a cost-effective solution for advertisers."
+        },
+        "item3": {
+          "title": "Revenue Share (RevShare)",
+          "description": "A partnership approach where you share in the profits, making it a win-win for both sides."
+        },
+        "item4": {
+          "title": "Cost Per Lead (CPL)",
+          "description": "Pay for quality leads generated through targeted affiliate efforts."
+        }
+      }
+    },
+    "clickslyAdvantage": {
+      "title": "The Clicksly Advantage",
+      "items": {
+        "item1": {
+          "title": "Global <br/>Reach",
+          "description": "Advertise to audiences across multiple countries and demographics with our vast network of global publishers."
+        },
+        "item2": {
+          "title": "Exclusive Publisher <br/>Network",
+          "description": "Work with trusted, high-performance affiliates that deliver results you can count on."
+        },
+        "item3": {
+          "title": "Data-Driven <br/>Decisions",
+          "description": "Every step of our process is informed by real-time data and insights, ensuring your campaigns are optimized for success."
+        }
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": {
+        "item1": {
+          "question": "What types of campaigns can I run with The Clicksly?",
+          "answer": "We offer a range of campaigns, including CPA, CPC, CPL, and RevShare models, all designed to meet your specific marketing goals."
+        },
+        "item2": {
+          "question": "How do I track the performance of my campaigns?",
+          "answer": "With our real-time tracking system, you can monitor your campaign’s performance and adjust as needed to ensure success."
+        },
+        "item3": {
+          "question": "Can I get custom creatives for my campaign?",
+          "answer": "Yes! Our creative team will design tailored assets that align with your brand identity and campaign objectives."
+        }
+      }
+    },
     "needAssistance": {
       "title": "Let’s Discuss Your Project",
       "text": "Ready to supercharge your affiliate campaigns?",
