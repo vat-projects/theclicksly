@@ -761,6 +761,85 @@
         }
       }
     },
+    "howWeHelped": {
+      "title": "How We’ve Helped Our Partners Grow",
+      "subtitle": "The results speak for themselves. With a focus on driving engagement, conversions, and long-term growth, The Clicksly has helped numerous businesses achieve remarkable success:",
+      "testimonial": "“The Clicksly team helped us scale our affiliate marketing efforts exponentially. Their expertise in driving high-quality traffic and converting leads has been invaluable.”",
+      "testimonialAuthor": "— Client Testimonial",
+      "items": {
+        "item1": {
+          "title": "Challenge:",
+          "description": "Struggling to generate steady affiliate income."
+        },
+        "item2": {
+          "title": "Solution:",
+          "description": "Partnered with The Clicksly for targeted, high-converting campaigns."
+        },
+        "item3": {
+          "title": "Result:",
+          "description": "Increased affiliate revenue by 150% in the first 3 months."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works – Simple Steps to Get Started",
+      "items": {
+        "item1": {
+          "title": "Sign Up",
+          "description": "Create an account in minutes and join our growing network of high-converting affiliates."
+        },
+        "item2": {
+          "title": "Choose Campaigns",
+          "description": "Select the campaigns that align with your audience and traffic sources, and customize your strategy."
+        },
+        "item3": {
+          "title": "Track & Optimize",
+          "description": "Use our powerful tracking tools to monitor campaign performance and optimize for better results."
+        },
+        "item4": {
+          "title": "Earn Revenue",
+          "description": "Start earning with flexible commission models, and watch your revenue grow as your campaigns succeed."
+        }
+      }
+    },
+    "theClickslyAdvantage": {
+      "title": "The Clicksly Advantage",
+      "items": {
+          "item1": {
+            "title": "Global Reach",
+          "description": "Our affiliate network spans multiple regions and markets, giving you access to a worldwide audience."
+        },
+        "item2": {
+          "title": "High-Quality Traffic",
+          "description": "We focus on quality, not just quantity. Our partners generate high-conversion, highly engaged traffic."
+        },
+        "item3": {
+          "title": "Proven Results",
+          "description": "Our network delivers measurable success with real-time performance tracking and data-driven insights."
+        },
+        "item4": {
+          "title": "Comprehensive Tools",
+          "description": "We provide the tools, resources, and ongoing support you need to scale and succeed in affiliate marketing."
+        }
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": {
+        "item1": {
+          "question": "How do I track the performance of my campaigns?",
+          "answer": "You’ll have access to our real-time tracking dashboard, where you can monitor clicks, conversions, and performance metrics."
+        },
+        "item2": {
+          "question": "What compensation models do you offer?",
+          "answer": "We offer several models, including CPA, CPL, RevShare, and hybrid options, allowing you to choose what works best for your business."
+        },
+        "item3": {
+          "question": "Is there a minimum traffic requirement?",
+          "answer": "Yes, we ask for at least 10,000 unique monthly visits, and 80% of your traffic must come from Tier 1 sources to ensure quality engagement."
+        }
+      }
+    },
     "getStarted": {
       "title": "Get Started with The Clicksly Network",
       "text": "Join our network today and start earning revenue with high-converting affiliate campaigns!",

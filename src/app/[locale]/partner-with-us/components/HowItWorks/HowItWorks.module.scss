@@ -1,0 +1,108 @@
+.howItWorks {
+  padding: 70px 0;
+  overflow: hidden;
+  @media (max-width: 992px) {
+    padding: 40px 0;
+  }
+  h2 {
+    color: #01010d;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 52px */
+    max-width: 640px;
+    margin: 0 auto;
+    @media (max-width: 992px) {
+      max-width: 100%;
+    }
+  }
+  .howItWorksList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 64px;
+    @media (max-width: 992px) {
+      margin-top: 40px;
+      row-gap: 20px;
+    }
+    .experienceItem {
+      width: calc(25% - 16px);
+      display: flex;
+      padding: 32px 16px 16px 16px;
+      flex-direction: column;
+      gap: 24px;
+      border-radius: 20px;
+      background: #f2f2f2;
+      position: relative;
+
+      @media (max-width: 992px) {
+        width: 100%;
+      }
+
+      .number {
+        display: flex;
+        width: 48px;
+        height: 48px;
+        transform: rotate(-1deg);
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        left: 16px;
+        top: -24px;
+        border-radius: 40px;
+        border: 1px solid #03031d;
+        background: #03031d;
+        z-index: 1;
+        span {
+          background: linear-gradient(
+            181deg,
+            #fff 0.61%,
+            rgba(255, 255, 255, 0) 138.86%
+          );
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-align: center;
+          font-size: 25.263px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%; /* 32.842px */
+        }
+      }
+
+      > div {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        @media (max-width: 992px) {
+          width: 100%;
+          flex-direction: column;
+        }
+      }
+
+      h3 {
+        color: #03031d;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 33.6px */
+        @media (max-width: 992px) {
+          width: 100%;
+        }
+      }
+      p {
+        color: rgba(3, 3, 29, 0.7);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 22.4px */
+        @media (max-width: 992px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
