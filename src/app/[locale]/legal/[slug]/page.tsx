@@ -1,34 +1,34 @@
 import React from "react";
 import type { Metadata } from "next";
-import { getLocale, getTranslations } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 
 import { getPage, getPageSlugs } from "@/features/policy/policy";
 
 import st from "./page.module.scss";
 
-type PageParams = {
-  slug: string;
-};
+type PageParams = { locale: string; slug: string };
 
 export async function generateStaticParams(): Promise<PageParams[]> {
   const locales = ["en", "de", "it"];
-  const allSlugs = await Promise.all(
-    locales.map(async (locale) => {
-      const slugs = await getPageSlugs(locale);
-      return slugs.map((slug) => ({ slug }));
-    })
-  );
-  return allSlugs.flat();
+  const params: PageParams[] = [];
+
+  for (const locale of locales) {
+    const slugs = await getPageSlugs(locale);
+    for (const slug of slugs) {
+      params.push({ locale, slug });
+    }
+  }
+
+  return params;
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string; locale: string }>;
 }): Promise<Metadata> {
   const awaitedParams = await params;
-  const { slug } = awaitedParams;
-  const locale = await getLocale();
+  const { locale, slug } = awaitedParams;
   const page = await getPage(slug, locale);
   const pageTitle = `${page.title} | The Clicksly`;
   return {
@@ -43,11 +43,10 @@ export async function generateMetadata({
 export default async function PolicyPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string; locale: string }>;
 }) {
   const awaitedParams = await params;
-  const { slug } = awaitedParams;
-  const locale = await getLocale();
+  const { locale,slug } = awaitedParams;
   const page = await getPage(slug, locale);
   const t = await getTranslations("legal");
   return (
