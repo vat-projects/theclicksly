@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import {useTranslations} from 'next-intl';
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
 import {
@@ -13,7 +13,6 @@ import {
 import { fadeInUp } from "@/shared/lib/helpers/animations";
 
 import styles from "./ContactInformation.module.scss";
-
 
 export const ContactInformation = () => {
   const t = useTranslations();
@@ -37,7 +36,11 @@ export const ContactInformation = () => {
             className={styles.address}
           >
             <div className={styles.addressTop}>
-              <h3 dangerouslySetInnerHTML={{ __html: t("getInTouch.contactInformation.office") }} />
+              <h3
+                dangerouslySetInnerHTML={{
+                  __html: t("getInTouch.contactInformation.office"),
+                }}
+              />
               <Image
                 src="/images/get-in-touch/location.svg"
                 alt="address"
@@ -48,7 +51,7 @@ export const ContactInformation = () => {
             <div className={styles.addressBottom}>
               <p>{WEBSITE_OFFICE_ADDRESS}</p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3367.296209895311!2d-99.77157262484305!3d32.43800530123484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86568e878de934ff%3A0x4d216b08182ff62f!2s1024%20Elmwood%20Dr%2C%20Abilene%2C%20TX%2079605%2C%20USA!5e0!3m2!1sen!2sua!4v1745912211859!5m2!1sen!2sua"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.33979297357!2d-0.05980932383362604!3d51.5436680080538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ce5a1dd59ab%3A0x5bd0d2905b885284!2s205%20Richmond%20Rd%2C%20London%20E8%203FF!5e0!3m2!1sen!2suk!4v1747127735643!5m2!1sen!2suk"
                 width="192"
                 height="136"
                 allowFullScreen
@@ -65,7 +68,11 @@ export const ContactInformation = () => {
             className={styles.address}
           >
             <div className={styles.addressTop}>
-              <h3 dangerouslySetInnerHTML={{ __html: t("getInTouch.contactInformation.registered") }} />
+              <h3
+                dangerouslySetInnerHTML={{
+                  __html: t("getInTouch.contactInformation.registered"),
+                }}
+              />
               <Image
                 src="/images/get-in-touch/location.svg"
                 alt="address"
