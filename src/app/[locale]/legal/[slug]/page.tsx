@@ -5,15 +5,20 @@ import { getLocale, getTranslations } from "next-intl/server";
 import { getPage, getPageSlugs } from "@/features/policy/policy";
 
 import st from "./page.module.scss";
-import { routing } from "@/i18n/routing";
 
 type PageParams = {
   slug: string;
 };
 
 export async function generateStaticParams(): Promise<PageParams[]> {
-  const slugs = await getPageSlugs(routing.defaultLocale);
-  return slugs.map((slug) => ({ slug }));
+  const locales = ["en", "de", "it"];
+  const allSlugs = await Promise.all(
+    locales.map(async (locale) => {
+      const slugs = await getPageSlugs(locale);
+      return slugs.map((slug) => ({ slug }));
+    })
+  );
+  return allSlugs.flat();
 }
 
 export async function generateMetadata({
