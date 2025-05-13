@@ -4,14 +4,17 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import PhoneInput from "react-phone-input-2";
 import Select from "react-select";
-import {useTranslations} from 'next-intl';
+import { useTranslations } from "next-intl";
 import { zodResolver } from "@hookform/resolvers/zod";
 
 import Button from "@/shared/ui/kit/button/Button";
 
 import "react-phone-input-2/lib/style.css";
 import { submitRegistration } from "../api/submitRegistration";
-import { RegistrationFormSchema } from "../model/RegistrationForm.schema";
+import {
+  createRegistrationFormSchema,
+  type RegistrationFormSchema,
+} from "../model/RegistrationForm.schema";
 import styles from "./RegistrationForm.module.scss";
 import { RegistrationFormSuccess } from "./RegistrationFormSuccess";
 
@@ -34,7 +37,7 @@ export const RegistrationForm = () => {
     reset,
     formState: { errors },
   } = useForm({
-    resolver: zodResolver(RegistrationFormSchema),
+    resolver: zodResolver(createRegistrationFormSchema(t)),
     defaultValues: {
       name: "",
       role: "",

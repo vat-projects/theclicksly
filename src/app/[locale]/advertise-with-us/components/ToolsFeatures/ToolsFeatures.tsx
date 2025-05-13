@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import {useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -10,6 +10,7 @@ import styles from "./ToolsFeatures.module.scss";
 
 export const ToolsFeatures = () => {
   const t = useTranslations();
+  const locale = useLocale();
   const experience = [
     {
       icon: "/images/advertise/tools-features/icon1.svg",
@@ -44,7 +45,7 @@ export const ToolsFeatures = () => {
   ];
 
   return (
-    <section className={styles.toolsFeatures}>
+    <section className={styles.toolsFeatures + " " + styles[locale]}>
       <div className={"_container"}>
         <motion.h2
           initial="hidden"

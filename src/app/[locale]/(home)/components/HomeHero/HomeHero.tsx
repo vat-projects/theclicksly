@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import {useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -10,8 +10,9 @@ import styles from "./HomeHero.module.scss";
 
 export const HomeHero = () => {
   const t = useTranslations();
+  const locale = useLocale();
   return (
-    <section className={styles.homeHero}>
+    <section className={styles.homeHero + " " + styles[locale]}>
       <div className="_container">
         <div className={styles.homeHeroTop}>
           <div className={styles.homeHeroTopLeft}>

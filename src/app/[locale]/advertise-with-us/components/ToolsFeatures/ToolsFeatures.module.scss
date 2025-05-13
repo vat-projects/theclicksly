@@ -4,6 +4,17 @@
   @media (max-width: 992px) {
     padding: 40px 0;
   }
+
+  &.de {
+    .toolsFeaturesList{
+      .experienceItem{
+        h3{
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
   h2 {
     color: #01010d;
     text-align: center;

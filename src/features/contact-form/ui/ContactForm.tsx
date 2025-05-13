@@ -9,7 +9,10 @@ import Button from "@/shared/ui/kit/button/Button";
 
 import "react-phone-input-2/lib/style.css";
 import { submitContactForm } from "../api/submitContactForm";
-import { ContactFormSchema } from "../model/ContactForm.schema";
+import {
+  type ContactFormSchema,
+  createContactFormSchema,
+} from "../model/ContactForm.schema";
 import styles from "./ContactForm.module.scss";
 import { ContactFormSuccess } from "./ContactFormSuccess";
 
@@ -26,7 +29,7 @@ export const ContactForm = () => {
     reset,
     formState: { errors },
   } = useForm({
-    resolver: zodResolver(ContactFormSchema),
+    resolver: zodResolver(createContactFormSchema(t)),
     defaultValues: {
       name: "",
       role: "",

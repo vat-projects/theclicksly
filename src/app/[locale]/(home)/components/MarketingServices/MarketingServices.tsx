@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import {useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -13,6 +13,7 @@ import styles from "./MarketingServices.module.scss";
 
 export const MarketingServices = () => {
   const t = useTranslations();
+  const locale = useLocale();
   const steps = [
     {
       id: 1,
@@ -78,7 +79,7 @@ export const MarketingServices = () => {
   ];
 
   return (
-    <section className={styles.marketingServices}>
+    <section className={styles.marketingServices + " " + styles[locale]}>
       <div className="_container">
         <div className={styles.titleBlock}>
           <motion.div

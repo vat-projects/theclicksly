@@ -3,6 +3,21 @@
   @media (max-width: 992px) {
     padding: 48px 0;
   }
+
+  &.de {
+    .row{
+      .col2{
+        .successStory{
+          >div{
+            h3{
+              font-size: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+
   .titleBlock {
     display: flex;
     flex-direction: column;

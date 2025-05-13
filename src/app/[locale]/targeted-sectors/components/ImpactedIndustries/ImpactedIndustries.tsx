@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import {useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -11,6 +11,7 @@ import styles from "./ImpactedIndustries.module.scss";
 
 export const ImpactedIndustries = () => {
   const t = useTranslations();
+  const locale = useLocale();
 
   const industries = [
     {
@@ -58,7 +59,7 @@ export const ImpactedIndustries = () => {
   ];
 
   return (
-    <div className={styles.impactedIndustries}>
+    <div className={styles.impactedIndustries + " " + styles[locale]}>
       <div className={"_container"}>
         <h2>{t("targetedSectors.impactedIndustries.title")}</h2>
         <Swiper

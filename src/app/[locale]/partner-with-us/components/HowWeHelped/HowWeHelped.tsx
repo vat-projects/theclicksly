@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -11,9 +11,10 @@ import styles from "./HowWeHelped.module.scss";
 
 export const HowWeHelped = () => {
   const t = useTranslations();
+  const locale = useLocale();
 
   return (
-    <section className={styles.howWeHelped}>
+    <section className={styles.howWeHelped + " " + styles[locale]}>
       <div className="_container">
         <div className={styles.titleBlock}>
           <motion.div

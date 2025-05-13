@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 import { WEBSITE_EMAIL, WEBSITE_PHONE } from "@/shared/lib/constants/constants";
 
@@ -16,9 +16,9 @@ import styles from "./Header.module.scss";
 
 export const Header = () => {
   const t = useTranslations();
-  //const locale = useLocale();
+  const locale = useLocale();
   return (
-    <header className={styles.header}>
+    <header className={styles.header + " " + styles[locale]}>
       <div className={styles.headerTop}>
         <div className={"_container"}>
           <div className={styles.headerTopInner}>

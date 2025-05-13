@@ -805,8 +805,8 @@
     "theClickslyAdvantage": {
       "title": "The Clicksly Advantage",
       "items": {
-          "item1": {
-            "title": "Global Reach",
+        "item1": {
+          "title": "Global Reach",
           "description": "Our affiliate network spans multiple regions and markets, giving you access to a worldwide audience."
         },
         "item2": {
@@ -928,5 +928,10 @@
       "text": "If you didn’t find the answer to your question or need more personalized support, we’re here to help. Contact us directly, and our team will assist you with all your queries.",
       "button": "Contact Us Now"
     }
+  },
+  "form-errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidTerms": "You must agree to the terms"
   }
 }

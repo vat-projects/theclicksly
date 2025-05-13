@@ -3,6 +3,15 @@
   @media (max-width: 992px) {
     padding: 48px 0;
   }
+  &.de {
+    .stepsWrap{
+      img{
+        @media (max-width: 992px) {
+          display: none!important;
+        }
+      }
+    }
+  }
   .titleBlock {
     display: flex;
     flex-direction: column;

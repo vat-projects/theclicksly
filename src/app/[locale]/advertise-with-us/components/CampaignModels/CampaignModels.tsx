@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
 import { fadeInUp } from "@/shared/lib/helpers/animations";
@@ -11,6 +11,7 @@ import styles from "./CampaignModels.module.scss";
 
 export const CampaignModels = () => {
   const t = useTranslations();
+  const locale = useLocale();
   const steps = [
     {
       id: 1,
@@ -36,7 +37,7 @@ export const CampaignModels = () => {
   ];
 
   return (
-    <section className={styles.campaignModels}>
+    <section className={styles.campaignModels + " " + styles[locale]}>
       <div className="_container">
         <div className={styles.titleBlock}>
           <motion.div

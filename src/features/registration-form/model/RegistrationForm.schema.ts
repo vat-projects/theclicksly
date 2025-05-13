@@ -1,14 +1,12 @@
-
 import { z } from "zod";
 
-
-export const RegistrationFormSchema = z.object({
-  name: z.string().nonempty("This field is required"),
-  role: z.string().nonempty("This field is required"),
-  phone: z.string().nonempty("This field is required"),
-  email: z.string().email("Invalid email address"),
+export const createRegistrationFormSchema = (t: (key: string) => string) => z.object({
+  name: z.string().nonempty(t("form-errors.required")),
+  role: z.string().nonempty(t("form-errors.required")),
+  phone: z.string().nonempty(t("form-errors.required")),
+  email: z.string().email(t("form-errors.invalidEmail")),
   message: z.string(),
-  terms: z.boolean().refine((data) => data, "You must agree to the terms"),
+  terms: z.boolean().refine((data) => data, t("form-errors.invalidTerms")),
 });
 
-export type RegistrationFormSchema = z.infer<typeof RegistrationFormSchema>;
+export type RegistrationFormSchema = z.infer<ReturnType<typeof createRegistrationFormSchema>>;
