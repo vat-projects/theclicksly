@@ -73,7 +73,7 @@ export async function POST(request: Request): Promise<NextResponse> {
     const clientEmailBodyAdvertiser = makeBody(
       email,
       process.env.EMAIL_USER || "",
-      "We’ve Received Your Development Request",
+      "We've Received Your Development Request",
       `
       <table width="640" style="border-collapse: collapse; margin: 0 auto; font-style: sans-serif;background: #F2F2F2;">
     <thead>
@@ -96,7 +96,7 @@ background: #FFF;">
                     font-style: normal;
                     font-weight: 500;
                     line-height: normal;">
-                                We’ve Received Your Development Request
+                                We've Received Your Development Request
 
                             </h2>
 

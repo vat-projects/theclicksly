@@ -1,27 +1,29 @@
 import React from "react";
 import type { Metadata } from "next";
+import { getLocale, getTranslations } from "next-intl/server";
 
 import { getPage, getPageSlugs } from "@/features/policy/policy";
 
 import st from "./page.module.scss";
+import { routing } from "@/i18n/routing";
 
 type PageParams = {
   slug: string;
 };
 
 export async function generateStaticParams(): Promise<PageParams[]> {
-  const slugs = await getPageSlugs();
+  const slugs = await getPageSlugs(routing.defaultLocale);
   return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }): Promise<Metadata> {
-  const awaitedParams = await params;
-  const { slug } = awaitedParams;
-  const page = await getPage(slug);
+  const { slug } = params;
+  const locale = await getLocale();
+  const page = await getPage(slug, locale);
   const pageTitle = `${page.title} | The Clicksly`;
   return {
     title: pageTitle,
@@ -35,18 +37,19 @@ export async function generateMetadata({
 export default async function PolicyPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }) {
-  const awaitedParams = await params;
-  const { slug } = awaitedParams;
-  const page = await getPage(slug);
+  const { slug } = params;
+  const locale = await getLocale();
+  const page = await getPage(slug, locale);
+  const t = await getTranslations("legal");
   return (
     <>
       <section className={st.policy}>
         <div className="_container">
           <div className={st.policy__body}>
             <div className={st.sectionTitle}>
-              <div className={st.date}>Last Updated: {page.date}</div>
+              <div className={st.date}>{t("date")} {page.date}</div>
               <h1>{page.title}</h1>
               {page.shortDescription && (
                 <div className={st.policy__shortDescription}>

@@ -933,5 +933,8 @@
     "required": "Dieses Feld ist erforderlich",
     "invalidEmail": "Ungültige E-Mail-Adresse",
     "invalidTerms": "Sie müssen den Bedingungen zustimmen"
+  },
+  "legal": {
+    "date": "Letzte Aktualisierung:"
   }
 }

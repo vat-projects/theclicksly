@@ -933,5 +933,8 @@
     "required": "This field is required",
     "invalidEmail": "Invalid email address",
     "invalidTerms": "You must agree to the terms"
+  },
+  "legal": {
+    "date": "Last Updated:"
   }
 }
