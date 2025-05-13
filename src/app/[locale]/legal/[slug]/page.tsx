@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
 
 import { getPage, getPageSlugs } from "@/features/policy/policy";
-import { routing } from "@/i18n/routing";
 
 import st from "./page.module.scss";
+import { routing } from "@/i18n/routing";
 
 type PageParams = {
   slug: string;
@@ -50,7 +50,9 @@ export default async function PolicyPage({
         <div className="_container">
           <div className={st.policy__body}>
             <div className={st.sectionTitle}>
-              <div className={st.date}>{t("date")} {page.date}</div>
+              <div className={st.date}>
+                {t("date")} {page.date}
+              </div>
               <h1>{page.title}</h1>
               {page.shortDescription && (
                 <div className={st.policy__shortDescription}>
