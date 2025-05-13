@@ -37,7 +37,7 @@ export async function generateMetadata({
 export default async function PolicyPage({
   params,
 }: {
-  params: { slug: string };
+  params: { slug: string; locale: string };
 }) {
   const { slug } = params;
   const locale = await getLocale();
