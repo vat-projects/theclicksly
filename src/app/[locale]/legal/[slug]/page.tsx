@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
 
 import { getPage, getPageSlugs } from "@/features/policy/policy";
+import { routing } from "@/i18n/routing";
 
 import st from "./page.module.scss";
-import { routing } from "@/i18n/routing";
 
 type PageParams = {
   slug: string;
@@ -37,7 +37,8 @@ export async function generateMetadata({
 export default async function PolicyPage({
   params,
 }: {
-  params: { slug: string; locale: string };
+  params: { slug: string };
+  searchParams: { [key: string]: string | string[] | undefined };
 }) {
   const { slug } = params;
   const locale = await getLocale();
