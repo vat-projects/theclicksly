@@ -19,9 +19,10 @@ export async function generateStaticParams(): Promise<PageParams[]> {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = params;
+  const awaitedParams = await params;
+  const { slug } = awaitedParams;
   const locale = await getLocale();
   const page = await getPage(slug, locale);
   const pageTitle = `${page.title} | The Clicksly`;
@@ -37,10 +38,10 @@ export async function generateMetadata({
 export default async function PolicyPage({
   params,
 }: {
-  params: { slug: string };
-  searchParams: { [key: string]: string | string[] | undefined };
+  params: Promise<{ slug: string }>;
 }) {
-  const { slug } = params;
+  const awaitedParams = await params;
+  const { slug } = awaitedParams;
   const locale = await getLocale();
   const page = await getPage(slug, locale);
   const t = await getTranslations("legal");
