@@ -7,9 +7,9 @@ import { WEBSITE_EMAIL, WEBSITE_PHONE } from "@/shared/lib/constants/constants";
 
 import { Email } from "../../icons/email/email";
 import { Phone } from "../../icons/phone/phone";
-import { Facebook } from "../../icons/socials/facebook/facebook";
-import { Instagram } from "../../icons/socials/instagram/instagram";
-import { X } from "../../icons/socials/x/x";
+// import { Facebook } from "../../icons/socials/facebook/facebook";
+// import { Instagram } from "../../icons/socials/instagram/instagram";
+// import { X } from "../../icons/socials/x/x";
 import LangSelector from "../language-switcher/LangSelector";
 import { MobileMenu } from "../mobile-menu/MobileMenu";
 import styles from "./Header.module.scss";
@@ -34,7 +34,7 @@ export const Header = () => {
             </div>
             <div className={styles.headerTopRight}>
               <LangSelector />
-              <Link href="#" target="_blank">
+              {/**<Link href="#" target="_blank">
                 <Facebook />
               </Link>
               <Link href="#" target="_blank">
@@ -42,7 +42,7 @@ export const Header = () => {
               </Link>
               <Link href="#" target="_blank">
                 <X />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

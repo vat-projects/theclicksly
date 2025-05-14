@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 import {
   WEBSITE_EMAIL,
@@ -10,9 +10,9 @@ import {
   WEBSITE_REGISTRATION_ADDRESS,
 } from "@/shared/lib/constants/constants";
 
-import { Facebook } from "../../icons/socials/facebook/facebook";
-import { Instagram } from "../../icons/socials/instagram/instagram";
-import { X } from "../../icons/socials/x/x";
+// import { Facebook } from "../../icons/socials/facebook/facebook";
+// import { Instagram } from "../../icons/socials/instagram/instagram";
+// import { X } from "../../icons/socials/x/x";
 import styles from "./Footer.module.scss";
 
 export const Footer = () => {
@@ -109,7 +109,7 @@ export const Footer = () => {
       <div className={"_container"}>
         <div className={styles.footerBottom}>
           <div className={styles.footerBottomLeft}>
-            <Link href="#" target="_blank">
+            {/**<Link href="#" target="_blank">
               <Facebook />
             </Link>
             <Link href="#" target="_blank">
@@ -117,7 +117,7 @@ export const Footer = () => {
             </Link>
             <Link href="#" target="_blank">
               <X />
-            </Link>
+            </Link> */}
           </div>
           <div className={styles.footerBottomRight}>
             <p>© {year} Youmedia Inc</p>
