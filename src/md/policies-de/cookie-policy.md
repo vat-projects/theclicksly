@@ -1,6 +1,6 @@
 ---
 title: "Cookie Policy"
-date: "DATE"
+date: "14.05.2025"
 ---
 
 <div>

@@ -1,6 +1,6 @@
 ---
 title: "Terms and Conditions"
-date: "DATE"
+date: "14.05.2025"
 shortDescription: "Please read the following carefully before accepting these Terms and accessing, using, or registering for the The Clicksly website, services, or communications."
 ---
 
