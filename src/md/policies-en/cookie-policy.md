@@ -97,7 +97,7 @@ If you have any questions about this Cookie Policy, you can contact us:
     <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
  </div>
 <div class="contact-info">
-    <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a>PHONE NUMBER</a></span>
+    <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a href="tel:+447426463899">+447426463899</a></span>
 </div>
 
 </div>
