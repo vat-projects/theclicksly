@@ -5,6 +5,7 @@ const TestComponent = ({ name, age }: { name: string; age: number }) => {
     <div>
       <h1>Hello {name}</h1>
       <p>You are {age} years old</p>
+      <span> asdas asd asd</span>
     </div>
   );
 };
