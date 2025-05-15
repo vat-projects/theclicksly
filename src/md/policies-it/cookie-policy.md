@@ -1,103 +1,103 @@
 ---
-title: "Cookie Policy"
+title: "Politica sui Cookie"
 date: "14.05.2025"
 ---
 
 <div>
 
-1.  This Cookie Policy explains cookies and how Youmedia Inc, operating under the brand The Clicksly, registered at Intershore Chambers, Road Town, Tortola, British Virgin Islands, with registration number 2174481, and third parties use them.
-2.  For more information on how we use, store, and process personal data, please refer to our Privacy Policy.
-3.  This Cookie Policy is an integral part of our Privacy Policy.
-4.  Any terms used herein and not defined shall have the meanings ascribed to them in the Privacy Policy.
+1.  Questa Politica sui Cookie spiega cosa sono i cookie e come Youmedia Inc, operante con il marchio The Clicksly, registrata presso Intershore Chambers, Road Town, Tortola, Isole Vergini Britanniche, con numero di registrazione 2174481, e terze parti li utilizzano.
+2.  Per maggiori informazioni su come usiamo, conserviamo e trattiamo i dati personali, si prega di consultare la nostra Informativa sulla Privacy.
+3.  Questa Politica sui Cookie è parte integrante della nostra Informativa sulla Privacy.
+4.  Qualsiasi termine qui usato e non definito avrà il significato attribuito nella Informativa sulla Privacy.
 
 </div>
 
 <div>
 
-## **Use of Cookies and Tracking Technologies**
+## **Uso di Cookie e Tecnologie di Tracciamento**
 
-1.  Cookies are small text files placed on your browser or device by websites you visit. Websites also use other automated means, such as pixel tags (web beacons or clear GIFs). Pixel tags are typically transparent graphic images that work with cookies to track visitor actions on the website.
-2.  Cookies help websites function more effectively and enhance your browsing experience by remembering your preferences, auto-filling details like usernames and passwords, and personalizing your content. Website owners also use them for business analytics and advertising purposes.
-3.  There are two primary types of cookies:
+1.  I cookie sono piccoli file di testo posizionati sul tuo browser o dispositivo dai siti web che visiti. I siti web possono utilizzare anche altri mezzi automatici, come i pixel tag (web beacon o GIF trasparenti). I pixel tag sono immagini grafiche trasparenti che funzionano insieme ai cookie per tracciare le azioni dei visitatori sul sito.
+2.  I cookie aiutano i siti web a funzionare meglio e migliorano la tua esperienza di navigazione ricordando le tue preferenze, compilando automaticamente dati come nomi utente e password e personalizzando i contenuti. I proprietari dei siti li usano anche per analisi aziendali e scopi pubblicitari.
+3.  Esistono due tipi principali di cookie:
 
-    - **First-party cookies**: Placed by the website you are visiting.
-    - **Third-party cookies**: These are placed by external parties to provide additional services or features, such as analytics or advertising.
+    - **Cookie di prima parte**: posizionati dal sito web che stai visitando.
+    - **Cookie di terze parti**: posizionati da soggetti esterni per fornire servizi o funzionalità aggiuntive, come analisi o pubblicità.
 
-4.  Cookies can also vary by duration:
+4.  I cookie si differenziano anche per durata:
 
-    - **Session cookies**: These are temporary and deleted when you exit the website.
-    - **Persistent cookies** remain on your device until they are deleted or expired.
-
-</div>
-
-<div>
-
-## **Types of Cookies We Use**
-
-1.  **Strictly Necessary Cookies:** These cookies are essential for the website's operation, and the services users request.
-2.  **Functionality Cookies:** These cookies remember user preferences, such as language, region, or login details, to enhance the user experience.
-3.  **Performance (Analytic) Cookies:** These cookies collect information about how users interact with the website, such as which pages are visited most often, to help improve functionality.
-4.  **Advertising (Targeting) Cookies:** These cookies deliver personalized advertisements based on your browsing activity and preferences. They also measure the effectiveness of advertising campaigns.
+    - **Cookie di sessione**: temporanei, vengono cancellati alla chiusura del sito.
+    - **Cookie persistenti**: rimangono sul dispositivo fino a quando non scadono o vengono eliminati.
 
 </div>
 
 <div>
 
-## **Cookies We Use and Information We Collect**
+## **Tipologie di Cookie che Utilizziamo**
 
-1.  We use the following types of cookies on our website:
-
-    - First-party and third-party cookies.
-    - Strictly necessary cookies, functionality cookies, performance (analytic) cookies, and advertising (targeting) cookies.
-
-2.  The information collected may include:
-
-    - Operating system and device details.
-    - Pages viewed, session durations, and general location (city or region).
-    - Information to streamline user experience, such as autofill data.
-    - Visitor metrics and website usage patterns.
-    - Advertising user IDs and targeted advertising data.
+1.  **Cookie strettamente necessari:** Essenziali per il funzionamento del sito e dei servizi richiesti dagli utenti.
+2.  **Cookie di funzionalità:** Ricordano le preferenze dell'utente, come lingua, regione o dati di accesso, per migliorare l'esperienza.
+3.  **Cookie di performance (analitici):** Raccoglie informazioni su come gli utenti interagiscono con il sito, quali pagine sono visitate più spesso, per migliorare le funzionalità.
+4.  **Cookie pubblicitari (di targeting):** Offrono pubblicità personalizzata basata sulla tua attività di navigazione e preferenze, e misurano l'efficacia delle campagne pubblicitarie.
 
 </div>
 
 <div>
 
-## **How to Manage Cookies**
+## **Cookie Utilizzati e Informazioni Raccolte**
 
-1.  If you do not want cookies placed on your device, adjust your browser settings to block or delete them.
-2.  Most browsers also allow you to review and selectively manage cookies stored on your device.
-3.  Disabling cookies may impact certain website features and limit your browsing experience.
-4.  You can also opt out of third-party retargeting cookies via services like:
+1.  Sul nostro sito utilizziamo:
+
+    - Cookie di prima parte e di terze parti.
+    - Cookie strettamente necessari, di funzionalità, di performance e pubblicitari.
+
+2.  Le informazioni raccolte possono includere:
+
+    - Dettagli sul sistema operativo e sul dispositivo.
+    - Pagine visitate, durata delle sessioni, posizione generale (città o regione).
+    - Dati per ottimizzare l'esperienza utente, come dati di compilazione automatica.
+    - Metriche di visita e modelli di utilizzo del sito.
+    - ID utente pubblicitari e dati per pubblicità mirata.
+
+</div>
+
+<div>
+
+## **Come Gestire i Cookie**
+
+1.  Se non desideri che i cookie siano posizionati sul tuo dispositivo, modifica le impostazioni del browser per bloccarli o cancellarli.
+2.  La maggior parte dei browser consente anche di gestire selettivamente i cookie memorizzati.
+3.  Disabilitare i cookie può limitare alcune funzionalità del sito e influire sulla tua esperienza di navigazione.
+4.  Puoi inoltre scegliere di disabilitare i cookie di retargeting di terze parti tramite servizi come:
 
     - Network Advertising Initiative
-    - Digital Advertising Alliance.
+    - Digital Advertising Alliance
 
 </div>
 
 <div>
 
-## **Updates to This Policy**
+## **Aggiornamenti a Questa Politica**
 
-1.  This Cookie Policy may be updated periodically.
-2.  We encourage you to review it regularly to stay informed about how we use cookies and any changes to our practices.
-3.  Any updates will be posted on this page and/or on our website.
+1.  Questa Politica sui Cookie può essere aggiornata periodicamente.
+2.  Ti invitiamo a consultarla regolarmente per rimanere informato su come utilizziamo i cookie e sulle eventuali modifiche.
+3.  Ogni aggiornamento sarà pubblicato su questa pagina e/o sul nostro sito web.
 
 </div>
 
 <div>
 
-## **Get in Touch with Us**
+## **Contattaci**
 
-If you have any questions about this Cookie Policy, you can contact us:
+Se hai domande su questa Politica sui Cookie, puoi contattarci:
 
 <div class="contact-info">
     <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
-    </div>
+</div>
 <div class="contact-info">
     <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
- </div>
+</div>
 <div class="contact-info">
-    <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a href="tel:+447426463899">+447426463899</a></span>
+    <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a href="tel:+447426463899">+44 7426 463899</a></span>
 </div>
 
 </div>

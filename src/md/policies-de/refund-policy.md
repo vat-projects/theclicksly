@@ -1,73 +1,73 @@
 ---
-title: "Refund Policy"
+title: "Rückerstattungsrichtlinie"
 date: "14.05.2025"
 ---
 
 <div>
 
-1.  At Youmedia Inc, operating under the brand The Clicksly, registered at Intershore Chambers, Road Town, Tortola, British Virgin Islands, with registration number 2174481, we are committed to providing high-quality affiliate marketing services.
-2.  However, due to the nature of marketing campaigns, we do not offer refunds for our services.
-3.  The effectiveness of advertising depends on various factors beyond our control, such as product quality, audience relevance, and the effectiveness of the marketing message.
-4.  This Policy outlines the circumstances under which refunds are not granted and provides guidance for addressing concerns.
+1.  Youmedia Inc, tätig unter der Marke The Clicksly, registriert unter Intershore Chambers, Road Town, Tortola, British Virgin Islands, mit der Registrierungsnummer 2174481, verpflichtet sich zur Bereitstellung hochwertiger Affiliate-Marketing-Dienstleistungen.
+2.  Aufgrund der Natur von Marketingkampagnen bieten wir jedoch keine Rückerstattungen für unsere Dienstleistungen an.
+3.  Der Erfolg von Werbemaßnahmen hängt von verschiedenen Faktoren ab, die außerhalb unserer Kontrolle liegen, wie z. B. Produktqualität, Relevanz für die Zielgruppe und Wirksamkeit der Marketingbotschaft.
+4.  Diese Richtlinie erläutert die Umstände, unter denen keine Rückerstattungen gewährt werden, und gibt Hinweise zum Umgang mit Anliegen.
 
 </div>
 
 <div>
 
-## **No Refund Policy**
+## **Keine Rückerstattung**
 
-1.  The Clicksly does not offer refunds for services provided. The success of advertising campaigns depends on:
+1.  The Clicksly bietet keine Rückerstattungen für erbrachte Leistungen an. Der Erfolg von Werbekampagnen hängt ab von:
 
-    - The quality and appeal of the product or service being promoted.
-    - Its relevance to the selected target audience.
-    - The clarity and impact of the marketing message.
-    - The reputation and visibility of the brand.
+    - Der Qualität und Attraktivität des beworbenen Produkts oder der Dienstleistung.
+    - Der Relevanz für die ausgewählte Zielgruppe.
+    - Der Klarheit und Wirkung der Marketingbotschaft.
+    - Dem Ruf und der Sichtbarkeit der Marke.
 
-2.  While we use our expertise to optimize campaign performance, these factors are often outside our control, making refunds impractical.
-
-</div>
-
-<div>
-
-## **Non-Refundable Circumstances**
-
-Refunds will not be provided in the following situations:
-
-1. **Lack of Understanding of Affiliate Marketing:** Affiliate marketing requires a basic understanding of how campaigns operate. A lack of knowledge or unrealistic expectations does not justify a refund.
-
-2. **Failure to Meet Internal Business Expectations:** Campaigns that fail to align with your business goals or benchmarks due to misaligned strategies or preparation are not eligible for refunds.
-
-3. **Providing Incomplete or Inaccurate Information:** Suboptimal results stemming from incorrect or insufficient details about your product, target audience, or business during setup cannot be grounds for a refund.
-
-4. **Unrealistic Performance Expectations:** Affiliate marketing is a process that often requires iterative optimization. Immediate or guaranteed results cannot be expected and do not warrant a refund.
-
-5. **Ignoring Professional Recommendations:** Refusal to implement suggested adjustments or follow recommendations based on campaign data insights is not a valid reason for seeking a refund.
+2.  Obwohl wir unser Fachwissen einsetzen, um die Kampagnenleistung zu optimieren, liegen diese Faktoren häufig außerhalb unseres Einflussbereichs, weshalb Rückerstattungen nicht praktikabel sind.
 
 </div>
 
 <div>
 
-## **Service Satisfaction Guarantee**
+## **Nicht erstattungsfähige Fälle**
 
-1.  If you are dissatisfied with our services and believe your case warrants further review, please contact us at info@theclicksly.com.
-2.  Our team is dedicated to addressing your concerns and finding a solution where possible.
+Rückerstattungen werden in folgenden Situationen nicht gewährt:
+
+1. **Mangelndes Verständnis von Affiliate Marketing:** Affiliate Marketing erfordert ein Grundverständnis der Kampagnenmechanismen. Fehlendes Wissen oder unrealistische Erwartungen sind kein Rückerstattungsgrund.
+
+2. **Nicht-Erreichen interner Geschäftserwartungen:** Kampagnen, die aufgrund fehlender Abstimmung oder Vorbereitung nicht mit Ihren Geschäftszielen übereinstimmen, sind von Rückerstattungen ausgeschlossen.
+
+3. **Unvollständige oder falsche Angaben:** Schlechte Ergebnisse, die durch ungenaue oder unzureichende Informationen zu Ihrem Produkt, der Zielgruppe oder Ihrem Unternehmen bei der Einrichtung entstehen, berechtigen nicht zur Rückerstattung.
+
+4. **Unrealistische Leistungserwartungen:** Affiliate Marketing ist ein iterativer Prozess, der Optimierungen erfordert. Sofortige oder garantierte Ergebnisse sind nicht zu erwarten und rechtfertigen keine Rückerstattung.
+
+5. **Ignorieren professioneller Empfehlungen:** Die Weigerung, vorgeschlagene Anpassungen umzusetzen oder Empfehlungen basierend auf Kampagnendaten zu folgen, ist kein gültiger Rückerstattungsgrund.
 
 </div>
 
 <div>
 
-## **Contact Us**
+## **Zufriedenheitsgarantie**
 
-If you have any questions about this Refund Policy or would like to discuss your concerns, please contact us:
+1.  Sollten Sie mit unseren Dienstleistungen unzufrieden sein und der Meinung sein, dass Ihr Anliegen eine weitere Prüfung verdient, kontaktieren Sie uns bitte unter info@theclicksly.com.
+2.  Unser Team bemüht sich, Ihre Anliegen zu klären und, wo möglich, eine Lösung zu finden.
+
+</div>
+
+<div>
+
+## **Kontaktieren Sie uns**
+
+Bei Fragen zu dieser Rückerstattungsrichtlinie oder um Ihre Anliegen zu besprechen, erreichen Sie uns unter:
 
 <div class="contact-info">
     <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
-    </div>
+</div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
- </div>
+    <img src="/images/policy/mail.svg"><span><b>E-Mail:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
+</div>
 <div class="contact-info">
-    <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a href="tel:+447426463899">+447426463899</a></span>
+    <img src="/images/policy/phone.svg"><span><b>Telefon:</b> <a href="tel:+447426463899">+44 7426 463899</a></span>
 </div>
 
 </div>

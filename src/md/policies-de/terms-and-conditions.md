@@ -1,219 +1,219 @@
 ---
-title: "Terms and Conditions"
+title: "Allgemeine Geschäftsbedingungen"
 date: "14.05.2025"
-shortDescription: "Please read the following carefully before accepting these Terms and accessing, using, or registering for the The Clicksly website, services, or communications."
+shortDescription: "Bitte lesen Sie die folgenden Bedingungen sorgfältig durch, bevor Sie diese akzeptieren und die Website, Dienstleistungen oder Kommunikation von The Clicksly aufrufen, nutzen oder sich registrieren."
 ---
 
 <div>
 
-1.  These website Terms and Conditions (“Terms”) form a legally binding agreement between Youmedia Inc, operating under the brand The Clicksly, registered at Intershore Chambers, Road Town, Tortola, British Virgin Islands, with registration number 2174481 (“Company,” “we,” “us,” or “our”), and you, a visitor or user of our website (“you” and “website,” respectively).
-2.  By accessing the website, you confirm that you have read and understood these Terms.
-3.  As further detailed below, you agree to be bound by them and fully comply with applicable laws and regulations related to your use of the website or its services.
-4.  You also represent and warrant that you are eligible to enter these Terms or, where applicable, have the proper authorization to do so.
-5.  We respect your privacy rights. Please review our Privacy Policy for more information on how we handle your data.
+1.  Diese Website-Bedingungen ("Bedingungen") bilden eine rechtsverbindliche Vereinbarung zwischen Youmedia Inc, operierend unter der Marke The Clicksly, registriert unter Intershore Chambers, Road Town, Tortola, British Virgin Islands, mit der Registrierungsnummer 2174481 ("Unternehmen", "wir", "uns" oder "unser"), und Ihnen, einem Besucher oder Nutzer unserer Website ("Sie" und "Website").
+2.  Durch den Zugriff auf die Website bestätigen Sie, dass Sie diese Bedingungen gelesen und verstanden haben.
+3.  Wie im Folgenden näher erläutert, stimmen Sie zu, an diese gebunden zu sein und alle anwendbaren Gesetze und Vorschriften in Bezug auf Ihre Nutzung der Website oder ihrer Dienste vollständig einzuhalten.
+4.  Sie versichern außerdem, dass Sie berechtigt sind, diese Bedingungen einzugehen, oder, falls zutreffend, über die entsprechende Erlaubnis verfügen.
+5.  Wir respektieren Ihre Datenschutzrechte. Bitte lesen Sie unsere Datenschutzerklärung, um mehr darüber zu erfahren, wie wir Ihre Daten verarbeiten.
 
 </div>
 
 <div>
 
-## **Service and Website Overview**
+## **Überblick über Dienste und Website**
 
-1.  The website is designed to provide information about our services (“Services”) and how you can optimize your media and enhance your revenues.
-2.  Through the website, we may publish articles, case studies, webinars, videos, and other materials (“Content”) to inform and assist you.
-3.  If you choose to purchase our services, the terms of your engagement will be governed by our Client’s Terms and Conditions.
-4.  The website may offer free services like traffic analysis, performance evaluation tools, and estimated revenue calculators. Additionally, it includes communication features such as contact forms or options to request a consultation with our sales team.
-5.  The content available on the website is provided for general informational purposes only and is used at your sole risk.
-6.  We disclaim any liability for actions taken or not taken based on the content provided on the website or the free services offered.
-7.  These services are used at your sole responsibility and discretion.
-
-</div>
-
-<div>
-
-## **Age Restriction**
-
-1.  You must be at least 18 years old to access or use the services provided by The Clicksly. We do not offer our services to individuals under the age of 18.
-2.  By using our platform, you confirm that you meet this age requirement.
-3.  If we learn that a user is under 18, we reserve the right to terminate their access immediately.
+1.  Die Website dient dazu, Informationen über unsere Dienstleistungen ("Dienste") bereitzustellen und Ihnen zu zeigen, wie Sie Ihre Medien optimieren und Ihre Einnahmen steigern können.
+2.  Über die Website veröffentlichen wir gegebenenfalls Artikel, Fallstudien, Webinare, Videos und andere Materialien ("Inhalte"), um Sie zu informieren und zu unterstützen.
+3.  Wenn Sie sich entscheiden, unsere Dienste zu kaufen, gelten die Bedingungen unserer Kundenvereinbarung.
+4.  Die Website kann kostenlose Dienste wie Verkehrsanalysen, Leistungsbewertungstools und geschätzte Einnahmenrechner anbieten. Darüber hinaus enthält sie Kommunikationsfunktionen wie Kontaktformulare oder Optionen zur Anforderung einer Beratung mit unserem Vertriebsteam.
+5.  Die auf der Website verfügbaren Inhalte dienen ausschließlich allgemeinen Informationszwecken und werden auf eigenes Risiko verwendet.
+6.  Wir übernehmen keine Haftung für Handlungen, die aufgrund der bereitgestellten Inhalte oder der kostenlosen Dienste auf der Website vorgenommen oder nicht vorgenommen wurden.
+7.  Die Nutzung dieser Dienste erfolgt auf Ihre alleinige Verantwortung und nach eigenem Ermessen.
 
 </div>
 
 <div>
 
-## **Access Rights and Licensing**
+## **Altersbeschränkung**
 
-1.  We grant you permission to visit and use the website for informational and personal purposes only, subject to these Terms and your compliance with applicable laws.
-2.  If you choose to use the Services provided through the website, you acknowledge and agree that you are granted a non-exclusive, revocable license to access and use the Services solely for your purposes.
-3.  We may modify the Services occasionally without prior notice or approval.
-4.  We are not obligated to support the Services and may suspend or terminate your license and disable access to the Services at any time.
-5.  You are prohibited from making unauthorized modifications, reverse engineering, disassembling, decompiling, or attempting to derive the Services’ source code.
+1.  Sie müssen mindestens 18 Jahre alt sein, um auf die von The Clicksly angebotenen Dienste zugreifen oder diese nutzen zu können. Unsere Dienste werden nicht an Personen unter 18 Jahren angeboten.
+2.  Mit der Nutzung unserer Plattform bestätigen Sie, dass Sie diese Altersanforderung erfüllen.
+3.  Sollten wir feststellen, dass ein Nutzer unter 18 ist, behalten wir uns das Recht vor, den Zugriff unverzüglich zu beenden.
 
 </div>
 
 <div>
 
-## **User Obligations and Prohibited Conduct**
+## **Zugriffsrechte und Lizenzierung**
 
-1.  When using the website, content, or services provided by The Clicksly, you agree to adhere to the following responsibilities and avoid prohibited activities.
-
-### **Guarantees and Assurances**
-
-2.  By accessing or using our website, content, or services, you represent and warrant that you will not, and will not encourage or permit others to:
-
-- **Engaging in illegal conduct:** Avoid using the website, content, or services in a non-compliant, illegal, fraudulent, or inappropriate manner.
-- **Circumventing or disrupting security features:** Do not circumvent, disable, or otherwise interfere with the security-related features of the website or services.
-- **Altering or reverse-engineering the platform:** Do not create derivative works, reverse engineer, or disassemble any part of the website, content, or services.
-- **Removing or changing proprietary content:** Do not remove, deface, obscure, or alter trademarks, copyright notices, or proprietary rights on the website, content, or services.
-- **Violating intellectual property rights:** Do not use the website, content, or services in violation of third-party rights, including intellectual property and privacy rights, or in breach of these Terms.
-
-### **Usage Restrictions**
-
-In addition, you agree not to:
-
-- Sublicense, resell, rent, lease, assign, transfer rights, or commercially exploit the website, content, or services.
-- Use automated tools (such as robots or scrapers) to access or interact with the website, content, or services.
-- Use The Clicksly’s name, logo, or trademarks without prior written consent.
+1.  Wir gewähren Ihnen die Erlaubnis, die Website ausschließlich zu Informations- und persönlichen Zwecken zu besuchen und zu nutzen, vorbehaltlich dieser Bedingungen und Ihrer Einhaltung der geltenden Gesetze.
+2.  Wenn Sie die über die Website bereitgestellten Dienste nutzen, erkennen Sie an und stimmen zu, dass Ihnen eine nicht-exklusive, widerrufliche Lizenz zur Nutzung der Dienste ausschließlich zu Ihren Zwecken eingeräumt wird.
+3.  Wir können die Dienste gelegentlich ohne vorherige Ankündigung oder Zustimmung ändern.
+4.  Wir sind nicht verpflichtet, die Dienste zu unterstützen, und können Ihre Lizenz jederzeit aussetzen oder beenden sowie den Zugang zu den Diensten deaktivieren.
+5.  Es ist Ihnen untersagt, unautorisierte Änderungen vorzunehmen, Reverse Engineering durchzuführen, zu dekompilieren oder zu versuchen, den Quellcode der Dienste abzuleiten.
 
 </div>
 
 <div>
 
-## **Ownership and Intellectual Property Rights**
+## **Pflichten der Nutzer und verbotenes Verhalten**
 
-### **Exclusive Ownership Rights**
+1.  Bei der Nutzung der Website, der Inhalte oder der von The Clicksly bereitgestellten Dienste erklären Sie sich bereit, die folgenden Pflichten einzuhalten und verbotene Aktivitäten zu unterlassen.
 
-1.  The website, services, and content — including trademarks, logos, text, documents, graphics, photos, videos, sounds, interactive features, and other materials (“Marks”) — are the exclusive property of The Clicksly or its partners.
-2.  Except as explicitly stated in these Terms, no license, right, title, or interest in the website, services, or content is granted to you.
-3.  All rights, title, and ownership remain with The Clicksly or its affiliates.
+### **Garantieerklärungen**
 
-### **Limits on Use of Intellectual Property**
+2.  Durch den Zugriff oder die Nutzung unserer Website, Inhalte oder Dienste versichern Sie, dass Sie nicht und auch keine anderen ermutigen oder zulassen werden, Folgendes zu tun:
 
-1.  You are prohibited from using The Clicksly’s copyrights, trademarks, trade names, or any other intellectual property in any manner unless expressly agreed upon in these Terms.
-2.  Any unauthorized use of these assets is strictly prohibited.
+- **Illegale Handlungen:** Vermeiden Sie die Nutzung der Website, Inhalte oder Dienste in nicht konformer, illegaler, betrügerischer oder unangemessener Weise.
+- **Umgehung oder Störung von Sicherheitsfunktionen:** Umgehen, deaktivieren oder stören Sie nicht die sicherheitsrelevanten Funktionen der Website oder Dienste.
+- **Veränderung oder Reverse Engineering der Plattform:** Erstellen Sie keine abgeleiteten Werke, führen Sie kein Reverse Engineering durch oder zerlegen Sie keine Teile der Website, Inhalte oder Dienste.
+- **Entfernen oder Ändern von Eigentumsinhalten:** Entfernen, entstellen, verdecken oder verändern Sie keine Marken, Urheberrechtshinweise oder Eigentumsrechte auf der Website, den Inhalten oder Diensten.
+- **Verletzung von geistigen Eigentumsrechten:** Nutzen Sie die Website, Inhalte oder Dienste nicht bei Verletzung der Rechte Dritter, einschließlich geistiger Eigentums- und Datenschutzrechte, oder im Widerspruch zu diesen Bedingungen.
 
-### **Disclaimer of Guarantees**
+### **Nutzungsbeschränkungen**
 
-1.  The website, content, and services are provided on an “as is” and “as available” basis without any warranties, express or implied.
-2.  You assume full responsibility for accessing and using the website and services and selecting the services that meet your intended goals.
-3.  We disclaim all warranties, including but not limited to implied warranties of merchantability, title, fitness for a particular purpose, and non-infringement.
+Sie stimmen außerdem zu, Folgendes zu unterlassen:
 
-### **Information Accuracy**
-
-1.  The data, including the content on the website, is provided “as is.” We are not responsible for the accuracy or omissions of any data on the website or in the content.
-2.  We will not be held liable for decisions or actions made based on the content nor for any loss, injury, or damages arising from such actions.
+- Unterlizenzierung, Weiterverkauf, Vermietung, Leasing, Abtretung, Übertragung von Rechten oder kommerzielle Ausbeutung der Website, Inhalte oder Dienste.
+- Einsatz automatisierter Werkzeuge (z. B. Bots oder Scraper), um auf die Website, Inhalte oder Dienste zuzugreifen oder mit ihnen zu interagieren.
+- Nutzung des Namens, Logos oder der Marken von The Clicksly ohne vorherige schriftliche Zustimmung.
 
 </div>
 
 <div>
 
-## **Website Availability and Protection**
+## **Eigentum und geistige Eigentumsrechte**
 
-1.  We do not guarantee the website’s availability, content, or services in specific locations or times.
-2.  Additionally, we make no representations or warranties about the security of any information you provide or activities you undertake while using the website, content, or services.
+### **Exklusives Eigentum**
 
-</div>
+1.  Die Website, Dienste und Inhalte — einschließlich Marken, Logos, Texte, Dokumente, Grafiken, Fotos, Videos, Sounds, interaktiven Funktionen und anderen Materialien ("Marken") — sind exklusives Eigentum von The Clicksly oder seinen Partnern.
+2.  Soweit in diesen Bedingungen nicht ausdrücklich anders angegeben, wird Ihnen keine Lizenz, kein Recht, Titel oder Interesse an der Website, den Diensten oder Inhalten eingeräumt.
+3.  Alle Rechte, Titel und Eigentumsrechte verbleiben bei The Clicksly oder seinen verbundenen Unternehmen.
 
-<div>
+### **Einschränkungen bei der Nutzung geistigen Eigentums**
 
-## **Use at Your Own Risk**
+1.  Es ist Ihnen untersagt, die Urheberrechte, Marken, Handelsnamen oder sonstiges geistiges Eigentum von The Clicksly in irgendeiner Weise zu nutzen, sofern dies nicht ausdrücklich in diesen Bedingungen gestattet ist.
+2.  Jegliche unautorisierte Nutzung dieser Vermögenswerte ist streng verboten.
 
-1.  Using the website, content, or services is at your own risk and responsibility. Certain jurisdictions may not allow the exclusion of certain warranties, so some limitations in this section may not apply to you.
+### **Haftungsausschluss für Garantien**
 
-</div>
+1.  Die Website, Inhalte und Dienste werden "wie besehen" und "wie verfügbar" bereitgestellt, ohne jegliche ausdrückliche oder stillschweigende Gewährleistung.
+2.  Sie tragen die volle Verantwortung für den Zugriff auf und die Nutzung der Website und Dienste sowie für die Auswahl der Dienste, die Ihren beabsichtigten Zielen entsprechen.
+3.  Wir schließen alle Garantien aus, einschließlich, aber nicht beschränkt auf stillschweigende Garantien der Marktgängigkeit, des Eigentums, der Eignung für einen bestimmten Zweck und der Nichtverletzung.
 
-<div>
+### **Genauigkeit der Informationen**
 
-## **Limitation of Liability**
-
-1.  To the fullest extent permitted by law, the company, including its affiliates and their respective officers, directors, employees, and agents (collectively called the “company group”), shall not be liable for indirect, incidental, consequential, special, or exemplary damages.
-2.  This includes but is not limited to, damages for lost profits, business interruption, loss of data, loss of goodwill, work stoppage, device failure or malfunction, or damages arising from the use or inability to use the website or services, even if the company has been advised of the possibility of such damages.
-
-</div>
-
-<div>
-
-## **Events Beyond Our Control**
-
-1.  The company shall not be liable or responsible for any failure to perform or delays in performing its obligations under these Terms caused by events outside its reasonable control.
-2.  This includes but is not limited to acts of God, natural disasters, war, terrorism, labor disputes, internet outages, or governmental restrictions.
+1.  Die Daten, einschließlich der Inhalte auf der Website, werden "wie besehen" bereitgestellt. Wir übernehmen keine Verantwortung für die Richtigkeit oder das Fehlen von Daten auf der Website oder in den Inhalten.
+2.  Wir haften nicht für Entscheidungen oder Handlungen, die auf den Inhalten basieren, ebenso wenig für Verluste, Verletzungen oder Schäden, die aus solchen Handlungen resultieren.
 
 </div>
 
 <div>
 
-## **Aggregate Responsibility**
+## **Verfügbarkeit und Schutz der Website**
 
-1.  In no event shall the aggregate liability of the company group for any claims arising out of or related to these Terms or the services exceed the total amount paid by you to The Clicksly.
-
-</div>
-
-<div>
-
-## **Indemnification Terms**
-
-1.  You agree to defend, indemnify, and hold harmless the company, its affiliates, and their respective officers, directors, employees, and agents from any claims, damages, liabilities, and expenses (including reasonable attorney’s fees) arising from your use of the website, content, or services.
+1.  Wir garantieren nicht die Verfügbarkeit der Website, ihrer Inhalte oder Dienste an bestimmten Orten oder zu bestimmten Zeiten.
+2.  Zudem machen wir keine Zusicherungen oder Gewährleistungen bezüglich der Sicherheit von Informationen, die Sie bereitstellen, oder der Aktivitäten, die Sie bei der Nutzung der Website, Inhalte oder Dienste durchführen.
 
 </div>
 
 <div>
 
-## **Termination of Access**
+## **Nutzung auf eigenes Risiko**
 
-1.  You may terminate the services or cease using the website at any time.
-2.  The company reserves the right to modify, suspend, or discontinue any aspect of the website, content, or services at any time without prior notice and liability to you in connection with such changes.
-
-</div>
-
-<div>
-
-## **Governing Law**
-
-1.  These Terms shall be governed by and construed by the laws of the British Virgin Islands. Any disputes shall be resolved exclusively by the competent courts in the British Virgin Islands.
-2.  Any cause of action related to the website, content, or services must be initiated within one (1) year from the date the issue arose; otherwise, such claims will be permanently barred.
+1.  Die Nutzung der Website, Inhalte oder Dienste erfolgt auf Ihr eigenes Risiko und Ihre eigene Verantwortung. Bestimmte Rechtsordnungen erlauben möglicherweise nicht den Ausschluss bestimmter Garantien, daher gelten einige Einschränkungen dieses Abschnitts möglicherweise nicht für Sie.
 
 </div>
 
 <div>
 
-## **Additional Terms**
+## **Haftungsbeschränkung**
 
-1.  These Terms represent the entire agreement between you and the company regarding using the services.
-2.  If any provision of these Terms is deemed unenforceable, it will be reformed only to the extent necessary to make it enforceable.
-3.  This determination will not affect the enforceability of the remaining provisions under all circumstances.
-4.  The company’s failure to enforce any right or take action against you for a breach of these Terms will not be considered a waiver of such rights or actions in the event of future breaches.
-5.  You may not assign these Terms or any rights granted herein without prior written consent from the company.
-6.  The company reserves the right to assign its rights and obligations under these Terms at any time and at its sole discretion.
-7.  Your relationship with the company is strictly that of an independent contractor.
-8.  Nothing in these Terms is intended to create or should be construed as creating a partnership, agency, joint venture, or employment relationship between you and the company.
+1.  Soweit gesetzlich zulässig, haften das Unternehmen, seine verbundenen Unternehmen sowie deren jeweilige leitenden Angestellten, Direktoren, Mitarbeiter und Vertreter (zusammen das "Unternehmensgruppe") nicht für indirekte, beiläufige, Folgeschäden, besondere oder exemplarische Schäden.
+2.  Dies schließt, ist aber nicht beschränkt auf Schäden durch entgangene Gewinne, Betriebsunterbrechungen, Datenverlust, Verlust von Goodwill, Arbeitsstillstand, Geräteausfall oder Funktionsstörungen sowie Schäden durch Nutzung oder Unfähigkeit zur Nutzung der Website oder Dienste, selbst wenn das Unternehmen auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
 </div>
 
 <div>
 
-## **Changes to Terms**
+## **Ereignisse außerhalb unserer Kontrolle**
 
-1.  We reserve the right to modify or revise these Terms at our sole discretion.
-2.  Any changes will become effective immediately upon publication.
-3.  The “Last Updated” date at the top of this document will reflect the most recent revision.
-4.  Your continued use of the services after such changes constitutes your acknowledgment and acceptance of the revised Terms and your agreement to be bound by them.
-5.  Regarding material changes, we will make reasonable efforts to provide notice through appropriate communication channels.
+1.  Das Unternehmen haftet nicht für Nichterfüllung oder Verzögerungen bei der Erfüllung seiner Verpflichtungen aus diesen Bedingungen, wenn diese durch Umstände verursacht wurden, die außerhalb seiner zumutbaren Kontrolle liegen.
+2.  Dazu gehören unter anderem höhere Gewalt, Naturkatastrophen, Krieg, Terrorismus, Arbeitskonflikte, Internetausfälle oder behördliche Einschränkungen.
 
 </div>
 
 <div>
 
-## **Get in Touch**
+## **Gesamthaftung**
 
-If you have any questions about these Terms, please feel free to contact us:
+1.  Die Gesamthaftung der Unternehmensgruppe für Ansprüche aus oder im Zusammenhang mit diesen Bedingungen oder den Diensten überschreitet in keinem Fall den Gesamtbetrag, den Sie an The Clicksly gezahlt haben.
+
+</div>
+
+<div>
+
+## **Entschädigungsvereinbarung**
+
+1.  Sie stimmen zu, das Unternehmen, seine verbundenen Unternehmen sowie deren jeweilige leitenden Angestellten, Direktoren, Mitarbeiter und Vertreter gegen alle Ansprüche, Schäden, Verbindlichkeiten und Kosten (einschließlich angemessener Anwaltsgebühren) zu verteidigen, schadlos zu halten und freizustellen, die sich aus Ihrer Nutzung der Website, Inhalte oder Dienste ergeben.
+
+</div>
+
+<div>
+
+## **Beendigung des Zugangs**
+
+1.  Sie können die Dienste jederzeit kündigen oder die Nutzung der Website einstellen.
+2.  Das Unternehmen behält sich das Recht vor, jederzeit ohne Vorankündigung und ohne Haftung gegenüber Ihnen Teile der Website, Inhalte oder Dienste zu ändern, auszusetzen oder einzustellen.
+
+</div>
+
+<div>
+
+## **Anwendbares Recht**
+
+1.  Diese Bedingungen unterliegen dem Recht der Britischen Jungferninseln und sind nach diesem auszulegen. Alle Streitigkeiten sind ausschließlich von den zuständigen Gerichten der Britischen Jungferninseln zu entscheiden.
+2.  Jegliche Klage in Bezug auf die Website, Inhalte oder Dienste muss innerhalb eines (1) Jahres ab Entstehung des Streitfalls eingereicht werden; andernfalls sind solche Ansprüche dauerhaft ausgeschlossen.
+
+</div>
+
+<div>
+
+## **Zusätzliche Bedingungen**
+
+1.  Diese Bedingungen stellen die vollständige Vereinbarung zwischen Ihnen und dem Unternehmen hinsichtlich der Nutzung der Dienste dar.
+2.  Sollte eine Bestimmung dieser Bedingungen als nicht durchsetzbar angesehen werden, wird diese nur insoweit angepasst, wie es zur Durchsetzbarkeit notwendig ist.
+3.  Dies berührt nicht die Durchsetzbarkeit der übrigen Bestimmungen.
+4.  Das Versäumnis des Unternehmens, Rechte durchzusetzen oder Maßnahmen gegen Sie wegen eines Verstoßes zu ergreifen, gilt nicht als Verzicht auf solche Rechte bei zukünftigen Verstößen.
+5.  Sie dürfen diese Bedingungen oder Rechte daraus nicht ohne schriftliche Zustimmung des Unternehmens abtreten.
+6.  Das Unternehmen behält sich das Recht vor, seine Rechte und Pflichten aus diesen Bedingungen jederzeit nach eigenem Ermessen abzutreten.
+7.  Ihre Beziehung zum Unternehmen ist strikt die eines unabhängigen Auftragnehmers.
+8.  Nichts in diesen Bedingungen soll eine Partnerschaft, Agentur, ein Joint Venture oder ein Arbeitsverhältnis zwischen Ihnen und dem Unternehmen begründen oder dahingehend ausgelegt werden.
+
+</div>
+
+<div>
+
+## **Änderungen der Bedingungen**
+
+1.  Wir behalten uns das Recht vor, diese Bedingungen jederzeit nach eigenem Ermessen zu ändern oder zu überarbeiten.
+2.  Jegliche Änderungen treten mit der Veröffentlichung sofort in Kraft.
+3.  Das "Zuletzt aktualisiert"-Datum am Anfang dieses Dokuments spiegelt die jüngste Überarbeitung wider.
+4.  Ihre fortgesetzte Nutzung der Dienste nach solchen Änderungen gilt als Anerkennung und Akzeptanz der geänderten Bedingungen sowie als Zustimmung zur Bindung an diese.
+5.  Bei wesentlichen Änderungen werden wir angemessene Anstrengungen unternehmen, um Sie über geeignete Kommunikationskanäle zu informieren.
+
+</div>
+
+<div>
+
+## **Kontaktieren Sie uns**
+
+Bei Fragen zu diesen Bedingungen kontaktieren Sie uns bitte:
 
 <div class="contact-info">
     <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
-    </div>
+</div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
- </div>
+    <img src="/images/policy/mail.svg"><span><b>E-Mail:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
+</div>
 <div class="contact-info">
-    <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a href="tel:+447426463899">+447426463899</a></span>
+    <img src="/images/policy/phone.svg"><span><b>Telefon:</b> <a href="tel:+447426463899">+44 7426 463899</a></span>
 </div>
 
 </div>

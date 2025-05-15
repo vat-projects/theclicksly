@@ -1,147 +1,147 @@
 ---
-title: "Privacy Policy"
+title: "Datenschutzerklärung"
 date: "14.05.2025"
 ---
 
 <div>
 
-1.  Youmedia Inc, registered at Intershore Chambers, Road Town, Tortola, British Virgin Islands, with registration number 2174481, and operating under The Clicksly (“Company”), respects your privacy concerns.
-2.  This Privacy Policy explains the types of information we collect on [www.theclicksly.com](http://www.theclicksly.com) (the “Website”), how we use this information, with whom we share it, and your choices regarding its use.
-3.  This Privacy Policy also outlines the measures we take to safeguard your information, how long we retain it, and how you can contact us about our privacy practices and exercise your rights.
+1.  Youmedia Inc, registriert unter Intershore Chambers, Road Town, Tortola, British Virgin Islands, mit der Registrierungsnummer 2174481 und tätig unter dem Namen The Clicksly („Unternehmen"), respektiert Ihre Datenschutzbedenken.
+2.  Diese Datenschutzerklärung erklärt, welche Arten von Informationen wir auf [www.theclicksly.com](http://www.theclicksly.com) (die „Website") sammeln, wie wir diese Informationen verwenden, mit wem wir sie teilen und welche Wahlmöglichkeiten Sie bezüglich der Verwendung haben.
+3.  Diese Datenschutzerklärung beschreibt außerdem die Maßnahmen, die wir ergreifen, um Ihre Daten zu schützen, wie lange wir sie speichern und wie Sie uns bezüglich unserer Datenschutzpraktiken kontaktieren und Ihre Rechte ausüben können.
 
 </div>
 
 <div>
 
-## **Information We Collect**
+## **Informationen, die wir sammeln**
 
-1.  When you complete our online registration form, you must provide business-related information, including your name and contact details.
-2.  You are responsible for ensuring that the information you provide is complete, accurate, and up-to-date.
-3.  By submitting your details, you confirm that the data provided is correct. While sharing your details with us is voluntary, providing false, outdated, or incomplete information may hinder our ability to contact you or deliver services effectively.
-4.  We may also collect data about your activity on the website, such as the pages you visit, session duration, content viewed, services you’re interested in, your location, and the Internet Protocol (IP) address used to access the site.
-5.  Additionally, we may gather anonymous, statistical, or aggregated data through third-party tools to analyze your website usage. This information helps us improve our services and enhance the user experience.
-
-</div>
-
-<div>
-
-## **Data Collection and Use**
-
-The information you provide and the data we collect regarding your activity on the website will be stored in our database (referred to as the "Database"). This data will be utilized by our Privacy Policy and applicable laws for the following purposes:
-
-1.  **Service Delivery:** To provide the services on the website and enable you to use them efficiently.
-2.  **Product and Service Improvement:** To enhance and develop our products and services, improve website content, and create new offerings tailored to our users' and customers' needs and expectations. Data used for this purpose will be primarily statistical.
-3.  **Customer Communications:** To occasionally reach out to you, either directly or through authorized representatives (via email or SMS), with information regarding our services and products.
-4.  **Research and Development:** To conduct research, surveys, and other product and service development activities.
-5.  **Statistical Analysis:** To analyze and share aggregated statistical data with third parties, ensuring no identifiable business information is disclosed.
-6.  **Website Security and Maintenance:** To ensure the proper functioning, security, and ongoing website development.
-7.  **Other Purposes:** For any other purpose outlined in this Privacy Policy or specified in the website's\*\* **Terms and Conditions**.
+1.  Wenn Sie unser Online-Registrierungsformular ausfüllen, müssen Sie geschäftsbezogene Informationen angeben, einschließlich Ihres Namens und Ihrer Kontaktdaten.
+2.  Sie sind dafür verantwortlich, sicherzustellen, dass die von Ihnen bereitgestellten Informationen vollständig, genau und aktuell sind.
+3.  Mit dem Absenden Ihrer Daten bestätigen Sie, dass diese korrekt sind. Die Bereitstellung Ihrer Daten ist freiwillig, doch falsche, veraltete oder unvollständige Angaben können unsere Fähigkeit beeinträchtigen, Sie zu kontaktieren oder Dienstleistungen effektiv zu erbringen.
+4.  Wir können außerdem Daten über Ihre Aktivitäten auf der Website sammeln, wie z. B. besuchte Seiten, Sitzungsdauer, angezeigte Inhalte, Dienste, für die Sie Interesse zeigen, Ihren Standort und die Internet-Protokoll-Adresse (IP-Adresse), die zum Zugriff auf die Website verwendet wird.
+5.  Darüber hinaus erfassen wir möglicherweise anonyme, statistische oder aggregierte Daten über Drittanbieter-Tools, um Ihre Nutzung der Website zu analysieren. Diese Informationen helfen uns, unsere Dienste zu verbessern und die Nutzererfahrung zu optimieren.
 
 </div>
 
 <div>
 
-## **Sharing of Information with Third Parties**
+## **Datenerhebung und Nutzung**
 
-We may disclose the information outlined in this policy to third parties under the following circumstances:
+Die von Ihnen bereitgestellten Informationen sowie die Daten über Ihre Aktivitäten auf der Website werden in unserer Datenbank (im Folgenden „Datenbank" genannt) gespeichert. Diese Daten werden gemäß unserer Datenschutzerklärung und den geltenden Gesetzen zu folgenden Zwecken verwendet:
 
-1.  **Service Providers:** We may share your information with third-party service providers who assist in operating, maintaining, and improving the website and facilitating communications, such as email correspondence.
-2.  **Legal Compliance:** Suppose we believe you misused your website access rights or violated applicable laws. In that case, we may disclose your information to authorities or other relevant parties as necessary or law requires.
-3.  **Legal Proceedings:** In a legal dispute or proceeding involving you and the website, we may share your information with legal professionals, courts, or other relevant third parties.
-4.  **Corporate Restructuring:** If the website undergoes a transfer, merger, acquisition, or any other corporate restructuring that alters its legal structure, your information may be shared with the new entity, provided they agree to abide by this privacy policy, with necessary adjustments.
-5.  **Within Our Corporate Group:** We may share your information with entities within our corporate group (companies we own, are owned by, or are under common ownership). This policy will govern their use of your information.
-6.  **With Your Consent:** For any purposes not covered by the above scenarios, your information will only be shared with third parties if you have explicit prior consent.
-
-</div>
-
-<div>
-
-## **Accessing, Updating, or Deleting Your Information**
-
-We respect your privacy rights and are committed to maintaining the accuracy of your information. You may contact us at any time to request the following:
-
-### **Access, Update, or Delete Your Information**
-
-1.  You have the right to request access to, corrections to, or updates of any personal or business information we have on file.
-2.  If you believe any information we hold about you is incorrect, you may ask for it to be corrected or removed.
-
-### **Cessation of Use or Removal of Information**
-
-1.  You may request that we stop using your business information, including halting its sharing with third parties or removing it entirely (subject to any legal obligations that may require us to retain it).
-2.  Unless you direct us otherwise, we retain your information for as long as necessary to provide services, meet legal requirements, resolve disputes, and enforce agreements.
-3.  We also reserve the right to update or remove incomplete or inaccurate information at our discretion.
-4.  If you wish to raise a concern regarding how we handle your information, please contact us at info@theclicksly.com.
-5.  If you are dissatisfied with our response or believe we are processing your information in violation of applicable laws, you can file a complaint with the relevant data protection authority.
+1.  **Dienstleistungserbringung:** Um die auf der Website angebotenen Dienste bereitzustellen und Ihnen deren effiziente Nutzung zu ermöglichen.
+2.  **Produkt- und Dienstleistungs Verbesserung:** Zur Verbesserung und Weiterentwicklung unserer Produkte und Dienste, Optimierung der Website-Inhalte sowie zur Erstellung neuer Angebote, die auf die Bedürfnisse und Erwartungen unserer Nutzer und Kunden zugeschnitten sind. Die Daten werden zu diesem Zweck vorwiegend statistisch genutzt.
+3.  **Kundenkommunikation:** Um Sie gelegentlich direkt oder über autorisierte Vertreter (per E-Mail oder SMS) mit Informationen zu unseren Diensten und Produkten zu kontaktieren.
+4.  **Forschung und Entwicklung:** Zur Durchführung von Forschungsarbeiten, Umfragen und anderen Produkt- und Dienstleistungsentwicklung Aktivitäten.
+5.  **Statistische Analyse:** Zur Analyse und Weitergabe aggregierter statistischer Daten an Dritte, wobei keine identifizierbaren geschäftlichen Informationen offengelegt werden.
+6.  **Website-Sicherheit und Wartung:** Zur Gewährleistung der ordnungsgemäßen Funktion, Sicherheit und kontinuierlichen Weiterentwicklung der Website.
+7.  **Sonstige Zwecke:** Für alle weiteren in dieser Datenschutzerklärung oder in den Nutzungsbedingungen der Website genannten Allgemeinen Geschäftsbedingungen.
 
 </div>
 
 <div>
 
-## **Governing Law**
+## **Weitergabe von Informationen an Dritte**
 
-1.  This Privacy Policy is governed by the laws of the British Virgin Islands, without regard to its conflict of law provisions.
-2.  By using this website or contacting us directly, you consent to the exclusive jurisdiction of the courts in the British Virgin Islands for any disputes or actions arising under or in connection with this Privacy Policy.
-3.  The laws of the British Virgin Islands, excluding conflict of law rules, shall govern this Privacy Policy and your website use.
-4.  Depending on your location, your website use may also be subject to local, state, national, or international laws.
-5.  By using The Clicksly or contacting us directly, you confirm your acceptance of this Privacy Policy. If you do not agree with this Privacy Policy, please do not use our website or services.
-6.  Continued use of the website, direct engagement with us, or any use following updates to this Privacy Policy that do not significantly alter the use or disclosure of your information signifies your acceptance of those changes.
+Wir können die in dieser Richtlinie beschriebenen Informationen unter folgenden Umständen an Dritte weitergeben:
 
-</div>
-
-<div>
-
-## **GDPR Data Protection Rights**
-
-We are dedicated to ensuring that you are fully informed about your rights regarding data protection. Under the General Data Protection Regulation (GDPR), you have the following rights:
-
-1.  **Right to Access:** You have the right to request copies of the business data we hold about you. Please note that a small fee may apply for this service.
-2.  **Right to Rectification:** You can ask us to correct or update any inaccurate or incomplete information.
-3.  **Right to Erasure:** You have the right to request the deletion of your business data under certain circumstances.
-4.  **Right to Restrict Processing:** You may request the restriction of processing your business data under specific conditions.
-5.  **Right to Object to Processing:** In some cases, you have the right to object to processing your business data.
-6.  **Right to Data Portability:** Under certain conditions, you can request that we transfer the data we hold about you to another organization or directly to you.
-
-If you wish to exercise any of these rights, please contact us. As the GDPR requires, we will respond to your request within one month.
+1.  **Dienstleister:** Wir können Ihre Informationen an Drittanbieter weitergeben, die uns bei Betrieb, Wartung und Verbesserung der Website sowie bei der Kommunikation, z. B. per E-Mail, unterstützen.
+2.  **Gesetzliche Verpflichtungen:** Falls wir annehmen, dass Sie Ihre Zugriffsrechte auf die Website missbraucht haben oder gegen geltendes Recht verstoßen, können wir Ihre Informationen den zuständigen Behörden oder anderen relevanten Parteien offenlegen, sofern dies erforderlich ist oder gesetzlich vorgeschrieben wird.
+3.  **Rechtsstreitigkeiten:** In einem Rechtsstreit oder Verfahren, an dem Sie und die Website beteiligt sind, können wir Ihre Informationen an Rechtsvertreter, Gerichte oder andere relevante Dritte weitergeben.
+4.  **Unternehmensumstrukturierungen:** Sollte die Website übertragen, fusioniert, übernommen oder sonstwie umstrukturiert werden, wodurch sich die rechtliche Struktur ändert, können Ihre Daten an die neue Einheit weitergegeben werden, sofern diese sich verpflichtet, diese Datenschutzerklärung einzuhalten (ggf. mit notwendigen Anpassungen).
+5.  **Innerhalb unserer Unternehmensgruppe:** Wir können Ihre Informationen mit Gesellschaften innerhalb unserer Unternehmensgruppe (Tochterunternehmen, Muttergesellschaften oder Schwestergesellschaften) teilen. Diese Richtlinie gilt dann auch für deren Nutzung Ihrer Daten.
+6.  **Mit Ihrer Einwilligung:** Für alle sonstigen Zwecke erfolgt eine Weitergabe Ihrer Informationen an Dritte nur, wenn Sie ausdrücklich vorher eingewilligt haben.
 
 </div>
 
 <div>
 
-## **Cookie and Other Trackers**
+## **Zugriff, Aktualisierung oder Löschung Ihrer Daten**
 
-1.  We use various cookies and web trackers to administer and operate the website.
-2.  These trackers collect statistical information about your website usage and help us improve our services.
-3.  Cookies are used for website analytics, as described above. You may block cookies by adjusting your browser’s settings.
-4.  Additionally, you can delete existing cookies and configure your browser to prevent future cookies from being placed. For guidance, please refer to your browser’s help menu.
-5.  Please note that disabling cookies may negatively impact your user experience on the website. We do not respond to browsers’ “Do Not Track” requests.
-6.  If applicable law grants you the right, you may submit a complaint to the relevant supervisory data protection authority.
+Wir respektieren Ihre Datenschutzrechte und verpflichten uns, die Richtigkeit Ihrer Daten zu gewährleisten. Sie können uns jederzeit kontaktieren, um Folgendes zu beantragen:
 
-</div>
+### **Zugriff, Aktualisierung oder Löschung Ihrer Daten**
 
-<div>
+1.  Sie haben das Recht, Zugang zu den personenbezogenen oder geschäftlichen Daten zu verlangen, die wir über Sie gespeichert haben, sowie deren Berichtigung oder Aktualisierung.
+2.  Wenn Sie der Meinung sind, dass Informationen, die wir über Sie gespeichert haben, falsch sind, können Sie deren Korrektur oder Löschung verlangen.
 
-## **Changes to This Policy**
+### **Einstellung der Nutzung oder Entfernung von Daten**
 
-1.  We may update this privacy policy periodically. You agree to be bound by any changes made to this policy.
-2.  Your continued use of the website indicates your acceptance of the amended Terms.
-3.  If you disagree with the updated Terms, you must discontinue using the website immediately.
+1.  Sie können verlangen, dass wir die Nutzung Ihrer Geschäftsdaten einstellen, einschließlich der Weitergabe an Dritte, oder dass wir diese vollständig löschen (vorbehaltlich gesetzlicher Aufbewahrungspflichten).
+2.  Sofern Sie uns nichts anderes mitteilen, speichern wir Ihre Daten so lange, wie dies zur Erbringung der Dienste, zur Erfüllung gesetzlicher Verpflichtungen, zur Streitbeilegung und zur Durchsetzung von Vereinbarungen notwendig ist.
+3.  Wir behalten uns außerdem das Recht vor, unvollständige oder ungenaue Daten nach eigenem Ermessen zu aktualisieren oder zu löschen.
+4.  Wenn Sie Bedenken bezüglich der Verarbeitung Ihrer Daten haben, kontaktieren Sie uns bitte unter info@theclicksly.com.
+5.  Sollten Sie mit unserer Antwort unzufrieden sein oder der Meinung sein, dass wir Ihre Daten rechtswidrig verarbeiten, können Sie eine Beschwerde bei der zuständigen Datenschutzbehörde einreichen.
 
 </div>
 
 <div>
 
-## **Contact Us**
+## **Anwendbares Recht**
 
-If you have any questions about this privacy policy, please contact us at:
+1.  Diese Datenschutzerklärung unterliegt dem Recht der Britischen Jungferninseln, ohne Rücksicht auf Kollisionsnormen.
+2.  Durch die Nutzung dieser Website oder durch direkte Kontaktaufnahme stimmen Sie der ausschließlichen Zuständigkeit der Gerichte der Britischen Jungferninseln für alle Streitigkeiten oder Verfahren im Zusammenhang mit dieser Datenschutzerklärung zu.
+3.  Das Recht der Britischen Jungferninseln, ohne Berücksichtigung von Kollisionsnormen, regelt diese Datenschutzerklärung und Ihre Nutzung der Website.
+4.  Je nach Ihrem Standort kann Ihre Nutzung der Website auch lokalen, staatlichen, nationalen oder internationalen Gesetzen unterliegen.
+5.  Durch die Nutzung von The Clicksly oder durch direkte Kontaktaufnahme bestätigen Sie die Annahme dieser Datenschutzerklärung. Sollten Sie mit dieser Datenschutzerklärung nicht einverstanden sein, nutzen Sie bitte weder unsere Website noch unsere Dienste.
+6.  Die fortgesetzte Nutzung der Website, direkte Interaktion mit uns oder jede Nutzung nach Änderungen dieser Datenschutzerklärung, die Ihre Datenverwendung oder -weitergabe nicht wesentlich verändert, gilt als Ihre Zustimmung zu den Änderungen.
+
+</div>
+
+<div>
+
+## **Datenschutzrechte gemäß DSGVO**
+
+Wir setzen uns dafür ein, dass Sie vollständig über Ihre Datenschutzrechte informiert sind. Nach der Datenschutz-Grundverordnung (DSGVO) stehen Ihnen folgende Rechte zu:
+
+1.  **Recht auf Auskunft:** Sie können Kopien der Geschäftsdaten, die wir über Sie gespeichert haben, anfordern. Für diesen Service kann eine geringe Gebühr anfallen.
+2.  **Recht auf Berichtigung:** Sie können die Berichtigung oder Aktualisierung unrichtiger oder unvollständiger Daten verlangen.
+3.  **Recht auf Löschung:** Unter bestimmten Umständen können Sie die Löschung Ihrer Geschäftsdaten verlangen.
+4.  **Recht auf Einschränkung der Verarbeitung:** Sie können die Einschränkung der Verarbeitung Ihrer Geschäftsdaten unter bestimmten Bedingungen verlangen.
+5.  **Widerspruchsrecht:** In einigen Fällen können Sie der Verarbeitung Ihrer Geschäftsdaten widersprechen.
+6.  **Recht auf Daten Übertragbarkeit:** Unter bestimmten Bedingungen können Sie verlangen, dass wir Ihre Daten an eine andere Organisation oder direkt an Sie übertragen.
+
+Wenn Sie eines dieser Rechte ausüben möchten, kontaktieren Sie uns bitte. Wir werden Ihre Anfrage innerhalb eines Monats beantworten, wie es die DSGVO verlangt.
+
+</div>
+
+<div>
+
+## **Cookies und andere Tracking-Technologien**
+
+1.  Wir verwenden verschiedene Cookies und Web-Tracker, um die Website zu verwalten und zu betreiben.
+2.  Diese Tracker sammeln statistische Informationen über Ihre Website-Nutzung und helfen uns, unsere Dienste zu verbessern.
+3.  Cookies werden für Website-Analysen verwendet, wie oben beschrieben. Sie können Cookies blockieren, indem Sie die Einstellungen Ihres Browsers anpassen.
+4.  Zudem können Sie vorhandene Cookies löschen und Ihren Browser so konfigurieren, dass zukünftige Cookies verhindert werden. Hinweise dazu finden Sie im Hilfemenü Ihres Browsers.
+5.  Bitte beachten Sie, dass das Deaktivieren von Cookies Ihre Nutzererfahrung auf der Website beeinträchtigen kann. Wir reagieren nicht auf Browser-Anfragen wie „Do Not Track".
+6.  Sofern gesetzlich vorgesehen, können Sie eine Beschwerde bei der zuständigen Datenschutzaufsichtsbehörde einreichen.
+
+</div>
+
+<div>
+
+## **Änderungen dieser Richtlinie**
+
+1.  Wir können diese Datenschutzerklärung gelegentlich aktualisieren. Sie erklären sich damit einverstanden, an alle Änderungen dieser Richtlinie gebunden zu sein.
+2.  Ihre fortgesetzte Nutzung der Website bedeutet, dass Sie die geänderten Bedingungen akzeptieren.
+3.  Sollten Sie den geänderten Bedingungen nicht zustimmen, müssen Sie die Nutzung der Website sofort einstellen.
+
+</div>
+
+<div>
+
+## **Kontaktieren Sie uns**
+
+Bei Fragen zu dieser Datenschutzerklärung kontaktieren Sie uns bitte unter:
 
 <div class="contact-info">
     <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
-    </div>
+</div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
- </div>
+    <img src="/images/policy/mail.svg"><span><b>E-Mail:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
+</div>
 <div class="contact-info">
-    <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a href="tel:+447426463899">+447426463899</a></span>
+    <img src="/images/policy/phone.svg"><span><b>Telefon:</b> <a href="tel:+447426463899">+44 7426 463899</a></span>
 </div>
 
 </div>
