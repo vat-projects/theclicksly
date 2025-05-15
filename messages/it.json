@@ -168,10 +168,10 @@
   "footer": {
     "legal": {
       "title": "Legale\n",
-      "cookiePolicy": "Informativa sui Cookie\n",
-      "refundPolicy": "Politica di rimborso\n",
-      "privacyPolicy": "Informativa sulla Privacy\n",
-      "termsAndConditions": "Termini e Condizioni\n"
+      "cookiePolicy": "Politica sui Cookie",
+      "refundPolicy": "Politica di Rimborso",
+      "privacyPolicy": "Informativa sulla Privacy",
+      "termsAndConditions": "Termini e Condizioni"
     },
     "company": {
       "title": "Azienda\n",

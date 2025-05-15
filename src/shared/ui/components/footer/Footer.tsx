@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from 'next-intl';
+import { useTranslations } from "next-intl";
 
 import {
   WEBSITE_EMAIL,
@@ -133,7 +133,9 @@ export const Footer = () => {
             <Link href="/legal/cookie-policy">
               {t("footer.legal.cookiePolicy")}
             </Link>
-            <Link href="/legal/refund-policy">Refund Policy</Link>
+            <Link href="/legal/refund-policy">
+              {t("footer.legal.refundPolicy")}
+            </Link>
           </nav>
         </div>
       </div>
