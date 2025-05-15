@@ -3,7 +3,7 @@
   @media (max-width: 992px) {
     padding: 48px 0;
   }
-  &.de {
+  &.de, &.it {
     .stepsWrap{
       img{
         @media (max-width: 992px) {
@@ -12,6 +12,25 @@
       }
     }
   }
+
+  &.it {
+    .stepsWrap{
+      img{
+        @media (max-width: 992px) {
+          display: none!important;
+        }
+      }
+      .steps{
+        .step{
+          &:nth-child(3),
+          &:nth-child(4) {
+            margin-top: -80px;
+          }
+        }
+      }
+    }
+  }
+
   .titleBlock {
     display: flex;
     flex-direction: column;

@@ -1,796 +1,940 @@
 {
-  "footer": {
-    "company": {
-      "title": "Company",
-      "whoWeAre": "Who We Are",
-      "targetedSectors": "Targeted Sectors",
-      "getInTouch": "Get in Touch"
-    },
-    "partnership": {
-      "title": "Partnership",
-      "advertiseWithUs": "Advertise With Us",
-      "partnerWithUs": "Partner With Us",
-      "helpAndSupport": "Help & Support"
-    },
-    "legal": {
-      "title": "Legal",
-      "termsAndConditions": "Terms and Conditions",
-      "privacyPolicy": "Privacy Policy",
-      "cookiePolicy": "Cookie Policy",
-      "refundPolicy": "Refund Policy"
-    },
-    "addresses": {
-      "office": {
-        "title": "Office Addresses"
-      },
-      "registered": {
-        "title": "Registered Address"
-      },
-      "contact": {
-        "title": "Contact Information",
-        "email": "Email:",
-        "phone": "Phone:"
-      }
-    },
-    "rightsReserved": "All Rights Reserved"
-  },
-  "header": {
-    "navigation": {
-      "home": "Home",
-      "whoWeAre": "Who we are",
-      "targetedSectors": "Targeted sectors",
-      "advertiseWithUs": "Advertise with us",
-      "partnerWithUs": "Partner with us",
-      "helpAndSupport": "Help & support",
-      "getInTouch": "Get in touch"
-    }
-  },
   "home": {
     "homeHero": {
-      "title": "The Clicksly – Unlocking the Potential of Your Affiliate Strategy",
-      "subtitle": "Start Your Path to Success Today – Get Your Free Consultation",
-      "joinNow": "Join Now",
+      "title": "The Clicksly – Sbloccare il Potenziale della Tua Strategia di Affiliazione",
+      "joinNow": "Iscriviti Ora",
       "features": {
-        "smartCampaigns": "Smart Campaigns",
-        "efficientAdPlacements": "Efficient Ad Placements",
-        "sustainableGrowth": "Sustainable Growth"
+        "smartCampaigns": "Campagne Intelligenti",
+        "sustainableGrowth": "Crescita Sostenibile",
+        "efficientAdPlacements": "Posizionamenti Pubblicitari Efficaci"
       },
-      "subTitle2": "Maximizing Your Affiliate Reach and Impact with The Clicksly",
-      "description": "At The Clicksly, we specialize in creating bespoke affiliate marketing solutions designed to enhance your brand visibility, improve conversions, and build lasting relationships with your target audience. Whether you are a new advertiser or an experienced publisher, we provide the tools and expertise needed to propel your business forward."
+      "subtitle": "Inizia il Tuo Percorso verso il Successo Oggi – Richiedi la Tua Consulenza Gratuita",
+      "subTitle2": "Massimizzare la Tua Portata e l'Impatto dell'Affiliazione con The Clicksly",
+      "description": "In The Clicksly, ci specializziamo nella creazione di soluzioni di marketing affiliato su misura, pensate per migliorare la visibilità del tuo marchio, aumentare le conversioni e costruire relazioni durature con il tuo pubblico di riferimento. Che tu sia un nuovo inserzionista o un editore esperto, offriamo gli strumenti e le competenze necessari per spingere la tua attività verso il successo."
     },
-    "affiliateSolutions": {
-      "title": "Supercharge Your Business with Tailored Affiliate Solutions",
-      "subtitle": "Is your affiliate marketing strategy not delivering the expected results? The Clicksly offers customized solutions to boost your online presence, optimize your marketing investments, and drive more conversions. Our team creates measurable strategies that deliver sustained results focused on your business goals.",
-      "button": "Let's Take Your Business to New Heights",
-      "solutions": {
-        "enhanceVisibility": {
-          "title": "Enhance Visibility",
-          "description": "Be seen by the right audience at the right time."
-        },
-        "maximizeROI": {
-          "title": "Maximize ROI",
-          "description": "Achieve higher returns with optimized ad spend."
-        },
-        "driveQualityConversions": {
-          "title": "Drive Quality Conversions",
-          "description": "Convert traffic into loyal customers with ease."
-        },
-        "sustainableGrowth": {
-          "title": "Sustainable Long-Term Growth",
-          "description": "Build scalable strategies that evolve with your business."
-        }
-      }
+    "whyChooseUs": {
+      "text": "La Crescita della Tua Azienda è la Nostra Massima Priorità. Costruiamo il Successo Insieme!",
+      "items": {
+        "item1": "Aumento Del Coinvolgimento Online",
+        "item2": "Riduzione Della Spesa DI Marketing Superflua",
+        "item3": "Tasso DI Soddisfazione Del Cliente",
+        "item4": "Aumento di Lead Qualificati per Le Startup"
+      },
+      "title": "Perché Scegliere The Clicksly per le Tue Esigenze di Affiliazione?",
+      "button": "Esplora i Nostri Settori\n",
+      "subtitle": "Collabora con The Clicksly e approfitta della nostra guida esperta e delle strategie solide. Siamo un'agenzia innovativa, impegnata a fornire campagne orientate ai risultati e a massimizzare il tuo potenziale affiliato. Ecco perché i nostri clienti si fidano di noi:"
+    },
+    "partnerWithUs": {
+      "tag": "Cosa Offriamo\n",
+      "items": {
+        "continuousDemand": "Domanda continua di spazi pubblicitari per massimizzare i tuoi guadagni.",
+        "flexibleCooperation": "Modelli di cooperazione flessibili, adattati alle tue preferenze.",
+        "strongLongTermPartnerships": "Partnership solide e a lungo termine per un successo costante."
+      },
+      "title": "Collabora con noi – Costruisci Relazioni Durature",
+      "button": "Diventa Nostro Partner\n",
+      "subtitle": "Monetizza il traffico del tuo sito con campagne esclusive e ad alta richiesta dai nostri partner inserzionisti di fiducia."
+    },
+    "advertiseWithUs": {
+      "tag": "Cosa Offriamo\n",
+      "items": {
+        "broadNetwork": "Una vasta rete di editori provenienti da diversi settori.",
+        "quickAdPlacements": "Posizionamenti pubblicitari rapidi per avviare le tue campagne senza indugi.",
+        "customizedStrategies": "Strategie personalizzate pensate per soddisfare le esigenze uniche della tua attività."
+      },
+      "title": "Pubblicizzati Con Noi – Amplifica la Tua Portata",
+      "button": "Inizia a Fare Pubblicità Oggi",
+      "subtitle": "Connettiti facilmente con il tuo pubblico ideale attraverso la nostra rete di editori esperti e fidati."
     },
     "marketingServices": {
-      "title": "Our Comprehensive Affiliate Marketing Services",
-      "subtitle": "At The Clicksly, we combine deep industry knowledge with cutting-edge tools to provide a full range of services to optimize your affiliate marketing efforts. Here’s how we can help you achieve your goals:",
-      "button": "Learn More About Us",
       "steps": {
-        "affiliateCampaignStrategy": {
-          "title": "Affiliate Campaign Strategy & Execution",
-          "details": {
-            "inDepthCompetitorAnalysis": "In-depth Competitor Analysis & Market Research",
-            "customBrandPositioning": "Custom Brand Positioning & Messaging",
-            "targetedAffiliateAdvertisingCampaigns": "Targeted Affiliate Advertising Campaigns",
-            "efficientCampaignManagement": "Efficient Campaign Management & Optimization"
-          }
-        },
-        "conversionRateOptimization": {
-          "title": "Conversion Rate Optimization & Performance Marketing",
-          "details": {
-            "improvingSearchEngineVisibility": "Improving Search Engine Visibility & Organic Reach",
-            "payPerClickCampaignSetup": "Pay-Per-Click (PPC) Campaign Setup & Management",
-            "landingPageFunnelOptimization": "Landing Page & Funnel Optimization for Conversions",
-            "dataDrivenInsights": "Data-Driven Insights to Enhance Marketing Performance"
-          }
-        },
         "businessExpansion": {
-          "title": "Business Expansion & Strategic Consulting",
+          "title": "Espansione Aziendale e Consulenza Strategica",
           "details": {
-            "marketPenetrationEntryStrategies": "Market Penetration & Entry Strategies",
-            "customerAcquisitionLongTermRetention": "Customer Acquisition & Long-Term Retention",
-            "businessModelOptimization": "Business Model Optimization for Increased Revenue",
-            "streamliningOperations": "Streamlining Operations with Automation Tools"
+            "streamliningOperations": "Ottimizzare le Operazioni con Strumenti di Automazione",
+            "businessModelOptimization": "Ottimizzazione del Modello di Business per Aumentare i Ricavi",
+            "marketPenetrationEntryStrategies": "Penetrazione del Mercato e Strategie di Ingresso\n",
+            "customerAcquisitionLongTermRetention": "Acquisizione Clienti & Fidelizzazione a Lungo Termine\n"
           }
         },
         "audienceEngagement": {
-          "title": "Audience Engagement & Content Marketing",
+          "title": "Coinvolgimento Del Pubblico e Content Marketing",
           "details": {
-            "socialMediaGrowth": "Social Media Growth & Community Building",
-            "leveragingInfluencers": "Leveraging Influencers & Affiliate Networks",
-            "emailMarketingCRMCampaigns": "Email Marketing & CRM Campaigns",
-            "storytellingHighQualityContent": "Storytelling Through High-Quality Content Creation"
+            "socialMediaGrowth": "Crescita sui Social Media e Costruzione della Community\n",
+            "leveragingInfluencers": "Sfruttare gli Influencer e i Network di Affiliazione",
+            "emailMarketingCRMCampaigns": "Campagne di Email Marketing & CRM\n",
+            "storytellingHighQualityContent": "Narrazione Attraverso la Creazione di Contenuti DI Alta Qualità"
           }
         },
-        "affiliateMarketingTechnologyAutomation": {
-          "title": "Affiliate Marketing Technology & Automation",
+        "affiliateCampaignStrategy": {
+          "title": "Strategia e Implementazione di Campagne di Affiliazione",
           "details": {
-            "integratingAIBasedMarketingAutomation": "Integrating AI-Based Marketing Automation",
-            "optimizingCustomerJourney": "Optimizing the Customer Journey with CRM Tools",
-            "automatingLeadGeneration": "Automating Lead Generation & Follow-Ups",
-            "dataDrivenInsights": "Data-Driven Insights to Enhance Marketing Performance"
+            "customBrandPositioning": "Posizionamento e Messaggistica di Brand Personalizzati\n",
+            "inDepthCompetitorAnalysis": "Analisi Approfondita Della Concorrenza e Ricerca di Mercato",
+            "efficientCampaignManagement": "Gestione e Ottimizzazione Efficiente Delle Campagne",
+            "targetedAffiliateAdvertisingCampaigns": "Campagne Pubblicitarie di Affiliazione Mirate"
+          }
+        },
+        "conversionRateOptimization": {
+          "title": "Ottimizzazione del Tasso di Conversione & Performance Marketing\n",
+          "details": {
+            "dataDrivenInsights": "Informazioni Basate sui Dati per Migliorare Le Prestazioni Del Marketing",
+            "payPerClickCampaignSetup": "Configurazione e Gestione Campagne Pay-Per-Click (PPC)\n",
+            "landingPageFunnelOptimization": "Ottimizzazione della Landing Page e del Funnel per le Conversioni\n",
+            "improvingSearchEngineVisibility": "Migliorare la Visibilità sui Motori di Ricerca e la Portata Organica\n"
           }
         },
         "strategicScalingCompetitiveAdvantage": {
-          "title": "Strategic Scaling & Competitive Advantage",
+          "title": "Scalabilità Strategica e Vantaggio Competitivo\n",
           "details": {
-            "buildingPersonalBrands": "Building Personal Brands & Expanding Multi-Channel Reach",
-            "longTermLeadGenerationRetention": "Long-Term Lead Generation & Retention Strategies",
-            "entrepreneurialSalesTactics": "Entrepreneurial Sales Tactics for Small Businesses",
-            "customizedMonetizationPlans": "Customized Monetization Plans for Affiliates & Advertisers",
-            "ourSolutionsAlwaysTailored": "Our Solutions Are Always Tailored to Your Business Needs"
+            "buildingPersonalBrands": "Costruire un Brand Personale ed Espandere la Portata Multicanale",
+            "ourSolutionsAlwaysTailored": "Le Nostre Soluzioni Sono Sempre Personalizzate in Base Alle Esigenze Della Tua Attività",
+            "customizedMonetizationPlans": "Piani di Monetizzazione Personalizzati per Affiliati e Inserzionisti\n",
+            "entrepreneurialSalesTactics": "Tattiche di Vendita Imprenditoriali per Le Piccole Imprese",
+            "longTermLeadGenerationRetention": "Strategie di Generazione e Fidelizzazione Dei Lead a Lungo Termine"
+          }
+        },
+        "affiliateMarketingTechnologyAutomation": {
+          "title": "Tecnologia e automazione per l'Affiliate Marketing\n",
+          "details": {
+            "dataDrivenInsights": "Approfondimenti Basati sui Dati per Migliorare Le Performance di Marketing",
+            "automatingLeadGeneration": "Automatizzare la Lead Generation e i Follow-Up\n",
+            "optimizingCustomerJourney": "Ottimizzare il Customer Journey con gli Strumenti CRM\n",
+            "integratingAIBasedMarketingAutomation": "Integrazione Dell’Automazione Del Marketing Basata Sull’Ia"
           }
         }
-      }
+      },
+      "title": "I nostri Servizi Completi di Affiliate Marketing\n",
+      "button": "Scopri di Più su di Noi",
+      "subtitle": "In The Clicksly, uniamo una profonda conoscenza del settore a strumenti all'avanguardia per offrire una gamma completa di servizi per ottimizzare i tuoi sforzi nel marketing affiliato. Ecco come possiamo aiutarti a raggiungere i tuoi obiettivi:"
     },
-    "advertiseWithUs": {
-      "tag": "What We Offer",
-      "title": "Advertise With Us – Amplify Your Reach",
-      "subtitle": " Connect with your ideal audience effortlessly through our trusted network of experienced publishers.",
-      "button": "Start Advertising Today",
-      "items": {
-        "broadNetwork": "A broad network of publishers across diverse sectors.",
-        "quickAdPlacements": "Quick ad placements to get your campaigns launched swiftly.",
-        "customizedStrategies": "Customized strategies designed to fit your unique business needs."
-      }
-    },
-    "partnerWithUs": {
-      "tag": "What We Offer",
-      "title": "Partner With Us – Build Lasting Relationships",
-      "subtitle": "Monetize your site traffic with exclusive, high-demand campaigns from our trusted advertiser partners.",
-      "button": "Become Our Partner",
-      "items": {
-        "continuousDemand": "Continuous demand for ad space to maximize your earnings.",
-        "flexibleCooperation": "Flexible cooperation models tailored to your preferences.",
-        "strongLongTermPartnerships": "Strong, long-term partnerships for consistent success."
-      }
-    },
-    "whyChooseUs": {
-      "title": "Why Choose The Clicksly for Your Affiliate Needs?",
-      "subtitle": "Partner with The Clicksly and benefit from our expert guidance and robust strategies. We’re a forward-thinking agency committed to delivering results-driven campaigns and maximizing your affiliate potential. Here’s why our clients trust us:",
-      "button": "Explore Our Sectors",
-      "text": "Your Business Growth is Our Top Priority. Let’s Build Success Together!",
-      "items": {
-        "item1": "Reduction in Marketing Spend Waste",
-        "item2": "Reduction in Unnecessary Marketing Spend",
-        "item3": "Client Satisfaction Rate",
-        "item4": "Increase in Qualified Leads for Startups"
+    "affiliateSolutions": {
+      "title": "Potenzia la Tua Attività Con Soluzioni di Affiliazione su Misura",
+      "button": "Portiamo la Tua Attività a Nuove Vette",
+      "subtitle": "La tua strategia di marketing affiliato non sta dando i risultati attesi? The Clicksly offre soluzioni personalizzate per aumentare la tua presenza online, ottimizzare gli investimenti nel marketing e generare più conversioni. Il nostro team crea strategie misurabili che offrono risultati duraturi, focalizzati sugli obiettivi della tua azienda.",
+      "solutions": {
+        "maximizeROI": {
+          "title": "Massimizzare il ROI\n",
+          "description": "Ottieni rendimenti più elevati con una spesa pubblicitaria ottimizzata.\n"
+        },
+        "enhanceVisibility": {
+          "title": "Migliora la Visibilità\n",
+          "description": "Fatti vedere dal pubblico giusto al momento giusto."
+        },
+        "sustainableGrowth": {
+          "title": "Crescita Sostenibile a Lungo Termine",
+          "description": "Crea strategie scalabili che evolvono con la tua attività."
+        },
+        "driveQualityConversions": {
+          "title": "Genera Conversioni di Qualità",
+          "description": "Trasforma il traffico in clienti fedeli con facilità."
+        }
       }
     },
     "executionForResults": {
-      "title": "The Clicksly Approach – Data-Backed Execution for Results",
-      "subtitle": "Our marketing approach ensures that every strategy we implement is measurable and scalable. Here’s how we help businesses drive more leads, enhance customer loyalty, and increase ROI:",
-      "button": "Get Help & Support",
       "items": {
-        "item1": "40% Increase in Customer Retention for Clients",
-        "item2": "2X Higher Engagement on Digital Campaigns",
-        "item3": "85% Faster ROI Through Optimized Marketing Plans"
-      }
+        "item1": "Aumento Del 40% Della Fidelizzazione Dei Clienti per i Nostri Clienti",
+        "item2": "Coinvolgimento Raddoppiato Nelle Campagne Digitali",
+        "item3": "ROI Più Rapido dell'85% Grazie a Piani di Marketing Ottimizzati\n"
+      },
+      "title": "L'approccio di The Clicksly – Esecuzione basata sui dati per risultati concreti",
+      "button": "Assistenza e supporto\n",
+      "subtitle": "Il nostro approccio al marketing garantisce che ogni strategia che implementiamo sia misurabile e scalabile. Ecco come aiutiamo le aziende a generare più lead, migliorare la fedeltà dei clienti e aumentare il ROI:"
     },
     "personalizedSolutions": {
-      "title": "Unleash the Power of Personalized Marketing Solutions",
-      "text": "Have Questions? Let’s Connect!",
-      "button": "Reach Out to Us Today",
+      "text": "Hai domande? Mettiamoci in contatto!\n",
       "items": {
         "item1": {
-          "title": "How can The Clicksly help me grow my business?",
-          "text": "Our customized affiliate marketing solutions are designed to help you grow your business, increase conversions, and expand your reach."
+          "text": "Le nostre soluzioni personalizzate di marketing affiliato sono progettate per aiutarti a far crescere la tua attività, aumentare le conversioni e ampliare la tua portata.",
+          "title": "Come può The Clicksly aiutarmi a far crescere la mia attività?"
         },
         "item2": {
-          "title": "Who can benefit from The Clicksly’s services?",
-          "text": "We work with businesses, entrepreneurs, and publishers looking for results-driven affiliate marketing solutions to help them scale their operations."
+          "text": "Lavoriamo con aziende, imprenditori ed editori alla ricerca di soluzioni di marketing affiliato orientate ai risultati per aiutarli a scalare le loro operazioni.",
+          "title": "Chi può beneficiare dei servizi di The Clicksly?"
         },
         "item3": {
-          "title": "Do you provide ongoing support and optimization?",
-          "text": "Yes! We continuously monitor, analyze, and optimize your campaigns to ensure long-term success. We stay ahead of trends and keep your strategies up-to-date."
+          "text": "Sì! Monitoriamo, analizziamo e ottimizziamo continuamente le tue campagne per garantire il successo a lungo termine. Restiamo sempre un passo avanti rispetto alle tendenze e manteniamo le tue strategie aggiornate.",
+          "title": "Offrite supporto continuo e ottimizzazione?"
         },
         "item4": {
-          "title": "Can I get a personalized affiliate marketing strategy?",
-          "text": "Absolutely! Our strategies are custom-built based on your goals, target audience, and market conditions. We provide clear, actionable steps for your success."
+          "text": "Assolutamente! Le nostre strategie sono personalizzate in base ai tuoi obiettivi, al tuo pubblico di riferimento e alle condizioni di mercato. Forniamo passaggi chiari e concreti per il tuo successo.",
+          "title": "Posso ottenere una strategia di marketing affiliato personalizzata?"
         }
+      },
+      "title": "Scatena la Potenza di Soluzioni di Marketing Personalizzate",
+      "button": "Contattaci Oggi Stesso"
+    }
+  },
+  "footer": {
+    "legal": {
+      "title": "Legale\n",
+      "cookiePolicy": "Informativa sui Cookie\n",
+      "refundPolicy": "Politica di rimborso\n",
+      "privacyPolicy": "Informativa sulla Privacy\n",
+      "termsAndConditions": "Termini e Condizioni\n"
+    },
+    "company": {
+      "title": "Azienda\n",
+      "whoWeAre": "Chi Siamo\n",
+      "getInTouch": "Mettiti in Contatto\n",
+      "targetedSectors": "Settori Mirati\n"
+    },
+    "addresses": {
+      "office": {
+        "title": "Indirizzi degli Uffici\n"
+      },
+      "contact": {
+        "email": "Email:\n",
+        "phone": "Telefono:\n",
+        "title": "Informazioni di contatto\n"
+      },
+      "registered": {
+        "title": "Sede legale\n"
       }
+    },
+    "partnership": {
+      "title": "Collaborazione ",
+      "partnerWithUs": "Collabora con noi\n",
+      "helpAndSupport": "Aiuto & Supporto\n",
+      "advertiseWithUs": "Pubblicizza con noi\n"
+    },
+    "rightsReserved": "Tutti i diritti riservati\n"
+  },
+  "header": {
+    "navigation": {
+      "home": "Casa\n",
+      "whoWeAre": "Chi siamo\n",
+      "getInTouch": "Mettiti in contatto\n",
+      "partnerWithUs": "Collabora con noi",
+      "helpAndSupport": "Aiuto e supporto\n",
+      "advertiseWithUs": "Pubblicizzati con noi\n",
+      "targetedSectors": "Settori mirati\n"
     }
   },
   "whoWeAre": {
     "hero": {
-      "title": "Get to Know Us – The Clicksly Team & Our Vision",
-      "text1": "We are more than just an affiliate marketing platform — a dedicated team of professionals committed to helping businesses grow and succeed. Learn about our mission, vision, and core values that guide us in delivering innovative, data-driven marketing solutions.",
-      "text2": "Explore how we collaborate with advertisers and publishers to create lasting partnerships and drive measurable results.",
-      "missionTitle": "Our Mission",
-      "missionText1": "Our mission is simple yet powerful: to help businesses grow by connecting them with the right affiliate partners and delivering measurable results.",
-      "missionText2": "We are passionate about elevating brands and driving lasting success. We aim to redefine the affiliate marketing landscape through innovation and data-driven strategies.",
-      "visionTitle": "Our Vision",
-      "visionText1": "Our vision is to become the premier affiliate marketing platform globally, serving as the bridge that connects advertisers and publishers in meaningful, impactful ways.",
-      "visionText2": "We aspire to empower businesses of all sizes to scale and thrive by offering innovative solutions that drive sustainable growth across diverse industries."
-    },
-    "ourValues": {
-      "tag": "Our Principles",
-      "title": "Our Values",
-      "text1": "We take a personalized approach to every campaign. We understand that each brand is unique, and so are its affiliate marketing needs. By collaborating closely with our clients, we craft customized strategies that align with their goals and objectives.",
-      "text2": "Our team employs data-backed insights, industry trends, and innovative techniques to ensure each campaign performs at its best. From campaign setup to ongoing optimization, we are dedicated to maximizing your return on investment.",
-      "items": {
-        "item1": {
-          "title": "Integrity & Transparency",
-          "text1": "We operate with honesty, ethics, and accountability in everything we do. Integrity is about adhering to legal standards and fostering trust through transparency and openness.",
-          "text2": "Our clients can rely on us to deliver truthful insights, clear communication, and ethical strategies, knowing we put their interests first. We believe that integrity is the foundation of lasting partnerships."
-        },
-        "item2": {
-          "title": "Innovation & Excellence",
-          "text1": "Staying ahead of the curve is not just a goal but a continuous pursuit. We embrace change and challenge ourselves to think differently, creating innovative solutions that set new benchmarks in affiliate marketing.",
-          "text2": "By leveraging cutting-edge technology, we ensure our solutions remain relevant, adaptable, and practical. Innovation drives our business and allows us to provide high-impact strategies."
-        },
-        "item3": {
-          "title": "Collaboration & Partnership",
-          "text1": "Success is never achieved in isolation. We view our clients, partners, and affiliates as collaborators, not just customers. Together, we foster a spirit of teamwork, communication, and shared objectives.",
-          "text2": "We work with our clients and partners to unlock opportunities and solve challenges. At The Clicksly, every project is a partnership aimed at mutual growth."
-        },
-        "item4": {
-          "title": "Data-Driven Results",
-          "text1": "Every strategy we develop is rooted in data. We believe that real insights, not guesswork, should inform decisions. From performance metrics to consumer behavior, we use data to optimize every aspect of your affiliate marketing efforts.",
-          "text2": "Our strategies are continuously monitored, tested, and refined to ensure the best possible outcomes for our clients. At The Clicksly, results are not just a goal but a guarantee."
-        }
-      }
-    },
-    "ourTeam": {
-      "tag": "Our Team",
-      "title": "The Heart of The Clicksly",
-      "text": "At The Clicksly, we believe our strength lies in the expertise and passion of our team. Every member plays a pivotal role in shaping our approach to affiliate marketing, driving innovation, and ensuring client success. Here’s a closer look at the dedicated professionals who make it all happen:",
-      "items": {
-        "item1": {
-          "title": "Marketing & Strategy Team – Crafting Winning Campaigns",
-          "subtitle": "Our marketing experts focus on driving results and continuously improving campaign performance:",
-          "text1": "<b>Affiliate Strategy Team:</b>  With deep expertise in affiliate marketing, this team designs campaigns that target the right audience at the right time, optimizing ad placements and ensuring the success of every campaign.",
-          "text2": "<b>Digital Marketing Specialists:</b>  From PPC management to SEO optimization, our digital marketers ensure your brand stands out across multiple digital channels. They are the key players in building your brand’s online presence and driving high-quality traffic."
-        },
-        "item2": {
-          "title": "Leadership Team – Guiding Our Vision and Strategy",
-          "subtitle": "Our leadership team combines years of experience in affiliate marketing, operations, and strategy. They steer the company toward its goals, ensuring that our clients always receive the best possible results:",
-          "text1": "<b>Affiliate Strategy Leaders:</b> Our strategic masterminds are focused on designing high-converting campaigns that align perfectly with your business goals. They analyze market trends and consumer behavior to create impactful strategies tailored to your needs.",
-          "text2": "<b>Operations Experts:</b> Managing day-to-day operations, our operations team ensures that every project is executed seamlessly, meets deadlines, and stays within budget. They keep everything running smoothly while optimizing efficiency."
-        },
-        "item3": {
-          "title": "Creative & Content Team – Bringing Stories to Life",
-          "subtitle": "Creativity is at the core of what we do. Our content team ensures that every campaign is visually compelling and strategically aligned:",
-          "text1": "<b>Creative Visionaries:</b>  Our creative team brings your brand’s story to life, delivering eye-catching designs and engaging content that resonates with audiences and drives conversions.",
-          "text2": "<b>Content Strategists</b> are the architects of your brand’s voice, crafting narratives that connect with your target audience. Their expertise in content optimization ensures that each piece of content contributes to building a loyal customer base."
-        },
-        "item4": {
-          "title": "Client Success Team – Ensuring Long-Term Relationships",
-          "subtitle": "We go beyond simply executing campaigns—we are committed to ensuring your ongoing success:",
-          "text1": "<b>Client Success Managers:</b> Our success managers work closely with you to understand your needs, provide actionable insights, and help you maximize your results. They are dedicated to making sure your expectations are exceeded at every stage.",
-          "text2": "<b>Account Managers:</b> Our account managers focus on smooth execution and consistent communication. They ensure your campaigns progress as planned, optimize them for better results, and keep you updated on performance."
-        },
-        "item5": {
-          "title": "Data & Analytics Team – Driving Growth Through Insights",
-          "subtitle": "Our data experts are responsible for turning numbers into actionable strategies that fuel growth:",
-          "text1": "<b>Analytics Leaders:</b> They analyze performance metrics, uncover trends, and identify opportunities to optimize your campaigns. Their insights are essential in adjusting strategies for maximum performance and ROI.",
-          "text2": "<b>Data Analysts:</b> Our data analysts dive deep into consumer behavior, interpreting complex data to fine-tune campaigns and make informed decisions. Their work ensures that each strategy is based on solid evidence, leading to better outcomes for our clients."
-        }
-      }
-    },
-    "successStories": {
-      "title": "Our Success Stories",
-      "text": "The results speak for themselves. With a focus on driving engagement, conversions, and long-term growth, The Clicksly has helped numerous businesses achieve remarkable success:",
-      "testimonial": "“The Clicksly team helped us scale our affiliate marketing efforts exponentially. Their expertise in driving high-quality traffic and converting leads has been invaluable.”",
-      "testimonialAuthor": "— Client Testimonial",
-      "items": {
-        "item1": {
-          "title": "Increase in Client Engagement",
-          "text": "Through our affiliate campaigns, we’ve consistently seen significant boosts in online engagement."
-        },
-        "item2": {
-          "title": "Growth in Qualified Leads for Startups",
-          "text": "Startups that worked with us saw a rapid increase in high-quality leads, helping them scale faster."
-        },
-        "item3": {
-          "title": "Client Satisfaction Rate",
-          "text": "Our clients trust us; our commitment to their success shows in our client feedback."
-        }
-      }
+      "text1": "Siamo più di una semplice piattaforma di marketing affiliato: un team dedicato di professionisti impegnati ad aiutare le aziende a crescere e avere successo. Scopri la nostra missione, visione e i valori fondamentali che ci guidano nel fornire soluzioni di marketing innovative e basate sui dati.",
+      "text2": "Scopri come collaboriamo con inserzionisti ed editori per creare partnership durature e ottenere risultati misurabili.",
+      "title": "Conosci noi – Il team di The Clicksly e la nostra visione",
+      "visionText1": "La nostra visione è diventare la principale piattaforma di marketing affiliato a livello globale, fungendo da ponte che collega inserzionisti ed editori in modi significativi e impattanti.",
+      "visionText2": "Aspiriamo a dare potere alle aziende di tutte le dimensioni, aiutandole a crescere e prosperare, offrendo soluzioni innovative che favoriscono una crescita sostenibile in vari settori.",
+      "visionTitle": "La Nostra Visione\n",
+      "missionText1": "La nostra missione è semplice ma potente: aiutare le aziende a crescere connettendole con i giusti partner affiliati e fornendo risultati misurabili.",
+      "missionText2": "Siamo appassionati nel elevare i marchi e nel guidare il successo duraturo. Il nostro obiettivo è ridefinire il panorama del marketing affiliato attraverso innovazione e strategie basate sui dati.",
+      "missionTitle": "La nostra missione\n"
     },
     "joinUs": {
-      "title": "Join Us",
-      "text1": "Are you ready to take your affiliate marketing strategy to the next level? Whether you’re an advertiser looking to expand your reach or a publisher ready to monetize your traffic, The Clicksly is here to help you grow.",
-      "text2": "Let’s collaborate and achieve your business goals together.",
-      "text3": "Contact us today to get started!",
-      "button": "Contact Us Now"
-    }
-  },
-  "registrationForm": {
-    "title": "Registration Form",
-    "subtitle": "The Clicksly Registration Request",
-    "role": {
-      "advertiser": "Advertiser",
-      "publisher": "Publisher"
+      "text1": "Sei pronto a portare la tua strategia di marketing affiliato al livello successivo? Che tu sia un inserzionista in cerca di espandere la tua portata o un editore pronto a monetizzare il tuo traffico, The Clicksly è qui per aiutarti a crescere.",
+      "text2": "Collaboriamo e raggiungiamo insieme i tuoi obiettivi aziendali.",
+      "text3": "Contattaci oggi stesso per iniziare!\n",
+      "title": "Unisciti a noi\n",
+      "button": "Contattaci subito\n"
     },
-    "form": {
-      "name": {
-        "label": "Your Name:",
-        "placeholder": "Enter your full name"
+    "ourTeam": {
+      "tag": "Il Nostro Team\n",
+      "text": "In The Clicksly, crediamo che la nostra forza risieda nell'esperienza e nella passione del nostro team. Ogni membro svolge un ruolo fondamentale nel plasmare il nostro approccio al marketing affiliato, guidando l'innovazione e assicurando il successo dei clienti. Ecco uno sguardo più da vicino ai professionisti dedicati che rendono tutto possibile:",
+      "items": {
+        "item1": {
+          "text1": "<b>Team di Strategia Affiliata:</b> Con una profonda esperienza nel marketing affiliato, questo team progetta campagne mirate al pubblico giusto nel momento giusto, ottimizzando i posizionamenti pubblicitari e garantendo il successo di ogni campagna.",
+          "text2": "<b>Specialisti di Marketing Digitale:</b> Dalla gestione delle campagne PPC all'ottimizzazione SEO, i nostri esperti di marketing digitale garantiscono che il tuo marchio si distingua su più canali digitali. Sono i protagonisti nella costruzione della presenza online del tuo marchio e nell'attirare traffico di alta qualità.",
+          "title": "Team di Marketing e Strategia – Creare Campagne Vincenti",
+          "subtitle": "I nostri esperti di marketing si concentrano sull'ottenimento di risultati e sul miglioramento continuo delle performance delle campagne:"
+        },
+        "item2": {
+          "text1": "<b>Leader della Strategia Affiliata:</b> I nostri menti strategiche sono focalizzate sulla progettazione di campagne ad alta conversione che si allineano perfettamente con i tuoi obiettivi aziendali. Analizzano le tendenze di mercato e il comportamento dei consumatori per creare strategie efficaci, personalizzate in base alle tue esigenze.",
+          "text2": "<b>Esperti delle Operazioni:</b> Gestendo le operazioni quotidiane, il nostro team operativo garantisce che ogni progetto venga eseguito senza intoppi, rispetti le scadenze e rientri nel budget. Mantengono tutto in funzione in modo fluido, ottimizzando l'efficienza.",
+          "title": "Team di Leadership – Guida della Nostra Visione e Strategia",
+          "subtitle": "Il nostro team di leadership unisce anni di esperienza nel marketing affiliato, nelle operazioni e nella strategia. Guida l'azienda verso i suoi obiettivi, garantendo che i nostri clienti ricevano sempre i migliori risultati possibili:"
+        },
+        "item3": {
+          "text1": "<b>Visionari Creativi:</b> Il nostro team creativo dà vita alla storia del tuo marchio, creando design accattivanti e contenuti coinvolgenti che risuonano con il pubblico e generano conversioni.",
+          "text2": "<b>Strategi dei Contenuti:</b> Sono gli architetti della voce del tuo marchio, creando narrazioni che si connettono con il tuo pubblico di riferimento. La loro esperienza nell'ottimizzazione dei contenuti garantisce che ogni pezzo di contenuto contribuisca a costruire una base di clienti fedeli.",
+          "title": "Team Creativo e dei Contenuti – Dare Vita alle Storie",
+          "subtitle": "La creatività è al centro di ciò che facciamo. Il nostro team di contenuti garantisce che ogni campagna sia visivamente accattivante e strategicamente allineata:"
+        },
+        "item4": {
+          "text1": "<b>Manager del Successo del Cliente:</b> I nostri manager del successo lavorano a stretto contatto con te per comprendere le tue esigenze, fornire intuizioni pratiche e aiutarti a massimizzare i tuoi risultati. Sono dedicati a garantire che le tue aspettative vengano superate in ogni fase.",
+          "text2": "<b>Responsabili Account:</b> I nostri responsabili account si concentrano su un'esecuzione fluida e una comunicazione costante. Garantiscano che le tue campagne procedano come previsto, le ottimizzino per ottenere risultati migliori e ti tengano aggiornato sulle performance.",
+          "title": "Team per il Successo del Cliente – Garantire Relazioni a Lungo Termine",
+          "subtitle": "Andiamo oltre la semplice esecuzione delle campagne: siamo impegnati a garantire il tuo successo continuo:"
+        },
+        "item5": {
+          "text1": "<b>Responsabili Analitici:</b> Analizzano le metriche di performance, individuano tendenze e identificano opportunità per ottimizzare le tue campagne. Le loro intuizioni sono fondamentali per adattare le strategie e massimizzare performance e ROI.",
+          "text2": "<b>Analisti dei Dati:</b> I nostri analisti dei dati approfondiscono il comportamento dei consumatori, interpretando dati complessi per perfezionare le campagne e prendere decisioni informate. Il loro lavoro garantisce che ogni strategia si basi su prove solide, portando a risultati migliori per i nostri clienti.",
+          "title": "Team di Dati e Analisi – Guidare la Crescita Attraverso gli Insight",
+          "subtitle": "I nostri esperti di dati sono responsabili di trasformare i numeri in strategie concrete che alimentano la crescita:"
+        }
       },
-      "role": {
-        "label": "Your Role:",
-        "placeholder": "Select your role",
-        "advertiser": "Advertiser",
-        "publisher": "Publisher"
+      "title": "Il Cuore di The Clicksly"
+    },
+    "ourValues": {
+      "tag": "I Nostri Principi\n",
+      "items": {
+        "item1": {
+          "text1": "Operiamo con onestà, etica e responsabilità in tutto ciò che facciamo. L'integrità significa rispettare le normative legali e coltivare la fiducia attraverso trasparenza e apertura.",
+          "text2": "I nostri clienti possono contare su di noi per fornire analisi veritiere, comunicazioni chiare e strategie etiche, sapendo che mettiamo sempre i loro interessi al primo posto. Crediamo che l'integrità sia la base di partnership durature.",
+          "title": "Integrità e Trasparenza\n"
+        },
+        "item2": {
+          "text1": "Rimanere un passo avanti non è solo un obiettivo, ma una continua ricerca. Abbracciamo il cambiamento e ci sfidiamo a pensare in modo diverso, creando soluzioni innovative che fissano nuovi standard nel marketing affiliato.",
+          "text2": "Sfruttando tecnologie all'avanguardia, garantiamo che le nostre soluzioni rimangano rilevanti, adattabili e pratiche. L'innovazione guida la nostra attività e ci permette di offrire strategie ad alto impatto.",
+          "title": "Innovazione & Eccellenza\n"
+        },
+        "item3": {
+          "text1": "Il successo non si ottiene mai da soli. Consideriamo i nostri clienti, partner e affiliati come collaboratori, non solo come clienti. Insieme, promuoviamo uno spirito di lavoro di squadra, comunicazione e obiettivi condivisi.",
+          "text2": "Lavoriamo con i nostri clienti e partner per sbloccare opportunità e risolvere sfide. In The Clicksly, ogni progetto è una collaborazione volta alla crescita reciproca.",
+          "title": "Collaborazione & Partnership\n"
+        },
+        "item4": {
+          "text1": "Ogni strategia che sviluppiamo si basa sui dati. Crediamo che siano le vere intuizioni, e non supposizioni, a guidare le decisioni. Dalle metriche di performance al comportamento dei consumatori, utilizziamo i dati per ottimizzare ogni aspetto dei tuoi sforzi di marketing affiliato.",
+          "text2": "Le nostre strategie vengono costantemente monitorate, testate e perfezionate per garantire i migliori risultati possibili ai nostri clienti. In The Clicksly, i risultati non sono solo un obiettivo, ma una garanzia.",
+          "title": "Risultati basati sui dati\n"
+        }
       },
-      "email": {
-        "label": "Your Email:",
-        "placeholder": "Enter your email address"
+      "text1": "Adottiamo un approccio personalizzato per ogni campagna. Comprendiamo che ogni marchio è unico, così come le sue esigenze di marketing affiliato. Collaborando strettamente con i nostri clienti, creiamo strategie su misura che si allineano ai loro obiettivi e finalità.",
+      "text2": "Il nostro team utilizza approfondimenti basati sui dati, tendenze di settore e tecniche innovative per garantire che ogni campagna dia il massimo delle performance. Dalla configurazione iniziale all’ottimizzazione continua, siamo dedicati a massimizzare il tuo ritorno sull’investimento.",
+      "title": "I Nostri Valori",
+      "approachTitle": "Il Nostro Approccio\n"
+    },
+    "successStories": {
+      "text": "I risultati parlano da soli. Con un focus su coinvolgimento, conversioni e crescita a lungo termine, The Clicksly ha aiutato numerose aziende a raggiungere un successo straordinario:",
+      "items": {
+        "item1": {
+          "text": "Attraverso le nostre campagne di affiliazione, abbiamo costantemente registrato aumenti significativi nel coinvolgimento online.",
+          "title": "Aumento Del Coinvolgimento Dei Clienti"
+        },
+        "item2": {
+          "text": "Le startup che hanno collaborato con noi hanno registrato un rapido aumento di lead di alta qualità, aiutandole a crescere più velocemente.",
+          "title": "Crescita dei Lead Qualificati per le Startup\n"
+        },
+        "item3": {
+          "text": "I nostri clienti si fidano di noi; il nostro impegno per il loro successo si riflette nei feedback che riceviamo.",
+          "title": "Tasso di Soddisfazione Del Cliente"
+        }
       },
-      "phone": {
-        "label": "Your Phone:",
-        "placeholder": "Enter your phone number"
-      },
-      "message": {
-        "label": "Your Message:",
-        "placeholder": "Enter your message"
-      },
-      "loading": "Submitting...",
-      "submit": "Submit",
-      "aggree": "I agree to the Terms and Conditions and Privacy Policy and acknowledge that my information will be securely stored in compliance with these policies.",
-      "sucees": "Thanks for reaching out to join The Clicksly! We’ve received your request and will review it shortly. Stay tuned! "
+      "title": "I Nostri Casi di Successo\n",
+      "testimonial": "\"Il team di The Clicksly ci ha aiutato a far crescere esponenzialmente i nostri sforzi di marketing affiliato. La loro esperienza nel generare traffico di alta qualità e convertire lead è stata inestimabile.\"",
+      "testimonialAuthor": "— Testimonianza del cliente\n"
     }
   },
   "getInTouch": {
     "hero": {
-      "title": "Get in Touch with Us",
-      "text": "We’re here to assist you! Whether you have a question about our services, need support, or want to explore partnership opportunities, our team is ready to help. Contact us through the options below or fill out the contact form to get in touch directly."
-    },
-    "contactInformation": {
-      "title": "Our Contact Information",
-      "office": "Office <br/> Addresses",
-      "registered": "Registered <br/> Addresses",
-      "email": "Email",
-      "phone": "Phone Number"
-    },
-    "socialsMedia": {
-      "title": "Follow Us on Social Media",
-      "text": "Stay connected with us on our social channels for the latest updates, tips, and insights:"
+      "text": "Siamo qui per aiutarti! Che tu abbia domande sui nostri servizi, bisogno di supporto o voglia esplorare opportunità di collaborazione, il nostro team è pronto a supportarti. Contattaci tramite le opzioni qui sotto o compila il modulo di contatto per metterti in contatto direttamente.",
+      "title": "Contattaci\n"
     },
     "formSection": {
-      "title": "We’d Love to Hear from You!",
-      "text1": "Got a question, comment, or request? Please fill out the form below, and one of our team members will get back to you as soon as possible. Whether you need assistance with a campaign, have inquiries about our services, or want to explore partnership opportunities, we’re here to help.",
-      "text2": "We value your time and aim to respond quickly, providing you with the answers and support you need to move forward. Fill in the details, and we’ll ensure your message reaches the right team member for a timely and personalized response."
+      "text1": "Hai una domanda, un commento o una richiesta? Compila il modulo qui sotto e uno dei nostri collaboratori ti risponderà il prima possibile. Che tu abbia bisogno di assistenza per una campagna, informazioni sui nostri servizi o voglia esplorare opportunità di collaborazione, siamo qui per aiutarti.",
+      "text2": "Valorizziamo il tuo tempo e puntiamo a rispondere rapidamente, fornendoti le risposte e il supporto necessari per andare avanti. Inserisci i tuoi dati e faremo in modo che il tuo messaggio arrivi al membro del team più adatto per una risposta tempestiva e personalizzata.",
+      "title": "Ci piacerebbe sentirti!\n"
+    },
+    "socialsMedia": {
+      "text": "Resta connesso con noi sui nostri canali social per le ultime novità, consigli e approfondimenti:",
+      "title": "Seguici sui social media\n"
+    },
+    "contactInformation": {
+      "email": "Email\n",
+      "phone": "Numero di telefono\n",
+      "title": "Informazioni di contatto\n",
+      "office": "Indirizzi<br/>dell'Ufficio",
+      "registered": "Indirizzi<br/>Registrati"
+    }
+  },
+  "partnerWithUs": {
+    "faq": {
+      "items": {
+        "item1": {
+          "answer": "Avrai accesso alla nostra dashboard di monitoraggio in tempo reale, dove potrai controllare clic, conversioni e metriche di performance.",
+          "question": "Come posso monitorare le prestazioni delle mie campagne?\n"
+        },
+        "item2": {
+          "answer": "Offriamo diversi modelli, tra cui CPA, CPL, RevShare e opzioni ibride, permettendoti di scegliere ciò che funziona meglio per la tua attività.",
+          "question": "Quali modelli di compensazione offrite?\n"
+        },
+        "item3": {
+          "answer": "Sì, richiediamo almeno 10.000 visite uniche mensili e che l’80% del tuo traffico provenga da fonti Tier 1 per garantire un coinvolgimento di qualità.",
+          "question": "Esiste un requisito minimo di traffico?\n"
+        }
+      },
+      "title": "Domande frequenti\n"
+    },
+    "hero": {
+      "text1": "Collaborando con The Clicksly, potrai accedere a una solida rete di campagne ad alta conversione e opportunità di affiliazione premium. Offriamo modelli di partnership flessibili che si adattano alle tue esigenze uniche, sia che tu voglia generare un reddito passivo o far crescere la tua attività.",
+      "text2": "Il nostro team di supporto dedicato e gli strumenti di tracciamento all’avanguardia ti garantiscono di poter ottimizzare facilmente le tue campagne e massimizzare i ricavi. Unisciti a noi oggi e inizia a guadagnare con soluzioni collaudate e orientate alle performance, pensate per il tuo successo.",
+      "title": "Collabora con noi\n",
+      "button": "Iscriviti ora\n",
+      "subtitle": "Sblocca Nuove Fonti di Reddito con la Rete di Affiliazione di The Clicksly"
+    },
+    "whyChoose": {
+      "items": {
+        "item1": {
+          "title": "Campagne Personalizzate per Ogni Fonte di Traffico",
+          "description": "Scegli tra una vasta gamma di campagne progettate per adattarsi al pubblico specifico e ai tipi di traffico con cui lavori, assicurandoti che i tuoi sforzi diano risultati."
+        },
+        "item2": {
+          "title": "Materiale di Marketing Pronto All’Uso",
+          "description": "Accedi a una suite di strumenti promozionali, tra cui banner, landing page e creatività, per aiutarti ad avviare rapidamente le tue campagne."
+        },
+        "item3": {
+          "title": "Modelli Flessibili di Partnership",
+          "description": "Scegli tra vari modelli di compenso — CPA, CPL, RevShare o opzioni ibride — progettati per allinearsi ai tuoi obiettivi aziendali."
+        },
+        "item4": {
+          "title": "Tracciamento Affidabile & Approfondimenti sui Dati\n",
+          "description": "Il nostro sistema intuitivo fornisce approfondimenti dettagliati e pratici per aiutarti a perfezionare le tue campagne e massimizzare i tuoi ricavi."
+        },
+        "item5": {
+          "title": "Supporto Partner Dedico",
+          "description": "Il nostro team è sempre a tua disposizione per offrirti consulenza esperta e assistenza, aiutandoti a ottimizzare le tue campagne e aumentare i guadagni."
+        },
+        "item6": {
+          "title": "Prestazioni Comprovate e Conversioni Elevate",
+          "description": "Unisciti a una rete che offre costantemente campagne ad alta conversione, con una comprovata esperienza di successi misurabili che garantiscono un solido ritorno sui tuoi sforzi."
+        }
+      },
+      "title": "Perché Scegliere Noi?"
+    },
+    "getStarted": {
+      "text": "Unisciti oggi alla nostra rete e inizia a guadagnare con campagne di affiliazione ad alta conversione!",
+      "title": "Inizia con il Network The Clicksly",
+      "button": "Iscriviti ora\n"
+    },
+    "howItWorks": {
+      "items": {
+        "item1": {
+          "title": "Iscriviti\n",
+          "description": "Crea un account in pochi minuti e unisciti alla nostra rete in crescita di affiliati ad alta conversione."
+        },
+        "item2": {
+          "title": "Scegli Campagne\n",
+          "description": "Seleziona le campagne che si allineano al tuo pubblico e alle tue fonti di traffico, e personalizza la tua strategia."
+        },
+        "item3": {
+          "title": "Traccia & Ottimizza\n",
+          "description": "Utilizza i nostri potenti strumenti di monitoraggio per controllare le performance delle campagne e ottimizzare per risultati migliori."
+        },
+        "item4": {
+          "title": "Guadagna entrate\n",
+          "description": "Inizia a guadagnare con modelli di commissione flessibili e guarda crescere i tuoi ricavi mentre le tue campagne ottengono successo."
+        }
+      },
+      "title": "Come Funziona – Passi Semplici per Iniziare"
+    },
+    "howWeHelped": {
+      "items": {
+        "item1": {
+          "title": "Sfida:\n",
+          "description": "Fatico a generare un reddito costante con l'affiliate marketing.\n"
+        },
+        "item2": {
+          "title": "Soluzione:\n",
+          "description": "Collaboriamo con The Clicksly per campagne mirate e ad alta conversione."
+        },
+        "item3": {
+          "title": "Risultato:\n",
+          "description": "Aumentato il fatturato di affiliazione del 150% nei primi 3 mesi.\n"
+        }
+      },
+      "title": "Come Abbiamo Aiutato i Nostri Partner a Crescere\n",
+      "subtitle": "I risultati parlano da soli. Concentrandosi sull'aumento del coinvolgimento, delle conversioni e della crescita a lungo termine, The Clicksly ha aiutato numerose aziende a raggiungere un successo notevole:\n",
+      "testimonial": "\"Il team di The Clicksly ci ha aiutato a far crescere esponenzialmente i nostri sforzi di marketing affiliato. La loro esperienza nel generare traffico di alta qualità e convertire lead è stata inestimabile.\"",
+      "testimonialAuthor": "— Testimonianza del Cliente"
+    },
+    "ourPublisher": {
+      "items": {
+        "item1": {
+          "title": "Traffico di Livello 1\n",
+          "description": "Almeno l'80% del tuo traffico deve provenire da fonti di alta qualità e di livello 1 per garantire un coinvolgimento e prestazioni ottimali.\n"
+        },
+        "item2": {
+          "title": "Frequenza di rimbalzo\n",
+          "description": "Una frequenza di rimbalzo inferiore al 50% assicura che i visitatori interagiscano con i tuoi contenuti, portando a una migliore fidelizzazione e conversioni.\n"
+        },
+        "item3": {
+          "title": "Visite Mensili Uniche\n",
+          "description": "Devi avere almeno 10.000 visite uniche al mese per garantire un traffico consistente e di valore.\n"
+        },
+        "item4": {
+          "title": "Tasso di Clic <br/>(CTR)",
+          "description": "Un CTR minimo dell'1,5% è necessario per dimostrare un coinvolgimento efficace e buone prestazioni degli annunci.\n"
+        },
+        "item5": {
+          "title": "Traffico<br/>Privo di Malware",
+          "description": "Solo traffico privo di malware è accettato per proteggere l'integrità delle campagne e garantire un'esperienza sicura.\n"
+        }
+      },
+      "title": "Requisiti per i nostri Publisher\n",
+      "subtitle": "Accettiamo publisher con traffico proveniente da diverse fonti. Per garantire qualità e performance, richiediamo quanto segue:\n"
+    },
+    "trafficSources": {
+      "items": {
+        "item1": {
+          "title": "Piattaforme<br/>Social Media"
+        },
+        "item2": {
+          "title": "Notifiche<br/>Push"
+        },
+        "item3": {
+          "title": "Annunci<br/>Native"
+        },
+        "item4": {
+          "title": "Video, Banner, <br/>Teaser"
+        },
+        "item5": {
+          "title": "Traffico Organico <br/>(SEO)"
+        },
+        "item6": {
+          "title": "Annunci <br/>Contestuali e Display"
+        },
+        "item7": {
+          "title": "Email<br/>Marketing"
+        },
+        "item8": {
+          "title": "Siti Web<br/>e Blog"
+        },
+        "item9": {
+          "title": "Pubblicità<br/>PPC"
+        },
+        "item10": {
+          "title": "Annunci<br/>Click e Popunder"
+        }
+      },
+      "title": "Fonti di traffico che accettiamo\n",
+      "subtitle": "Supportiamo un'ampia varietà di sorgenti di traffico, rendendo facile per te monetizzare il tuo pubblico. Ecco alcune delle opzioni:\n"
+    },
+    "theClickslyAdvantage": {
+      "items": {
+        "item1": {
+          "title": "Portata Globale",
+          "description": "La nostra rete di affiliazione si estende su diverse regioni e mercati, offrendoti accesso a un pubblico globale.\n"
+        },
+        "item2": {
+          "title": "Traffico di Alta Qualità",
+          "description": "Ci concentriamo sulla qualità, non solo sulla quantità. I nostri partner generano traffico ad alta conversione e con un alto livello di coinvolgimento.\n"
+        },
+        "item3": {
+          "title": "Risultati Comprovati",
+          "description": "La nostra rete offre un successo misurabile con monitoraggio delle performance in tempo reale e analisi basate sui dati.\n"
+        },
+        "item4": {
+          "title": "Strumenti Completi",
+          "description": "Forniamo gli strumenti, le risorse e il supporto continuo di cui hai bisogno per crescere e avere successo nell'affiliate marketing.\n"
+        }
+      },
+      "title": "Il Vantaggio The Clicksly"
+    }
+  },
+  "helpAndSupport": {
+    "faq": {
+      "generalFAQ": {
+        "item1": {
+          "answer": "Forniamo analisi dettagliate e metriche di performance, aiutandoti a identificare le campagne più efficaci per il tuo pubblico. Grazie alle nostre informazioni basate sui dati, puoi ottimizzare il tuo approccio e assicurarti di concentrarti sulle campagne che generano i migliori risultati.\n",
+          "question": "Come faccio a sapere quali campagne funzioneranno meglio per il mio pubblico?\n"
+        },
+        "item2": {
+          "answer": "Sì! La nostra piattaforma ti permette di utilizzare il geo-targeting e il targeting basato sui dispositivi per raggiungere il pubblico giusto al momento giusto, aumentando l'efficacia delle tue campagne.\n",
+          "question": "Posso targettizzare località o dispositivi specifici con le mie campagne?\n"
+        },
+        "item3": {
+          "answer": "Iniziare è semplice. Registrati tramite la nostra pagina di registrazione, seleziona i modelli di campagna che si allineano ai tuoi obiettivi e inizia a promuovere. Avrai accesso alla nostra piattaforma facile da usare, con risorse e supporto per aiutarti in ogni fase del processo.\n",
+          "question": "Come posso iniziare a utilizzare il network di The Clicksly?"
+        },
+        "item4": {
+          "answer": "Sì, forniamo un supporto tecnico completo per aiutarti a risolvere rapidamente qualsiasi problema. Il nostro team di supporto può assisterti con la navigazione della piattaforma, la risoluzione dei problemi e l'ottimizzazione delle campagne.\n",
+          "question": "Offrite assistenza in caso di problemi tecnici?\n"
+        },
+        "item5": {
+          "answer": "Per garantire la qualità della nostra rete, richiediamo almeno 10.000 visite uniche al mese. Richiediamo inoltre che l'80% del vostro traffico provenga da fonti di alta qualità, come i paesi Tier 1.\n",
+          "question": "Qual è il requisito minimo di traffico per diventare un publisher?\n"
+        }
+      },
+      "titleGeneral": "Generale\n",
+      "publishersFAQ": {
+        "item1": {
+          "answer": "Per aderire, richiediamo che il tuo traffico soddisfi specifici standard di qualità, coinvolgimento e conformità. Tutti gli editori sono soggetti a una revisione manuale e qualsiasi fonte che non soddisfi i nostri criteri o presenti dati discutibili può essere rifiutata. Il nostro obiettivo è garantire che tutto il traffico sia affidabile e di alta qualità.\n",
+          "question": "Quali sono i requisiti per entrare a far parte della vostra rete?\n"
+        },
+        "item2": {
+          "answer": "Accettiamo diverse fonti di traffico, inclusi i social media, gli annunci PPC, la SEO, la pubblicità nativa, il video marketing, le campagne email e altro ancora. Supportiamo svariati settori, tra cui finanza, salute, istruzione, immobiliare, tecnologia e intrattenimento.\n",
+          "question": "Quali tipi di traffico posso monetizzare?\n"
+        },
+        "item3": {
+          "answer": "Emettiamo i pagamenti mensilmente. Contatti il nostro team per assistenza se necessita di informazioni più dettagliate sui calendari o metodi di pagamento.\n",
+          "question": "Con che frequenza sarò pagato/a?\n"
+        },
+        "item4": {
+          "answer": "Puoi promuovere diverse offerte contemporaneamente, a patto che le tue fonti di traffico e i requisiti della campagna siano allineati. Questo ti offre la flessibilità necessaria per massimizzare i tuoi potenziali guadagni.\n",
+          "question": "Posso promuovere più campagne simultaneamente?\n"
+        },
+        "item5": {
+          "answer": "Assolutamente! Nel tuo account mettiamo a disposizione una serie di strumenti per aiutarti a monitorare le performance, analizzare i dati e ottimizzare le tue campagne. Dal tracciamento dei clic e delle conversioni alla comprensione del comportamento del pubblico, queste risorse ti aiuteranno a migliorare le tue strategie di campagna.\n",
+          "question": "Offrite strumenti o risorse per aiutarmi a ottimizzare le mie campagne?\n"
+        }
+      },
+      "advertisersFAQ": {
+        "item1": {
+          "answer": "Offriamo diverse fonti di traffico per supportare le tue campagne, tra cui social media, native advertising, SEO, email marketing, notifiche push, video ads, PPC e app mobile. Questa vasta gamma ti permette di raggiungere il tuo pubblico di riferimento attraverso diversi canali e ottimizzare i tuoi sforzi di marketing.\n",
+          "question": "A quali tipi di traffico posso accedere tramite la vostra piattaforma?\n"
+        },
+        "item2": {
+          "answer": "Monitoriamo attentamente ogni fonte di traffico, utilizzando strumenti avanzati di rilevamento frodi e un rigoroso processo di controllo per tutti gli affiliati. Il nostro monitoraggio in tempo reale assicura che tu riceva solo traffico genuino e di alta qualità che aggiunge valore alle tue campagne.\n",
+          "question": "Come garantisci la qualità del traffico?\n"
+        },
+        "item3": {
+          "answer": "Offriamo modelli di campagna flessibili come CPA (Cost Per Action), CPL (Cost Per Lead) e modelli ibridi. Questo ti permette di selezionare il tipo di campagna che meglio si allinea ai tuoi obiettivi di marketing, che tu stia cercando lead, azioni o un coinvolgimento del cliente a lungo termine.\n",
+          "question": "Quali tipi di campagne offrite?\n"
+        },
+        "item4": {
+          "answer": "Certo! Offriamo servizi creativi completi, inclusi banner personalizzati, landing page, siti web e altri materiali promozionali. Il nostro team collaborerà con te per creare materiali persuasivi e orientati alla conversione, su misura per le esigenze della tua campagna.\n",
+          "question": "Puoi aiutarmi a creare materiale promozionale per le mie campagne?\n"
+        },
+        "item5": {
+          "answer": "La nostra piattaforma include strumenti di monitoraggio e analisi in tempo reale che ti permettono di controllare le metriche delle campagne, come clic, conversioni e fonti di traffico. Questi strumenti forniscono informazioni utili che ti aiutano a modificare e ottimizzare le campagne per ottenere risultati migliori.\n",
+          "question": "Come faccio a monitorare le performance delle mie campagne?\n"
+        }
+      },
+      "titlePublishers": "Per gli Editori\n",
+      "titleAdvertisers": "Per gli Inserzionisti\n"
+    },
+    "hero": {
+      "text": "In The Clicksly, la tua soddisfazione è la nostra priorità. Che tu sia un inserzionista che desidera ottimizzare le proprie campagne o un publisher che punta a massimizzare i guadagni, il nostro team di supporto dedicato è qui per aiutarti. Esplora le risposte alle domande frequenti qui sotto, oppure contattaci per un'assistenza personalizzata.",
+      "title": "Aiuto e Supporto\n",
+      "subtitle": "Siamo Qui per Aiutarti – Offrendo la Guida di Cui Hai Bisogno"
+    },
+    "needAssistance": {
+      "text": "Se non hai trovato la risposta alla tua domanda o hai bisogno di un supporto più personalizzato, siamo qui per aiutarti. Contattaci direttamente e il nostro team ti assisterà per qualsiasi richiesta.\n",
+      "title": "Hai bisogno di ulteriore assistenza?\n",
+      "button": "Contattaci Subito"
+    }
+  },
+  "advertiseWithUs": {
+    "faq": {
+      "items": {
+        "item1": {
+          "answer": "Offriamo una gamma di campagne, tra cui modelli CPA, CPC, CPL e RevShare, tutte progettate per soddisfare i tuoi specifici obiettivi di marketing.\n",
+          "question": "Che tipi di campagne posso avviare con The Clicksly?\n"
+        },
+        "item2": {
+          "answer": "Grazie al nostro sistema di tracciamento in tempo reale, puoi monitorare la performance della tua campagna e modificarla in base alle necessità per garantirne il successo.\n",
+          "question": "Come faccio a monitorare le performance delle mie campagne?\n"
+        },
+        "item3": {
+          "answer": "Certamente! Il nostro team creativo progetterà risorse personalizzate in linea con l'identità del tuo marchio e gli obiettivi della tua campagna.\n",
+          "question": "Posso avere creatività personalizzate per la mia campagna?\n"
+        }
+      },
+      "title": "Domande Frequenti\n"
+    },
+    "hero": {
+      "text1": "Siamo specializzati nell'aiutare i brand ad ampliare la loro portata attraverso campagne di affiliate marketing personalizzate. La nostra piattaforma ti mette in contatto con una vasta rete di editori affidabili, generando traffico di alta qualità e risultati misurabili.\n",
+      "text2": "Che tu voglia aumentare la notorietà del marchio, incrementare le conversioni o ottimizzare il tuo budget di marketing, offriamo soluzioni flessibili per garantire il massimo ROI. Lascia che ti aiutiamo a creare una campagna che risuoni con il tuo pubblico di riferimento e guidi una crescita sostenibile.\n",
+      "title": "Pubblicizza Con Noi",
+      "button": "Iscriviti Subito",
+      "subtitle": "Trasforma il tuo brand con le campagne ad alto impatto di The Clicksly"
+    },
+    "experience": {
+      "items": {
+        "item1": {
+          "title": "Supporto<br/>Tecnico Completo",
+          "description": "Accedi a tutto ciò di cui hai bisogno per garantire il corretto funzionamento delle tue campagne, con supporto dedicato e strumenti di integrazione per ottimizzare il successo del tuo marketing di affiliazione.\n"
+        },
+        "item2": {
+          "title": "Solida<br/>Protezione Anti-Frode",
+          "description": "Il nostro sistema di rilevamento frodi all'avanguardia protegge le tue campagne dal traffico non valido, offrendoti tranquillità.\n"
+        },
+        "item3": {
+          "title": "Generazione Costante<br/>di Lead",
+          "description": "Raggiungi il tuo pubblico di riferimento e soddisfa i tuoi obiettivi di crescita con un flusso costante di lead qualificati e di alta qualità, creati su misura per la tua attività.\n"
+        },
+        "item4": {
+          "title": "Soluzioni Creative<br/>Su Misura",
+          "description": "Progettiamo materiali promozionali personalizzati che riflettono l'identità e il messaggio del tuo marchio, garantendo il massimo impatto e coinvolgimento del pubblico.\n"
+        },
+        "item5": {
+          "title": "Validazione Continua<br/>del Traffico",
+          "description": "Monitoriamo rigorosamente ogni click per garantire che tu riceva solo traffico autentico e di alto valore, che si converta.\n"
+        },
+        "item6": {
+          "title": "Strutture di Campagne<br/>Flessibili",
+          "description": "Che tu stia cercando di crescere rapidamente o di operare entro un budget prestabilito, i nostri modelli di campagna adattabili sono progettati per soddisfare le tue esigenze specifiche.\n"
+        }
+      },
+      "title": "Cosa Vivrai"
+    },
+    "ourProcess": {
+      "items": {
+        "item1": {
+          "text": "Analizziamo approfonditamente il tuo mercato e il tuo pubblico, assicurandoci che la nostra strategia sia basata su dati precisi.\n",
+          "title": "Ricerca Approfondita"
+        },
+        "item2": {
+          "text": "Dalla messaggistica al design, creiamo ogni cosa per massimizzare l'engagement e le conversioni, concentrandoci sempre sugli obiettivi del tuo brand.\n",
+          "title": "Sviluppo su Misura"
+        },
+        "item3": {
+          "text": "Prima di andare online, testiamo rigorosamente ogni elemento per garantire una performance impeccabile e che la tua campagna parta subito alla grande.\n",
+          "title": "Test approfonditi e Lancio"
+        }
+      },
+      "title": "Il Nostro Processo\n"
+    },
+    "whyAdvertice": {
+      "items": {
+        "item1": {
+          "title": "Approccio Basato<br/>Sugli Insight",
+          "description": "Ogni progetto inizia con una ricerca approfondita, assicurando che la tua campagna sia il più efficace possibile.\n"
+        },
+        "item2": {
+          "title": "Competenza<br/>Completa",
+          "description": "Dalla progettazione creativa al lancio, gestiamo ogni fase del processo in modo impeccabile.\n"
+        },
+        "item3": {
+          "title": "Risultati<br/>Massimizzati",
+          "description": "Il nostro sviluppo si concentra sempre sull'offrire il miglior ROI per le tue campagne di affiliazione.\n"
+        },
+        "item4": {
+          "title": "Consegna<br/>Tempestiva",
+          "description": "Siamo orgogliosi di completare i progetti in modo efficiente e puntuale, senza compromettere la qualità.\n"
+        }
+      },
+      "title": "Perché Fare Pubblicità Con Noi?"
+    },
+    "toolsFeatures": {
+      "items": {
+        "item1": {
+          "title": "Monitoraggio delle Campagne in Tempo Reale",
+          "description": "Monitora in tempo reale le performance della tua campagna, permettendoti di apportare rapidamente modifiche e massimizzarne l'efficacia.\n"
+        },
+        "item2": {
+          "title": "Analisi della Fonte di Performance\n",
+          "description": "Comprendi quali sorgenti di traffico generano i risultati migliori e ottimizza le tue campagne per la massima portata.\n"
+        },
+        "item3": {
+          "title": "Approfondimenti Dettagliati Sulle Conversioni",
+          "description": "Ottieni un'analisi approfondita delle tue conversioni per migliorare continuamente le performance delle tue campagne.\n"
+        },
+        "item4": {
+          "title": "Prevenzione Frodi e Avvisi\n",
+          "description": "Protegga il suo investimento con strumenti avanzati di rilevamento frodi che la avvisano in caso di attività sospette.\n"
+        },
+        "item5": {
+          "title": "Geo-Targeting & Ottimizzazione per Dispositivo\n",
+          "description": "Raggiungi il tuo pubblico ideale nel momento e nel luogo giusto, definendo come target regioni geografiche e dispositivi specifici per ottimizzare il ROI.\n"
+        }
+      },
+      "title": "I Nostri Strumenti e Funzionalità"
+    },
+    "campaignModels": {
+      "items": {
+        "item1": {
+          "title": "Costo Per Clic (CPC)\n",
+          "description": "Un modello che genera traffico verso il tuo sito è ideale per aumentare la visibilità.\n"
+        },
+        "item2": {
+          "title": "Ottimizzazione del Tasso di Conversione & Performance Marketing\n",
+          "description": "Pagare solo per le vendite o i lead è una soluzione economicamente vantaggiosa per gli inserzionisti.\n"
+        },
+        "item3": {
+          "title": "Condivisione dei ricavi (RevShare)\n",
+          "description": "Un approccio di partnership in cui condividete i profitti, creando una situazione vantaggiosa per entrambe le parti.\n"
+        },
+        "item4": {
+          "title": "Costo per Lead (CPL)\n",
+          "description": "Paga per lead di qualità generati tramite campagne di affiliazione mirate.\n"
+        }
+      },
+      "title": "Modelli di Campagna che Funzionano per Te\n",
+      "subtitle": "Offriamo una varietà di modelli di campagne per soddisfare le esigenze della tua attività:\n"
+    },
+    "needAssistance": {
+      "text": "Pronto a dare una marcia in più alle tue campagne di affiliazione?\n",
+      "title": "Parliamo del tuo progetto",
+      "button": "Iscriviti ora\n"
+    },
+    "clickslyAdvantage": {
+      "items": {
+        "item1": {
+          "title": "Portata<br/>Globale",
+          "description": "Pubblicizza i tuoi prodotti a un pubblico in diversi paesi e con varie caratteristiche demografiche grazie alla nostra vasta rete di editori globali.\n"
+        },
+        "item2": {
+          "title": "Rete Esclusiva<br/>di EditorI",
+          "description": "Collabora con affiliati affidabili e ad alte prestazioni che offrono risultati su cui puoi contare.\n"
+        },
+        "item3": {
+          "title": "Decisioni<br/>Basate sui Dati",
+          "description": "Ogni fase del nostro processo è guidata da dati e approfondimenti in tempo reale, garantendo che le tue campagne siano ottimizzate per il successo.\n"
+        }
+      },
+      "title": "Il Vantaggio The Clicksly"
     }
   },
   "targetedSectors": {
     "hero": {
-      "title": "Targeted Sectors",
-      "item1": "Finance",
-      "item2": "Travel",
-      "item3": "Education",
-      "subtitle": "Driving Success Across Multiple Industries",
-      "text": "At The Clicksly, we specialize in creating custom affiliate marketing campaigns for various industries. No matter your sector, we have the expertise and tools to help you connect with your audience and achieve measurable success.",
-      "button": "Reach Out to Us Today"
+      "text": "Noi di The Clicksly siamo specializzati nella creazione di campagne di affiliazione personalizzate per diversi settori. Indipendentemente dal tuo ambito, abbiamo l'esperienza e gli strumenti per aiutarti a connetterti con il tuo pubblico e ottenere un successo misurabile.",
+      "item1": "Finanza\n",
+      "item2": "Viaggio\n",
+      "item3": "Istruzione\n",
+      "title": "Settori Mirati\n",
+      "button": "Contattaci Oggi Stesso",
+      "subtitle": "Guidare il Successo in Diversi Settori\n"
     },
     "industries": {
-      "title": "Industries We Work With",
-      "subtitle1": "Selective Markets",
-      "text1": "We offer specialized solutions for unique or niche industries that may require tailored approaches. Whether your industry is unconventional or regulated, we ensure compliance and deliver targeted results that drive success.",
-      "subtitle2": "Not Seeing Your Industry?",
-      "text2": "We thrive on challenges. If you haven’t found your industry listed above, don’t worry. We provide customized affiliate marketing solutions for virtually any sector. Let’s discuss how we can collaborate and elevate your project.",
-      "text3": "Contact us today, and let’s explore the possibilities!",
-      "button": "Reach Out to Us Today",
       "items": {
         "item1": {
-          "title": "Finance",
-          "description": "Empower your financial services with high-quality traffic and trusted affiliate partnerships. Whether you’re promoting banking solutions, investment products, or personal finance services, we drive targeted campaigns that build trust and generate conversions."
+          "title": "Finanza\n",
+          "description": "Potenzia i tuoi servizi finanziari con traffico di alta qualità e partnership di affiliazione affidabili. Che tu promuova soluzioni bancarie, prodotti di investimento o servizi di finanza personale, guidiamo campagne mirate che creano fiducia e generano conversioni.\n"
         },
         "item2": {
-          "title": "Entertainment",
-          "description": "Captivate global audiences with campaigns tailored to the fast-paced entertainment industry. From movie releases to music promotions, we create engaging affiliate marketing strategies that connect with fans and boost visibility."
+          "title": "Intrattenimento\n",
+          "description": "Cattura il pubblico globale con campagne su misura per il frenetico settore dell'intrattenimento. Dalle uscite cinematografiche alle promozioni musicali, creiamo strategie di affiliate marketing coinvolgenti che connettono con i fan e aumentano la visibilità.\n"
         },
         "item3": {
-          "title": "Education",
-          "description": "Reach the right learners with precision-targeted campaigns for online courses, certifications, and educational content. Our strategies help you engage students, increase sign-ups, and drive long-term learning success."
+          "title": "Istruzione\n",
+          "description": "Raggiungi gli studenti giusti con campagne mirate e precise per corsi online, certificazioni e contenuti didattici. Le nostre strategie ti aiutano a coinvolgere gli studenti, aumentare le iscrizioni e promuovere un successo di apprendimento a lungo termine.\n"
         },
         "item4": {
-          "title": "Health & Wellness",
-          "description": "Promote health solutions and wellness products with compliance-driven campaigns that resonate with audiences. Whether you’re in fitness, mental health, or medical products, we craft campaigns that inspire trust and encourage healthy living."
+          "title": "Salute e Benessere\n",
+          "description": "Promuovi soluzioni per la salute e prodotti per il benessere con campagne orientate alla compliance che risuonino con il pubblico. Che tu operi nel fitness, nella salute mentale o nei prodotti medicali, creiamo campagne che ispirano fiducia e incoraggiano uno stile di vita sano.\n"
         },
         "item5": {
-          "title": "Real Estate",
-          "description": "Attract quality leads in the real estate market with hyper-targeted campaigns for buyers, renters, and investors. Our strategies are designed to drive high-intent traffic and connect with individuals actively seeking property investments."
+          "title": "Immobiliare\n",
+          "description": "Attrai lead qualificati nel mercato immobiliare con campagne iper-mirate per acquirenti, affittuari e investitori. Le nostre strategie sono progettate per generare traffico ad alta intenzione e connetterti con individui attivamente alla ricerca di investimenti immobiliari.\n"
         },
         "item6": {
-          "title": "Technology",
-          "description": "Empower your tech solutions with data-driven affiliate campaigns. Whether you’re marketing software, gadgets, or IT services, we help you scale your technology-driven campaigns across an audience eager for innovation and progress."
+          "title": "Tecnologia\n",
+          "description": "Potenzia le tue soluzioni tecnologiche con campagne di affiliazione basate sui dati. Che tu stia commercializzando software, gadget o servizi IT, ti aiutiamo ad espandere le tue campagne tecnologiche presso un pubblico desideroso di innovazione e progresso.\n"
         },
         "item7": {
-          "title": "Travel",
-          "description": "Boost travel bookings, experiences, and brand awareness with visually stunning and audience-targeted campaigns. From booking services to adventure experiences, we create campaigns that inspire travel and drive action."
+          "title": "Viaggio\n",
+          "description": "Aumenta le prenotazioni di viaggi, le esperienze e la notorietà del tuo marchio con campagne visivamente accattivanti e mirate al tuo pubblico. Dai servizi di prenotazione alle esperienze avventura, creiamo campagne che ispirano a viaggiare e stimolano l'azione.\n"
         }
-      }
+      },
+      "text1": "Offriamo soluzioni specializzate per industrie uniche o di nicchia che potrebbero richiedere approcci su misura. Che il tuo settore sia non convenzionale o regolamentato, garantiamo la conformità e forniamo risultati mirati che portano al successo.\n",
+      "text2": "Amiamo le sfide. Se non hai trovato il tuo settore nell'elenco sopra, non preoccuparti. Forniamo soluzioni di affiliate marketing personalizzate praticamente per qualsiasi settore. Parliamo di come possiamo collaborare e valorizzare il tuo progetto.\n",
+      "text3": "Contattaci oggi ed esploriamo le possibilità!\n",
+      "title": "Settori con cui lavoriamo\n",
+      "button": "Contattaci Oggi Stesso",
+      "subtitle1": "Mercati Selettivi",
+      "subtitle2": "Non trovi il tuo settore?\n"
     },
     "whyChooseUs": {
-      "title": "Why Choose Us for Your Business Sector?",
       "items": {
         "item1": {
-          "title": "Tailored Strategies for Every Sector",
-          "text": "Whether you’re in finance, health, tech, or any other industry, we provide strategies designed specifically for your market and audience needs."
+          "text": "Che tu operi nel settore finanziario, sanitario, tecnologico o in qualsiasi altro settore, ti forniamo strategie progettate specificamente per il tuo mercato e le esigenze del tuo pubblico.\n",
+          "title": "Strategie Su Misura per Ogni Settore"
         },
         "item2": {
-          "title": "Proven Track Record of Success",
-          "text": "With years of experience across various industries, we have a proven history of delivering results. We know what works and what doesn’t for each sector and apply that knowledge to every campaign."
+          "text": "Con anni di esperienza in vari settori, abbiamo una comprovata storia di risultati ottenuti. Sappiamo cosa funziona e cosa no per ogni settore e applichiamo questa conoscenza a ogni campagna.",
+          "title": "Comprovata Esperienza DI Successo"
         },
         "item3": {
-          "title": "Innovative, Data-Driven Campaigns",
-          "text": "Data powers our campaigns. We continuously analyze performance to optimize and refine strategies, ensuring you get the best possible results."
+          "text": "I dati alimentano le nostre campagne. Analizziamo continuamente le performance per ottimizzare e perfezionare le strategie, garantendo che tu ottenga i migliori risultati possibili.",
+          "title": "Campagne Innovative Basate sui Dati"
         },
         "item4": {
-          "title": "Compliance and Quality Assurance",
-          "text": "We understand the importance of industry compliance, especially in highly regulated sectors like finance and health. Our campaigns are designed to ensure that your business operates within industry standards while still achieving strong results."
+          "text": "Comprendiamo l'importanza della conformità alle normative del settore, specialmente in settori altamente regolamentati come la finanza e la salute. Le nostre campagne sono progettate per garantire che la tua attività operi secondo gli standard del settore, ottenendo comunque risultati eccellenti.",
+          "title": "Conformità e Controllo Qualità\n"
         }
-      }
+      },
+      "title": "Perché Scegliere Noi per il Tuo Settore di Attività?"
     },
-    "impactedIndustries": {
-      "title": "Industries We’ve Impacted",
-      "items": {
-        "item1": {
-          "title": "Case Study: <br/>Real Estate",
-          "description": "By leveraging highly targeted campaigns for real estate clients, we helped drive a 50% increase in qualified leads within just 3 months. Our precision targeting and content strategy connected potential buyers with the right properties, optimizing conversions across multiple channels."
-        },
-        "item2": {
-          "title": "Case Study: <br/>Finance",
-          "description": "We partnered with a leading finance brand to optimize their affiliate marketing efforts, increasing qualified lead volume by 70% and reducing marketing spend by 30%. We improved their ROI by focusing on quality traffic sources and refining their campaign messages."
-        },
-        "item3": {
-          "title": "Case Study: <br/>Health & Wellness",
-          "description": "A health supplement company turned to us for help expanding its customer base. Through targeted content and SEO optimization, we boosted their website traffic by 60% and increased sales conversions by 45% in just six months, helping them establish a strong foothold in the competitive wellness market."
-        },
-        "item4": {
-          "title": "Case Study: <br/>Technology",
-          "description": "We implemented a conversion optimization strategy for a SaaS provider that increased their free trial sign-ups by 80%. By targeting the right decision-makers and fine-tuning their ad placements, we successfully improved their lead generation efforts, setting them up for a steady growth trajectory."
-        },
-        "item5": {
-          "title": "Case Study: <br/>Education",
-          "description": "An online course provider partnered with us to promote their certifications. We developed an affiliate strategy that increased course registrations by 120% within 4 months, thanks to strategic content creation, PPC optimization, and a targeted email campaign that spoke directly to their audience's learning needs."
-        },
-        "item6": {
-          "title": "Case Study: <br/>Entertainment",
-          "description": "We worked with a digital entertainment platform to increase user engagement and subscriptions. Through tailored ad creatives and precise audience segmentation, we boosted their conversion rate by 50% and significantly expanded their subscriber base in just 2 months."
-        }
-      }
+    "needAssistance": {
+      "text": "Unisciti alla nostra rete di partner di successo e inizia a generare traffico di alta qualità con campagne progettate per offrire risultati. Che tu stia cercando di aumentare le conversioni, migliorare la visibilità del marchio o generare una crescita sostenibile, The Clicksly è il tuo partner di fiducia per il successo.",
+      "title": "Pronto a Portare IL Tuo Affiliate Marketing Al Livello Successivo?",
+      "button": "Iscriviti Ora\n"
     },
     "clientTestimonials": {
-      "title": "Client Testimonials",
       "items": {
         "item1": {
-          "title": "Finance:",
-          "text": "“The Clicksly helped us elevate our affiliate marketing campaigns, bringing in high-quality leads that have become long-term customers. Their expertise in the finance industry has made all the difference!”",
+          "text": "\"The Clicksly ci ha aiutato a potenziare le nostre campagne di marketing affiliato, portando lead di alta qualità che sono diventati clienti a lungo termine. La loro esperienza nel settore finanziario ha fatto la differenza!\"",
+          "title": "Finanza\n",
           "author": "— FinancePro Group"
         },
         "item2": {
-          "title": "Health & Wellness:",
-          "text": "“The team at The Clicksly has been instrumental in growing our online presence. Their targeted campaigns brought us new customers, and the results have been exceptional. We’ve seen a major increase in both traffic and sales!”",
+          "text": "\"Il team di The Clicksly è stato fondamentale per la crescita della nostra presenza online. Le loro campagne mirate ci hanno portato nuovi clienti, e i risultati sono stati eccezionali. Abbiamo visto un aumento significativo sia del traffico che delle vendite!\"",
+          "title": "Salute e Benessere:\n",
           "author": "— PureHealth"
         },
         "item3": {
-          "title": "Technology:",
-          "text": "Thanks to The Clicksly’s team, our SaaS product is reaching a much wider audience. Their performance marketing and data analysis expertise has allowed us to drive highly qualified leads and achieve measurable results.”",
+          "text": "\"Grazie al team di The Clicksly, il nostro prodotto SaaS sta raggiungendo un pubblico molto più ampio. La loro esperienza nel performance marketing e nell'analisi dei dati ci ha permesso di generare lead altamente qualificati e ottenere risultati misurabili.\"",
+          "title": "Tecnologia:\n",
           "author": "— TechForward Solutions"
         }
-      }
+      },
+      "title": "Testimonianze dei clienti\n"
     },
-    "needAssistance": {
-      "title": "Ready to Take Your Affiliate Marketing to the Next Level?",
-      "text": "Join our network of successful partners and start driving high-quality traffic with campaigns designed to deliver results. Whether you’re looking to boost conversions, enhance brand visibility, or generate sustainable growth, The Clicksly is your trusted partner for success.",
-      "button": "Join Now"
-    }
-  },
-  "advertiseWithUs": {
-    "hero": {
-      "title": "Advertise With Us",
-      "text1": "We specialize in helping brands amplify their reach through tailored affiliate marketing campaigns. Our platform connects you with a vast network of trusted publishers, driving high-quality traffic and measurable results.",
-      "text2": "Whether you want to increase brand awareness, boost conversions, or optimize your marketing budget, we offer flexible solutions to deliver maximum ROI. Let us help you craft a campaign that resonates with your target audience and drives sustainable growth.",
-      "subtitle": "Transform Your Brand with The Clicksly’s High-Impact Campaigns",
-      "button": "Join Now"
-    },
-    "experience": {
-      "title": "What You’ll Experience",
+    "impactedIndustries": {
       "items": {
         "item1": {
-          "title": "Comprehensive <br/>Technical Support",
-          "description": "Access everything you need to ensure your campaigns run smoothly, with dedicated support and integration tools to enhance your affiliate marketing success."
+          "title": "Caso di studio: <br/>Immobiliare\n",
+          "description": "Sfruttando campagne altamente mirate per i clienti del settore immobiliare, abbiamo contribuito ad aumentare del 50% il volume di lead qualificati in soli 3 mesi. La nostra strategia di targeting preciso e creazione di contenuti ha messo in contatto i potenziali acquirenti con le proprietà giuste, ottimizzando le conversioni su più canali."
         },
         "item2": {
-          "title": "Robust <br/>Fraud Protection",
-          "description": "Our state-of-the-art fraud detection system protects your campaigns from invalid traffic, giving you peace of mind."
+          "title": "Caso di studio: <br/>Finanza\n",
+          "description": "Abbiamo collaborato con un brand leader nel settore finanziario per ottimizzare i loro sforzi di marketing affiliato, aumentando il volume di lead qualificati del 70% e riducendo le spese di marketing del 30%. Abbiamo migliorato il loro ROI concentrandoci su fonti di traffico di qualità e affinando i messaggi delle loro campagne."
         },
         "item3": {
-          "title": "Consistent Lead <br/>Generation",
-          "description": "Reach your target audience and meet your growth objectives with a consistent flow of qualified, high-quality leads tailored to your business."
+          "title": "Caso di Studio: <br/>Salute e Benessere\n",
+          "description": "Un'azienda di integratori per la salute si è rivolta a noi per aiutarla ad espandere la sua base di clienti. Grazie a contenuti mirati e ottimizzazione SEO, abbiamo aumentato il traffico del loro sito web del 60% e incrementato le conversioni delle vendite del 45% in soli sei mesi, aiutandoli a stabilire una solida posizione nel competitivo mercato del benessere."
         },
         "item4": {
-          "title": "Tailored <br/>Creative Solutions",
-          "description": "We design custom promotional assets that reflect your brand’s identity and messaging, ensuring maximum impact and audience engagement."
+          "title": "Caso di Studio: <br/>Tecnologia\n",
+          "description": "Abbiamo implementato una strategia di ottimizzazione delle conversioni per un fornitore di SaaS che ha aumentato le iscrizioni alla prova gratuita del 80%. Mirando ai decisori giusti e perfezionando i posizionamenti pubblicitari, abbiamo migliorato con successo i loro sforzi di generazione di lead, preparandoli per un percorso di crescita costante."
         },
         "item5": {
-          "title": "Ongoing <br/>Traffic Validation",
-          "description": "We rigorously monitor every click to ensure you receive only authentic, high-value traffic that converts."
+          "title": "Caso di studio: <br/>Istruzione\n",
+          "description": "Un fornitore di corsi online ha collaborato con noi per promuovere le loro certificazioni. Abbiamo sviluppato una strategia di affiliazione che ha aumentato le registrazioni ai corsi del 120% in 4 mesi, grazie alla creazione di contenuti strategici, all'ottimizzazione PPC e a una campagna email mirata che parlava direttamente alle esigenze di apprendimento del loro pubblico."
         },
         "item6": {
-          "title": "Flexible Campaign <br/>Frameworks",
-          "description": "Whether you’re looking to scale quickly or operate within a set budget, our adaptable campaign models are designed to suit your specific needs."
-        }
-      }
-    },
-    "toolsFeatures": {
-      "title": "Our Tools & Features",
-      "items": {
-        "item1": {
-          "title": "Real-Time Campaign Monitoring",
-          "description": "Keep track of your campaign performance in real time, allowing you to make quick adjustments and maximize effectiveness."
-        },
-        "item2": {
-          "title": "Performance Source Analysis",
-          "description": "Understand which traffic sources drive the best results and optimize your campaigns for maximum reach."
-        },
-        "item3": {
-          "title": "Detailed Conversion Insights",
-          "description": "Gain in-depth analysis of your conversions to improve your campaigns’ performance continually."
-        },
-        "item4": {
-          "title": "Fraud Prevention & Alerts",
-          "description": "Protect your investment with advanced fraud detection tools that notify you of suspicious activity."
-        },
-        "item5": {
-          "title": "Geo-Targeting & Device Optimization",
-          "description": "Reach your ideal audience at the right time and place by targeting specific geographic regions and devices to optimize ROI."
-        }
-      }
-    },
-    "ourProcess": {
-      "title": "Our Process",
-      "items": {
-        "item1": {
-          "title": "In-Depth Research",
-          "text": "We thoroughly analyze your market and audience, ensuring our strategy is based on accurate data."
-        },
-        "item2": {
-          "title": "Tailored Development",
-          "text": "From messaging to design, we build everything to maximize engagement and conversions, always focusing on your brand’s objectives."
-        },
-        "item3": {
-          "title": "Extensive Testing & Launch",
-          "text": "Before going live, we rigorously test each element to ensure flawless performance and that your campaign hits the ground running."
-        }
-      }
-    },
-    "whyAdvertice": {
-      "title": "Why Advertise With Us?",
-      "items": {
-        "item1": {
-          "title": "Insight-Driven <br/>Approach",
-          "description": "Every project begins with deep research, ensuring your campaign will be as effective as possible."
-        },
-        "item2": {
-          "title": "Comprehensive <br/>Expertise",
-          "description": "From creative design to launch, we handle every step of the process seamlessly."
-        },
-        "item3": {
-          "title": "Maximized <br/>Results",
-          "description": "Our development always focuses on delivering the best ROI for your affiliate marketing campaigns."
-        },
-        "item4": {
-          "title": "Timely <br/>Delivery",
-          "description": "We pride ourselves on efficient, on-time project completion without compromising quality."
-        }
-      }
-    },
-    "needAssistance": {
-      "title": "Let’s Discuss Your Project",
-      "text": "Ready to supercharge your affiliate campaigns?",
-      "button": "Sign Up Now"
-    }
-  },
-  "partnerWithUs": {
-    "hero": {
-      "title": "Partner With Us",
-      "text1": "By partnering with The Clicksly, you can access a robust network of high-converting campaigns and premium affiliate opportunities. We offer flexible partnership models that cater to your unique needs, whether you want to generate passive income or scale your business.",
-      "text2": "Our dedicated support team and cutting-edge tracking tools ensure you can easily optimize your campaigns and maximize revenue. Join us today and start earning with proven, performance-driven solutions to help you succeed.",
-      "subtitle": "Unlock New Revenue Streams with The Clicksly’s Affiliate Network",
-      "button": "Join Now"
-    },
-    "whyChoose": {
-      "title": "What You’ll Experience",
-      "items": {
-        "item1": {
-          "title": "Tailored Campaigns for Every Traffic Source",
-          "description": "Select from a diverse range of campaigns designed to match the specific audience and traffic types you work with, ensuring that your efforts pay off."
-        },
-        "item2": {
-          "title": "Ready-to-Use Marketing Assets",
-          "description": "Access a suite of promotional tools, including banners, landing pages, and creatives, to help you get your campaigns up and running fast."
-        },
-        "item3": {
-          "title": "Flexible Partnership Models",
-          "description": "Choose from various compensation models — CPA, CPL, RevShare, or hybrid options — designed to align with your business objectives."
-        },
-        "item4": {
-          "title": "Reliable Tracking & Data Insights",
-          "description": "Our intuitive system provides detailed, actionable insights to help you fine-tune your campaigns and maximize your revenue."
-        },
-        "item5": {
-          "title": "Dedicated Partner Support",
-          "description": "Our team is always here to support you, offering expert advice and assistance to help you optimize your campaigns and increase earnings."
-        },
-        "item6": {
-          "title": "Proven Performance & High Conversions",
-          "description": "Join a network that consistently delivers high-converting campaigns with a track record of measurable success that ensures a solid return on your efforts."
-        }
-      }
-    },
-    "trafficSources": {
-      "title": "Traffic Sources We Accept",
-      "subtitle": "We support a wide variety of traffic sources, making it easy for you to monetize your audience. Here are some of the options:",
-      "items": {
-        "item1": {
-          "title": "Social Media <br/>Platforms"
-        },
-        "item2": {
-          "title": "Push <br/>Notifications"
-        },
-        "item3": {
-          "title": "Native <br/>Ads"
-        },
-        "item4": {
-          "title": "Video, Banners, <br/>Teasers"
-        },
-        "item5": {
-          "title": "Organic Traffic <br/>(SEO)"
-        },
-        "item6": {
-          "title": "Contextual <br/>and Display Ads"
-        },
-        "item7": {
-          "title": "Email <br/>Marketing"
-        },
-        "item8": {
-          "title": "Websites <br/>and Blogs"
-        },
-        "item9": {
-          "title": "PPC <br/>Advertising"
-        },
-        "item10": {
-          "title": "Click and <br/>Popunder Ads"
-        }
-      }
-    },
-    "ourPublisher": {
-      "title": "Our Publisher Requirements",
-      "subtitle": "We accept publishers with traffic from many different sources. To ensure quality and performance, we ask for the following:",
-      "items": {
-        "item1": {
-          "title": "Tier 1 Traffic",
-          "description": "At least 80% of your traffic must come from high-quality, Tier 1 sources to ensure premium engagement and performance."
-        },
-        "item2": {
-          "title": "Bounce Rate",
-          "description": "A bounce rate below 50% ensures visitors engage with your content, leading to better retention and conversions."
-        },
-        "item3": {
-          "title": "Unique Monthly Visits",
-          "description": "You must have at least 10,000 unique visits per month to ensure consistent, valuable traffic."
-        },
-        "item4": {
-          "title": "Click-Through Rate <br/>(CTR)",
-          "description": "A minimum CTR of 1.5% is required to demonstrate effective engagement and ad performance."
-        },
-        "item5": {
-          "title": "Malware-Free <br/>Traffic",
-          "description": "Only malware-free traffic is accepted to protect the integrity of campaigns and ensure a safe experience."
-        }
-      }
-    },
-    "getStarted": {
-      "title": "Get Started with The Clicksly Network",
-      "text": "Join our network today and start earning revenue with high-converting affiliate campaigns!",
-      "button": "Join Now"
-    }
-  },
-  "helpAndSupport": {
-    "hero": {
-      "title": "Help & Support",
-      "subtitle": "We’re Here to Assist You – Providing the Guidance You Need",
-      "text": "At The Clicksly, we prioritize your success. Whether you’re an advertiser looking to optimize your campaigns or a publisher aiming to maximize revenue, our dedicated support team is here to help you. Explore answers to frequently asked questions below, or reach out for personalized assistance."
-    },
-    "faq": {
-      "titleAdvertisers": "For Advertisers",
-      "titlePublishers": "For Publishers",
-      "titleGeneral": "General",
-      "advertisersFAQ": {
-        "item1": {
-          "question": "What types of traffic can I access through your platform?",
-          "answer": "We offer various traffic sources to support your campaigns, including social media, native advertising, SEO, email marketing, push notifications, video ads, PPC, and mobile apps. This diverse range allows you to reach your target audience across different channels and optimize your marketing efforts."
-        },
-        "item2": {
-          "question": "How do you ensure the quality of the traffic?",
-          "answer": "We monitor every traffic source closely, using advanced fraud detection tools and a rigorous vetting process for all affiliates. Our real-time monitoring ensures you receive only genuine, high-quality traffic that adds value to your campaigns."
-        },
-        "item3": {
-          "question": "What types of campaigns do you offer?",
-          "answer": "We provide flexible campaign models such as CPA (Cost Per Action), CPL (Cost Per Lead), and hybrid models. This allows you to select the campaign type that aligns with your marketing goals, whether you’re looking for leads, actions, or long-term customer engagement."
-        },
-        "item4": {
-          "question": "Can you assist with creating promotional materials for my campaigns?",
-          "answer": "Yes! We offer comprehensive creative services, including custom banners, landing pages, websites, and other promotional assets. Our team will work with you to craft compelling, conversion-driven materials tailored to your campaign needs."
-        },
-        "item5": {
-          "question": "How do I monitor the performance of my campaigns?",
-          "answer": "Our platform includes real-time tracking and analytics tools that allow you to monitor campaign metrics such as clicks, conversions, and traffic sources. These tools provide actionable insights that help you adjust and optimize campaigns for improved results."
+          "title": "Caso di studio: <br/>Intrattenimento\n",
+          "description": "Abbiamo collaborato con una piattaforma di intrattenimento digitale per aumentare il coinvolgimento degli utenti e le iscrizioni. Grazie a creatività pubblicitarie personalizzate e una segmentazione precisa del pubblico, abbiamo aumentato il loro tasso di conversione del 50% e ampliato significativamente la loro base di abbonati in soli 2 mesi."
         }
       },
-      "publishersFAQ": {
-        "item1": {
-          "question": "What are the requirements for joining your network?",
-          "answer": "To join, we require that your traffic meets specific quality, engagement, and compliance standards. All publishers are subject to a manual review, and any sources that fail to meet our criteria or present questionable data may be declined. Our goal is to ensure that all traffic is reliable and high-quality."
-        },
-        "item2": {
-          "question": "What types of traffic can I monetize?",
-          "answer": "We accept various traffic sources, including social media, PPC ads, SEO, native ads, video marketing, email campaigns, and more. We support multiple industries, including finance, health, education, real estate, technology, and entertainment."
-        },
-        "item3": {
-          "question": "How often will I be paid?",
-          "answer": "We issue payments monthly. Contact our team for assistance if you need more detailed information about payment schedules or methods."
-        },
-        "item4": {
-          "question": "Can I promote multiple campaigns simultaneously?",
-          "answer": "You can promote several offers simultaneously, provided your traffic sources and the campaign requirements align. This gives you the flexibility to maximize your potential earnings."
-        },
-        "item5": {
-          "question": "Do you offer tools or resources to help me optimize my campaigns?",
-          "answer": "Absolutely! We provide a range of tools in your account to help you track performance, analyze data, and optimize your campaigns. From tracking clicks and conversions to understanding audience behavior, these resources will help you enhance your campaign strategies."
-        }
+      "title": "Le Industrie che Abbiamo Influenzato"
+    }
+  },
+  "registrationForm": {
+    "form": {
+      "name": {
+        "label": "Il tuo nome:\n",
+        "placeholder": "Inserisci il tuo nome completo.\n"
       },
-      "generalFAQ": {
-        "item1": {
-          "question": "How do I know which campaigns will work best for my audience?",
-          "answer": "We provide detailed analytics and performance metrics, helping you identify the best-performing campaigns for your audience. With our data-driven insights, you can optimize your approach and ensure you’re focusing on campaigns that generate the highest returns."
-        },
-        "item2": {
-          "question": "Can I target specific locations or devices with my campaigns?",
-          "answer": "Yes! Our platform allows you to utilize geo-targeting and device-based targeting to reach the right audience at the right time, increasing the effectiveness of your campaigns."
-        },
-        "item3": {
-          "question": "How do I get started with The Clicksly network?",
-          "answer": "Getting started is simple. Sign up through our registration page, select the campaign models that align with your goals, and start promoting. You’ll have access to our easy-to-use platform, with resources and support to help you every step of the way."
-        },
-        "item4": {
-          "question": "Do you offer support if I encounter technical issues?",
-          "answer": "Yes, we provide comprehensive technical support to help you resolve any issues quickly. Our support team can assist you with platform navigation, troubleshooting, and campaign optimization."
-        },
-        "item5": {
-          "question": "What is the minimum traffic requirement to become a publisher?",
-          "answer": "To ensure the quality of our network, we ask for at least 10,000 unique visits per month. We also require 80% of your traffic from high-quality sources, such as Tier 1 countries."
-        }
+      "role": {
+        "label": "Il tuo ruolo:\n",
+        "publisher": "Editore\n",
+        "advertiser": "Inserzionista\n",
+        "placeholder": "Seleziona il tuo ruolo\n"
+      },
+      "email": {
+        "label": "La tua email:\n",
+        "placeholder": "Inserisci il tuo indirizzo email\n"
+      },
+      "phone": {
+        "label": "Il tuo telefono:\n",
+        "placeholder": "Inserisci il tuo numero di telefono"
+      },
+      "aggree": "Accetto i Termini e Condizioni e l'Informativa sulla Privacy e riconosco che le mie informazioni saranno archiviate in modo sicuro in conformità con queste politiche.",
+      "submit": "Invia\n",
+      "sucees": "Grazie per averci contattato per unirti a The Clicksly! Abbiamo ricevuto la tua richiesta e la esamineremo a breve. Resta sintonizzato!",
+      "loading": "Invio in corso...\n",
+      "message": {
+        "label": "Il tuo messaggio:\n",
+        "placeholder": "Inserisci il tuo messaggio\n"
       }
     },
-    "needAssistance": {
-      "title": "Need Further Assistance?",
-      "text": "If you didn’t find the answer to your question or need more personalized support, we’re here to help. Contact us directly, and our team will assist you with all your queries.",
-      "button": "Contact Us Now"
-    }
+    "role": {
+      "publisher": "Editore\n",
+      "advertiser": "Inserzionista\n"
+    },
+    "title": "Modulo di Registrazione\n",
+    "subtitle": "La Richiesta di Registrazione a The Clicksly"
+  },
+  "form-errors": {
+    "required": "Questo campo è obbligatorio",
+    "invalidEmail": "Indirizzo email non valido",
+    "invalidTerms": "Devi accettare i termini e le condizioni"
+  },
+  "legal": {
+    "date": "Ultimo Aggiornamento:"
   }
 }
