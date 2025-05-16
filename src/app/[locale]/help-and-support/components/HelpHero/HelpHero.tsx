@@ -1,10 +1,10 @@
-"use client";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
 
-import styles from "./HelpHero.module.scss";
+import styles from './HelpHero.module.scss';
 
 export const HelpHero = () => {
   const t = useTranslations();
@@ -18,7 +18,7 @@ export const HelpHero = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            {t("helpAndSupport.hero.title")}
+            {t('helpAndSupport.hero.title')}
           </motion.h1>
           <motion.h2
             initial="hidden"
@@ -26,7 +26,7 @@ export const HelpHero = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            {t("helpAndSupport.hero.subtitle")}
+            {t('helpAndSupport.hero.subtitle')}
           </motion.h2>
           <motion.p
             initial="hidden"
@@ -34,7 +34,7 @@ export const HelpHero = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            {t("helpAndSupport.hero.text")}
+            {t('helpAndSupport.hero.text')}
           </motion.p>
         </div>
       </div>

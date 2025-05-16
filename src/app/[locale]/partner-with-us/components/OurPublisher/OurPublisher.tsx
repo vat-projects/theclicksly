@@ -1,13 +1,12 @@
-"use client";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
 
-import styles from "./OurPublisher.module.scss";
-
+import styles from './OurPublisher.module.scss';
 
 export const OurPublisher = () => {
   const t = useTranslations();
@@ -15,39 +14,34 @@ export const OurPublisher = () => {
   const requirements = [
     {
       id: 1,
-      title: t("partnerWithUs.ourPublisher.items.item1.title"),
-      description:
-        t("partnerWithUs.ourPublisher.items.item1.description"),
+      title: t('partnerWithUs.ourPublisher.items.item1.title'),
+      description: t('partnerWithUs.ourPublisher.items.item1.description'),
     },
     {
       id: 2,
-      title: t("partnerWithUs.ourPublisher.items.item2.title"),
-      description:
-        t("partnerWithUs.ourPublisher.items.item2.description"),
+      title: t('partnerWithUs.ourPublisher.items.item2.title'),
+      description: t('partnerWithUs.ourPublisher.items.item2.description'),
     },
     {
       id: 3,
-      title: t("partnerWithUs.ourPublisher.items.item3.title"),
-      description:
-        t("partnerWithUs.ourPublisher.items.item3.description"),
+      title: t('partnerWithUs.ourPublisher.items.item3.title'),
+      description: t('partnerWithUs.ourPublisher.items.item3.description'),
     },
     {
       id: 4,
-      title: t("partnerWithUs.ourPublisher.items.item4.title"),
-      description:
-        t("partnerWithUs.ourPublisher.items.item4.description"),
+      title: t('partnerWithUs.ourPublisher.items.item4.title'),
+      description: t('partnerWithUs.ourPublisher.items.item4.description'),
     },
     {
       id: 5,
-      title: t("partnerWithUs.ourPublisher.items.item5.title"),
-      description:
-        t("partnerWithUs.ourPublisher.items.item5.description"),
+      title: t('partnerWithUs.ourPublisher.items.item5.title'),
+      description: t('partnerWithUs.ourPublisher.items.item5.description'),
     },
   ];
 
   return (
     <section className={styles.ourPublisher}>
-      <div className={"_container"}>
+      <div className={'_container'}>
         <div className={styles.titleBlock}>
           <motion.div
             initial="hidden"
@@ -55,7 +49,7 @@ export const OurPublisher = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>{t("partnerWithUs.ourPublisher.title")}</SectionTitle>
+            <SectionTitle>{t('partnerWithUs.ourPublisher.title')}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -63,9 +57,7 @@ export const OurPublisher = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>
-              {t("partnerWithUs.ourPublisher.subtitle")}
-            </SectionSubtitle>
+            <SectionSubtitle>{t('partnerWithUs.ourPublisher.subtitle')}</SectionSubtitle>
           </motion.div>
         </div>
         <div className={styles.row}>

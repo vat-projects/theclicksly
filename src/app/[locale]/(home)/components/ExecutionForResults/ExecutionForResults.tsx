@@ -1,14 +1,15 @@
-"use client";
-import Image from "next/image";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/kit/button/Button";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import styles from "./ExecutionForResults.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import Button from '@/shared/ui/kit/button/Button';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
+
+import styles from './ExecutionForResults.module.scss';
 
 export const ExecutionForResults = () => {
   const t = useTranslations();
@@ -22,7 +23,7 @@ export const ExecutionForResults = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>{t("home.executionForResults.title")}</SectionTitle>
+            <SectionTitle>{t('home.executionForResults.title')}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -30,9 +31,7 @@ export const ExecutionForResults = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>
-              {t("home.executionForResults.subtitle")}
-            </SectionSubtitle>
+            <SectionSubtitle>{t('home.executionForResults.subtitle')}</SectionSubtitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -41,7 +40,7 @@ export const ExecutionForResults = () => {
             variants={fadeInUp}
           >
             <Button url="/help-and-support" type="link" color="black">
-              {t("home.executionForResults.button")}
+              {t('home.executionForResults.button')}
             </Button>
           </motion.div>
         </div>
@@ -60,7 +59,7 @@ export const ExecutionForResults = () => {
                 width={48}
                 height={48}
               />
-              <p>{t("home.executionForResults.items.item1")}</p>
+              <p>{t('home.executionForResults.items.item1')}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -75,7 +74,7 @@ export const ExecutionForResults = () => {
                 width={48}
                 height={48}
               />
-              <p>{t("home.executionForResults.items.item2")}</p>
+              <p>{t('home.executionForResults.items.item2')}</p>
             </motion.div>
           </div>
           <motion.div
@@ -91,7 +90,7 @@ export const ExecutionForResults = () => {
               width={600}
               height={200}
             />
-            <p>{t("home.executionForResults.items.item3")}</p>
+            <p>{t('home.executionForResults.items.item3')}</p>
           </motion.div>
         </div>
       </div>

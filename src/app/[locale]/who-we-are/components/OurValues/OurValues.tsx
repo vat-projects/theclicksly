@@ -1,18 +1,20 @@
-"use client";
-import { useRef } from "react";
-import Image from "next/image";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
-import { Navigation } from "swiper/modules";
-import { Swiper, type SwiperRef, SwiperSlide } from "swiper/react";
+'use client';
+import { useRef } from 'react';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
-import { Tag } from "@/shared/ui/kit/tag/Tag";
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
+import { Navigation } from 'swiper/modules';
+import { Swiper, type SwiperRef, SwiperSlide } from 'swiper/react';
 
-import "swiper/css";
-import "swiper/css/navigation";
-import styles from "./OurValues.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
+import { Tag } from '@/shared/ui/kit/tag/Tag';
+
+import styles from './OurValues.module.scss';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 export const OurValues = () => {
   const swiperRef = useRef<SwiperRef>(null);
@@ -20,28 +22,28 @@ export const OurValues = () => {
 
   const values = [
     {
-      icon: "/images/who-we-are/our-values/icon1.svg",
-      title: t("whoWeAre.ourValues.items.item1.title"),
-      text1: t("whoWeAre.ourValues.items.item1.text1"),
-      text2: t("whoWeAre.ourValues.items.item1.text2"),
+      icon: '/images/who-we-are/our-values/icon1.svg',
+      title: t('whoWeAre.ourValues.items.item1.title'),
+      text1: t('whoWeAre.ourValues.items.item1.text1'),
+      text2: t('whoWeAre.ourValues.items.item1.text2'),
     },
     {
-      icon: "/images/who-we-are/our-values/icon2.svg",
-      title: t("whoWeAre.ourValues.items.item2.title"),
-      text1: t("whoWeAre.ourValues.items.item2.text1"),
-      text2: t("whoWeAre.ourValues.items.item2.text2"),
+      icon: '/images/who-we-are/our-values/icon2.svg',
+      title: t('whoWeAre.ourValues.items.item2.title'),
+      text1: t('whoWeAre.ourValues.items.item2.text1'),
+      text2: t('whoWeAre.ourValues.items.item2.text2'),
     },
     {
-      icon: "/images/who-we-are/our-values/icon3.svg",
-      title: t("whoWeAre.ourValues.items.item3.title"),
-      text1: t("whoWeAre.ourValues.items.item3.text1"),
-      text2: t("whoWeAre.ourValues.items.item3.text2"),
+      icon: '/images/who-we-are/our-values/icon3.svg',
+      title: t('whoWeAre.ourValues.items.item3.title'),
+      text1: t('whoWeAre.ourValues.items.item3.text1'),
+      text2: t('whoWeAre.ourValues.items.item3.text2'),
     },
     {
-      icon: "/images/who-we-are/our-values/icon4.svg",
-      title: t("whoWeAre.ourValues.items.item4.title"),
-      text1: t("whoWeAre.ourValues.items.item4.text1"),
-      text2: t("whoWeAre.ourValues.items.item4.text2"),
+      icon: '/images/who-we-are/our-values/icon4.svg',
+      title: t('whoWeAre.ourValues.items.item4.title'),
+      text1: t('whoWeAre.ourValues.items.item4.text1'),
+      text2: t('whoWeAre.ourValues.items.item4.text2'),
     },
   ];
 
@@ -67,7 +69,7 @@ export const OurValues = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Tag color="white">{t("whoWeAre.ourValues.tag")}</Tag>
+            <Tag color="white">{t('whoWeAre.ourValues.tag')}</Tag>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -75,7 +77,7 @@ export const OurValues = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>{t("whoWeAre.ourValues.title")}</SectionTitle>
+            <SectionTitle>{t('whoWeAre.ourValues.title')}</SectionTitle>
           </motion.div>
         </div>
         <div className={styles.values}>
@@ -100,12 +102,7 @@ export const OurValues = () => {
               <SwiperSlide key={value.title}>
                 <motion.div className={styles.value}>
                   <div className={styles.valueTop}>
-                    <Image
-                      src={value.icon || ""}
-                      alt={value.title}
-                      width={48}
-                      height={48}
-                    />
+                    <Image src={value.icon || ''} alt={value.title} width={48} height={48} />
                     <h3>{value.title}</h3>
                   </div>
                   <div className={styles.valueBottom}>
@@ -120,7 +117,7 @@ export const OurValues = () => {
         <div className={styles.arrows}>
           <button className={styles.arrowPrev} onClick={handlePrevClick}>
             <Image
-              src={"/images/who-we-are/our-values/prev.svg"}
+              src={'/images/who-we-are/our-values/prev.svg'}
               height={48}
               width={48}
               alt="prev"
@@ -128,7 +125,7 @@ export const OurValues = () => {
           </button>
           <button className={styles.arrowNext} onClick={handleNextClick}>
             <Image
-              src={"/images/who-we-are/our-values/next.svg"}
+              src={'/images/who-we-are/our-values/next.svg'}
               height={48}
               width={48}
               alt="next"
@@ -143,14 +140,14 @@ export const OurValues = () => {
           className={styles.approach}
         >
           <div>
-            <Tag color="white">{t("whoWeAre.ourValues.tag")}</Tag>
-            <SectionTitle>{t("whoWeAre.ourValues.approachTitle")}</SectionTitle>
+            <Tag color="white">{t('whoWeAre.ourValues.tag')}</Tag>
+            <SectionTitle>{t('whoWeAre.ourValues.approachTitle')}</SectionTitle>
           </div>
           <div>
-            <p>{t("whoWeAre.ourValues.text1")}</p>
+            <p>{t('whoWeAre.ourValues.text1')}</p>
           </div>
           <div>
-            <p>{t("whoWeAre.ourValues.text2")}</p>
+            <p>{t('whoWeAre.ourValues.text2')}</p>
           </div>
         </motion.div>
       </div>

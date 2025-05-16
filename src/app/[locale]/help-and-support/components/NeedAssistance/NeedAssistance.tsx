@@ -1,13 +1,13 @@
-"use client";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/kit/button/Button";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import Button from '@/shared/ui/kit/button/Button';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
 
-import styles from "./NeedAssistance.module.scss";
+import styles from './NeedAssistance.module.scss';
 
 export const NeedAssistance = () => {
   const t = useTranslations();
@@ -21,14 +21,10 @@ export const NeedAssistance = () => {
           variants={fadeInUp}
           className={styles.titleBlock}
         >
-          <SectionTitle>
-            {t("helpAndSupport.needAssistance.title")}
-          </SectionTitle>
-          <SectionSubtitle>
-            {t("helpAndSupport.needAssistance.text")}
-          </SectionSubtitle>
+          <SectionTitle>{t('helpAndSupport.needAssistance.title')}</SectionTitle>
+          <SectionSubtitle>{t('helpAndSupport.needAssistance.text')}</SectionSubtitle>
           <Button type="link" color="black" url="/get-in-touch">
-            {t("helpAndSupport.needAssistance.button")}
+            {t('helpAndSupport.needAssistance.button')}
           </Button>
         </motion.div>
       </div>

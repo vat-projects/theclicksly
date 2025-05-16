@@ -1,13 +1,15 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import {useLocale, useTranslations} from 'next-intl';
-import { Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image';
 
-import "swiper/css";
-import "swiper/css/pagination";
-import styles from "./ImpactedIndustries.module.scss";
+import { useLocale, useTranslations } from 'next-intl';
+import { Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import styles from './ImpactedIndustries.module.scss';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 export const ImpactedIndustries = () => {
   const t = useTranslations();
@@ -15,53 +17,41 @@ export const ImpactedIndustries = () => {
 
   const industries = [
     {
-      title: t("targetedSectors.impactedIndustries.items.item1.title"),
-      description: t(
-        "targetedSectors.impactedIndustries.items.item1.description"
-      ),
-      icon: "/images/targeted-sectors/industry1.svg",
+      title: t('targetedSectors.impactedIndustries.items.item1.title'),
+      description: t('targetedSectors.impactedIndustries.items.item1.description'),
+      icon: '/images/targeted-sectors/industry1.svg',
     },
     {
-      title: t("targetedSectors.impactedIndustries.items.item2.title"),
-      description: t(
-        "targetedSectors.impactedIndustries.items.item2.description"
-      ),
-      icon: "/images/targeted-sectors/industry2.svg",
+      title: t('targetedSectors.impactedIndustries.items.item2.title'),
+      description: t('targetedSectors.impactedIndustries.items.item2.description'),
+      icon: '/images/targeted-sectors/industry2.svg',
     },
     {
-      title: t("targetedSectors.impactedIndustries.items.item3.title"),
-      description: t(
-        "targetedSectors.impactedIndustries.items.item3.description"
-      ),
-      icon: "/images/targeted-sectors/industry3.svg",
+      title: t('targetedSectors.impactedIndustries.items.item3.title'),
+      description: t('targetedSectors.impactedIndustries.items.item3.description'),
+      icon: '/images/targeted-sectors/industry3.svg',
     },
     {
-      title: t("targetedSectors.impactedIndustries.items.item4.title"),
-      description: t(
-        "targetedSectors.impactedIndustries.items.item4.description"
-      ),
-      icon: "/images/targeted-sectors/industry4.svg",
+      title: t('targetedSectors.impactedIndustries.items.item4.title'),
+      description: t('targetedSectors.impactedIndustries.items.item4.description'),
+      icon: '/images/targeted-sectors/industry4.svg',
     },
     {
-      title: t("targetedSectors.impactedIndustries.items.item5.title"),
-      description: t(
-        "targetedSectors.impactedIndustries.items.item5.description"
-      ),
-      icon: "/images/targeted-sectors/industry5.svg",
+      title: t('targetedSectors.impactedIndustries.items.item5.title'),
+      description: t('targetedSectors.impactedIndustries.items.item5.description'),
+      icon: '/images/targeted-sectors/industry5.svg',
     },
     {
-      title: t("targetedSectors.impactedIndustries.items.item6.title"),
-      description: t(
-        "targetedSectors.impactedIndustries.items.item6.description"
-      ),
-      icon: "/images/targeted-sectors/industry6.svg",
+      title: t('targetedSectors.impactedIndustries.items.item6.title'),
+      description: t('targetedSectors.impactedIndustries.items.item6.description'),
+      icon: '/images/targeted-sectors/industry6.svg',
     },
   ];
 
   return (
-    <div className={styles.impactedIndustries + " " + styles[locale]}>
-      <div className={"_container"}>
-        <h2>{t("targetedSectors.impactedIndustries.title")}</h2>
+    <div className={styles.impactedIndustries + ' ' + styles[locale]}>
+      <div className={'_container'}>
+        <h2>{t('targetedSectors.impactedIndustries.title')}</h2>
         <Swiper
           modules={[Pagination]}
           spaceBetween={20}
@@ -92,7 +82,7 @@ export const ImpactedIndustries = () => {
                   />
                   <Image
                     src={industry.icon}
-                    alt={industry.title.replace(/<br\/>/g, " ")}
+                    alt={industry.title.replace(/<br\/>/g, ' ')}
                     width={48}
                     height={48}
                   />

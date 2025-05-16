@@ -1,10 +1,11 @@
-"use client";
-import { useRef } from "react";
-import Image from "next/image";
-import type { MotionValue } from "framer-motion";
-import { motion, useTransform } from "framer-motion";
+'use client';
+import { useRef } from 'react';
+import Image from 'next/image';
 
-import styles from "./PersonalizedSolutions.module.scss";
+import type { MotionValue } from 'framer-motion';
+import { motion, useTransform } from 'framer-motion';
+
+import styles from './PersonalizedSolutions.module.scss';
 
 type PersonalizedCardProps = {
   title: string;
@@ -31,11 +32,7 @@ export const PersonalizedCard = ({
   const scale = useTransform(progress, range, [1, targetScale]);
 
   return (
-    <div
-      ref={container}
-      className={styles.card}
-      style={{ top: `calc(5% + ${i * 40}px)` }}
-    >
+    <div ref={container} className={styles.card} style={{ top: `calc(5% + ${i * 40}px)` }}>
       <motion.div style={{ scale: isMac ? 1 : scale }}>
         <Image src={backImage} alt="back" width={100} height={100} />
         <div className={styles.number}>0{i + 1}</div>

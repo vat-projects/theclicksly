@@ -1,20 +1,21 @@
-"use client";
-import Image from "next/image";
-import { useLocale, useTranslations } from "next-intl";
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { motion } from 'framer-motion';
+import { useLocale, useTranslations } from 'next-intl';
 
-import styles from "./HowWeHelped.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
+
+import styles from './HowWeHelped.module.scss';
 
 export const HowWeHelped = () => {
   const t = useTranslations();
   const locale = useLocale();
 
   return (
-    <section className={styles.howWeHelped + " " + styles[locale]}>
+    <section className={styles.howWeHelped + ' ' + styles[locale]}>
       <div className="_container">
         <div className={styles.titleBlock}>
           <motion.div
@@ -23,7 +24,7 @@ export const HowWeHelped = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>{t("partnerWithUs.howWeHelped.title")}</SectionTitle>
+            <SectionTitle>{t('partnerWithUs.howWeHelped.title')}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -31,9 +32,7 @@ export const HowWeHelped = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>
-              {t("partnerWithUs.howWeHelped.subtitle")}
-            </SectionSubtitle>
+            <SectionSubtitle>{t('partnerWithUs.howWeHelped.subtitle')}</SectionSubtitle>
           </motion.div>
         </div>
         <div className={styles.row}>
@@ -45,8 +44,8 @@ export const HowWeHelped = () => {
             className={styles.col1}
           >
             <h2>
-              {t("partnerWithUs.howWeHelped.testimonial")}
-              <span> {t("partnerWithUs.howWeHelped.testimonialAuthor")}</span>
+              {t('partnerWithUs.howWeHelped.testimonial')}
+              <span> {t('partnerWithUs.howWeHelped.testimonialAuthor')}</span>
             </h2>
           </motion.div>
           <div className={styles.col2}>
@@ -58,14 +57,9 @@ export const HowWeHelped = () => {
               className={styles.successStory}
             >
               <div>
-                <Image
-                  src={"/images/partners/1.svg"}
-                  alt="how-we-helped"
-                  width={48}
-                  height={48}
-                />
-                <h3>{t("partnerWithUs.howWeHelped.items.item1.title")}</h3>
-                <p>{t("partnerWithUs.howWeHelped.items.item1.description")}</p>
+                <Image src={'/images/partners/1.svg'} alt="how-we-helped" width={48} height={48} />
+                <h3>{t('partnerWithUs.howWeHelped.items.item1.title')}</h3>
+                <p>{t('partnerWithUs.howWeHelped.items.item1.description')}</p>
               </div>
             </motion.div>
             <motion.div
@@ -76,14 +70,9 @@ export const HowWeHelped = () => {
               className={styles.successStory}
             >
               <div>
-                <Image
-                  src={"/images/partners/2.svg"}
-                  alt="how-we-helped"
-                  width={48}
-                  height={48}
-                />
-                <h3>{t("partnerWithUs.howWeHelped.items.item2.title")}</h3>
-                <p>{t("partnerWithUs.howWeHelped.items.item2.description")}</p>
+                <Image src={'/images/partners/2.svg'} alt="how-we-helped" width={48} height={48} />
+                <h3>{t('partnerWithUs.howWeHelped.items.item2.title')}</h3>
+                <p>{t('partnerWithUs.howWeHelped.items.item2.description')}</p>
               </div>
             </motion.div>
             <motion.div
@@ -94,14 +83,9 @@ export const HowWeHelped = () => {
               className={styles.successStory}
             >
               <div>
-                <Image
-                  src={"/images/partners/3.svg"}
-                  alt="how-we-helped"
-                  width={48}
-                  height={48}
-                />
-                <h3>{t("partnerWithUs.howWeHelped.items.item3.title")}</h3>
-                <p>{t("partnerWithUs.howWeHelped.items.item3.description")}</p>
+                <Image src={'/images/partners/3.svg'} alt="how-we-helped" width={48} height={48} />
+                <h3>{t('partnerWithUs.howWeHelped.items.item3.title')}</h3>
+                <p>{t('partnerWithUs.howWeHelped.items.item3.description')}</p>
               </div>
             </motion.div>
             <motion.div

@@ -1,12 +1,13 @@
-"use client";
-import Image from "next/image";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/kit/button/Button";
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import styles from "./SectorsHero.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import Button from '@/shared/ui/kit/button/Button';
+
+import styles from './SectorsHero.module.scss';
 
 export const SectorsHero = () => {
   const t = useTranslations();
@@ -21,7 +22,7 @@ export const SectorsHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              {t("targetedSectors.hero.title")}
+              {t('targetedSectors.hero.title')}
             </motion.h1>
           </div>
         </div>
@@ -40,7 +41,7 @@ export const SectorsHero = () => {
                 width={48}
                 height={48}
               />
-              <p>{t("targetedSectors.hero.item1")}</p>
+              <p>{t('targetedSectors.hero.item1')}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -55,7 +56,7 @@ export const SectorsHero = () => {
                 width={48}
                 height={48}
               />
-              <p>{t("targetedSectors.hero.item2")}</p>
+              <p>{t('targetedSectors.hero.item2')}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -70,7 +71,7 @@ export const SectorsHero = () => {
                 width={48}
                 height={48}
               />
-              <p>{t("targetedSectors.hero.item3")}</p>
+              <p>{t('targetedSectors.hero.item3')}</p>
             </motion.div>
           </div>
           <motion.div
@@ -80,11 +81,11 @@ export const SectorsHero = () => {
             variants={fadeInUp}
             className={styles.sectorsHeroBottomRight}
           >
-            <h3>{t("targetedSectors.hero.subtitle")}</h3>
+            <h3>{t('targetedSectors.hero.subtitle')}</h3>
             <Button url="/registration-form" type="link" color="green">
-              {t("targetedSectors.hero.button")}
+              {t('targetedSectors.hero.button')}
             </Button>
-            <p>{t("targetedSectors.hero.text")}</p>
+            <p>{t('targetedSectors.hero.text')}</p>
           </motion.div>
         </div>
       </div>

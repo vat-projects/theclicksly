@@ -1,37 +1,38 @@
-"use client";
-import Image from "next/image";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/kit/button/Button";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import styles from "./AffiliateSolutions.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import Button from '@/shared/ui/kit/button/Button';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
+
+import styles from './AffiliateSolutions.module.scss';
 
 export const AffiliateSolutions = () => {
   const t = useTranslations();
   const solutions = [
     {
-      title: t("home.affiliateSolutions.solutions.enhanceVisibility.title"),
-      description: t("home.affiliateSolutions.solutions.enhanceVisibility.description"),
-      icon: "/images/home/affiliate-solutions/icon1.svg",
+      title: t('home.affiliateSolutions.solutions.enhanceVisibility.title'),
+      description: t('home.affiliateSolutions.solutions.enhanceVisibility.description'),
+      icon: '/images/home/affiliate-solutions/icon1.svg',
     },
     {
-      title: t("home.affiliateSolutions.solutions.maximizeROI.title"),
-      description: t("home.affiliateSolutions.solutions.maximizeROI.description"),
-      icon: "/images/home/affiliate-solutions/icon2.svg",
+      title: t('home.affiliateSolutions.solutions.maximizeROI.title'),
+      description: t('home.affiliateSolutions.solutions.maximizeROI.description'),
+      icon: '/images/home/affiliate-solutions/icon2.svg',
     },
     {
-      title: t("home.affiliateSolutions.solutions.driveQualityConversions.title"),
-      description: t("home.affiliateSolutions.solutions.driveQualityConversions.description"),
-      icon: "/images/home/affiliate-solutions/icon3.svg",
+      title: t('home.affiliateSolutions.solutions.driveQualityConversions.title'),
+      description: t('home.affiliateSolutions.solutions.driveQualityConversions.description'),
+      icon: '/images/home/affiliate-solutions/icon3.svg',
     },
     {
-      title: t("home.affiliateSolutions.solutions.sustainableGrowth.title"),
-      description: t("home.affiliateSolutions.solutions.sustainableGrowth.description"),
-      icon: "/images/home/affiliate-solutions/icon4.svg",
+      title: t('home.affiliateSolutions.solutions.sustainableGrowth.title'),
+      description: t('home.affiliateSolutions.solutions.sustainableGrowth.description'),
+      icon: '/images/home/affiliate-solutions/icon4.svg',
     },
   ];
 
@@ -45,9 +46,7 @@ export const AffiliateSolutions = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>
-              {t("home.affiliateSolutions.title")}
-            </SectionTitle>
+            <SectionTitle>{t('home.affiliateSolutions.title')}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -55,9 +54,7 @@ export const AffiliateSolutions = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>
-              {t("home.affiliateSolutions.subtitle")}
-            </SectionSubtitle>
+            <SectionSubtitle>{t('home.affiliateSolutions.subtitle')}</SectionSubtitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -66,7 +63,7 @@ export const AffiliateSolutions = () => {
             variants={fadeInUp}
           >
             <Button url="/registration-form" type="link" color="black">
-              {t("home.affiliateSolutions.button")}
+              {t('home.affiliateSolutions.button')}
             </Button>
           </motion.div>
         </div>

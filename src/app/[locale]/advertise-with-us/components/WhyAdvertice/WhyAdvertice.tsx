@@ -1,40 +1,36 @@
-"use client";
-import Image from "next/image";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import styles from "./WhyAdvertice.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
 
+import styles from './WhyAdvertice.module.scss';
 
 export const WhyAdvertice = () => {
   const t = useTranslations();
   const solutions = [
     {
-      title: t("advertiseWithUs.whyAdvertice.items.item1.title"),
-      description:
-        t("advertiseWithUs.whyAdvertice.items.item1.description"),
-      icon: "/images/advertise/why-advertise/icon1.svg",
+      title: t('advertiseWithUs.whyAdvertice.items.item1.title'),
+      description: t('advertiseWithUs.whyAdvertice.items.item1.description'),
+      icon: '/images/advertise/why-advertise/icon1.svg',
     },
     {
-      title: t("advertiseWithUs.whyAdvertice.items.item2.title"),
-      description:
-        t("advertiseWithUs.whyAdvertice.items.item2.description"),
-      icon: "/images/advertise/why-advertise/icon2.svg",
+      title: t('advertiseWithUs.whyAdvertice.items.item2.title'),
+      description: t('advertiseWithUs.whyAdvertice.items.item2.description'),
+      icon: '/images/advertise/why-advertise/icon2.svg',
     },
     {
-      title: t("advertiseWithUs.whyAdvertice.items.item3.title"),
-      description:
-        t("advertiseWithUs.whyAdvertice.items.item3.description"),
-      icon: "/images/advertise/why-advertise/icon3.svg",
+      title: t('advertiseWithUs.whyAdvertice.items.item3.title'),
+      description: t('advertiseWithUs.whyAdvertice.items.item3.description'),
+      icon: '/images/advertise/why-advertise/icon3.svg',
     },
     {
-      title: t("advertiseWithUs.whyAdvertice.items.item4.title"),
-      description:
-        t("advertiseWithUs.whyAdvertice.items.item4.description"),
-      icon: "/images/home/affiliate-solutions/icon4.svg",
+      title: t('advertiseWithUs.whyAdvertice.items.item4.title'),
+      description: t('advertiseWithUs.whyAdvertice.items.item4.description'),
+      icon: '/images/home/affiliate-solutions/icon4.svg',
     },
   ];
 
@@ -48,7 +44,7 @@ export const WhyAdvertice = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>{t("advertiseWithUs.whyAdvertice.title")}</SectionTitle>
+            <SectionTitle>{t('advertiseWithUs.whyAdvertice.title')}</SectionTitle>
           </motion.div>
         </div>
         <div className={styles.solutionsBlock}>

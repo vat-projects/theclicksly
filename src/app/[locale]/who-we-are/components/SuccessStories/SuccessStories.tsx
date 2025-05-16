@@ -1,12 +1,12 @@
-"use client";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
 
-import styles from "./SuccessStories.module.scss";
+import styles from './SuccessStories.module.scss';
 
 export const SuccessStories = () => {
   const t = useTranslations();
@@ -21,7 +21,7 @@ export const SuccessStories = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>{t("whoWeAre.successStories.title")}</SectionTitle>
+            <SectionTitle>{t('whoWeAre.successStories.title')}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -29,9 +29,7 @@ export const SuccessStories = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>
-              {t("whoWeAre.successStories.text")}
-            </SectionSubtitle>
+            <SectionSubtitle>{t('whoWeAre.successStories.text')}</SectionSubtitle>
           </motion.div>
         </div>
         <div className={styles.row}>
@@ -43,8 +41,8 @@ export const SuccessStories = () => {
             className={styles.col1}
           >
             <h2>
-              {t("whoWeAre.successStories.testimonial")}
-              <span> {t("whoWeAre.successStories.testimonialAuthor")}</span>
+              {t('whoWeAre.successStories.testimonial')}
+              <span> {t('whoWeAre.successStories.testimonialAuthor')}</span>
             </h2>
           </motion.div>
           <div className={styles.col2}>
@@ -57,12 +55,10 @@ export const SuccessStories = () => {
             >
               <div>
                 <h3>200%+</h3>
-                <p>{t("whoWeAre.successStories.items.item1.title")}</p>
+                <p>{t('whoWeAre.successStories.items.item1.title')}</p>
               </div>
               <div>
-                <p>
-                  {t("whoWeAre.successStories.items.item1.text")}
-                </p>
+                <p>{t('whoWeAre.successStories.items.item1.text')}</p>
               </div>
             </motion.div>
             <motion.div
@@ -74,10 +70,10 @@ export const SuccessStories = () => {
             >
               <div>
                 <h3>+50%</h3>
-                <p>{t("whoWeAre.successStories.items.item2.title")}</p>
+                <p>{t('whoWeAre.successStories.items.item2.title')}</p>
               </div>
               <div>
-                <p>{t("whoWeAre.successStories.items.item2.text")}</p>
+                <p>{t('whoWeAre.successStories.items.item2.text')}</p>
               </div>
             </motion.div>
             <motion.div
@@ -89,10 +85,10 @@ export const SuccessStories = () => {
             >
               <div>
                 <h3>+95%</h3>
-                <p>{t("whoWeAre.successStories.items.item3.title")}</p>
+                <p>{t('whoWeAre.successStories.items.item3.title')}</p>
               </div>
               <div>
-                <p>{t("whoWeAre.successStories.items.item3.text")}</p>
+                <p>{t('whoWeAre.successStories.items.item3.text')}</p>
               </div>
             </motion.div>
           </div>

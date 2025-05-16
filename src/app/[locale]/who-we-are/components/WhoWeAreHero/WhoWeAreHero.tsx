@@ -1,17 +1,18 @@
-"use client";
-import Image from "next/image";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import styles from "./WhoWeAreHero.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+
+import styles from './WhoWeAreHero.module.scss';
 
 export const WhoWeAreHero = () => {
   const t = useTranslations();
   return (
     <section className={styles.whoWeAreHero}>
-      <div className={"_container"}>
+      <div className={'_container'}>
         <div className={styles.whoWeAreHeroTop}>
           <div className={styles.whoWeAreHeroTopLeft}>
             <motion.h1
@@ -20,7 +21,7 @@ export const WhoWeAreHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              {t("whoWeAre.hero.title")}
+              {t('whoWeAre.hero.title')}
             </motion.h1>
           </div>
           <div className={styles.whoWeAreHeroTopRight}>
@@ -30,7 +31,7 @@ export const WhoWeAreHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              {t("whoWeAre.hero.text1")}
+              {t('whoWeAre.hero.text1')}
             </motion.p>
             <motion.p
               initial="hidden"
@@ -38,7 +39,7 @@ export const WhoWeAreHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              {t("whoWeAre.hero.text2")}
+              {t('whoWeAre.hero.text2')}
             </motion.p>
           </div>
         </div>
@@ -57,14 +58,10 @@ export const WhoWeAreHero = () => {
                 width={48}
                 height={48}
               />
-              <h3>{t("whoWeAre.hero.missionTitle")}</h3>
+              <h3>{t('whoWeAre.hero.missionTitle')}</h3>
             </div>
-            <p>
-              {t("whoWeAre.hero.missionText1")}
-            </p>
-            <p>
-              {t("whoWeAre.hero.missionText2")}
-            </p>
+            <p>{t('whoWeAre.hero.missionText1')}</p>
+            <p>{t('whoWeAre.hero.missionText2')}</p>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -80,14 +77,10 @@ export const WhoWeAreHero = () => {
                 width={48}
                 height={48}
               />
-              <h3>{t("whoWeAre.hero.visionTitle")}</h3>
+              <h3>{t('whoWeAre.hero.visionTitle')}</h3>
             </div>
-            <p>
-              {t("whoWeAre.hero.visionText1")}
-            </p>
-            <p>
-              {t("whoWeAre.hero.visionText2")}
-            </p>
+            <p>{t('whoWeAre.hero.visionText1')}</p>
+            <p>{t('whoWeAre.hero.visionText2')}</p>
           </motion.div>
         </div>
       </div>

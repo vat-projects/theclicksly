@@ -1,39 +1,40 @@
-"use client";
-import { useRef } from "react";
-import {useTranslations} from 'next-intl';
-import { motion, useScroll } from "framer-motion";
+'use client';
+import { useRef } from 'react';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/kit/button/Button";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { motion, useScroll } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { PersonalizedCard } from "./PersonalizedCard";
-import styles from "./PersonalizedSolutions.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import Button from '@/shared/ui/kit/button/Button';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
+
+import { PersonalizedCard } from './PersonalizedCard';
+import styles from './PersonalizedSolutions.module.scss';
 
 export const PersonalizedSolutions = () => {
   const t = useTranslations();
   const isMac = typeof window !== 'undefined' && /Mac/.test(navigator.platform);
   const items = [
     {
-      title: t("home.personalizedSolutions.items.item1.title"),
-      text: t("home.personalizedSolutions.items.item1.text"),
-      backImage: "/images/home/personalized-card/image1.svg",
+      title: t('home.personalizedSolutions.items.item1.title'),
+      text: t('home.personalizedSolutions.items.item1.text'),
+      backImage: '/images/home/personalized-card/image1.svg',
     },
     {
-      title: t("home.personalizedSolutions.items.item2.title"),
-      text: t("home.personalizedSolutions.items.item2.text"),
-      backImage: "/images/home/personalized-card/image2.svg",
+      title: t('home.personalizedSolutions.items.item2.title'),
+      text: t('home.personalizedSolutions.items.item2.text'),
+      backImage: '/images/home/personalized-card/image2.svg',
     },
     {
-      title: t("home.personalizedSolutions.items.item3.title"),
-      text: t("home.personalizedSolutions.items.item3.text"),
-      backImage: "/images/home/personalized-card/image3.svg",
+      title: t('home.personalizedSolutions.items.item3.title'),
+      text: t('home.personalizedSolutions.items.item3.text'),
+      backImage: '/images/home/personalized-card/image3.svg',
     },
     {
-      title: t("home.personalizedSolutions.items.item4.title"),
-      text: t("home.personalizedSolutions.items.item4.text"),
-      backImage: "/images/home/personalized-card/image4.svg",
+      title: t('home.personalizedSolutions.items.item4.title'),
+      text: t('home.personalizedSolutions.items.item4.text'),
+      backImage: '/images/home/personalized-card/image4.svg',
     },
   ];
 
@@ -41,7 +42,7 @@ export const PersonalizedSolutions = () => {
 
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ["start 10%", "end end"],
+    offset: ['start 10%', 'end end'],
   });
 
   return (
@@ -54,9 +55,7 @@ export const PersonalizedSolutions = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>
-              {t("home.personalizedSolutions.title")}
-            </SectionTitle>
+            <SectionTitle>{t('home.personalizedSolutions.title')}</SectionTitle>
           </motion.div>
         </div>
         <div className={styles.scrollBlock} ref={container}>
@@ -83,9 +82,7 @@ export const PersonalizedSolutions = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>
-              {t("home.personalizedSolutions.text")}
-            </SectionSubtitle>
+            <SectionSubtitle>{t('home.personalizedSolutions.text')}</SectionSubtitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -94,7 +91,7 @@ export const PersonalizedSolutions = () => {
             variants={fadeInUp}
           >
             <Button url="/get-in-touch" type="link" color="green-white">
-              {t("home.personalizedSolutions.button")}
+              {t('home.personalizedSolutions.button')}
             </Button>
           </motion.div>
         </div>

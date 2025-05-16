@@ -1,9 +1,10 @@
-"use client";
+'use client';
 
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 
-import { FaqSection } from "../FaqSection/FaqSection";
-import { useFAQ } from "@/app/[locale]/help-and-support/lib/faq";
+import { FaqSection } from '../FaqSection/FaqSection';
+
+import { useFAQ } from '@/app/[locale]/help-and-support/lib/faq';
 
 export const FAQContent = () => {
   const { advertisersFAQ, publishersFAQ, generalFAQ } = useFAQ();
@@ -13,17 +14,17 @@ export const FAQContent = () => {
       <FaqSection
         theme="dark"
         questions={advertisersFAQ}
-        title={t("helpAndSupport.faq.titleAdvertisers")}
+        title={t('helpAndSupport.faq.titleAdvertisers')}
       />
       <FaqSection
         theme="white"
         questions={publishersFAQ}
-        title={t("helpAndSupport.faq.titlePublishers")}
+        title={t('helpAndSupport.faq.titlePublishers')}
       />
       <FaqSection
         theme="white"
         questions={generalFAQ}
-        title={t("helpAndSupport.faq.titleGeneral")}
+        title={t('helpAndSupport.faq.titleGeneral')}
       />
     </>
   );

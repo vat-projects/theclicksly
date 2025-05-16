@@ -1,18 +1,20 @@
-"use client";
-import { useRef } from "react";
-import Image from "next/image";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
-import { Navigation } from "swiper/modules";
-import { Swiper, type SwiperRef, SwiperSlide } from "swiper/react";
+'use client';
+import { useRef } from 'react';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
+import { Navigation } from 'swiper/modules';
+import { Swiper, type SwiperRef, SwiperSlide } from 'swiper/react';
 
-import "swiper/css";
-import "swiper/css/navigation";
-import styles from "./OurTeam.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
+
+import styles from './OurTeam.module.scss';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 export const OurTeam = () => {
   const swiperRef = useRef<SwiperRef>(null);
@@ -20,58 +22,58 @@ export const OurTeam = () => {
 
   const team = [
     {
-      icon: "/images/who-we-are/our-team/icon1.svg",
-      title: t("whoWeAre.ourTeam.items.item1.title"),
-      subtitle: t("whoWeAre.ourTeam.items.item1.subtitle"),
-      text1: t.rich("whoWeAre.ourTeam.items.item1.text1", {
-        b: (chunks) => <b>{chunks}</b>
+      icon: '/images/who-we-are/our-team/icon1.svg',
+      title: t('whoWeAre.ourTeam.items.item1.title'),
+      subtitle: t('whoWeAre.ourTeam.items.item1.subtitle'),
+      text1: t.rich('whoWeAre.ourTeam.items.item1.text1', {
+        b: (chunks) => <b>{chunks}</b>,
       }),
-      text2: t.rich("whoWeAre.ourTeam.items.item1.text2", {
-        b: (chunks) => <b>{chunks}</b>
-      }),
-    },
-    {
-      icon: "/images/who-we-are/our-team/icon2.svg",
-      title: t("whoWeAre.ourTeam.items.item2.title"),
-      subtitle: t("whoWeAre.ourTeam.items.item2.subtitle"),
-      text1: t.rich("whoWeAre.ourTeam.items.item2.text1", {
-        b: (chunks) => <b>{chunks}</b>
-      }),
-      text2: t.rich("whoWeAre.ourTeam.items.item2.text2", {
-        b: (chunks) => <b>{chunks}</b>
+      text2: t.rich('whoWeAre.ourTeam.items.item1.text2', {
+        b: (chunks) => <b>{chunks}</b>,
       }),
     },
     {
-      icon: "/images/who-we-are/our-team/icon3.svg",
-      title: t("whoWeAre.ourTeam.items.item3.title"),
-      subtitle: t("whoWeAre.ourTeam.items.item3.subtitle"),
-      text1: t.rich("whoWeAre.ourTeam.items.item3.text1", {
-        b: (chunks) => <b>{chunks}</b>
+      icon: '/images/who-we-are/our-team/icon2.svg',
+      title: t('whoWeAre.ourTeam.items.item2.title'),
+      subtitle: t('whoWeAre.ourTeam.items.item2.subtitle'),
+      text1: t.rich('whoWeAre.ourTeam.items.item2.text1', {
+        b: (chunks) => <b>{chunks}</b>,
       }),
-      text2: t.rich("whoWeAre.ourTeam.items.item3.text2", {
-        b: (chunks) => <b>{chunks}</b>
-      }),
-    },
-    {
-      icon: "/images/who-we-are/our-team/icon4.svg",
-      title: t("whoWeAre.ourTeam.items.item4.title"),
-      subtitle: t("whoWeAre.ourTeam.items.item4.subtitle"),
-      text1: t.rich("whoWeAre.ourTeam.items.item4.text1", {
-        b: (chunks) => <b>{chunks}</b>
-      }),
-      text2: t.rich("whoWeAre.ourTeam.items.item4.text2", {
-        b: (chunks) => <b>{chunks}</b>
+      text2: t.rich('whoWeAre.ourTeam.items.item2.text2', {
+        b: (chunks) => <b>{chunks}</b>,
       }),
     },
     {
-      icon: "/images/who-we-are/our-team/icon1.svg",
-      title: t("whoWeAre.ourTeam.items.item5.title"),
-      subtitle: t("whoWeAre.ourTeam.items.item5.subtitle"),
-      text1: t.rich("whoWeAre.ourTeam.items.item5.text1", {
-        b: (chunks) => <b>{chunks}</b>
+      icon: '/images/who-we-are/our-team/icon3.svg',
+      title: t('whoWeAre.ourTeam.items.item3.title'),
+      subtitle: t('whoWeAre.ourTeam.items.item3.subtitle'),
+      text1: t.rich('whoWeAre.ourTeam.items.item3.text1', {
+        b: (chunks) => <b>{chunks}</b>,
       }),
-      text2: t.rich("whoWeAre.ourTeam.items.item5.text2", {
-        b: (chunks) => <b>{chunks}</b>
+      text2: t.rich('whoWeAre.ourTeam.items.item3.text2', {
+        b: (chunks) => <b>{chunks}</b>,
+      }),
+    },
+    {
+      icon: '/images/who-we-are/our-team/icon4.svg',
+      title: t('whoWeAre.ourTeam.items.item4.title'),
+      subtitle: t('whoWeAre.ourTeam.items.item4.subtitle'),
+      text1: t.rich('whoWeAre.ourTeam.items.item4.text1', {
+        b: (chunks) => <b>{chunks}</b>,
+      }),
+      text2: t.rich('whoWeAre.ourTeam.items.item4.text2', {
+        b: (chunks) => <b>{chunks}</b>,
+      }),
+    },
+    {
+      icon: '/images/who-we-are/our-team/icon1.svg',
+      title: t('whoWeAre.ourTeam.items.item5.title'),
+      subtitle: t('whoWeAre.ourTeam.items.item5.subtitle'),
+      text1: t.rich('whoWeAre.ourTeam.items.item5.text1', {
+        b: (chunks) => <b>{chunks}</b>,
+      }),
+      text2: t.rich('whoWeAre.ourTeam.items.item5.text2', {
+        b: (chunks) => <b>{chunks}</b>,
       }),
     },
   ];
@@ -99,8 +101,9 @@ export const OurTeam = () => {
             variants={fadeInUp}
           >
             <SectionTitle>
-              {t("whoWeAre.ourTeam.tag")}<br/>
-              {t("whoWeAre.ourTeam.title")}
+              {t('whoWeAre.ourTeam.tag')}
+              <br />
+              {t('whoWeAre.ourTeam.title')}
             </SectionTitle>
           </motion.div>
           <motion.div
@@ -109,9 +112,7 @@ export const OurTeam = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>
-              {t("whoWeAre.ourTeam.text")}
-            </SectionSubtitle>
+            <SectionSubtitle>{t('whoWeAre.ourTeam.text')}</SectionSubtitle>
           </motion.div>
         </div>
         <motion.div
@@ -142,12 +143,7 @@ export const OurTeam = () => {
               <SwiperSlide key={item.title}>
                 <div className={styles.teamItem}>
                   <span className={styles.icon}>
-                    <Image
-                      src={item.icon}
-                      alt={item.title}
-                      width={60}
-                      height={48}
-                    />
+                    <Image src={item.icon} alt={item.title} width={60} height={48} />
                   </span>
                   <div className={styles.teamItemContent}>
                     <div className={styles.teamItemTitle}>
@@ -167,7 +163,7 @@ export const OurTeam = () => {
         <div className={styles.arrows}>
           <button className={styles.arrowPrev} onClick={handlePrevClick}>
             <Image
-              src={"/images/who-we-are/our-values/prev.svg"}
+              src={'/images/who-we-are/our-values/prev.svg'}
               height={48}
               width={48}
               alt="prev"
@@ -175,7 +171,7 @@ export const OurTeam = () => {
           </button>
           <button className={styles.arrowNext} onClick={handleNextClick}>
             <Image
-              src={"/images/who-we-are/our-values/next.svg"}
+              src={'/images/who-we-are/our-values/next.svg'}
               height={48}
               width={48}
               alt="next"

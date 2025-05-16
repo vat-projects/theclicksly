@@ -1,12 +1,12 @@
-"use client";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { ContactForm } from "@/features/contact-form/ui/ContactForm";
+import { ContactForm } from '@/features/contact-form/ui/ContactForm';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
 
-import styles from "./FormSection.module.scss";
+import styles from './FormSection.module.scss';
 
 export const FormSection = () => {
   const t = useTranslations();
@@ -20,7 +20,7 @@ export const FormSection = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            {t("getInTouch.formSection.title")}
+            {t('getInTouch.formSection.title')}
           </motion.h2>
           <motion.div
             initial="hidden"
@@ -30,12 +30,12 @@ export const FormSection = () => {
           >
             <p
               dangerouslySetInnerHTML={{
-                __html: t("getInTouch.formSection.text1"),
+                __html: t('getInTouch.formSection.text1'),
               }}
             />
             <p
               dangerouslySetInnerHTML={{
-                __html: t("getInTouch.formSection.text2"),
+                __html: t('getInTouch.formSection.text2'),
               }}
             />
           </motion.div>

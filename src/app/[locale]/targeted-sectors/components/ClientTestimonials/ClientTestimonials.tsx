@@ -1,10 +1,10 @@
-"use client";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
 
-import styles from "./ClientTestimonials.module.scss";
+import styles from './ClientTestimonials.module.scss';
 
 export const ClientTestimonials = () => {
   const t = useTranslations();
@@ -18,7 +18,7 @@ export const ClientTestimonials = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            {t("targetedSectors.clientTestimonials.title")}
+            {t('targetedSectors.clientTestimonials.title')}
           </motion.h2>
           <motion.div
             initial="hidden"
@@ -27,12 +27,10 @@ export const ClientTestimonials = () => {
             variants={fadeInUp}
             className={styles.testimonialsItem}
           >
-            <h3>{t("targetedSectors.clientTestimonials.items.item1.title")}</h3>
+            <h3>{t('targetedSectors.clientTestimonials.items.item1.title')}</h3>
             <p>
-              {t("targetedSectors.clientTestimonials.items.item1.text")}
-              <b>
-                {t("targetedSectors.clientTestimonials.items.item1.author")}
-              </b>
+              {t('targetedSectors.clientTestimonials.items.item1.text')}
+              <b>{t('targetedSectors.clientTestimonials.items.item1.author')}</b>
             </p>
           </motion.div>
           <motion.div
@@ -42,12 +40,10 @@ export const ClientTestimonials = () => {
             variants={fadeInUp}
             className={styles.testimonialsItem}
           >
-            <h3>{t("targetedSectors.clientTestimonials.items.item2.title")}</h3>
+            <h3>{t('targetedSectors.clientTestimonials.items.item2.title')}</h3>
             <p>
-              {t("targetedSectors.clientTestimonials.items.item2.text")}
-              <b>
-                {t("targetedSectors.clientTestimonials.items.item2.author")}
-              </b>
+              {t('targetedSectors.clientTestimonials.items.item2.text')}
+              <b>{t('targetedSectors.clientTestimonials.items.item2.author')}</b>
             </p>
           </motion.div>
           <motion.div
@@ -57,12 +53,10 @@ export const ClientTestimonials = () => {
             variants={fadeInUp}
             className={styles.testimonialsItem}
           >
-            <h3>{t("targetedSectors.clientTestimonials.items.item3.title")}</h3>
+            <h3>{t('targetedSectors.clientTestimonials.items.item3.title')}</h3>
             <p>
-              {t("targetedSectors.clientTestimonials.items.item3.text")}
-              <b>
-                {t("targetedSectors.clientTestimonials.items.item3.author")}
-              </b>
+              {t('targetedSectors.clientTestimonials.items.item3.text')}
+              <b>{t('targetedSectors.clientTestimonials.items.item3.author')}</b>
             </p>
           </motion.div>
         </div>

@@ -1,59 +1,54 @@
-"use client";
-import Image from "next/image";
-import {useLocale, useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
+import { motion } from 'framer-motion';
+import { useLocale, useTranslations } from 'next-intl';
 
-import styles from "./ToolsFeatures.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
 
+import styles from './ToolsFeatures.module.scss';
 
 export const ToolsFeatures = () => {
   const t = useTranslations();
   const locale = useLocale();
   const experience = [
     {
-      icon: "/images/advertise/tools-features/icon1.svg",
-      title: t("advertiseWithUs.toolsFeatures.items.item1.title"),
-      description:
-        t("advertiseWithUs.toolsFeatures.items.item1.description"),
+      icon: '/images/advertise/tools-features/icon1.svg',
+      title: t('advertiseWithUs.toolsFeatures.items.item1.title'),
+      description: t('advertiseWithUs.toolsFeatures.items.item1.description'),
     },
     {
-      icon: "/images/advertise/tools-features/icon2.svg",
-      title: t("advertiseWithUs.toolsFeatures.items.item2.title"),
-      description:
-        t("advertiseWithUs.toolsFeatures.items.item2.description"),
+      icon: '/images/advertise/tools-features/icon2.svg',
+      title: t('advertiseWithUs.toolsFeatures.items.item2.title'),
+      description: t('advertiseWithUs.toolsFeatures.items.item2.description'),
     },
     {
-      icon: "/images/advertise/tools-features/icon3.svg",
-      title: t("advertiseWithUs.toolsFeatures.items.item3.title"),
-      description:
-        t("advertiseWithUs.toolsFeatures.items.item3.description"),
+      icon: '/images/advertise/tools-features/icon3.svg',
+      title: t('advertiseWithUs.toolsFeatures.items.item3.title'),
+      description: t('advertiseWithUs.toolsFeatures.items.item3.description'),
     },
     {
-      icon: "/images/advertise/tools-features/icon4.svg",
-      title: t("advertiseWithUs.toolsFeatures.items.item4.title"),
-      description:
-        t("advertiseWithUs.toolsFeatures.items.item4.description"),
+      icon: '/images/advertise/tools-features/icon4.svg',
+      title: t('advertiseWithUs.toolsFeatures.items.item4.title'),
+      description: t('advertiseWithUs.toolsFeatures.items.item4.description'),
     },
     {
-      icon: "/images/advertise/tools-features/icon5.svg",
-      title: t("advertiseWithUs.toolsFeatures.items.item5.title"),
-      description:
-        t("advertiseWithUs.toolsFeatures.items.item5.description"),
+      icon: '/images/advertise/tools-features/icon5.svg',
+      title: t('advertiseWithUs.toolsFeatures.items.item5.title'),
+      description: t('advertiseWithUs.toolsFeatures.items.item5.description'),
     },
   ];
 
   return (
-    <section className={styles.toolsFeatures + " " + styles[locale]}>
-      <div className={"_container"}>
+    <section className={styles.toolsFeatures + ' ' + styles[locale]}>
+      <div className={'_container'}>
         <motion.h2
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          {t("advertiseWithUs.toolsFeatures.title")}
+          {t('advertiseWithUs.toolsFeatures.title')}
         </motion.h2>
         <div className={styles.toolsFeaturesList}>
           {experience.map((item, index) => (
@@ -65,12 +60,7 @@ export const ToolsFeatures = () => {
               key={index}
               className={styles.experienceItem}
             >
-              <Image
-                src={item.icon || ""}
-                alt={item.title}
-                width={48}
-                height={48}
-              />
+              <Image src={item.icon || ''} alt={item.title} width={48} height={48} />
               <div>
                 <h3 dangerouslySetInnerHTML={{ __html: item.title }} />
                 <p>{item.description}</p>

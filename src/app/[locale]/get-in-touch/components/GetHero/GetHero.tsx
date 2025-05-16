@@ -1,11 +1,10 @@
-"use client";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
 
-import styles from "./GetHero.module.scss";
-
+import styles from './GetHero.module.scss';
 
 export const GetHero = () => {
   const t = useTranslations();
@@ -19,7 +18,7 @@ export const GetHero = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            {t("getInTouch.hero.title")}
+            {t('getInTouch.hero.title')}
           </motion.h1>
           <motion.p
             initial="hidden"
@@ -27,7 +26,7 @@ export const GetHero = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            {t("getInTouch.hero.text")}
+            {t('getInTouch.hero.text')}
           </motion.p>
         </div>
       </div>

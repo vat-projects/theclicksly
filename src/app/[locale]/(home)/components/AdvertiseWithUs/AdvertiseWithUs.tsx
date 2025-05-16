@@ -1,31 +1,31 @@
-"use client";
-import Image from "next/image";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/kit/button/Button";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
-import { Tag } from "@/shared/ui/kit/tag/Tag";
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import styles from "./AdvertiseWithUs.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import Button from '@/shared/ui/kit/button/Button';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
+import { Tag } from '@/shared/ui/kit/tag/Tag';
 
+import styles from './AdvertiseWithUs.module.scss';
 
 export const AdvertiseWithUs = () => {
   const t = useTranslations();
   const items = [
     {
-      text: t("home.advertiseWithUs.items.broadNetwork"),
-      image: "/images/home/what-we-offer/image1.svg",
+      text: t('home.advertiseWithUs.items.broadNetwork'),
+      image: '/images/home/what-we-offer/image1.svg',
     },
     {
-      text: t("home.advertiseWithUs.items.quickAdPlacements"),
-      image: "/images/home/what-we-offer/image2.svg",
+      text: t('home.advertiseWithUs.items.quickAdPlacements'),
+      image: '/images/home/what-we-offer/image2.svg',
     },
     {
-      text: t("home.advertiseWithUs.items.customizedStrategies"),
-      image: "/images/home/what-we-offer/image3.svg",
+      text: t('home.advertiseWithUs.items.customizedStrategies'),
+      image: '/images/home/what-we-offer/image3.svg',
     },
   ];
 
@@ -39,7 +39,7 @@ export const AdvertiseWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Tag color="white">{t("home.advertiseWithUs.tag")}</Tag>
+            <Tag color="white">{t('home.advertiseWithUs.tag')}</Tag>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -47,7 +47,7 @@ export const AdvertiseWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>{t("home.advertiseWithUs.title")}</SectionTitle>
+            <SectionTitle>{t('home.advertiseWithUs.title')}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -55,9 +55,7 @@ export const AdvertiseWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>
-              {t("home.advertiseWithUs.subtitle")}
-            </SectionSubtitle>
+            <SectionSubtitle>{t('home.advertiseWithUs.subtitle')}</SectionSubtitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -66,7 +64,7 @@ export const AdvertiseWithUs = () => {
             variants={fadeInUp}
           >
             <Button url="/advertise-with-us" type="link" color="green-white">
-              {t("home.advertiseWithUs.button")}
+              {t('home.advertiseWithUs.button')}
             </Button>
           </motion.div>
         </div>
@@ -80,12 +78,7 @@ export const AdvertiseWithUs = () => {
               className={styles.card}
               key={index}
             >
-              <Image
-                src={item.image}
-                alt={item.text}
-                width={426}
-                height={426}
-              />
+              <Image src={item.image} alt={item.text} width={426} height={426} />
               <p>{item.text}</p>
             </motion.div>
           ))}

@@ -1,18 +1,19 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
+import Link from 'next/link';
+
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 import {
   WEBSITE_EMAIL,
   WEBSITE_OFFICE_ADDRESS,
   WEBSITE_PHONE,
   WEBSITE_REGISTRATION_ADDRESS,
-} from "@/shared/lib/constants/constants";
-import { fadeInUp } from "@/shared/lib/helpers/animations";
+} from '@/shared/lib/constants/constants';
+import { fadeInUp } from '@/shared/lib/helpers/animations';
 
-import styles from "./ContactInformation.module.scss";
+import styles from './ContactInformation.module.scss';
 
 export const ContactInformation = () => {
   const t = useTranslations();
@@ -25,7 +26,7 @@ export const ContactInformation = () => {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          {t("getInTouch.contactInformation.title")}
+          {t('getInTouch.contactInformation.title')}
         </motion.h2>
         <div className={styles.contactInformationInner}>
           <motion.div
@@ -38,15 +39,10 @@ export const ContactInformation = () => {
             <div className={styles.addressTop}>
               <h3
                 dangerouslySetInnerHTML={{
-                  __html: t("getInTouch.contactInformation.office"),
+                  __html: t('getInTouch.contactInformation.office'),
                 }}
               />
-              <Image
-                src="/images/get-in-touch/location.svg"
-                alt="address"
-                width={48}
-                height={48}
-              />
+              <Image src="/images/get-in-touch/location.svg" alt="address" width={48} height={48} />
             </div>
             <div className={styles.addressBottom}>
               <p>{WEBSITE_OFFICE_ADDRESS}</p>
@@ -70,15 +66,10 @@ export const ContactInformation = () => {
             <div className={styles.addressTop}>
               <h3
                 dangerouslySetInnerHTML={{
-                  __html: t("getInTouch.contactInformation.registered"),
+                  __html: t('getInTouch.contactInformation.registered'),
                 }}
               />
-              <Image
-                src="/images/get-in-touch/location.svg"
-                alt="address"
-                width={48}
-                height={48}
-              />
+              <Image src="/images/get-in-touch/location.svg" alt="address" width={48} height={48} />
             </div>
             <div className={styles.addressBottom}>
               <p>{WEBSITE_REGISTRATION_ADDRESS}</p>
@@ -101,13 +92,8 @@ export const ContactInformation = () => {
           >
             <div className={styles.item}>
               <div className={styles.contactTop}>
-                <h3>{t("getInTouch.contactInformation.email")}</h3>
-                <Image
-                  src="/images/get-in-touch/email.svg"
-                  alt="address"
-                  width={48}
-                  height={48}
-                />
+                <h3>{t('getInTouch.contactInformation.email')}</h3>
+                <Image src="/images/get-in-touch/email.svg" alt="address" width={48} height={48} />
               </div>
               <div className={styles.contactBottom}>
                 <Link href={`mailto:${WEBSITE_EMAIL}`}>{WEBSITE_EMAIL}</Link>
@@ -115,13 +101,8 @@ export const ContactInformation = () => {
             </div>
             <div className={styles.item}>
               <div className={styles.contactTop}>
-                <h3>{t("getInTouch.contactInformation.phone")}</h3>
-                <Image
-                  src="/images/get-in-touch/phone.svg"
-                  alt="address"
-                  width={48}
-                  height={48}
-                />
+                <h3>{t('getInTouch.contactInformation.phone')}</h3>
+                <Image src="/images/get-in-touch/phone.svg" alt="address" width={48} height={48} />
               </div>
               <div className={styles.contactBottom}>
                 <Link href={`tel:${WEBSITE_PHONE}`}>{WEBSITE_PHONE}</Link>

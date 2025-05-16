@@ -1,12 +1,13 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
+import Link from 'next/link';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import styles from "./SocialMedia.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+
+import styles from './SocialMedia.module.scss';
 
 export const SocialMedia = () => {
   const t = useTranslations();
@@ -19,7 +20,7 @@ export const SocialMedia = () => {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          {t("getInTouch.socialsMedia.title")}
+          {t('getInTouch.socialsMedia.title')}
         </motion.h2>
         <motion.p
           initial="hidden"
@@ -27,7 +28,7 @@ export const SocialMedia = () => {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          {t("getInTouch.socialsMedia.text")}
+          {t('getInTouch.socialsMedia.text')}
         </motion.p>
         <div className={styles.socialMediaInner}>
           <motion.div
@@ -78,12 +79,7 @@ export const SocialMedia = () => {
             <div className={styles.socialMediaItemTop}>
               <h3>Twitter</h3>
               <Link href="#">
-                <Image
-                  src="/images/get-in-touch/x.svg"
-                  alt="address"
-                  width={48}
-                  height={48}
-                />
+                <Image src="/images/get-in-touch/x.svg" alt="address" width={48} height={48} />
               </Link>
             </div>
           </motion.div>

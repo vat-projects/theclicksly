@@ -1,11 +1,11 @@
-"use client";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/kit/button/Button";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import Button from '@/shared/ui/kit/button/Button';
 
-import styles from "./PartnerHero.module.scss";
+import styles from './PartnerHero.module.scss';
 
 export const PartnerHero = () => {
   const t = useTranslations();
@@ -20,7 +20,7 @@ export const PartnerHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              {t("partnerWithUs.hero.title")}
+              {t('partnerWithUs.hero.title')}
             </motion.h1>
             <div>
               <motion.p
@@ -29,7 +29,7 @@ export const PartnerHero = () => {
                 viewport={{ once: true }}
                 variants={fadeInUp}
               >
-                {t("partnerWithUs.hero.text1")}
+                {t('partnerWithUs.hero.text1')}
               </motion.p>
               <motion.p
                 initial="hidden"
@@ -37,7 +37,7 @@ export const PartnerHero = () => {
                 viewport={{ once: true }}
                 variants={fadeInUp}
               >
-                {t("partnerWithUs.hero.text2")}
+                {t('partnerWithUs.hero.text2')}
               </motion.p>
             </div>
           </div>
@@ -48,9 +48,9 @@ export const PartnerHero = () => {
             variants={fadeInUp}
             className={styles.partnerHeroTopRight}
           >
-            <h2>{t("partnerWithUs.hero.subtitle")}</h2>
+            <h2>{t('partnerWithUs.hero.subtitle')}</h2>
             <Button url="/registration-form" type="link" color="green">
-              {t("partnerWithUs.hero.button")}
+              {t('partnerWithUs.hero.button')}
             </Button>
           </motion.div>
         </div>

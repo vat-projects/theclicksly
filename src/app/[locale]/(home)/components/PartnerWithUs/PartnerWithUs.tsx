@@ -1,30 +1,31 @@
-"use client";
-import Image from "next/image";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/kit/button/Button";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
-import { Tag } from "@/shared/ui/kit/tag/Tag";
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import styles from "./PartnerWithUs.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import Button from '@/shared/ui/kit/button/Button';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
+import { Tag } from '@/shared/ui/kit/tag/Tag';
+
+import styles from './PartnerWithUs.module.scss';
 
 export const PartnerWithUs = () => {
   const t = useTranslations();
   const items = [
     {
-      text: t("home.partnerWithUs.items.continuousDemand"),
-      image: "/images/home/partner-with-us/image1.svg",
+      text: t('home.partnerWithUs.items.continuousDemand'),
+      image: '/images/home/partner-with-us/image1.svg',
     },
     {
-      text: t("home.partnerWithUs.items.flexibleCooperation"),
-      image: "/images/home/partner-with-us/image2.svg",
+      text: t('home.partnerWithUs.items.flexibleCooperation'),
+      image: '/images/home/partner-with-us/image2.svg',
     },
     {
-      text: t("home.partnerWithUs.items.strongLongTermPartnerships"),
-      image: "/images/home/partner-with-us/image3.svg",
+      text: t('home.partnerWithUs.items.strongLongTermPartnerships'),
+      image: '/images/home/partner-with-us/image3.svg',
     },
   ];
 
@@ -38,7 +39,7 @@ export const PartnerWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Tag color="grey">{t("home.partnerWithUs.tag")}</Tag>
+            <Tag color="grey">{t('home.partnerWithUs.tag')}</Tag>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -46,7 +47,7 @@ export const PartnerWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>{t("home.partnerWithUs.title")}</SectionTitle>
+            <SectionTitle>{t('home.partnerWithUs.title')}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -54,9 +55,7 @@ export const PartnerWithUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>
-              {t("home.partnerWithUs.subtitle")}
-            </SectionSubtitle>
+            <SectionSubtitle>{t('home.partnerWithUs.subtitle')}</SectionSubtitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -65,7 +64,7 @@ export const PartnerWithUs = () => {
             variants={fadeInUp}
           >
             <Button url="/partner-with-us" type="link" color="black">
-              {t("home.partnerWithUs.button")}
+              {t('home.partnerWithUs.button')}
             </Button>
           </motion.div>
         </div>
@@ -79,12 +78,7 @@ export const PartnerWithUs = () => {
               className={styles.card}
               key={index}
             >
-              <Image
-                src={item.image}
-                alt={item.text}
-                width={426}
-                height={426}
-              />
+              <Image src={item.image} alt={item.text} width={426} height={426} />
               <p>{item.text}</p>
             </motion.div>
           ))}

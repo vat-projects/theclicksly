@@ -1,10 +1,10 @@
-"use client";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
 
-import styles from "./WhyChooseUs.module.scss";
+import styles from './WhyChooseUs.module.scss';
 
 export const WhyChooseUs = () => {
   const t = useTranslations();
@@ -17,7 +17,7 @@ export const WhyChooseUs = () => {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          {t("targetedSectors.whyChooseUs.title")}
+          {t('targetedSectors.whyChooseUs.title')}
         </motion.h2>
         <div className={styles.whyChooseUsRow}>
           <div className={styles.col}>
@@ -29,14 +29,12 @@ export const WhyChooseUs = () => {
               className={styles.item}
             >
               <div>
-                <h3>{t("targetedSectors.whyChooseUs.items.item1.title")}</h3>
+                <h3>{t('targetedSectors.whyChooseUs.items.item1.title')}</h3>
                 <span className={styles.number}>
                   <span>01</span>
                 </span>
               </div>
-              <p>
-                {t("targetedSectors.whyChooseUs.items.item1.text")}
-              </p>
+              <p>{t('targetedSectors.whyChooseUs.items.item1.text')}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -46,14 +44,12 @@ export const WhyChooseUs = () => {
               className={styles.item}
             >
               <div>
-                <h3>{t("targetedSectors.whyChooseUs.items.item2.title")}</h3>
+                <h3>{t('targetedSectors.whyChooseUs.items.item2.title')}</h3>
                 <span className={styles.number}>
                   <span>02</span>
                 </span>
               </div>
-              <p>
-                {t("targetedSectors.whyChooseUs.items.item2.text")}
-              </p>
+              <p>{t('targetedSectors.whyChooseUs.items.item2.text')}</p>
             </motion.div>
           </div>
 
@@ -70,14 +66,12 @@ export const WhyChooseUs = () => {
               className={styles.item}
             >
               <div>
-                <h3>{t("targetedSectors.whyChooseUs.items.item3.title")}</h3>
+                <h3>{t('targetedSectors.whyChooseUs.items.item3.title')}</h3>
                 <span className={styles.number}>
                   <span>03</span>
                 </span>
               </div>
-              <p>
-                {t("targetedSectors.whyChooseUs.items.item3.text")}
-              </p>
+              <p>{t('targetedSectors.whyChooseUs.items.item3.text')}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -87,14 +81,12 @@ export const WhyChooseUs = () => {
               className={styles.item}
             >
               <div>
-                <h3>{t("targetedSectors.whyChooseUs.items.item4.title")}</h3>
+                <h3>{t('targetedSectors.whyChooseUs.items.item4.title')}</h3>
                 <span className={styles.number}>
                   <span>04</span>
                 </span>
               </div>
-              <p>
-                {t("targetedSectors.whyChooseUs.items.item4.text")}
-              </p>
+              <p>{t('targetedSectors.whyChooseUs.items.item4.text')}</p>
             </motion.div>
           </div>
         </div>

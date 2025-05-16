@@ -11,7 +11,9 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-  ...compat.extends('next/core-web-vitals', 'next/typescript'),
+  ...compat.config({
+    extends: ['next/core-web-vitals', 'next/typescript', 'prettier'],
+  }),
   {
     plugins: {
       'simple-import-sort': simpleImportSort,
@@ -21,21 +23,24 @@ const eslintConfig = [
         'error',
         {
           groups: [
-            ['^react', '^next', '^@?\\w'],
-            ['^@/core'],
-            ['^@/features'],
-            ['^$'],
-            ['^@/shared'],
-            ['^'],
+            // React and Next.js imports
+            ['^react$', '^next$', '^next/.*$'],
+            // External packages
+            ['^@?\\w'],
+            // Absolute imports from features
+            ['^@/features/(.*)$'],
+            // Absolute imports from shared
+            ['^@/shared/(.*)$'],
+            // Relative imports
+            ['^\\.\\./(.*)$', '^\\./(.*)$'],
+            // Style imports
+            ['^.+\\.s?css$'],
           ],
         },
       ],
       'simple-import-sort/exports': 'error',
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
-      '@typescript-eslint/consistent-type-imports': [
-        'error',
-        { prefer: 'type-imports' },
-      ],
+      '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports' }],
     },
   },
 ];

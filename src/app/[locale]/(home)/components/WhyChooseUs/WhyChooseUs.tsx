@@ -1,36 +1,36 @@
-"use client";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/kit/button/Button";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import Button from '@/shared/ui/kit/button/Button';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
 
-import styles from "./WhyChooseUs.module.scss";
+import styles from './WhyChooseUs.module.scss';
 
 export const WhyChooseUs = () => {
   const t = useTranslations();
   const items = [
     {
-      text: t("home.whyChooseUs.items.item1"),
-      value: "200",
-      prefix: "%+",
+      text: t('home.whyChooseUs.items.item1'),
+      value: '200',
+      prefix: '%+',
     },
     {
-      text: t("home.whyChooseUs.items.item2"),
-      value: "30",
-      prefix: "%+",
+      text: t('home.whyChooseUs.items.item2'),
+      value: '30',
+      prefix: '%+',
     },
     {
-      text: t("home.whyChooseUs.items.item3"),
-      value: "95",
-      prefix: "%",
+      text: t('home.whyChooseUs.items.item3'),
+      value: '95',
+      prefix: '%',
     },
     {
-      text: t("home.whyChooseUs.items.item4"),
-      value: "50",
-      prefix: "%+",
+      text: t('home.whyChooseUs.items.item4'),
+      value: '50',
+      prefix: '%+',
     },
   ];
 
@@ -44,7 +44,7 @@ export const WhyChooseUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>{t("home.whyChooseUs.title")}</SectionTitle>
+            <SectionTitle>{t('home.whyChooseUs.title')}</SectionTitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -52,9 +52,7 @@ export const WhyChooseUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>
-              {t("home.whyChooseUs.subtitle")}
-            </SectionSubtitle>
+            <SectionSubtitle>{t('home.whyChooseUs.subtitle')}</SectionSubtitle>
           </motion.div>
         </div>
         <div className={styles.cardsBlock}>
@@ -85,9 +83,7 @@ export const WhyChooseUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionSubtitle>
-              {t("home.whyChooseUs.text")}
-            </SectionSubtitle>
+            <SectionSubtitle>{t('home.whyChooseUs.text')}</SectionSubtitle>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -96,7 +92,7 @@ export const WhyChooseUs = () => {
             variants={fadeInUp}
           >
             <Button url="/" type="link" color="black">
-              {t("home.whyChooseUs.button")}
+              {t('home.whyChooseUs.button')}
             </Button>
           </motion.div>
         </div>

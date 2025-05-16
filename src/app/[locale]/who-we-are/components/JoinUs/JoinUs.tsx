@@ -1,14 +1,13 @@
-"use client";
-import {useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/kit/button/Button";
-import { SectionSubtitle } from "@/shared/ui/kit/section-subtitle/SectionSubtitle";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import Button from '@/shared/ui/kit/button/Button';
+import { SectionSubtitle } from '@/shared/ui/kit/section-subtitle/SectionSubtitle';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
 
-import styles from "./JoinUs.module.scss";
-
+import styles from './JoinUs.module.scss';
 
 export const JoinUs = () => {
   const t = useTranslations();
@@ -23,17 +22,15 @@ export const JoinUs = () => {
           variants={fadeInUp}
           className={styles.titleBlock}
         >
-          <SectionTitle>{t("whoWeAre.joinUs.title")}</SectionTitle>
+          <SectionTitle>{t('whoWeAre.joinUs.title')}</SectionTitle>
+          <SectionSubtitle>{t('whoWeAre.joinUs.text1')}</SectionSubtitle>
           <SectionSubtitle>
-            {t("whoWeAre.joinUs.text1")}
-          </SectionSubtitle>
-          <SectionSubtitle>
-            {t("whoWeAre.joinUs.text2")}
+            {t('whoWeAre.joinUs.text2')}
             <br />
-            {t("whoWeAre.joinUs.text3")}
+            {t('whoWeAre.joinUs.text3')}
           </SectionSubtitle>
           <Button type="link" color="black" url="/registration-form">
-            {t("whoWeAre.joinUs.button")}
+            {t('whoWeAre.joinUs.button')}
           </Button>
         </motion.div>
       </div>

@@ -1,11 +1,11 @@
-"use client";
-import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import { SectionTitle } from "@/shared/ui/kit/section-title/SectionTitle";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import { SectionTitle } from '@/shared/ui/kit/section-title/SectionTitle';
 
-import styles from "./ClickslyAdvantage.module.scss";
+import styles from './ClickslyAdvantage.module.scss';
 
 export const ClickslyAdvantage = () => {
   const t = useTranslations();
@@ -20,9 +20,7 @@ export const ClickslyAdvantage = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <SectionTitle>
-              {t("advertiseWithUs.clickslyAdvantage.title")}
-            </SectionTitle>
+            <SectionTitle>{t('advertiseWithUs.clickslyAdvantage.title')}</SectionTitle>
           </motion.div>
         </div>
         <div className={styles.solutionsBlock}>
@@ -35,16 +33,12 @@ export const ClickslyAdvantage = () => {
           >
             <h3
               dangerouslySetInnerHTML={{
-                __html: t(
-                  "advertiseWithUs.clickslyAdvantage.items.item1.title"
-                ),
+                __html: t('advertiseWithUs.clickslyAdvantage.items.item1.title'),
               }}
             />
             <p
               dangerouslySetInnerHTML={{
-                __html: t(
-                  "advertiseWithUs.clickslyAdvantage.items.item1.description"
-                ),
+                __html: t('advertiseWithUs.clickslyAdvantage.items.item1.description'),
               }}
             />
           </motion.div>
@@ -57,16 +51,12 @@ export const ClickslyAdvantage = () => {
           >
             <h3
               dangerouslySetInnerHTML={{
-                __html: t(
-                  "advertiseWithUs.clickslyAdvantage.items.item2.title"
-                ),
+                __html: t('advertiseWithUs.clickslyAdvantage.items.item2.title'),
               }}
             />
             <p
               dangerouslySetInnerHTML={{
-                __html: t(
-                  "advertiseWithUs.clickslyAdvantage.items.item2.description"
-                ),
+                __html: t('advertiseWithUs.clickslyAdvantage.items.item2.description'),
               }}
             />
           </motion.div>
@@ -86,16 +76,12 @@ export const ClickslyAdvantage = () => {
           >
             <h3
               dangerouslySetInnerHTML={{
-                __html: t(
-                  "advertiseWithUs.clickslyAdvantage.items.item3.title"
-                ),
+                __html: t('advertiseWithUs.clickslyAdvantage.items.item3.title'),
               }}
             />
             <p
               dangerouslySetInnerHTML={{
-                __html: t(
-                  "advertiseWithUs.clickslyAdvantage.items.item3.description"
-                ),
+                __html: t('advertiseWithUs.clickslyAdvantage.items.item3.description'),
               }}
             />
           </motion.div>

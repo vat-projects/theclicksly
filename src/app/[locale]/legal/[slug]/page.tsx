@@ -1,15 +1,16 @@
-import React from "react";
-import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import React from 'react';
 
-import { getPage, getPageSlugs } from "@/features/policy/policy";
+import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 
-import st from "./page.module.scss";
+import { getPage, getPageSlugs } from '@/features/policy/policy';
+
+import st from './page.module.scss';
 
 type PageParams = { locale: string; slug: string };
 
 export async function generateStaticParams(): Promise<PageParams[]> {
-  const locales = ["en", "de", "it"];
+  const locales = ['en', 'de', 'it'];
   const params: PageParams[] = [];
 
   for (const locale of locales) {
@@ -35,7 +36,7 @@ export async function generateMetadata({
     title: pageTitle,
     openGraph: {
       title: pageTitle,
-      images: "",
+      images: '',
     },
   };
 }
@@ -46,9 +47,9 @@ export default async function PolicyPage({
   params: Promise<{ slug: string; locale: string }>;
 }) {
   const awaitedParams = await params;
-  const { locale,slug } = awaitedParams;
+  const { locale, slug } = awaitedParams;
   const page = await getPage(slug, locale);
-  const t = await getTranslations("legal");
+  const t = await getTranslations('legal');
   return (
     <>
       <section className={st.policy}>
@@ -56,13 +57,11 @@ export default async function PolicyPage({
           <div className={st.policy__body}>
             <div className={st.sectionTitle}>
               <div className={st.date}>
-                {t("date")} {page.date}
+                {t('date')} {page.date}
               </div>
               <h1>{page.title}</h1>
               {page.shortDescription && (
-                <div className={st.policy__shortDescription}>
-                  {page.shortDescription}
-                </div>
+                <div className={st.policy__shortDescription}>{page.shortDescription}</div>
               )}
             </div>
             <article

@@ -1,18 +1,19 @@
-"use client";
-import Image from "next/image";
-import {useLocale, useTranslations} from 'next-intl';
-import { motion } from "framer-motion";
+'use client';
+import Image from 'next/image';
 
-import { fadeInUp } from "@/shared/lib/helpers/animations";
-import Button from "@/shared/ui/kit/button/Button";
+import { motion } from 'framer-motion';
+import { useLocale, useTranslations } from 'next-intl';
 
-import styles from "./HomeHero.module.scss";
+import { fadeInUp } from '@/shared/lib/helpers/animations';
+import Button from '@/shared/ui/kit/button/Button';
+
+import styles from './HomeHero.module.scss';
 
 export const HomeHero = () => {
   const t = useTranslations();
   const locale = useLocale();
   return (
-    <section className={styles.homeHero + " " + styles[locale]}>
+    <section className={styles.homeHero + ' ' + styles[locale]}>
       <div className="_container">
         <div className={styles.homeHeroTop}>
           <div className={styles.homeHeroTopLeft}>
@@ -22,7 +23,7 @@ export const HomeHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              {t("home.homeHero.title")}
+              {t('home.homeHero.title')}
             </motion.h1>
           </div>
           <motion.div
@@ -32,9 +33,9 @@ export const HomeHero = () => {
             variants={fadeInUp}
             className={styles.homeHeroTopRight}
           >
-            <h2>{t("home.homeHero.subtitle")}</h2>
+            <h2>{t('home.homeHero.subtitle')}</h2>
             <Button url="/registration-form" type="link" color="green">
-              {t("home.homeHero.joinNow")}
+              {t('home.homeHero.joinNow')}
             </Button>
           </motion.div>
         </div>
@@ -53,7 +54,7 @@ export const HomeHero = () => {
                 width={48}
                 height={48}
               />
-              <p>{t("home.homeHero.features.smartCampaigns")}</p>
+              <p>{t('home.homeHero.features.smartCampaigns')}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -68,7 +69,7 @@ export const HomeHero = () => {
                 width={48}
                 height={48}
               />
-              <p>{t("home.homeHero.features.efficientAdPlacements")}</p>
+              <p>{t('home.homeHero.features.efficientAdPlacements')}</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -83,7 +84,7 @@ export const HomeHero = () => {
                 width={48}
                 height={48}
               />
-              <p>{t("home.homeHero.features.sustainableGrowth")}</p>
+              <p>{t('home.homeHero.features.sustainableGrowth')}</p>
             </motion.div>
           </div>
           <motion.div
@@ -93,8 +94,8 @@ export const HomeHero = () => {
             variants={fadeInUp}
             className={styles.homeHeroBottomRight}
           >
-            <h3>{t("home.homeHero.subTitle2")}</h3>
-            <p>{t("home.homeHero.description")}</p>
+            <h3>{t('home.homeHero.subTitle2')}</h3>
+            <p>{t('home.homeHero.description')}</p>
           </motion.div>
         </div>
       </div>
