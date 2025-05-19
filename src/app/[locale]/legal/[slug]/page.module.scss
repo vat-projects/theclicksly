@@ -2,7 +2,7 @@
   border-top: 84px solid #000;
   margin-top: -84px;
   padding: 80px 0;
-  background-image: url("/images/policy/back.png");
+  background-image: url('/images/policy/back.png');
   background-size: 85%;
   background-position: center top;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@
         }
 
         a {
-          color: #1F9F45;
+          color: #1f9f45;
           text-decoration: none;
           &:hover {
             text-decoration: none;
@@ -116,8 +116,8 @@
             font-style: normal;
             font-weight: 400;
             line-height: 140%;
-            span{
-              color: #1F9F45;
+            span {
+              color: #1f9f45;
             }
           }
         }
@@ -141,7 +141,7 @@
             font-style: normal;
             font-weight: 400;
             line-height: 140%; /* 22.4px */
-            padding-left: 48px;
+            padding-left: 24px;
             position: relative;
             list-style-type: none;
             &:has(ul) {
@@ -150,10 +150,10 @@
                 top: -8px;
               }
             }
-            span{
-              color: #1F9F45;
+            span {
+              color: #1f9f45;
             }
-            &::before {
+            /*&::before {
               box-sizing: border-box;
               content: counter(item, upper-alpha);
               counter-increment: item;
@@ -171,6 +171,24 @@
               left: 0;
               top: 50%;
               transform: translateY(-50%);
+              @media (max-width: 992px) {
+                transform: unset;
+                top: 0px;
+              }
+            }*/
+            &::before {
+              box-sizing: border-box;
+              content: counter(item, upper-alpha)".";
+              counter-increment: item;
+              color: #fff;
+              left: 0;
+              position: absolute;
+              top:0;
+              color: #03031d;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 140%;
               @media (max-width: 992px) {
                 transform: unset;
                 top: 0px;
