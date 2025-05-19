@@ -5,7 +5,7 @@ date: "14.05.2025"
 
 <div>
 
-1.  Youmedia Inc, registriert unter Intershore Chambers, Road Town, Tortola, British Virgin Islands, mit der Registrierungsnummer 2174481 und tätig unter dem Namen The Clicksly („Unternehmen"), respektiert Ihre Datenschutzbedenken.
+1.  <span>Youmedia Inc</span>, registriert unter <span>Intershore Chambers, Road Town, Tortola, British Virgin Islands</span>, mit der Registrierungsnummer <span>2174481</span> und tätig unter dem Namen The Clicksly („Unternehmen"), respektiert Ihre Datenschutzbedenken.
 2.  Diese Datenschutzerklärung erklärt, welche Arten von Informationen wir auf [www.theclicksly.com](http://www.theclicksly.com) (die „Website") sammeln, wie wir diese Informationen verwenden, mit wem wir sie teilen und welche Wahlmöglichkeiten Sie bezüglich der Verwendung haben.
 3.  Diese Datenschutzerklärung beschreibt außerdem die Maßnahmen, die wir ergreifen, um Ihre Daten zu schützen, wie lange wir sie speichern und wie Sie uns bezüglich unserer Datenschutzpraktiken kontaktieren und Ihre Rechte ausüben können.
 
@@ -79,9 +79,9 @@ Wir respektieren Ihre Datenschutzrechte und verpflichten uns, die Richtigkeit Ih
 
 ## **Anwendbares Recht**
 
-1.  Diese Datenschutzerklärung unterliegt dem Recht der Britischen Jungferninseln, ohne Rücksicht auf Kollisionsnormen.
-2.  Durch die Nutzung dieser Website oder durch direkte Kontaktaufnahme stimmen Sie der ausschließlichen Zuständigkeit der Gerichte der Britischen Jungferninseln für alle Streitigkeiten oder Verfahren im Zusammenhang mit dieser Datenschutzerklärung zu.
-3.  Das Recht der Britischen Jungferninseln, ohne Berücksichtigung von Kollisionsnormen, regelt diese Datenschutzerklärung und Ihre Nutzung der Website.
+1.  Diese Datenschutzerklärung unterliegt dem Recht der <span>Britischen Jungferninseln</span>, ohne Rücksicht auf Kollisionsnormen.
+2.  Durch die Nutzung dieser Website oder durch direkte Kontaktaufnahme stimmen Sie der ausschließlichen Zuständigkeit der Gerichte der <span>Britischen Jungferninseln</span> für alle Streitigkeiten oder Verfahren im Zusammenhang mit dieser Datenschutzerklärung zu.
+3.  Das Recht der <span>Britischen Jungferninseln</span>, ohne Berücksichtigung von Kollisionsnormen, regelt diese Datenschutzerklärung und Ihre Nutzung der Website.
 4.  Je nach Ihrem Standort kann Ihre Nutzung der Website auch lokalen, staatlichen, nationalen oder internationalen Gesetzen unterliegen.
 5.  Durch die Nutzung von The Clicksly oder durch direkte Kontaktaufnahme bestätigen Sie die Annahme dieser Datenschutzerklärung. Sollten Sie mit dieser Datenschutzerklärung nicht einverstanden sein, nutzen Sie bitte weder unsere Website noch unsere Dienste.
 6.  Die fortgesetzte Nutzung der Website, direkte Interaktion mit uns oder jede Nutzung nach Änderungen dieser Datenschutzerklärung, die Ihre Datenverwendung oder -weitergabe nicht wesentlich verändert, gilt als Ihre Zustimmung zu den Änderungen.
@@ -135,13 +135,13 @@ Wenn Sie eines dieser Rechte ausüben möchten, kontaktieren Sie uns bitte. Wir 
 Bei Fragen zu dieser Datenschutzerklärung kontaktieren Sie uns bitte unter:
 
 <div class="contact-info">
-    <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
+    <img src="/images/policy/web.svg"><span>Website: <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
 </div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>E-Mail:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
+    <img src="/images/policy/mail.svg"><span>E-Mail: <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
 </div>
 <div class="contact-info">
-    <img src="/images/policy/phone.svg"><span><b>Telefon:</b> <a href="tel:+447426463899">+44 7426 463899</a></span>
+    <img src="/images/policy/phone.svg"><span>Telefon: <a href="tel:+447426463899">+44 7426 463899</a></span>
 </div>
 
 </div>

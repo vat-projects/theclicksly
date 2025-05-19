@@ -6,7 +6,7 @@ shortDescription: "Bitte lesen Sie die folgenden Bedingungen sorgfältig durch, 
 
 <div>
 
-1.  Diese Website-Bedingungen ("Bedingungen") bilden eine rechtsverbindliche Vereinbarung zwischen Youmedia Inc, operierend unter der Marke The Clicksly, registriert unter Intershore Chambers, Road Town, Tortola, British Virgin Islands, mit der Registrierungsnummer 2174481 ("Unternehmen", "wir", "uns" oder "unser"), und Ihnen, einem Besucher oder Nutzer unserer Website ("Sie" und "Website").
+1.  Diese Website-Bedingungen ("Bedingungen") bilden eine rechtsverbindliche Vereinbarung zwischen <span>Youmedia Inc</span>, operierend unter der Marke The Clicksly, registriert unter <span>Intershore Chambers, Road Town, Tortola, British Virgin Islands</span>, mit der Registrierungsnummer <span>2174481</span> ("Unternehmen", "wir", "uns" oder "unser"), und Ihnen, einem Besucher oder Nutzer unserer Website ("Sie" und "Website").
 2.  Durch den Zugriff auf die Website bestätigen Sie, dass Sie diese Bedingungen gelesen und verstanden haben.
 3.  Wie im Folgenden näher erläutert, stimmen Sie zu, an diese gebunden zu sein und alle anwendbaren Gesetze und Vorschriften in Bezug auf Ihre Nutzung der Website oder ihrer Dienste vollständig einzuhalten.
 4.  Sie versichern außerdem, dass Sie berechtigt sind, diese Bedingungen einzugehen, oder, falls zutreffend, über die entsprechende Erlaubnis verfügen.
@@ -168,7 +168,7 @@ Sie stimmen außerdem zu, Folgendes zu unterlassen:
 
 ## **Anwendbares Recht**
 
-1.  Diese Bedingungen unterliegen dem Recht der Britischen Jungferninseln und sind nach diesem auszulegen. Alle Streitigkeiten sind ausschließlich von den zuständigen Gerichten der Britischen Jungferninseln zu entscheiden.
+1.  Diese Bedingungen unterliegen dem Recht der <span>Britischen Jungferninseln</span> und sind nach diesem auszulegen. Alle Streitigkeiten sind ausschließlich von den zuständigen Gerichten der <span>Britischen Jungferninseln</span> zu entscheiden.
 2.  Jegliche Klage in Bezug auf die Website, Inhalte oder Dienste muss innerhalb eines (1) Jahres ab Entstehung des Streitfalls eingereicht werden; andernfalls sind solche Ansprüche dauerhaft ausgeschlossen.
 
 </div>
@@ -207,13 +207,13 @@ Sie stimmen außerdem zu, Folgendes zu unterlassen:
 Bei Fragen zu diesen Bedingungen kontaktieren Sie uns bitte:
 
 <div class="contact-info">
-    <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
+    <img src="/images/policy/web.svg"><span>Website: <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
 </div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>E-Mail:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
+    <img src="/images/policy/mail.svg"><span>E-Mail: <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
 </div>
 <div class="contact-info">
-    <img src="/images/policy/phone.svg"><span><b>Telefon:</b> <a href="tel:+447426463899">+44 7426 463899</a></span>
+    <img src="/images/policy/phone.svg"><span>Telefon: <a href="tel:+447426463899">+44 7426 463899</a></span>
 </div>
 
 </div>

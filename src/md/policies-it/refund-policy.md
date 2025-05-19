@@ -5,7 +5,7 @@ date: "14.05.2025"
 
 <div>
 
-1.  Youmedia Inc, operante con il marchio The Clicksly, registrata presso Intershore Chambers, Road Town, Tortola, Isole Vergini Britanniche, con numero di registrazione 2174481, si impegna a fornire servizi di affiliate marketing di alta qualità.
+1.  <span>Youmedia Inc</span>, operante con il marchio The Clicksly, registrata presso <span>Intershore Chambers, Road Town, Tortola, Isole Vergini Britanniche</span>, con numero di registrazione <span>2174481</span>, si impegna a fornire servizi di affiliate marketing di alta qualità.
 2.  Tuttavia, a causa della natura delle campagne di marketing, non offriamo rimborsi per i nostri servizi.
 3.  L'efficacia della pubblicità dipende da vari fattori al di fuori del nostro controllo, quali la qualità del prodotto, la rilevanza per il pubblico target e l'efficacia del messaggio pubblicitario.
 4.  Questa politica illustra i casi in cui non sono previsti rimborsi e fornisce indicazioni su come gestire eventuali problematiche.

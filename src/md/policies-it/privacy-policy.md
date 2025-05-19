@@ -5,7 +5,7 @@ date: "14.05.2025"
 
 <div>
 
-1.  Youmedia Inc, registrata presso Intershore Chambers, Road Town, Tortola, Isole Vergini Britanniche, con numero di registrazione 2174481, operante con il marchio The Clicksly ("Società"), rispetta la tua privacy.
+1.  <span>Youmedia Inc</span>, registrata presso <span>Intershore Chambers, Road Town, Tortola, Isole Vergini Britanniche</span>, con numero di registrazione <span>2174481</span>, operante con il marchio The Clicksly ("Società"), rispetta la tua privacy.
 2.  Questa Informativa sulla Privacy spiega i tipi di informazioni che raccogliamo su [www.theclicksly.com](http://www.theclicksly.com) (il "Sito"), come utilizziamo tali informazioni, con chi le condividiamo e le tue scelte riguardo al loro utilizzo.
 3.  Questa Informativa descrive inoltre le misure adottate per tutelare le tue informazioni, per quanto tempo le conserviamo e come puoi contattarci in merito alle nostre pratiche sulla privacy ed esercitare i tuoi diritti.
 
@@ -79,9 +79,9 @@ Rispettiamo i tuoi diritti alla privacy e ci impegniamo a mantenere l'accuratezz
 
 ## **Legge Applicabile**
 
-1.  Questa Informativa sulla Privacy è regolata dalle leggi delle Isole Vergini Britanniche, senza riguardo alle norme sui conflitti di legge.
-2.  Utilizzando questo sito o contattandoci direttamente, accetti la giurisdizione esclusiva dei tribunali delle Isole Vergini Britanniche per qualsiasi controversia relativa a questa Informativa.
-3.  Le leggi delle Isole Vergini Britanniche, escluse le norme sui conflitti di legge, regoleranno questa Informativa e il tuo utilizzo del sito.
+1.  Questa Informativa sulla Privacy è regolata dalle leggi delle <span>Isole Vergini Britanniche</span>, senza riguardo alle norme sui conflitti di legge.
+2.  Utilizzando questo sito o contattandoci direttamente, accetti la giurisdizione esclusiva dei tribunali delle <span>Isole Vergini Britanniche</span> per qualsiasi controversia relativa a questa Informativa.
+3.  Le leggi delle <span>Isole Vergini Britanniche</span>, escluse le norme sui conflitti di legge, regoleranno questa Informativa e il tuo utilizzo del sito.
 4.  A seconda della tua ubicazione, l'uso del sito potrebbe essere soggetto anche a leggi locali, statali, nazionali o internazionali.
 5.  Utilizzando The Clicksly o contattandoci direttamente, confermi la tua accettazione di questa Informativa sulla Privacy. Se non sei d'accordo, ti preghiamo di non utilizzare il sito o i servizi.
 6.  L'uso continuato del sito o l'interazione con noi dopo aggiornamenti a questa Informativa che non modifichino sostanzialmente l'uso o la divulgazione delle tue informazioni costituisce accettazione di tali modifiche.
@@ -135,13 +135,13 @@ Se desideri esercitare uno di questi diritti, contattaci. Come richiesto dal GDP
 Per qualsiasi domanda su questa informativa, contattaci:
 
 <div class="contact-info">
-    <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
+    <img src="/images/policy/web.svg"><span>Website: <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
 </div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
+    <img src="/images/policy/mail.svg"><span>Email: <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
 </div>
 <div class="contact-info">
-    <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a href="tel:+447426463899">+44 7426 463899</a></span>
+    <img src="/images/policy/phone.svg"><span>Phone: <a href="tel:+447426463899">+44 7426 463899</a></span>
 </div>
 
 </div>

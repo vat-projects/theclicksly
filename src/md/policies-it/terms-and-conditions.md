@@ -6,7 +6,7 @@ shortDescription: "Si prega di leggere attentamente quanto segue prima di accett
 
 <div>
 
-1.  Questi Termini e Condizioni del sito web ("Termini") costituiscono un accordo legalmente vincolante tra Youmedia Inc, operante con il marchio The Clicksly, registrata presso Intershore Chambers, Road Town, Tortola, Isole Vergini Britanniche, con numero di registrazione 2174481 ("Società", "noi", "ci" o "nostro"), e te, visitatore o utente del nostro sito web ("tu" e "sito web", rispettivamente).
+1.  Questi Termini e Condizioni del sito web ("Termini") costituiscono un accordo legalmente vincolante tra <span>Youmedia Inc</span>, operante con il marchio The Clicksly, registrata presso <span>Intershore Chambers, Road Town, Tortola, Isole Vergini Britanniche</span>, con numero di registrazione <span>2174481</span> ("Società", "noi", "ci" o "nostro"), e te, visitatore o utente del nostro sito web ("tu" e "sito web", rispettivamente).
 2.  Accedendo al sito web, confermi di aver letto e compreso questi Termini.
 3.  Come ulteriormente dettagliato di seguito, accetti di essere vincolato da essi e di rispettare pienamente le leggi e i regolamenti applicabili relativi al tuo utilizzo del sito web o dei suoi servizi.
 4.  Dichiari inoltre di essere idoneo a entrare in questi Termini o, laddove applicabile, di avere la necessaria autorizzazione per farlo.
@@ -168,7 +168,7 @@ Inoltre, accetti di non:
 
 ## **Legge Applicabile**
 
-1.  Questi Termini sono regolati e interpretati secondo le leggi delle Isole Vergini Britanniche. Qualsiasi controversia sarà risolta esclusivamente dai tribunali competenti delle Isole Vergini Britanniche.
+1.  Questi Termini sono regolati e interpretati secondo le leggi delle <span>Isole Vergini Britanniche</span>. Qualsiasi controversia sarà risolta esclusivamente dai tribunali competenti delle <span>Isole Vergini Britanniche</span>.
 2.  Qualsiasi azione legale relativa al sito, ai contenuti o ai servizi deve essere iniziata entro un (1) anno dalla data in cui è sorta la questione; altrimenti, tali reclami saranno definitivamente esclusi.
 
 </div>
@@ -207,13 +207,13 @@ Inoltre, accetti di non:
 Se hai domande su questi Termini, non esitare a contattarci:
 
 <div class="contact-info">
-    <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
+    <img src="/images/policy/web.svg"><span>Website: <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
 </div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
+    <img src="/images/policy/mail.svg"><span>Email: <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
 </div>
 <div class="contact-info">
-    <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a href="tel:+447426463899">+44 7426 463899</a></span>
+    <img src="/images/policy/phone.svg"><span>Phone: <a href="tel:+447426463899">+44 7426 463899</a></span>
 </div>
 
 </div>

@@ -5,7 +5,7 @@ date: "14.05.2025"
 
 <div>
 
-1.  This Cookie Policy explains cookies and how Youmedia Inc, operating under the brand The Clicksly, registered at Intershore Chambers, Road Town, Tortola, British Virgin Islands, with registration number 2174481, and third parties use them.
+1.  This Cookie Policy explains cookies and how <span>Youmedia Inc</span>, operating under the brand The Clicksly, registered at <span>Intershore Chambers, Road Town, Tortola, British Virgin Islands</span>, with registration number <span>2174481</span>, and third parties use them.
 2.  For more information on how we use, store, and process personal data, please refer to our Privacy Policy.
 3.  This Cookie Policy is an integral part of our Privacy Policy.
 4.  Any terms used herein and not defined shall have the meanings ascribed to them in the Privacy Policy.
@@ -91,13 +91,13 @@ date: "14.05.2025"
 If you have any questions about this Cookie Policy, you can contact us:
 
 <div class="contact-info">
-    <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
+    <img src="/images/policy/web.svg"><span>Website: <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
     </div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
+    <img src="/images/policy/mail.svg"><span>Email: <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
  </div>
 <div class="contact-info">
-    <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a href="tel:+447426463899">+447426463899</a></span>
+    <img src="/images/policy/phone.svg"><span>Phone: <a href="tel:+447426463899">+447426463899</a></span>
 </div>
 
 </div>

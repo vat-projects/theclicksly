@@ -5,7 +5,7 @@ date: "14.05.2025"
 
 <div>
 
-1.  Questa Politica sui Cookie spiega cosa sono i cookie e come Youmedia Inc, operante con il marchio The Clicksly, registrata presso Intershore Chambers, Road Town, Tortola, Isole Vergini Britanniche, con numero di registrazione 2174481, e terze parti li utilizzano.
+1.  Questa Politica sui Cookie spiega cosa sono i cookie e come <span>Youmedia Inc</span>, operante con il marchio The Clicksly, registrata presso <span>Intershore Chambers, Road Town, Tortola, Isole Vergini Britanniche</span>, con numero di registrazione <span>2174481</span>, e terze parti li utilizzano.
 2.  Per maggiori informazioni su come usiamo, conserviamo e trattiamo i dati personali, si prega di consultare la nostra Informativa sulla Privacy.
 3.  Questa Politica sui Cookie è parte integrante della nostra Informativa sulla Privacy.
 4.  Qualsiasi termine qui usato e non definito avrà il significato attribuito nella Informativa sulla Privacy.
@@ -91,13 +91,13 @@ date: "14.05.2025"
 Se hai domande su questa Politica sui Cookie, puoi contattarci:
 
 <div class="contact-info">
-    <img src="/images/policy/web.svg"><span><b>Website:</b> <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
+    <img src="/images/policy/web.svg"><span>Website: <a href="http://www.theclicksly.com/get-in-touch">www.theclicksly.com/get-in-touch</a></span>
 </div>
 <div class="contact-info">
-    <img src="/images/policy/mail.svg"><span><b>Email:</b> <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
+    <img src="/images/policy/mail.svg"><span>Email: <a href="mailto:info@theclicksly.com">info@theclicksly.com</a></span>
 </div>
 <div class="contact-info">
-    <img src="/images/policy/phone.svg"><span><b>Phone:</b> <a href="tel:+447426463899">+44 7426 463899</a></span>
+    <img src="/images/policy/phone.svg"><span>Phone: <a href="tel:+447426463899">+44 7426 463899</a></span>
 </div>
 
 </div>
