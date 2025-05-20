@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import { useForm } from 'react-hook-form';
 import PhoneInput from 'react-phone-input-2';
 
+import { excludedCountries } from '@/shared/lib/helpers/filteredCoumtries';
 import Button from '@/shared/ui/kit/button/Button';
 
 import { submitContactForm } from '../api/submitContactForm';
@@ -89,7 +90,7 @@ export const ContactForm = () => {
             <div className={styles.formGroup}>
               <label htmlFor="contact-form-phone">{t('registrationForm.form.phone.label')}:</label>
               <PhoneInput
-                country="ua"
+                country="gb"
                 inputClass={errors.phone ? styles.errorInput : ''}
                 containerClass={styles.phoneInputContainer}
                 buttonClass={styles.phoneInputButton}
@@ -100,6 +101,7 @@ export const ContactForm = () => {
                 inputProps={{
                   id: 'contact-form-phone',
                 }}
+                excludeCountries={excludedCountries}
               />
               {errors.phone && <p className={styles.error}>{errors.phone.message}</p>}
             </div>

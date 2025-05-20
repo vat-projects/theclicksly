@@ -8,6 +8,7 @@ import { useForm } from 'react-hook-form';
 import PhoneInput from 'react-phone-input-2';
 import Select from 'react-select';
 
+import { excludedCountries } from '@/shared/lib/helpers/filteredCoumtries';
 import Button from '@/shared/ui/kit/button/Button';
 
 import { submitRegistration } from '../api/submitRegistration';
@@ -101,7 +102,7 @@ export const RegistrationForm = () => {
             <div className={styles.formGroup}>
               <label htmlFor="phone">{t('registrationForm.form.phone.label')}</label>
               <PhoneInput
-                country="ua"
+                country="gb"
                 inputClass={errors.phone ? styles.errorInput : ''}
                 containerClass={styles.phoneInputContainer}
                 buttonClass={styles.phoneInputButton}
@@ -109,6 +110,7 @@ export const RegistrationForm = () => {
                 onChange={(value) => setValue('phone', value)}
                 value={watch('phone')}
                 placeholder={t('registrationForm.form.phone.placeholder')}
+                excludeCountries={excludedCountries}
               />
               {errors.phone && <p className={styles.error}>{errors.phone.message}</p>}
             </div>
