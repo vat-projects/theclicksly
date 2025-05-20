@@ -197,7 +197,7 @@ background: #D7FCE3;">
                                         font-style: normal;
                                         font-weight: 400;
                                         line-height: normal;
-                                        margin: 0;">Biskupa Kondého Street 5138/30, 929 01 <br>Dunajská Streda, Slovakia</p>
+                                        margin: 0;">Intershore Chambers,Road Town, Tortola, British Virgin Islands</p>
                                     </td>
                                 </tr>
                             </table>
