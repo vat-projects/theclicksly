@@ -157,7 +157,7 @@ background: #D7FCE3;">
                                 <tr>
                                     <td style="vertical-align: top;">
                                         <img src="https://theclicksly.com/images/email_logo.png"
-                                            style="width: 190px;height: auto;">
+                                            style="width: 196px;height: auto;">
                                         <p style="color: #3B3B35;
                                             text-align: left;
                                             font-size: 11px;
