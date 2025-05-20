@@ -75,7 +75,7 @@ export async function POST(request: Request): Promise<NextResponse> {
     <thead>
         <tr>
             <td style="padding: 8px;">
-                <img style="width: 100%" src="https://theclicksly.com/images/email_header.png" alt="Header" />
+                <img style="width: 100%" src="https://theclicksly.com/images/email_header_new.png" alt="Header" />
             </td>
         </tr>
     </thead>
@@ -156,7 +156,7 @@ background: #D7FCE3;">
                             <table style="width: 100%;">
                                 <tr>
                                     <td style="vertical-align: top;">
-                                        <img src="https://theclicksly.com/images/email_logo.png"
+                                        <img src="https://theclicksly.com/images/email_logo_new.png"
                                             style="width: 190px;height: auto;">
                                         <p style="color: #3B3B35;
                                             text-align: left;
@@ -220,7 +220,7 @@ background: #D7FCE3;">
     <thead>
         <tr>
             <td style="padding: 8px;">
-                <img style="width: 100%" src="https://theclicksly.com/images/email_header.png" alt="Header" />
+                <img style="width: 100%" src="https://theclicksly.com/images/email_header_new.png" alt="Header" />
             </td>
         </tr>
     </thead>
@@ -300,7 +300,7 @@ background: #D7FCE3;">
                             <table style="width: 100%;">
                                 <tr>
                                     <td style="vertical-align: top;">
-                                        <img src="https://theclicksly.com/images/email_logo.png"
+                                        <img src="https://theclicksly.com/images/email_logo_new.png"
                                             style="width: 190px;height: auto;">
                                         <p style="color: #3B3B35;
                                             text-align: left;
