@@ -88,22 +88,7 @@ We respect your privacy rights and are committed to maintaining the accuracy of 
 
 </div>
 
-<div>
 
-## **GDPR Data Protection Rights**
-
-We are dedicated to ensuring that you are fully informed about your rights regarding data protection. Under the General Data Protection Regulation (GDPR), you have the following rights:
-
-1.  **Right to Access:** You have the right to request copies of the business data we hold about you. Please note that a small fee may apply for this service.
-2.  **Right to Rectification:** You can ask us to correct or update any inaccurate or incomplete information.
-3.  **Right to Erasure:** You have the right to request the deletion of your business data under certain circumstances.
-4.  **Right to Restrict Processing:** You may request the restriction of processing your business data under specific conditions.
-5.  **Right to Object to Processing:** In some cases, you have the right to object to processing your business data.
-6.  **Right to Data Portability:** Under certain conditions, you can request that we transfer the data we hold about you to another organization or directly to you.
-
-If you wish to exercise any of these rights, please contact us. As the GDPR requires, we will respond to your request within one month.
-
-</div>
 
 <div>
 

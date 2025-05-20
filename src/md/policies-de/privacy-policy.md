@@ -88,22 +88,6 @@ Wir respektieren Ihre Datenschutzrechte und verpflichten uns, die Richtigkeit Ih
 
 </div>
 
-<div>
-
-## **Datenschutzrechte gemäß DSGVO**
-
-Wir setzen uns dafür ein, dass Sie vollständig über Ihre Datenschutzrechte informiert sind. Nach der Datenschutz-Grundverordnung (DSGVO) stehen Ihnen folgende Rechte zu:
-
-1.  **Recht auf Auskunft:** Sie können Kopien der Geschäftsdaten, die wir über Sie gespeichert haben, anfordern. Für diesen Service kann eine geringe Gebühr anfallen.
-2.  **Recht auf Berichtigung:** Sie können die Berichtigung oder Aktualisierung unrichtiger oder unvollständiger Daten verlangen.
-3.  **Recht auf Löschung:** Unter bestimmten Umständen können Sie die Löschung Ihrer Geschäftsdaten verlangen.
-4.  **Recht auf Einschränkung der Verarbeitung:** Sie können die Einschränkung der Verarbeitung Ihrer Geschäftsdaten unter bestimmten Bedingungen verlangen.
-5.  **Widerspruchsrecht:** In einigen Fällen können Sie der Verarbeitung Ihrer Geschäftsdaten widersprechen.
-6.  **Recht auf Daten Übertragbarkeit:** Unter bestimmten Bedingungen können Sie verlangen, dass wir Ihre Daten an eine andere Organisation oder direkt an Sie übertragen.
-
-Wenn Sie eines dieser Rechte ausüben möchten, kontaktieren Sie uns bitte. Wir werden Ihre Anfrage innerhalb eines Monats beantworten, wie es die DSGVO verlangt.
-
-</div>
 
 <div>
 

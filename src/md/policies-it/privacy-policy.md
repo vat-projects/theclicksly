@@ -88,22 +88,7 @@ Rispettiamo i tuoi diritti alla privacy e ci impegniamo a mantenere l'accuratezz
 
 </div>
 
-<div>
 
-## **Diritti di Protezione dei Dati GDPR**
-
-Ci impegniamo a garantirti piena informazione sui tuoi diritti in materia di protezione dei dati. Ai sensi del Regolamento Generale sulla Protezione dei Dati (GDPR), hai i seguenti diritti:
-
-1.  **Diritto di Accesso:** Puoi richiedere copie dei dati aziendali che deteniamo su di te. Potrebbe essere previsto un piccolo costo per questo servizio.
-2.  **Diritto di Rettifica:** Puoi chiedere di correggere o aggiornare informazioni inaccurate o incomplete.
-3.  **Diritto alla Cancellazione:** Hai il diritto di richiedere la cancellazione dei tuoi dati aziendali in determinate circostanze.
-4.  **Diritto di Limitare il Trattamento:** Puoi chiedere di limitare il trattamento dei tuoi dati in condizioni specifiche.
-5.  **Diritto di Opposizione al Trattamento:** In alcuni casi, puoi opporti al trattamento dei tuoi dati.
-6.  **Diritto alla Portabilità dei Dati:** In certe condizioni, puoi richiedere che i dati in nostro possesso siano trasferiti ad altra organizzazione o direttamente a te.
-
-Se desideri esercitare uno di questi diritti, contattaci. Come richiesto dal GDPR, risponderemo entro un mese.
-
-</div>
 
 <div>
 

@@ -91,7 +91,7 @@ export const WhyChooseUs = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <Button url="/" type="link" color="black">
+            <Button url="/targeted-sectors" type="link" color="black">
               {t('home.whyChooseUs.button')}
             </Button>
           </motion.div>
