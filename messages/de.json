@@ -936,5 +936,12 @@
   },
   "legal": {
     "date": "Zuletzt aktualisiert:"
+  },
+  "cookiePopup": {
+    "title": "Cookie-Einstellungen",
+    "text": "Cookies helfen uns, unsere Website zu verbessern. Wenn Sie auf „Akzeptieren“ klicken, erklären Sie sich damit einverstanden, dass wir Cookies für Funktionalität, Analysen und personalisierte Inhalte verwenden. Erfahren Sie mehr in unserer",
+    "link": "Cookie-Richtlinie",
+    "accept": "Akzeptieren",
+    "decline": "Rückgang"
   }
 }

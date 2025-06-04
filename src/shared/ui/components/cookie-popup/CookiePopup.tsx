@@ -3,10 +3,12 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 import classNames from 'classnames';
+import { useTranslations } from 'next-intl';
 
 import styles from './CookiePopup.module.scss';
 
 const CookiePopup = () => {
+  const t = useTranslations();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -32,18 +34,16 @@ const CookiePopup = () => {
         [styles.visible]: isVisible,
       })}
     >
-      <h2>Cookie settings</h2>
+      <h2>{t('cookiePopup.title')}</h2>
       <p>
-        Cookies help us improve our website. By clicking &apos;Accept&apos;, you agree to our use of
-        cookies for functionality, analytics, and personalized content. Learn more in our{' '}
-        <Link href="/legal/cookie-policy">Cookie Policy</Link>.
+        {t('cookiePopup.text')} <Link href="/legal/cookie-policy">{t('cookiePopup.link')}</Link>.
       </p>
       <div className={styles.buttons}>
         <button onClick={handleDecline} className={classNames(styles.decline)}>
-          Decline
+          {t('cookiePopup.decline')}
         </button>
         <button onClick={handleAccept} className={classNames(styles.accept)}>
-          Accept
+          {t('cookiePopup.accept')}
         </button>
       </div>
     </div>
