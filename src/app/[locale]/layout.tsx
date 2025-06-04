@@ -4,6 +4,7 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 
+import CookiePopup from '@/shared/ui/components/cookie-popup/CookiePopup';
 import { Footer } from '@/shared/ui/components/footer/Footer';
 import { Header } from '@/shared/ui/components/header/Header';
 import Preloader from '@/shared/ui/components/preloader/Preloader';
@@ -62,6 +63,7 @@ export default async function RootLayout({
           <Header />
           <main>{children}</main>
           <Footer />
+          <CookiePopup />
         </NextIntlClientProvider>
       </body>
     </html>
