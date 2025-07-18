@@ -8,6 +8,7 @@ import { WEBSITE_EMAIL, WEBSITE_PHONE } from '@/shared/lib/constants/constants';
 
 import { Email } from '../../icons/email/email';
 import { Phone } from '../../icons/phone/phone';
+import { LinkedIn } from '../../icons/socials/linkedin';
 // import { Facebook } from "../../icons/socials/facebook/facebook";
 // import { Instagram } from "../../icons/socials/instagram/instagram";
 // import { X } from "../../icons/socials/x/x";
@@ -35,6 +36,7 @@ export const Header = () => {
             </div>
             <div className={styles.headerTopRight}>
               <LangSelector />
+              <LinkedIn />
               {/**<Link href="#" target="_blank">
                 <Facebook />
               </Link>
