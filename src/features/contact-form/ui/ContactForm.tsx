@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
+import ReCaptcha from 'react-google-recaptcha';
 import { useForm } from 'react-hook-form';
 import PhoneInput from 'react-phone-input-2';
 
@@ -20,6 +21,7 @@ import 'react-phone-input-2/lib/style.css';
 export const ContactForm = () => {
   const [isSuccess, setIsSuccess] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
   const t = useTranslations();
 
   const {
@@ -58,6 +60,10 @@ export const ContactForm = () => {
     } catch (error) {
       console.error(error);
     }
+  };
+
+  const onCaptchaChange = (value: string | null) => {
+    setIsCaptchaVerified(!!value);
   };
 
   return (
@@ -141,7 +147,17 @@ export const ContactForm = () => {
                 <label htmlFor="contact-form-terms">{t('registrationForm.form.aggree')}</label>
                 {errors.terms && <p className={styles.error}>{errors.terms.message}</p>}
               </div>
-              <Button url="" type="submit" buttonType="submit" color="black">
+              <ReCaptcha
+                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? ''}
+                onChange={onCaptchaChange}
+              />
+              <Button
+                url=""
+                disabled={!isCaptchaVerified || isLoading}
+                type="submit"
+                buttonType="submit"
+                color="black"
+              >
                 {isLoading ? t('registrationForm.form.loading') : t('registrationForm.form.submit')}
               </Button>
             </div>
